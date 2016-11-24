@@ -1,0 +1,5 @@
+#!/bin/bash
+# For windows:
+#java -cp .;jul-to-slf4j-1.6.4.jar;slf4j-log4j12-1.6.4.jar;log4j-1.2.15.jar;slf4j-api-1.6.4.jar -Djava.util.logging.config.file=jul.properties -Dlog4j.configuration=ECDBLoggerConfiguration.xml test
+# For Linux:
+java -cp .:jul-to-slf4j-1.6.4.jar:slf4j-log4j12-1.6.4.jar:log4j-1.2.15.jar:slf4j-api-1.6.4.jar -Djava.util.logging.config.file=jul.properties -Dlog4j.configuration=ECDBLoggerConfiguration.xml test

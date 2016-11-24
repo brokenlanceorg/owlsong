@@ -1,0 +1,133 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            <span class=bodyGreenSmallJustify>[Pseudo Code]</span>
+         </p>
+         <p>
+           The ‘evolve()’ method of the abstract class GeneticAlgorithm would look something like the following:
+         </p>
+
+         <code>
+public Individual evolve()<br>
+{<br>
+   Individual  theBest              = new Individual();<br>
+   Individual  parentOne            = null;<br>
+   Individual  parentTwo            = null;<br>
+   Individual  child                = null;<br>
+   Vector      currPopulationVector = new Vector();<br><br>
+
+   &nbsp while( _generationNum++ < _maxGenerationNum || <br>
+          &nbsp &nbsp theBest.evaluateFitness() < _wantedFitness )<br>
+   &nbsp {<br>
+      &nbsp &nbsp while( _curPopulationSize++ < _reqPopulationSize )<br>
+      &nbsp &nbsp {<br>
+         &nbsp &nbsp &nbsp // using selection strategy, get a parent<br>
+         &nbsp &nbsp &nbsp // from the pool of Individuals:<br>
+         &nbsp &nbsp &nbsp parentOne = theSelectionStrategy.getParent( populationVector );<br>
+         &nbsp &nbsp &nbsp parentTwo = theSelectionStrategy.getParent( populationVector );<br><br>
+
+         &nbsp &nbsp &nbsp child = parentOne.crossover( parentTwo );<br>
+         &nbsp &nbsp &nbsp child.mutate();<br>
+         &nbsp &nbsp &nbsp currPopulationVector.add( child );<br>
+      &nbsp &nbsp } // end inner while<br><br>
+      &nbsp &nbsp populationVector = currPopulationVector;<br>
+      &nbsp &nbsp theBest = getBestIndividual();<br><br>
+   &nbsp } // end outer while<br><br>
+
+   &nbsp return theBest;<br>
+} // end method evolve<br>
+
+         </code>
+      </div>
+      </td>
+
+<!--
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+-->
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWGenetic6.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWGenetic8.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+
+</body>
+
+
+</html>

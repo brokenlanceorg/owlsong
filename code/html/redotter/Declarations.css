@@ -1,0 +1,317 @@
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<html>
+   <head>
+      <style>
+
+         body
+         {
+            background:transparent;
+         }
+
+         .headerBackground
+         {
+            background:url( 'headerImage.jpg' );
+         } /* end title */
+
+         .topBackground
+         {
+            background:url( 'top.gif' );
+            background-repeat:no-repeat;
+            width:100%;
+         } /* end title */
+
+         .bottomBackground
+         {
+            background:url( 'bottom.gif' );
+            background-repeat:no-repeat;
+            width:100%;
+         } /* end title */
+
+         .otterBackground
+         {
+            background:url( 'otter.gif' );
+            background-repeat:no-repeat;
+         } /* end title */
+
+         .leftTable
+         {
+            background:transparent;
+            position:relative;
+   /*
+            top:30px;
+            left:30px;
+   */
+            /* Font styles: */
+            font-size:15pt;
+            font-family:Times,serif;
+            font-weight:100;
+         } /* end title */
+
+         .rightTable
+         {
+            background:transparent;
+            position:relative;
+   /*
+            top:-335px;
+            left:180px;
+   */
+            /* Font styles: */
+            font-size:15pt;
+            font-family:Times,serif;
+            font-weight:100;
+         } /* end title */
+
+         .galleryTable
+         {
+            background:transparent;
+            position:relative;
+   /*
+            top:-375px;
+            left:150px;
+   */
+            /* Font styles: */
+            font-size:15pt;
+            font-family:Times,serif;
+            font-weight:100;
+         } /* end title */
+
+         .menuBar
+         {
+            background:transparent;
+            position:relative;
+            top:-10px;
+            left:-10px;
+            /* Font styles: */
+            font-size:15pt;
+            font-family:Times,serif;
+            font-weight:100;
+         } /* end title */
+
+         .bottomBar
+         {
+            background:transparent;
+            position:relative;
+            /* Font styles: */
+            font-size:15pt;
+            font-family:Times,serif;
+            font-weight:100;
+         } /* end title */
+
+         .quoteText
+         {
+            background:transparent;
+            color:#534A3A;
+            /* Font styles: */
+            font-size:16pt;
+            font-family:Times,serif;
+            font-weight:100;
+         } /* end title */
+
+         .menuText
+         {
+            background:transparent;
+            color:#F9E5C2;
+            /* Font styles: */
+            font-size:15pt;
+            font-family:Times,serif;
+            font-weight:100;
+         } /* end title */
+
+         .menuTextRight
+         {
+            background:transparent;
+            color:#F9E5C2;
+            /* Font styles: */
+            font-size:15pt;
+            font-family:Times,serif;
+            font-weight:100;
+            text-align:right;
+         } /* end title */
+
+         .menuTextMiddle
+         {
+            background:transparent;
+            color:#F9E5C2;
+            /* Font styles: */
+            font-size:12pt;
+            font-family:Times,serif;
+            font-weight:100;
+            /* text-align:center; */
+         } /* end title */
+
+         .notesLeft
+         {
+            background:transparent;
+            color:#534A3A;
+            /* Font styles: */
+            font-size:15pt;
+            font-family:Times,serif;
+            font-weight:100;
+            text-align:left;
+         } /* end title */
+
+         .notesRight
+         {
+            background:transparent;
+            color:#534A3A;
+            /* Font styles: */
+            font-size:15pt;
+            font-family:Times,serif;
+            font-weight:100;
+            text-align:right;
+         } /* end title */
+
+         .menuTextLeft
+         {
+            background:transparent;
+            color:#F9E5C2;
+            /* Font styles: */
+            font-size:15pt;
+            font-family:Times,serif;
+            font-weight:100;
+            text-align:left;
+         } /* end title */
+
+         .tableText
+         {
+            background:transparent;
+            color:#534A3A;
+            /* Font styles: */
+            font-size:12pt;
+            font-family:Times,serif;
+            font-weight:100;
+            text-align:justify;
+         } /* end title */
+
+         .tableLinkText
+         {
+            background:transparent;
+            color:#534A3A;
+            /* Font styles: */
+            font-size:10pt;
+            font-family:Times,serif;
+            font-weight:100;
+         } /* end title */
+
+         .tableHeaderText
+         {
+            background:transparent;
+            color:#534A3A;
+            justify:right;
+            /* Font styles: */
+            font-size:20pt;
+            font-family:Times,serif;
+            font-weight:500;
+         } /* end title */
+
+         .thumbnailText
+         {
+            background:transparent;
+            color:#534A3A;
+            /* Font styles: */
+            font-size:12pt;
+            font-family:Times,serif;
+            font-weight:500;
+            text-align:right;
+         } /* end title */
+
+         .imageHeaderText
+         {
+            background:transparent;
+            color:#534A3A;
+            /* Font styles: */
+            font-size:20;
+            font-family:Times,serif;
+            font-weight:500;
+            text-align:left;
+         } /* end title */
+
+         .dimensionText
+         {
+            background:transparent;
+            color:#534A3A;
+            justify:right;
+            /* Font styles: */
+            font-size:20;
+            font-family:Times,serif;
+            font-weight:500;
+         } /* end title */
+
+         .anecdoteText
+         {
+            background:transparent;
+            color:#534A3A;
+            /* Font styles: */
+            font-size:12pt;
+            font-family:Times,serif;
+            font-weight:500;
+            text-align:justify;
+         } /* end title */
+
+         .headerPosition
+         {
+            position:relative;
+   /*
+            top:-8px;
+            left:-8px;
+   */
+         }
+
+         .darkText
+         {
+            color:#534A3A;
+            /* Font styles: */
+            font-size:45pt;
+            font-family:Times,serif;
+            font-weight:100;
+         } /* end title */
+
+         .imageTitle
+         {
+            background:transparent;
+            color:#534A3A;
+            /* Font styles: FF8CFF */
+            font-size:10pt;
+            font-family:Times,serif;
+            font-weight:900;
+         } /* end body def */
+
+         A:link
+         {
+            background:transparent;
+            color:#F9EFDE;
+            /* Font styles: */
+            font-size:8pt;
+            font-family:Times,serif;
+            font-weight:100;
+            text-decoration:none;
+         } /* end body def */
+
+         A:active
+         {
+            background:transparent;
+            color:#F9EFDE;
+            /* Font styles: */
+            font-size:18pt;
+            font-family:Times,serif;
+            font-weight:100;
+            text-decoration:none;
+         } /* end body def */
+         
+         A:visited
+         {
+            background:transparent;
+            color:#F9EFDE;
+            /* Font styles: */
+            font-size:8pt;
+            font-family:Times,serif;
+            font-weight:100;
+            text-decoration:none;
+         } /* end body def */
+
+         <style type = "text/css">
+         </style>
+      </style>
+   </head>
+</html>

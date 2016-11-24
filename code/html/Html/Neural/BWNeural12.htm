@@ -1,0 +1,125 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Physics
+		</title>
+
+	<link rel=StyleSheet href="../Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="../Physics.jpg"></center>
+      <img src="../graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=90%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+Appealing to the methods of calculus, we can determine the direction in which to move in weight space to minimize E<sub>0</sub>. Geometrically, 
+we want to move downhill, as it were, on the surface E<sub>0</sub> to find the lowest possible point, or equivalently, a universal minimum (if one exists). 
+It has been shown that the following algorithm can become “stuck” in a local minimum, however, using 
+<a href="../BWFuzzy1.htm" target="Main"><span class=linkTextWhite>fuzzy logic</span></a>, this behavior can be 
+mitigated and even removed. Thus we are searching for quantities 
+<span class="symbol1"><span class="symbol2">D</span></span>W<sub>ij</sub> and 
+<span class="symbol1"><span class="symbol2">D</span></span>W<sub>jk</sub> so that 
+W<sub>ij</sub>(t+1) = W<sub>ij</sub>(t) + <span class="symbol1"><span class="symbol2">D</span></span>W<sub>ij</sub>, 
+and W<sub>jk</sub>(t+1) = W<sub>jk</sub>(t) + <span class="symbol1"><span class="symbol2">D</span></span>W<sub>jk</sub>. 
+To determine <span class="symbol1"><span class="symbol2">D</span></span>W<sub>ij</sub>, 
+we differentiate E<sub>0</sub> with respect to the W<sub>ij</sub>‘s, let K be the number of output neurons:
+         </p>
+<center><img src="delij_1.gif"></center>
+<center><img src="delij_2.gif"></center>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+<center><img src="delij_3.gif"></center>
+<center><img src="delij_4.gif"></center>
+         <p>
+Rearranging for the summand and index, we finally arrive at:
+         </p>
+<center><img src="delij_5.gif"> &nbsp (IV.1)</center>
+         <p>
+where <span class="symbol1"><span class="symbol2">a</span></span> is a scalar called the “learning rate” which 
+functions to increase/decrease the length of the gradient vector. Given i and j, one can calculate the weight adjustment to decrease the 
+error for this particular training instance.
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWNeural11.htm" target="Main"><img src="../previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="../BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWNeural13.htm" target="Main"><img src="../next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="../mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>
+<!--             <span class="symbol1"><span class="symbol2">m</span></span> -->

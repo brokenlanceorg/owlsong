@@ -1,0 +1,43 @@
+#!/usr/bin/perl -w
+
+# CLEAR, RESET, BOLD, DARK, UNDERLINE, UNDERSCORE, BLINK, REVERSE, CONCEALED,
+# BLACK,    RED,    GREEN,    YELLOW,    BLUE,    MAGENTA,    CYAN,    WHITE, 
+# ON_BLACK, ON_RED, ON_GREEN, ON_YELLOW, ON_BLUE, ON_MAGENTA, ON_CYAN, ON_WHITE
+#
+# From CPAN:
+# CLEAR           RESET             BOLD            DARK
+# FAINT           ITALIC            UNDERLINE       UNDERSCORE
+# BLINK           REVERSE           CONCEALED
+#
+# BLACK           RED               GREEN           YELLOW
+# BLUE            MAGENTA           CYAN            WHITE
+# BRIGHT_BLACK    BRIGHT_RED        BRIGHT_GREEN    BRIGHT_YELLOW
+# BRIGHT_BLUE     BRIGHT_MAGENTA    BRIGHT_CYAN     BRIGHT_WHITE
+#
+# ON_BLACK        ON_RED            ON_GREEN        ON_YELLOW
+# ON_BLUE         ON_MAGENTA        ON_CYAN         ON_WHITE
+# ON_BRIGHT_BLACK ON_BRIGHT_RED     ON_BRIGHT_GREEN ON_BRIGHT_YELLOW
+# ON_BRIGHT_BLUE  ON_BRIGHT_MAGENTA ON_BRIGHT_CYAN  ON_BRIGHT_WHITE
+#
+
+use strict;
+use Term::ANSIColor qw(:constants);
+
+my %target = ();
+
+while( my $arg = shift )
+{
+   my $color = shift;
+   $target{ $arg } = eval( $color );
+}
+
+my $reset = RESET;
+
+while( <> )
+{
+   foreach my $x ( keys( %target ) )
+   {
+      s/($x)/$target{$x}$1$reset/g;
+   }
+   print;
+}

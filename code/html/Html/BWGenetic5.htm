@@ -1,0 +1,121 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            <span class=bodyGreenSmallJustify>[Goals of the Object Oriented Genetic Algorithm cont.]</span>
+         </p>
+         <p>
+            ‘setCrossoverStrategy()’: takes an object of type ‘CrossoverStrategy’ (defined shortly) as a parameter, 
+            ‘setMutationStrategy()’: takes as a parameter an object of type ‘MutationStrategy’ (defined shortly).
+         </p>
+         <p>
+            The interface ‘MutationStrategy’ declares the single method ‘mutate()’: which takes a parameter of type Chromosome 
+            and returns an object of type Chromosome.
+         </p>
+         <p>
+            The interface ‘SelectionStrategy’ declares the single method ‘getParent()’: which takes a Vector of Individuals as a 
+            parameter and returns a parent of type ‘Individual’.
+         </p>
+         <p>
+            There will, of course, be specific implementation classes that provide actual definitions for the various interfaces. 
+            Thus, the concrete class ‘RouletteWheelStrategy’ would inherit ‘SelectionStrategy’ and define a parent selection strategy 
+            based on a roulette wheel paradigm such that the more fit the individual is, the greater the chance that it would be selected. 
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            The concrete classes ‘ValueEncodedChromosome’ and ‘BinaryEncodedChromosome’ would inherit the Chromosome abstract class and 
+            provide the details necessary for the implementation. The abstract class ‘CrossoverStrategy’ will have subclasses such as 
+            ‘SinglePointCrossoverStrategy’ and ‘TwoPointCrossoverStrategy’ that will define how the Chromosomes crossover during reproduction.
+         </p>
+         <p>
+            Finally, the interface ‘Individual’ will be derived by a particular instance of the problem that is to be solved. 
+            This class will be the only class that will change each time the problem changes, thus, this class can be plugged into the OOGA to 
+            derive a solution.
+         </p>
+         <p>
+            The UML (Unified Modeling Language) diagram for this design can be seen 
+            <a href="BWGAUML.htm" target="Main"><span class=linkTextWhite>here</span></a>.
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWGenetic4.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWGenetic6.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+
+</body>
+
+
+</html>

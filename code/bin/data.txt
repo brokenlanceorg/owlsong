@@ -1,0 +1,3 @@
+Performing linear function...
+The largest mover is: FNM
+with a movement of: Infinity

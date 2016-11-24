@@ -1,0 +1,11 @@
+// This is the Fact file, which contains all of the training instances
+// for a particular neural network.
+// input1: zo output1: 42 input2: so output2: 2 input3: EE output: 3.274
+3 1 .909836 .3442622 .9242622 .909836 .01639344 .5655737 .5655737 .026836
+// 2 1 .909836 .3442622 .9242622 .909836 .01639344
+// 2 1 .909836 .3442622 .05655737 .05655737 .026836
+// 1 1 .909836 .3442622
+// 1 .9242622 .909836 .01639344
+
+
+

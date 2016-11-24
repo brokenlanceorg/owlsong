@@ -1,0 +1,260 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+      <div class=bodyWhiteSmallJustify>
+
+<br><br><br>
+#include"CompoundConsequent.hpp"<br><br>
+
+CompoundconsequenT::CompoundconsequenT() : MembershipFunctioN()<br>
+{<br>
+CCFPRINT("CompoundconsequenT::CompoundconsequenT()");<br><br>
+
+	&nbsp Setup();<br>
+} // end CompoundconsequenT default constructor<br><br>
+
+CompoundconsequenT::~CompoundconsequenT()      <br>
+{<br>
+CCFPRINT("CompoundconsequenT::~CompoundconsequenT()");<br><br>
+
+	&nbsp if( ConThe_Consequents != 0 )<br>
+		&nbsp &nbsp delete[] ConThe_Consequents;<br>
+} // end CompoundconsequenT destructor<br><br>
+
+CompoundconsequenT::CompoundconsequenT( ConsequenT* pCon ) : MembershipFunctioN()<br>
+{<br>
+CCFPRINT("CompoundconsequenT::CompoundconsequenT( ConsequenT* )");<br><br>
+
+	&nbsp Setup();<br>
+	&nbsp ConThe_Consequents[iNumber_Consequents++] = pCon; 					<br>
+	&nbsp ldLeft_Endpoint = ConThe_Consequents[0]->GetLeftEndPoint();<br>
+	&nbsp ldRight_Endpoint = ConThe_Consequents[0]->GetRightEndPoint();<br>
+} // end CompoundconsequenT constructor<br><br>
+
+void CompoundconsequenT::Setup()      <br>
+{<br>
+CCFPRINT("CompoundconsequenT::Setup()");<br><br>
+
+	&nbsp ConThe_Consequents 						= 0;<br>
+	&nbsp iNumber_Consequents						= 0;<br>
+	&nbsp ldLeft_Endpoint 							= 0;<br>
+	&nbsp ldRight_Endpoint 							= 0;<br>
+	&nbsp ldStep_Value								= 0;<br>
+	&nbsp ldTop											= 0;<br>
+&nbsp 	ldBot											= 0;<br>
+	&nbsp iGranularity								= 64;<br>
+	&nbsp ConThe_Consequents = new ConsequenT*[10];<br><br>
+
+} // end Setup<br><br>
+
+CompoundconsequenT& CompoundconsequenT::operator + ( ConsequenT& ConRHS )      <br>
+{<br>
+CCFPRINT("CompoundconsequenT::operator + ( ConsequenT& ConRHS )");<br><br>
+
+	&nbsp if( iNumber_Consequents == 0 )<br>
+	&nbsp { // The first Consequent:<br>
+		&nbsp &nbsp ConThe_Consequents[iNumber_Consequents++] = &ConRHS;<br>
+		&nbsp &nbsp ldLeft_Endpoint = ConThe_Consequents[0]->GetLeftEndPoint();<br>
+		&nbsp &nbsp ldRight_Endpoint = ConThe_Consequents[0]->GetRightEndPoint();<br>
+		&nbsp &nbsp return *this;<br>
+	&nbsp } else if( iNumber_Consequents == 10 )<br>
+	&nbsp { // We need to rescale the array:<br>
+		&nbsp &nbsp ResizeArray();<br>
+	&nbsp } // end else<br><br>
+
+	&nbsp // Everything's normal:<br>
+	&nbsp ConThe_Consequents[iNumber_Consequents++] = &ConRHS;<br>
+	&nbsp if( Find_Max( ldLeft_Endpoint, ConThe_Consequents[iNumber_Consequents-1]->GetLeftEndPoint() ) )<br>
+	&nbsp {<br>
+		&nbsp &nbsp ldLeft_Endpoint = ConThe_Consequents[iNumber_Consequents-1]->GetLeftEndPoint();<br>
+&nbsp 	} // end if<br><br>
+   
+	&nbsp if( Find_Max( ConThe_Consequents[iNumber_Consequents-1]->GetRightEndPoint(), ldRight_Endpoint ) )<br>
+	&nbsp { <br>
+		&nbsp &nbsp ldRight_Endpoint = ConThe_Consequents[iNumber_Consequents-1]->GetRightEndPoint();<br>
+	&nbsp }<br><br>
+
+	&nbsp return *this;<br>
+} // end operator +<br><br>
+
+void CompoundconsequenT::ResizeArray()<br>
+{<br>
+CCFPRINT("CompoundconsequenT::ResizeArray()");<br>
+ConsequenT* pCons[10];<br>
+<br>
+	&nbsp // Save 'em:<br>
+	&nbsp for( int iL=0; iL<10; iL++ )<br>
+	&nbsp {<br>
+		&nbsp &nbsp pCons[iL] = ConThe_Consequents[iL];<br>
+	&nbsp } // end for<br><br>
+
+	&nbsp delete[] ConThe_Consequents;<br>
+	&nbsp // Resize 'em:<br>
+	&nbsp ConThe_Consequents = new ConsequenT*[20];<br><br>
+
+	&nbsp // Put 'em back jack:<br>
+	&nbsp for( int iL=0; iL<10; iL++ )<br>
+	&nbsp {<br>
+		&nbsp &nbsp ConThe_Consequents[iL] = pCons[iL];<br>
+	&nbsp } // end for<br><br>
+
+} // end ResizeArray<br><br>
+
+CompoundconsequenT& CompoundconsequenT::operator >> ( long double& ldRHS )      <br>
+{<br>
+CCFPRINT("CompoundconsequenT::operator >> ( long double& ldRHS )");<br><br>
+
+	&nbsp if( iNumber_Consequents == 1 ) // Monotonic Reasoning<br>
+		&nbsp &nbsp *ConThe_Consequents[0] >> ldRHS;<br>
+	&nbsp else<br>
+		&nbsp &nbsp ldRHS = CenterOfMass();    // Non-Monotonic Reasoning<br><br>
+
+	&nbsp return *this;<br>
+} // end operator >><br><br>
+
+long double CompoundconsequenT::CenterOfMass()<br>
+{<br>
+CCFPRINT("CompoundconsequenT::CenterOfMass()");<br>
+long double ldE = 0;<br>
+long double ldTheArgument = 0;<br><br>
+
+	&nbsp if( Absolute( iGranularity ) <= GetEpsilon() ) { // Should never get here...<br>
+		&nbsp &nbsp return 0; } // end if zero<br><br>
+
+	&nbsp // Prime the pumps:<br>
+	&nbsp ldStep_Value = ( ldRight_Endpoint - ldLeft_Endpoint ) / (long double)iGranularity;<br>
+	&nbsp ldTheArgument = ldLeft_Endpoint;<br>
+	&nbsp ldTop = ldBot = 0;<br><br>
+
+	&nbsp for( int i=0; i<(iGranularity+1); i++ )<br>
+	&nbsp {<br>
+		&nbsp &nbsp ldE = EvaluateEm( ldTheArgument );<br>
+		&nbsp &nbsp ldTop += ldTheArgument * ldE;<br>
+		&nbsp &nbsp ldBot += ldE;<br>
+		&nbsp &nbsp ldTheArgument += ldStep_Value;<br>
+	&nbsp } // end for loop<br><br>
+
+	&nbsp if( Absolute( ldBot ) <= GetEpsilon() ) { // Should never get here...<br>
+		&nbsp &nbsp return ldTop; } // end if zero<br><br>
+
+	&nbsp ldE = ldTop / ldBot;<br><br>
+
+	&nbsp return ldE;<br>
+} // end EvaluateIt<br><br>
+
+long double CompoundconsequenT::EvaluateEm( long double ldArg )<br>
+{<br>
+long double ldEvalResult = 0;<br><br>
+
+	
+	&nbsp ldEvalResult = ConThe_Consequents[0]->EvaluateIt( ldArg );<br><br>
+
+	&nbsp for( int j=1; j<iNumber_Consequents; j++ )<br>
+		&nbsp &nbsp ldEvalResult = PerformOR( ldEvalResult, ConThe_Consequents[j]->EvaluateIt( ldArg ) );	<br><br>
+
+	&nbsp return ldEvalResult;<br>
+} // end EvaluateEm<br><br>
+
+<br><br><br>
+
+
+       </div>
+<!--
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+-->
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWFuzzy9.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWFuzzy9.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

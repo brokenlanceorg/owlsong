@@ -1,0 +1,25 @@
+
+Buildfile: /home/brandon/projects/code/java/functionalNetwork/build.xml
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=functionalNetwork
+     [echo] parent.project.home=/home/brandon/projects/code/java/functionalNetwork/..
+     [echo] project.home=/home/brandon/projects/code/java/functionalNetwork
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/functionalNetwork/lib
+     [echo] project.dist=/home/brandon/dist/functionalNetwork
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/functionalNetwork
+     [echo] project.src=/home/brandon/projects/code/java/functionalNetwork/src
+     [echo] java.version=1.8
+
+compile:
+    [javac] /home/brandon/projects/code/java/functionalNetwork/build.xml:110: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 8 source files to /home/brandon/build/functionalNetwork
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+BUILD SUCCESSFUL
+Total time: 1 second

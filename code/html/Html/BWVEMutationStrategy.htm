@@ -1,0 +1,117 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <div class=bodyWhiteSmallJustify>
+      <code>
+<br><br>
+#include"ValueEncodedMutationStrategy.hpp"          <br><br>
+
+ValueEncodedMutationStrategY::ValueEncodedMutationStrategY() : MutationStrategY()<br>
+{<br>
+   &nbsp Setup();<br>
+} // end ValueEncodedMutationStrategY default constructor<br><br>
+
+ValueEncodedMutationStrategY::~ValueEncodedMutationStrategY()<br>
+{<br>
+} // end ValueEncodedMutationStrategY destructor<br><br>
+
+void ValueEncodedMutationStrategY::Setup()<br>
+{<br>
+} // end Setup<br><br>
+
+MutationStrategY* ValueEncodedMutationStrategY::Clone()<br>
+{<br>
+   &nbsp return new ValueEncodedMutationStrategY();<br>
+} // end Clone<br><br>
+
+void ValueEncodedMutationStrategY::Mutate( void* p1 )<br>
+{<br>
+   &nbsp ChromosomE* theChrome = (ChromosomE*)p1;<br>
+   &nbsp VectoR* theGenes = theChrome->GetGenome();<br>
+   &nbsp long double theRange = theGenes->GetLargestNumber() - theGenes->GetSmallestNumber();<br><br>
+
+   &nbsp for( int i=0; i<theGenes->cnRows; i++ )<br>
+   &nbsp {<br>
+      &nbsp &nbsp long double p = _theGenerator->GetRandomLngDouble();<br>
+      &nbsp &nbsp if( p <= _MutationProbability )<br>
+      &nbsp &nbsp {<br>
+         &nbsp &nbsp &nbsp p = _theGenerator->GetRandomLngDouble() * theRange;<br>
+         &nbsp &nbsp &nbsp long double s = _theGenerator->GetRandomLngDouble();<br>
+         &nbsp &nbsp &nbsp if( s < 0.5 )<br>
+            &nbsp &nbsp &nbsp &nbsp p *= -1;<br>
+         &nbsp &nbsp &nbsp // Mutate the gene:<br>
+         &nbsp &nbsp &nbsp theGenes->pVariables[ i ] += p;<br>
+      &nbsp &nbsp } // end if we want to mutate<br>
+   &nbsp } // end for loop<br>
+} // end Mutate<br><br><br>
+
+      </code>
+      </div>
+
+<!--
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWGenetic5.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWGenetic5.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+-->
+
+
+</body>
+
+
+</html>

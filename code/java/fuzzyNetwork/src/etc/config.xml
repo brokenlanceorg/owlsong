@@ -1,0 +1,20 @@
+<fuzzy-network-configuration>
+   <!-- the first layer is just the input layer -->
+   <layer-configuration>
+      <number-of-neurons>5</number-of-neurons>
+      <number-of-fuzzy-sets>-1</number-of-fuzzy-sets>
+   </layer-configuration>
+   <layer-configuration>
+      <number-of-neurons>6</number-of-neurons>
+      <number-of-fuzzy-sets>8</number-of-fuzzy-sets>
+   </layer-configuration>
+   <layer-configuration>
+      <number-of-neurons>7</number-of-neurons>
+      <number-of-fuzzy-sets>9</number-of-fuzzy-sets>
+   </layer-configuration>
+   <layer-configuration>
+      <number-of-neurons>4</number-of-neurons>
+      <number-of-fuzzy-sets>3</number-of-fuzzy-sets>
+   </layer-configuration>
+   <data-location>network.dat</data-location>
+</fuzzy-network-configuration>

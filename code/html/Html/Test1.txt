@@ -1,0 +1,147 @@
+Begining the test.....
+Added Individuals..
+Evolved the species...
+Worth: 5051.88
+sma_0: 0.7270850228
+sma_1: -55.11029805
+worth_0: 0.009221226569
+worth_1: 998.6663601
+tlr_0: 0.0119557831
+tlr_1: 2.700005593
+smaWorth_0: -0.06832831197
+smaWorth_1: -1.177499079e-10
+
+Population: 100 Generations: 50,000
+
+Begining the test.....
+Added Individuals..
+Evolved the species...
+Worth: 4846.88
+0.7077801133
+-16.73474732
+0.007721724048
+919.5292316
+0.01460899149
+2.700005593
+-0.07680079744
+-4.224824982e-10
+
+Population: 100 Generations: 50,000
+
+7/19/2002
+Begining the test.....
+Added Individuals..
+Evolved the species...
+Worth: 4864
+sma_0: 0.7077801133
+sma_1: -15.58460691
+worth_0: 0.007721724048
+worth_1: 894.1886482
+tlr_0: 0.01460899149
+tlr_1: 2.700005593
+smaWorth_0: -0.07680079744
+smaWorth_1: -4.224824982e-10
+
+Population: 100 Generations: 20,000
+
+Retry:
+
+Begining the test.....
+Added Individuals..
+Evolved the species...
+Worth: 4846.66
+sma_0: 0.7076656889
+sma_1: -0.05602292469
+worth_0: 7.364350355
+worth_1: 910.3950665
+tlr_0: 2.700238508
+tlr_1: 0.8009255625
+smaWorth_0: 0.6798781635
+smaWorth_1: 9.062775738
+
+Two runs:
+Population: 100 Generations: 10,000
+Population: 100 Generations: 10,000
+
+Begining the test.....
+Added Individuals..
+Evolved the species...
+Worth: 5246.3
+sma_0: 0.7077801133
+sma_1: -15.58460691
+worth_0: 0.007721724048
+worth_1: 894.1886482
+tlr_0: 0.01923730475
+tlr_1: 2.700005593
+smaWorth_0: -0.07680079744
+smaWorth_1: -4.224824982e-10
+
+Begining the test.....
+Added Individuals..
+Evolved the species...
+Worth: 4417.8
+sma_0: 4.834021887
+sma_1: 15.58460691
+worth_0: 6.147724184e-06
+worth_1: 845.0891547
+tlr_0: 0.001230588697
+tlr_1: 6.022527932
+smaWorth_0: 0.009721419984
+smaWorth_1: 0.004365630494
+
+New Genome for month up to 7 26:
+Begining the test.....
+Added Individuals..
+Evolved the species...
+Worth: 2707.64
+sma_0: 7.022573025
+sma_1: 1.957341915e-07
+worth_0: 11403.97784
+worth_1: 0.009135591067
+tlr_0: 174.1823549
+tlr_1: 0.03479813557
+smaWorth_0: -1.3873048e-08
+smaWorth_1: 0.08805272974
+Pop: 100 Gen: 10000
+
+New volume stocks to 6/26:
+Begining the test.....
+Added Individuals..
+Evolved the species...
+Worth: 2146.83
+sma_0: 0.9723628594
+sma_1: 1.957341915e-07
+worth_0: 11403.97784
+worth_1: 0.009135591067
+tlr_0: 174.1823549
+tlr_1: 0.05778378718
+smaWorth_0: -1.3873048e-08
+smaWorth_1: 0.08805272974
+Pop: 100 Gen: 5000
+
+Begining the test.....
+Added Individuals..
+Evolved the species...
+Worth: 1128.71
+sma_0: 1.938403641
+sma_1: 3.752562612e-07
+worth_0: 11403.97784
+worth_1: 0.009135591067
+tlr_0: 379.5521833
+tlr_1: 3.249684458e-07
+smaWorth_0: -1.3873048e-08
+smaWorth_1: 0.6076284289
+
+Begining the test.....
+Added Individuals..
+Evolved the species...
+Worth: 1553.22
+sma_0: 0.613148016
+sma_1: 0.709720395
+worth_0: 355954.8388
+worth_1: 2.99385
+tlr_0: 4230.81029
+tlr_1: 2.193818347e-14
+smaWorth_0: 6.667920937e-09
+smaWorth_1: 0.04041727621
+

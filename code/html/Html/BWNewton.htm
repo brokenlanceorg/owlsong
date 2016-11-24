@@ -1,0 +1,131 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            <span class=bodyGreenSmallJustify>[Newton-Raphson Method]</span>
+         </p>
+         <p>
+            The Newton-Raphson method is used to find the solution points of an equation. The equation, however, must be once-differentiable and for the
+            method to work well, the function must be well-behaved. To derive Newton's method, we begin by deriving the Maclaurin and Taylor expansions
+            of a given function.
+         </p>
+         <p>
+            We begin by asking whether or not an arbitrary function can be written as:
+         </p>
+            <center><img src="PowerSeries.gif"><br></center>
+         <p>
+            That is to ask: can an arbitrary function be written as an infinite summation of increasing powers of x with coefficients that depend only
+            on the index of summation?
+         </p>
+         <p>
+            There are infinite unknowns in the coefficients, so what is needed is an infinite number of equations involving the coefficients--equations
+            that determine the coefficients. We begin by taking the differentials of the function f(x):
+         </p>
+            <center><img src="FirstDeriv.gif"></center><br>
+            <center><img src="SecondDeriv.gif"></center><br>
+            <center><img src="ThirdDeriv.gif"></center><br>
+         <p>
+            And in general, we have:
+         </p>
+            <center><img src="GeneralDeriv.gif"></center><br>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+            These equations still do not determine the coefficients uniquely. Let's restrict the domain and observe what happens at x = 0:<br><br>
+            <center><img src="Coeff_a1.gif"></center><br>
+            <center><img src="Coeff_a2.gif"></center><br>
+            <center><img src="Coeff_a3.gif"></center><br>
+            And in general, we have:<br><br>
+            <center><img src="Coeff_general.gif"></center><br>
+            Solving for the nth coefficient, it is clear that:<br><br>
+            <center><img src="Coeff_general2.gif"></center><br>
+         <p>
+            Thus, we have determined all of our coefficients in the power series, and the function can be represented as an infinite summation of
+            increasing powers of x. However, this result holds only for x near zero, if we move farther out in the domain, the approximation 
+            will not be true. 
+         </p>
+         <p>
+            We would like to find a result that holds for any arbitrary point p. Observe that we can do this by a simple change of variables. 
+            Instead of zero, we will use the point p. The independent variable x will be set to: x - p; in this manner, the representation
+            is shifted from some arbitrary point p back to zero. The representation then becomes:<br><br>
+            <center><img src="TaylorSeries.gif"></center><br>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWFractal.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWNewton2.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

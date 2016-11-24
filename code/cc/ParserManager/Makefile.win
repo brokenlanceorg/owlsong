@@ -1,0 +1,43 @@
+# Project: LinkParserDLL
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = LinkParserEntry.o SentenceGenerator.o SentenceGeneratorIndividual.o FuzzyComparator.o $(RES)
+LINKOBJ  = LinkParserEntry.o SentenceGenerator.o SentenceGeneratorIndividual.o FuzzyComparator.o $(RES)
+LIBS =  -L"lib" --no-export-all-symbols --add-stdcall-alias ../LinkParser/LinkParserLib.a ../Fuzzy/FuzzyLib.a ../Matc/MatcLib.a ../Logger/libLogger.a C:/BB/3RDPartyCode/link41b/CCLinkLib.a ../GeneticNet/GeneticNetLib.a ../Net/NeuralNetLib.a ../Genetic/GeneticLib.a ../Miscellaneous/MiscellaneousLib.a  
+INCS =  -I"include"  -I"C:/BB/3RDPartyCode/link41b/include"  -I"F:/Home/knoppix/code/cc/LinkParser"  -I"F:/Home/knoppix/code/cc/Fuzzy"  -I"F:/Home/knoppix/code/cc/Matc"  -I"F:/Home/knoppix/code/cc/Miscellaneous"  -I"F:/Home/knoppix/code/cc/Logger"  -I"C:/j2sdk1.4.0_01/include"  -I"C:/j2sdk1.4.0_01/include/win32"  -I"F:/Home/knoppix/code/cc/GeneticNet"  -I"F:/Home/knoppix/code/cc/Net"  -I"F:/Home/knoppix/code/cc/Genetic" 
+CXXINCS =  -I"lib/gcc/mingw32/3.4.2/include"  -I"include/c++/3.4.2/backward"  -I"include/c++/3.4.2/mingw32"  -I"include/c++/3.4.2"  -I"include"  -I"C:/BB/3RDPartyCode/link41b/include"  -I"F:/Home/knoppix/code/cc/LinkParser"  -I"F:/Home/knoppix/code/cc/Fuzzy"  -I"F:/Home/knoppix/code/cc/Matc"  -I"F:/Home/knoppix/code/cc/Miscellaneous"  -I"F:/Home/knoppix/code/cc/Logger"  -I"C:/j2sdk1.4.0_01/include"  -I"C:/j2sdk1.4.0_01/include/win32"  -I"F:/Home/knoppix/code/cc/GeneticNet"  -I"F:/Home/knoppix/code/cc/Net"  -I"F:/Home/knoppix/code/cc/Genetic" 
+BIN  = LinkParserDLL.dll
+CXXFLAGS = $(CXXINCS) -DBUILDING_DLL=1  
+CFLAGS = $(INCS) -DBUILDING_DLL=1  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before LinkParserDLL.dll all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+DLLWRAP=dllwrap.exe
+DEFFILE=libLinkParserDLL.def
+STATICLIB=libLinkParserDLL.a
+
+$(BIN): $(LINKOBJ)
+	$(DLLWRAP) --output-def $(DEFFILE) --driver-name c++ --implib $(STATICLIB) $(LINKOBJ) $(LIBS) -o $(BIN)
+
+LinkParserEntry.o: LinkParserEntry.cpp
+	$(CPP) -c LinkParserEntry.cpp -o LinkParserEntry.o $(CXXFLAGS)
+
+SentenceGenerator.o: SentenceGenerator.cpp
+	$(CPP) -c SentenceGenerator.cpp -o SentenceGenerator.o $(CXXFLAGS)
+
+SentenceGeneratorIndividual.o: SentenceGeneratorIndividual.cpp
+	$(CPP) -c SentenceGeneratorIndividual.cpp -o SentenceGeneratorIndividual.o $(CXXFLAGS)
+
+FuzzyComparator.o: FuzzyComparator.cpp
+	$(CPP) -c FuzzyComparator.cpp -o FuzzyComparator.o $(CXXFLAGS)

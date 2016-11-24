@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+   <script src="sarissa.js" type="text/javascript"></script>
+
+   <script type="text/javascript">
+      function ajaxCall()
+      {
+alert( "in ajax call!" );
+         var xmlHttp = new XMLHttpRequest();
+         xmlHttp.open( 'POST', 'ajax-test.php', true );
+         xmlHttp.onreadystatechange = function() {
+            if( xmlHttp.readyState == 4 )
+            {
+               alert( "readyState is good!" );
+               if( xmlHttp.status == 200 )
+               {
+                  var arrayElements  =  xmlHttp.responseXML.getElementsByTagName( 'rating' );
+                  var arrayElements2 =  xmlHttp.responseXML.getElementsByTagName( 'result' );
+                  //alert( "status is good!: " + Sarissa.serialize( xmlHttp.responseXML ) );
+                  alert( "status is good!: " + arrayElements[0].firstChild.data 
+                    + " : " + arrayElements2[0].firstChild.data );
+               }
+               else
+               {
+                  alert( "status is bad! " + xmlHttp.Status );
+               }
+            }
+            else
+            {
+               alert( "readyState is bad!" );
+            }
+         }
+
+         xmlHttp.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+         xmlHttp.send( 'rating=something' );
+      }
+   </script>
+</head>
+
+<body>
+<p>Here's the submit button:</p>
+<input type="button" value="Submit" onClick="ajaxCall();" />
+</body>
+
+</html>

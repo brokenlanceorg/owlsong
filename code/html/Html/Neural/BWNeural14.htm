@@ -1,0 +1,154 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Physics
+		</title>
+
+	<link rel=StyleSheet href="../Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="../Physics.jpg"></center>
+      <img src="../graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=90%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            <span class=bodyGreenSmallJustify>[V Derivation of the Activation Function]</span>
+         </p>
+         <p>
+We have determined everything necessary for a complete implementation of a backpropagation neural network except for the activation 
+function <span class="symbol1"><span class="symbol2">s</span></span>(x) referenced throughout section III and IV. 
+First, recognize that the activation function is equivalent with the <span class="symbol1"><span class="symbol2">y</span></span>’s in equation (I.2). 
+Given this fact, we know that the activation functions, 
+<span class="symbol1"><span class="symbol2">s</span></span>(x), are monotonically increasing on the interval E, 
+and must be sigmoid (S-shaped) in nature to capture non-linear threshold logic behavior.
+         </p>
+         <p>
+Next, the knowns for the problem should be considered:
+         </p>
+         <ul>
+         <li>
+<span class="symbol1"><span class="symbol2">s</span></span>(x) is the output down the virtual neuron’s axon
+         </li>
+         <li>
+x is the weighted sum of incoming impulses to the neuron
+         </li>
+         <li>
+<span class="symbol1"><span class="symbol2">s</span></span>(x) is monotonically increasing on the interval E
+         </li>
+         <li>
+<span class="symbol1"><span class="symbol2">s</span></span>(x) is sigmoid in shape
+         </li>
+         <li>
+most impulses impinging on a neuron are excitory, not inhibitory. 
+         </li>
+         <li>
+Impulses have been seen to be modulatory in order to control feedback 
+and other pernicious possibilities.
+         </li>
+         </ul>
+         <p>
+Importuning to the calculus again, we are interested in the average rate of increase (since 
+<span class="symbol1"><span class="symbol2">s</span></span>(x) is monotonically increasing) in the output 
+impulse with respect to the independent variable, which is the weighted sum of the incoming impulses. 
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+If we let a denote the average 
+number of excitory impulses impinging on the neuron, and we take 
+<span class="symbol1"><span class="symbol2">b</span></span> to be the number of inhibitory incoming impulses, we can write 
+the average rate of increases as:
+         </p>
+<center><img src="activate_1.gif"></center>
+         <p>
+However, solutions to this equation are unbounded, and intuitively we know that an impulse down an axon can not be unbounded, 
+nor should it be large for a large domain of E. Thus, we should revise our axon impulse model. As we observed, in the neocortex 
+<span class="symbol1"><span class="symbol2">a</span></span> will be significantly larger than 
+<span class="symbol1"><span class="symbol2">b</span></span>, that is to say, the number of excitory 
+impulses will be much larger than the number of inhibitory 
+impulses. In this scenario, a feedback situation will easily arise, therefore, we must account for the modulation-type impulses. 
+We can model this term indirectly to prevent a feedback scenario by taking 
+<span class="symbol1"><span class="symbol2">b</span></span> to be proportional to the current output level, or 
+equivalently <span class="symbol1"><span class="symbol2">s</span></span>(x). So our model then becomes:
+         </p>
+<center><img src="activate_2.gif"></center>
+         <p>
+We now proceed to the solution; multiplying by <span class="symbol1"><span class="symbol2">s</span></span>(x) gives:
+         </p>
+<center><img src="activate_3.gif"></center>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWNeural13.htm" target="Main"><img src="../previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="../BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWNeural15.htm" target="Main"><img src="../next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="../mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>
+<!--             <span class="symbol1"><span class="symbol2">m</span></span> -->

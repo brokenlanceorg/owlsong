@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ -n "${1}" ]]; then
+   vi `find . -name "*${1}*.java"` +/"${SEARCH}\|^}$";
+else
+   vi `find . -name "*.java"` +/"${SEARCH}\|^}$";
+fi;

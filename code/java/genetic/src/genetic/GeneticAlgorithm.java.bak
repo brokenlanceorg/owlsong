@@ -1,0 +1,678 @@
+package genetic;
+
+import java.util.*;
+import common.*;
+
+/**
+ * The main driver class for PRIFGA -- Parallel Random Immigrant Fractal Genetic Algorithm.
+ * The basic idea is that there will be "waves" of immigrants whose entry points into
+ * the population will be of a random nature. Further, the immigrants will move in the
+ * genotype space in a fractal random pattern not unlike the canine search algorithm.
+ * Then once the movements become small, the canonical GA kicks in. The entire system
+ * will be parallel to take advantage of multi-core CPUs.
+ * The random immigrants will ensure diversity while being coupled with the canine search
+ * algorithm will allow efficient search of the genspace (genotype space).
+ *
+ * 1 Choose initial population
+ * 2 While termination condition has not been met:
+ *    3 Breed new offspring
+ *    4 Evaluate offspring fitness and update environment
+ *    5 Replace oldest population with new breed
+ * 
+ * 
+ * 1 The genotype at each position will reside in [0 ,1]; 
+ * it is up to the implementation to interpret and scale the genes. 
+ * The initialization of a new set of individuals should be able to be 
+ * called at a later time (before the RIF phase in III).
+ * 
+ * 2 The termination condition will most likely be number of generations.
+ * 
+ * 3 Breeding place new offspring on breeding queues and spawn threads.
+ *    For each new offspring
+ *       If in RIF phase
+ *          Choose genotype via random immigrant fractal algorithm
+ *       else
+ *          For each gene position x
+ *             Choose most fit parent via roulette wheel and get position x gene
+ *             Set gene x
+ *             Mutate gene x via mutation probability
+ * 
+ * 4 Place offspring on evaluation queue and spawn evaluation threads.
+ * 
+ * 5 Based on generation lifespan, terminate old individuals and add new offspring.
+ *
+ * We'll leave the rif_wave_rate, but it appears that with the logistics of crossover,
+ * a (2 * gensize * lifesize) will be a more optimal rate.
+ */
+public class GeneticAlgorithm
+{
+
+   // This is the general halting criteria
+   private HaltingCriteria _haltingCriteria = new HaltingCriteria();
+
+   // This is the fitness criterion
+   private double _terminationFitness = 1e300;
+
+   // This is the probability of doing a mutation
+   private double _mutationRate = 0.5;
+
+   // This is the number of offspring born every generation
+   private int _generationSize = 100;
+
+   // This is the number of generations to run before quitting
+   private int _numberOfEpochs = 1000000000;
+
+   // This is the number of CPUs that are available for processing default has been 10
+   private int _numberOfThreads = 10;
+
+   // This is the length of time to run
+   private long _executionTime = 180000; // default 3 mins
+
+   // This is the number of generations an individual will live
+   private int _lifespanExpectancy = 1;
+
+   // This is the number of epochs when to kick in RIF
+   private int _RIFWaveRate;
+
+   // Keeps track of the RIF phase
+   private boolean _isRIFPhase;
+
+   // Keeps track of any state data that other threads require
+   private ArrayList<Double> _data = new ArrayList<Double>();
+
+   // This handles the distribution of the new offspring
+   private Queue<Individual> _breedingQueue = new LinkedList<Individual>();
+
+   // This handles the distribution of the new offspring
+   private ArrayList<Individual> _incubationQueue = new ArrayList<Individual>();
+
+   // This handles the distribution of the new offspring
+   private ArrayList<Individual> _evaluatedQueue = new ArrayList<Individual>();
+
+   // This handles the distribution of the new offspring
+   private Queue<Individual> _evaluationQueue = new LinkedList<Individual>();
+
+   // This keeps track of all the breeder threads
+   private ArrayList<Thread> _breederThreads = new ArrayList<Thread>();
+
+   // This keeps track of all the evaluator threads
+   private ArrayList<Thread> _evaluatorThreads = new ArrayList<Thread>();
+
+   // This holds all the eligible parents for the current generation
+   private ArrayList<Individual> _eligibleParents = new ArrayList<Individual>();
+
+   // The current best-fit individual
+   private Individual _bestIndividual;
+
+   // The class that implements the Individual interface
+   private String _implementationClass;
+
+   // Every individual can have access to the EnvironmentCache
+   private EnvironmentCache _environmentCache;
+
+   // This applies to only the new species
+//    private int _genomeLength = 15;
+   private int _genomeLength = 17050;
+
+   /**
+    * Default Constructor.
+    */
+   public GeneticAlgorithm()
+   {
+      loadConfigurationProperties();
+      initialize();
+   }
+
+   /**
+    * Constructor.
+    */
+   public GeneticAlgorithm( long executionTime, int generationSize, int epochs, double fitness )
+   {
+      setExecutionTime( executionTime );
+      setGenerationSize( generationSize );
+      setNumberOfEpochs( epochs );
+      setTerminationFitness( fitness );
+      initialize();
+   }
+
+   /**
+    * Constructor.
+    */
+   public GeneticAlgorithm( long executionTime, int epochs, String name )
+   {
+      setExecutionTime( executionTime );
+      setNumberOfEpochs( epochs );
+      setImplementationClass( name );
+      initialize();
+   }
+
+   /**
+    * Constructor.
+    */
+   public GeneticAlgorithm( long executionTime, String name )
+   {
+      setExecutionTime( executionTime );
+      setImplementationClass( name );
+      initialize();
+   }
+
+   /**
+    * Constructor.
+    */
+   public GeneticAlgorithm( HaltingCriteria criteria, String name )
+   {
+      _haltingCriteria = criteria;
+      setImplementationClass( name );
+      initialize();
+   }
+
+   /**
+    * Constructor.
+    */
+   public GeneticAlgorithm( HaltingCriteria criteria, String name, int length )
+   {
+      _haltingCriteria = criteria;
+      setImplementationClass( name );
+      _genomeLength = length;
+      initialize();
+   }
+
+   /**
+    * Constructor.
+    */
+   public GeneticAlgorithm( HaltingCriteria criteria, String name, EnvironmentCache cache )
+   {
+      _haltingCriteria = criteria;
+      setImplementationClass( name );
+      setEnvironmentCache( cache );
+      initialize();
+   }
+
+   /**
+    * Constructor.
+    */
+   public GeneticAlgorithm( HaltingCriteria criteria, String name, EnvironmentCache cache, int length )
+   {
+      _genomeLength = length;
+      _haltingCriteria = criteria;
+      setImplementationClass( name );
+      setEnvironmentCache( cache );
+      initialize();
+   }
+
+   /**
+    * Constructor.
+    */
+   public GeneticAlgorithm( HaltingCriteria criteria, String name, EnvironmentCache cache, int length, int count )
+   {
+      _genomeLength = length;
+      _haltingCriteria = criteria;
+      setImplementationClass( name );
+      setEnvironmentCache( cache );
+      _numberOfThreads = count;
+      initialize();
+   }
+
+   /**
+    *
+    */
+   private void initialize()
+   {
+      if( getEnvironmentCache() == null )
+      {
+         setEnvironmentCache( new EnvironmentCache() );
+      }
+//       _environmentCache.setGenomeLength( _genomeLength );
+      initializeThreads();
+
+      try
+      {
+         Class implClass = Class.forName( _implementationClass );
+         _bestIndividual = (Individual)implClass.newInstance();
+         _bestIndividual.setEnvironmentCache( getEnvironmentCache() );
+      }
+      catch( ClassNotFoundException e )
+      {
+         System.err.println( "Unable to find class: " + _implementationClass + "\nException: " + e );
+         System.exit( 1 );
+      }
+      catch( InstantiationException e )
+      {
+         System.err.println( "Unable to instantiate class: " + _implementationClass + "\nException: " + e );
+         System.exit( 1 );
+      }
+      catch( IllegalAccessException e )
+      {
+         System.err.println( "Unable to instantiate class: " + _implementationClass + "\nException: " + e );
+         System.exit( 1 );
+      }
+
+      _eligibleParents.addAll( createRandomImmigrants( true ) );
+//       System.out.println( "eligible parents size initially: " + _eligibleParents.size() );
+      _breedingQueue.addAll( createRandomImmigrants( false ) );
+      System.out.println( "breeding size initially: " + _breedingQueue.size() );
+      _RIFWaveRate = 2 * _generationSize * _lifespanExpectancy;
+
+      synchronized( _breedingQueue )
+      {
+         _breedingQueue.notifyAll();
+      }
+
+      _isRIFPhase = false;
+   }
+
+   /**
+    *
+    */
+   private void setTerminationFitness( double fitness )
+   {
+      _terminationFitness = fitness;
+      _haltingCriteria.setFitnessTolerance( _terminationFitness );
+   }
+
+   /**
+    *
+    */
+   private void setMutationRate( double rate )
+   {
+      _mutationRate = rate;
+   }
+
+   /**
+    *
+    */
+   private void setGenerationSize( int size )
+   {
+      _generationSize = size;
+   }
+
+   /**
+    *
+    */
+   private void setNumberOfEpochs( int epochs )
+   {
+      _numberOfEpochs = epochs;
+      _haltingCriteria.setEpochalTolerance( _numberOfEpochs );
+   }
+
+   /**
+    *
+    */
+   private void setNumberOfThreads( int threads )
+   {
+      _numberOfThreads = threads;
+   }
+
+   /**
+    *
+    */
+   private void setExecutionTime( long time )
+   {
+      _executionTime = time;
+      _haltingCriteria.setElapsedTimeTolerance( _executionTime );
+   }
+
+   /**
+    *
+    */
+   private void setLifespanExpectancy( int life )
+   {
+      _lifespanExpectancy = life;
+   }
+
+   /**
+    *
+    */
+   private void setRIFWaveRate( int rate )
+   {
+      _RIFWaveRate = rate;
+   }
+
+   /**
+    *
+    */
+   private void setImplementationClass( String name )
+   {
+      _implementationClass = name;
+   }
+
+   /**
+    *
+    * @param Individual -- the individual that can be further refined if the GA has already been run.
+    */
+   public void setBestIndividual( Individual best )
+   {
+      _bestIndividual = best;
+   }
+
+   /**
+    * Loads up all the configuration items from the properties file.
+    */
+   private void loadConfigurationProperties()
+   {
+      Properties props = PropertiesReader.getInstance().getProperties( "genetic.properties" );
+
+      try
+      {
+         _terminationFitness  = Double.parseDouble( (String)props.get( "termination_fitness" ) );
+         _lifespanExpectancy  = Integer.parseInt( (String)props.get( "lifespan_expectancy" ) );
+         _numberOfThreads     = Integer.parseInt( (String)props.get( "number_of_threads" ) );
+         _generationSize      = Integer.parseInt( (String)props.get( "generation_size" ) );
+         _numberOfEpochs      = Integer.parseInt( (String)props.get( "number_of_epochs" ) );
+         _mutationRate        = Double.parseDouble( (String)props.get( "mutation_rate" ) );
+         _implementationClass = (String)props.get( "implementation_class" );
+         _executionTime       = Long.parseLong( (String)props.get( "execution_time" ) );
+
+         _haltingCriteria.setFitnessTolerance( _terminationFitness );
+         _haltingCriteria.setEpochalTolerance( _numberOfEpochs );
+         _haltingCriteria.setElapsedTimeTolerance( _executionTime );
+      }
+      catch( NumberFormatException e )
+      {
+         System.err.println( "Unable to load properties file!" );
+      }
+   }
+
+   /**
+    * Creates and readies the threads.
+    */
+   private void initializeThreads()
+   {
+      for( int i=0; i<_numberOfThreads; i++ )
+      {
+         Thread newThread = new Thread( new BreederWorker( _breedingQueue, 
+                                                           _incubationQueue, 
+                                                           _eligibleParents,
+//                                                            (new UniformSelectionStrategy()),
+                                                           (new BiformSelectionStrategy()),
+                                                           _data, 
+                                                           (new RIFMutationStrategy()),
+                                                           _mutationRate ) );
+         _breederThreads.add( newThread );
+// System.out.println( Thread.currentThread().getName() + " GA starting breeder thread: " + newThread.getName() ); 
+         newThread.start();
+
+         newThread = new Thread( new EvaluationWorker( _evaluationQueue, _evaluatedQueue ) );
+         _evaluatorThreads.add( newThread );
+// System.out.println( Thread.currentThread().getName() + " GA starting evaluator thread: " + newThread.getName() ); 
+         newThread.start();
+      }
+   }
+
+   /**
+    * Kills off any existing threads.
+    */
+   private void cancelThreads()
+   {
+      for( Thread t : _breederThreads )
+      {
+// System.out.println( Thread.currentThread().getName() + " interrupting breeder thread: " + t.getName() ); 
+// System.out.println( t.getName() + " thread status: " + t.getState() ); 
+         t.interrupt();
+      }
+      for( Thread t : _evaluatorThreads )
+      {
+// System.out.println( Thread.currentThread().getName() + " interrupting evaluator thread: " + t.getName() ); 
+// System.out.println( t.getName() + " thread status: " + t.getState() ); 
+         t.interrupt();
+      }
+   }
+
+   /**
+    * Creates a random collection of Immigrants.
+    */
+   private ArrayList<Individual> createRandomImmigrants( boolean all )
+   {
+      ArrayList<Individual> im = new ArrayList<Individual>();
+      double populationFitness = 0;
+
+      if( all )
+      {
+         for( int i=0; i<_lifespanExpectancy; i++ )
+         {
+            for( int j=0; j<_generationSize; j++ )
+            {
+               Individual indy = _bestIndividual.clone();
+               indy.setEnvironmentCache( _environmentCache );
+// System.out.println( "GA: about to call randomizeGenome..." );
+               indy.randomizeGenome();
+               populationFitness += indy.evaluateFitness();
+               for( int k=0; k<=i; k++ )
+               {
+                  indy.age();
+               }
+               //System.out.println( "age of this new ind: " + indy.getAge() );
+               im.add( indy );
+            }
+         }
+      }
+      else
+      {
+         for( int j=0; j<_generationSize; j++ )
+         {
+            Individual indy = _bestIndividual.clone();
+// System.out.println( "GA: about to call clone..." );
+            indy.setEnvironmentCache( _environmentCache );
+            indy.randomizeGenome();
+            im.add( indy );
+         }
+      }
+      _data.add( new Double( populationFitness ) );
+
+      return im;
+   }
+
+   /**
+    * Waits for evaluated queue to fill up.
+    */
+   private void waitOnEvaluatedQueue()
+   {
+      // while the evaluators are still filling up the queue
+      // wait on the queue.
+//       System.out.println( "(_generationSize * (_lifespanExpectancy): " + (_generationSize * (_lifespanExpectancy) ) );
+      while( _evaluatedQueue.size() != (_generationSize * (_lifespanExpectancy)) )
+      {
+//          System.out.println( "evaluated size is: " + _evaluatedQueue.size() );
+         try
+         {
+            _evaluatedQueue.wait();
+         }
+         catch( InterruptedException e )
+         {
+            break;
+         }
+      }
+   }
+
+   /**
+    * Waits for an incubation queue to fill up.
+    */
+   private void waitOnIncubationQueue()
+   {
+      // while the breeders are still filling up the queue
+      // wait on the queue.
+      int size = 0;
+
+      while( _incubationQueue.size() != _generationSize )
+      {
+//          System.out.println( "incubation size is: " + _incubationQueue.size() );
+         try
+         {
+            _incubationQueue.wait();
+         }
+         catch( InterruptedException e )
+         {
+            break;
+         }
+      }
+   }
+
+   /**
+    * The main entry point into the algorithm.
+    * In this methodology, we keep the threads and phases in lock-step
+    * this will prevent things from getting haphazard but may allow
+    * brief periods of thread starvation.
+    */
+   public Individual evolve()
+   {
+      long currentTime = 0;
+      long startTime = System.currentTimeMillis();
+      int currentEpoch = 0;
+      double rifArgument = 0;
+
+      // Since this will be evaluated rather frequently, we need to make sure that
+      // _bestIndividual.getFitness() is not an expensive operation, i.e., it is only
+      // a "getter" and not a full evaluation computation.
+      // Note that _bestIndividual should never be null.
+      while(    ( _bestIndividual.getFitness() < _haltingCriteria.getFitnessTolerance() )
+             && ( currentEpoch < _haltingCriteria.getEpochalTolerance() )
+             && ( currentTime  < _haltingCriteria.getElapsedTimeTolerance() ) )
+      {
+// System.out.println( "Epoch is: " + currentEpoch );
+         rifArgument = (double)currentEpoch / (double)(_RIFWaveRate - 1);
+         rifArgument *= 2 * Math.PI;
+         rifArgument = Math.cos( rifArgument );
+
+         if( currentEpoch % _RIFWaveRate == 0 )
+         {
+            _isRIFPhase = !_isRIFPhase;
+         }
+//          System.out.println( "RIF phase is: " + _isRIFPhase );
+
+         // get a lock on the incubation queue since the breeders
+         // will be accessing it also.
+         synchronized( _incubationQueue )
+         {
+//             System.out.println( "Got lock on incubation queue" );
+            waitOnIncubationQueue();
+//             System.out.println( "Finished waiting on incubation queue and size: " + _incubationQueue.size() );
+
+            // if we get here, the breeders have finished filling up the 
+            // incubation queue and are idle. So, drain the queue into
+            // the evaluation queue and notify all.
+            synchronized( _evaluationQueue )
+            {
+//                System.out.println( "Got lock on evaluation queue" );
+               _evaluationQueue.addAll( _incubationQueue );
+//                _evaluationQueue.addAll( _eligibleParents ); // why are we doing this?
+               _incubationQueue.clear();
+//                System.out.println( "incubation queue size is now: " + _incubationQueue.size() );
+//                System.out.println( "eligable parents queue size is now: " + _eligibleParents.size() );
+//                System.out.println( "Evaluation queue size is now: " + _evaluationQueue.size() );
+               _evaluationQueue.notifyAll();
+            }
+         }
+         
+//          System.out.println( "about to get lock on evaluated queue" );
+
+         // get a lock on the evaluation queue since the evaluators
+         // will be accessing it also.
+         synchronized( _evaluatedQueue )
+         {
+//             System.out.println( "Got lock on evaluated queue" );
+            waitOnEvaluatedQueue();
+//             System.out.println( "Finished waiting on evaluated queue size is now: " + _evaluatedQueue.size() );
+
+            // if we get here, the evaluators have finished filling up the 
+            // evaluated queue and are idle. So, drain the queue into
+            // the breeding queue and notify all.
+            synchronized( _breedingQueue )
+            {
+               //System.out.println( "Got lock on breeding queue" );
+               _eligibleParents.clear();
+               _data.clear();
+               double populationFitness = 0;
+
+               ArrayList<Individual> toRemove = new ArrayList<Individual>();
+               // go through the population check for any best individuals
+               // and kill off any old dudes.
+               for( Individual e : _evaluatedQueue )
+               {
+                  e.age();
+//                   System.out.println( "individual fitness: " + e.getFitness() );
+//                   System.out.println( "age of this: " + e + " individual: " + e.getAge() );
+                  if( e.getFitness() > _bestIndividual.getFitness() )
+                  {
+//                      System.out.println( currentTime + ", found a new best individual fitness: " + e.getFitness() );
+                     _bestIndividual = e.clone();
+                     // don't need to do this since it's done in the clone:
+//                      _bestIndividual.setFitness( e.getFitness() );
+//                      System.out.println( currentTime + ", new best: " + _bestIndividual );
+                  }
+                  if( e.getAge() > _lifespanExpectancy )
+                  {
+                     toRemove.add( e );
+                  }
+                  else
+                  {
+                     populationFitness += e.getFitness();
+                  }
+               }
+               _data.add( populationFitness );
+               _data.add( rifArgument );
+//                System.out.println( "Setting total fitness to: " + populationFitness );
+               for( Individual e : toRemove )
+               {
+                  _evaluatedQueue.remove( e );
+//                   System.out.println( "removing this: " + e );
+               }
+
+               _eligibleParents.addAll( _evaluatedQueue );
+               // Populate the breeding queue with embryos
+               for( int i=0; i<_generationSize; i++ )
+               {
+                  Individual e = _bestIndividual.clone();
+                  // TEMP: Adding here to remove elitism
+//                   e.randomizeGenome();
+//                   System.out.println( "cloning best individual: " + _bestIndividual );
+                  _breedingQueue.add( e );
+               }
+
+//                System.out.println( "Evaluated queue size: " + _evaluatedQueue.size() );
+
+               _evaluatedQueue.clear();
+               _breedingQueue.notifyAll();
+            }
+         }
+
+         currentEpoch++;
+         currentTime = System.currentTimeMillis() - startTime;
+         //EnvironmentCache.epochUpdate();
+      }
+
+//       System.out.println( "Epochs: " + currentEpoch );
+      cancelThreads();
+
+      return _bestIndividual;
+   }
+
+   /**
+    *
+    */
+   public void setEnvironmentCache( EnvironmentCache cache )
+   {
+      _environmentCache = cache;
+   }
+
+   /**
+    *
+    */
+   public EnvironmentCache getEnvironmentCache()
+   {
+      return _environmentCache;
+   }
+
+   /**
+    * Main entry.
+    */
+   public static void main( String[] args )
+   {
+      long             start = System.currentTimeMillis();
+      GeneticAlgorithm ga    = new GeneticAlgorithm();
+      Individual       best  = ga.evolve();
+
+      System.out.println( "The best individual was: "    + best.toStringFinal() );
+      System.out.println( "The total elapsed time was: " + (System.currentTimeMillis() - start) );
+   }
+
+}

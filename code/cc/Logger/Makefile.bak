@@ -1,0 +1,15 @@
+CC=g++
+COMPILE_OPTIONS=-c
+LINK_OPTIONS=rcs
+
+compile: DebugLogger.o
+	$(CC) $(COMPILE_OPTIONS) DebugLogger.cpp
+
+DebugLogger.o : DebugLogger.cpp DebugLogger.hpp
+	$(CC) $(COMPILE_OPTIONS) DebugLogger.cpp
+
+lib: compile
+	$(AR) $(LINK_OPTIONS) libLogger.a DebugLogger.o
+
+clean: 
+	rm *.o

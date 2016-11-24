@@ -1,0 +1,87 @@
+package functional.strategy;
+
+import functional.algorithm.*;
+import common.*;
+import math.*;
+
+import java.util.*;
+
+/**
+ * This class performs the basic iterations of the various algorithms that can be executed.
+ * Since each algorithm performs specific type of training hueristics, it was determined that
+ * each would be stored here as opposed to a generic collection of TrainingAlgorithm types.
+ * In this manner, the specifics can be handled without resort to 'instanceOf' semantics.
+ */
+public class CorrelationStrategy extends TrainingStrategy
+{
+
+   protected FunctionalCorrelation        _correlate;
+   protected double[][]                   _trainingInputData;
+   protected double[]                     _trainingTargetData;
+   protected GeneticCorrelationAlgorithm  _geneticAlgorithm;
+   protected GradientCorrelationAlgorithm _gradientAlgorithm;
+
+   /**
+    *
+    */
+   public CorrelationStrategy()
+   {
+      super();
+      _geneticAlgorithm = new GeneticCorrelationAlgorithm();
+      _gradientAlgorithm = new GradientCorrelationAlgorithm();
+   }
+
+   /**
+    *
+    */
+   public CorrelationStrategy( HaltingCriteria criteria )
+   {
+      super( criteria );
+      _geneticAlgorithm = new GeneticCorrelationAlgorithm( criteria );
+      _gradientAlgorithm = new GradientCorrelationAlgorithm( criteria );
+   }
+
+   /**
+    *
+    */
+   public void setTrainingInputData( double[][] data )
+   {
+      _trainingInputData = data;
+      _geneticAlgorithm.setTrainingInputData( data );
+      _gradientAlgorithm.setTrainingInputData( data );
+   }
+
+   /**
+    *
+    */
+   public void setTrainingTargetData( double[] data )
+   {
+      _trainingTargetData = data;
+      _geneticAlgorithm.setTrainingTargetData( data );
+      _gradientAlgorithm.setTrainingTargetData( data );
+   }
+
+   /**
+    * Implementation of the base class method.
+    */
+   public void train()
+   {
+      long start = System.currentTimeMillis();
+      long elapsed = 0;
+      while( elapsed < _haltingCriteria.getElapsedTimeTolerance() )
+      {
+         // TODO: need to figure out how to set the weights back on the genetic algorithm
+         // so that when the subclass is interleave things will work properly
+System.out.println( "Will now train with genetic algorithm" );
+         _geneticAlgorithm.setWeights( _gradientAlgorithm.getWeights() );
+         _geneticAlgorithm.train();
+         _gradientAlgorithm.setCorrelate( _geneticAlgorithm.getCorrelate() );
+System.out.println( "Will now train with gradient algorithm" );
+         _gradientAlgorithm.train();
+System.out.println( "Finished training with gradient algorithm" );
+         // finally, update the elapsed time
+         elapsed = System.currentTimeMillis() - start;
+      }
+   }
+
+}

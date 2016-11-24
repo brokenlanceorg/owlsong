@@ -1,0 +1,159 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            <span class=bodyGreenSmallJustify>[Definition]</span>
+         </p>
+         <p>
+           The weak omega-cut threshold is the value o such that when x <span class="symbol1"><span class="symbol2">&#179</span></span> o, 
+           <span class="symbol1"><span class="symbol2">m</span></span>(x) 
+           = 0. Similarly, the strong omega-cut
+           is the value such that when x > o, <span class="symbol1"><span class="symbol2">m</span></span>(x) = 0.
+         </p>
+         <p>
+            <span class=bodyGreenSmallJustify>[Definition]</span>
+         </p>
+         <p>
+           The membership function <span class="symbol1"><span class="symbol2">m</span></span>(x) is a well-defined function [a, b] 
+           <span class="symbol1"><span class="symbol2">&#174</span></span> [0, 1], 
+           where a and b are real numbers, that describes the truth value for a given support set.
+         </p>
+         <p>
+           For example, consider the fuzzy set "tall", whose support set will be defined on the interval [4ft, 6ft], 
+           or equivalently in inches, [48, 72]. Define <span class="symbol1"><span class="symbol2">m</span></span>(x) = x / 24 - 2 as the 
+           membership function--this defines a linear truth function over the support set. Now we ask: "is a person who stands 5 feet 7 
+           inches a tall person?"
+           Well, to answer, we just input the value into the fuzzy set's membership function: 
+           <span class="symbol1"><span class="symbol2">m</span></span>(5'7'') = <span class="symbol1"><span class="symbol2">m</span></span>( 67 ) =
+           67 / 24 - 2 = 2.7916666 - 2 = 0.7916666, of course, this varies with the population, but according to our
+           fuzzy set, this person is roughly 80 percent tall, or this person belongs a little less than 80% to the set
+           of tall people.
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            The membership function is not limited to simple linear functions, it can be any function desired. Some examples
+            of fuzzy set truth functions include:
+         </p>
+         <ul>
+           <li>
+             Linear Manifold: A linear function as described above, <span class="symbol1"><span class="symbol2">m</span></span>(x) = mx + b.
+           </li>
+           <li>
+             Sigmoid or Logistic: A sigmoid, or S-shaped, curve whose definition can be one of many forms, an easily 
+             computable version is: for <span class="symbol1"><span class="symbol2">a</span></span> 
+             <span class="symbol1"><span class="symbol2">&#163</span></span> x 
+             <span class="symbol1"><span class="symbol2">&#163</span></span> <span class="symbol1"><span class="symbol2">b</span></span>, 
+             2[ (x-<span class="symbol1"><span class="symbol2">a</span></span>)/(<span class="symbol1"><span class="symbol2">g</span></span>-
+             <span class="symbol1"><span class="symbol2">a</span></span>) ]&#178, and for <span class="symbol1"><span class="symbol2">b</span></span> 
+             <span class="symbol1"><span class="symbol2">&#163</span></span> x 
+             <span class="symbol1"><span class="symbol2">&#163</span></span> <span class="symbol1"><span class="symbol2">g</span></span>, 
+             1-2[ (x-<span class="symbol1"><span class="symbol2">g</span></span>)/(<span class="symbol1"><span class="symbol2">g</span></span>-
+             <span class="symbol1"><span class="symbol2">a</span></span>) ]&#178,
+             an alpha-cut would be placed at <span class="symbol1"><span class="symbol2">a</span></span>, and an omega-cut would be placed at 
+             <span class="symbol1"><span class="symbol2">g</span></span>. In the above, <span class="symbol1"><span class="symbol2">a</span></span> 
+             is chosen so that <span class="symbol1"><span class="symbol2">m</span></span>(<span class="symbol1"><span class="symbol2">a</span></span>) 
+             = 0, <span class="symbol1"><span class="symbol2">g</span></span> 
+             is such that <span class="symbol1"><span class="symbol2">m</span></span>(<span class="symbol1"><span class="symbol2">g</span></span>) 
+             = 1, and <span class="symbol1"><span class="symbol2">b</span></span> is such that 
+             <span class="symbol1"><span class="symbol2">m</span></span>(<span class="symbol1"><span class="symbol2">b</span></span>) = &#189.
+           </li>
+           <li>
+             Pi Curves: A 'bell-shaped' curve that also has several different forms depending on the requirements.
+           </li>
+           <li>
+             Beta Curves: An other bell-shaped class of functions that vanish only at inf, an example is:
+             <span class="symbol1"><span class="symbol2">m</span></span>(x) = 1 / [ 1 + [(x-<span class="symbol1"><span class="symbol2">g</span></span>)/
+             <span class="symbol1"><span class="symbol2">b</span></span>]&#178 ], where 
+             <span class="symbol1"><span class="symbol2">g</span></span> is the center of the bell, and 
+             <span class="symbol1"><span class="symbol2">b</span></span> is the width of the base.
+           </li>
+           <li>
+             Gaussian: A beta curve give by: <span class="symbol1"><span class="symbol2">m</span></span>(x) = 
+             e<sup>(-<span class="symbol1"><span class="symbol2">k</span></span>(
+             <span class="symbol1"><span class="symbol2">g</span></span>-x)&#178)</sup>
+           </li>
+           <li>
+             Irregular: Any combination of the above. For example, triangular or trapazoidal.
+           </li>
+         </ul>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWFuzzy2.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWFuzzy4.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

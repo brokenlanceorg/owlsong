@@ -1,0 +1,76 @@
+package genetic;
+
+import java.util.*;
+
+/**
+ * The EvaluationWorker class is a Runnable class that can pull individuals
+ * off the evaluation queue and evaluates them according to their evaluateFitness.
+ * This threaded class will listen to its associated queue and pull offspring
+ * and perform it's operation on them to create new offspring.
+ */
+public class EvaluationWorker implements Runnable
+{
+
+   // The queue on which this thread listens
+   private Queue<Individual> _evaluationQueue;
+
+   // The queue on which breeding occurs.
+   private ArrayList<Individual> _evaluatedQueue;
+
+   /**
+    * Default Constructor.
+    */
+   public EvaluationWorker()
+   {
+   }
+
+   /**
+    * Constructor.
+    */
+   public EvaluationWorker( Queue<Individual> q, ArrayList<Individual> q2 )
+   {
+      _evaluationQueue = q;
+      _evaluatedQueue = q2;
+   }
+
+   /**
+    * Implementation of Runnable Interface.
+    */
+   public void run()
+   {
+      Individual i = null;
+      while( true )
+      {
+         synchronized( _evaluationQueue )
+         {
+//             System.out.println( "Eval thread got lock on evaluation" );
+            while( _evaluationQueue.peek() == null )
+            {
+               try
+               {
+                  _evaluationQueue.wait();
+               }
+               catch( InterruptedException e )
+               {
+                  return;
+               }
+            }
+//             System.out.println( "Eval thread finished waiting on evaluation, size is: " + _evaluationQueue.size() );
+
+            i = _evaluationQueue.poll();
+            i.evaluateFitness();
+         }
+            
+         // at this point, the new individual can be evaluated
+         synchronized( _evaluatedQueue )
+         {
+//             System.out.println( "Eval thread got lock on evaluated" );
+            _evaluatedQueue.add( i );
+//             System.out.println( "Eval thread:: evaluated size is now: " + _evaluatedQueue.size() );
+            _evaluatedQueue.notifyAll();
+         }
+      }
+
+   }
+
+}

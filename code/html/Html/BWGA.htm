@@ -1,0 +1,192 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <div class=bodyWhiteSmallJustify>
+      <code>
+<br><br>
+#include"GeneticAlgorithm.hpp"<br><br>
+
+GeneticAlgorithM::GeneticAlgorithM()<br>
+{<br>
+   &nbsp Setup();<br>
+} // end GeneticAlgorithM default constructor<br><br>
+
+GeneticAlgorithM::~GeneticAlgorithM()<br>
+{<br>
+   &nbsp if( _theSelector != 0 )<br>
+   &nbsp {<br>
+      &nbsp &nbsp delete _theSelector;<br>
+      &nbsp &nbsp _theSelector = 0;<br>
+   &nbsp } // end if not null<br>
+   &nbsp if( _thePopulation != 0 )<br>
+   &nbsp {<br>
+      &nbsp &nbsp delete _thePopulation;<br>
+      &nbsp &nbsp _thePopulation = 0;<br>
+   &nbsp } // end if not null<br>
+} // end GeneticAlgorithM destructor<br><br>
+
+void GeneticAlgorithM::Setup()<br>
+{<br>
+   &nbsp _MaxNumberOfGenerations = 3;  // Just to test with...<br>
+   &nbsp _MaximumFitness         = 1000;<br>
+   &nbsp _PopulationSize         = 3;  // Just to test with....<br>
+   &nbsp _theSelector            = 0;<br>
+   &nbsp _theBestIndividual      = 0;<br>
+   &nbsp _thePopulation          = new ObjectVectoR();<br>
+} // end Setup<br><br>
+
+void GeneticAlgorithM::AddIndividual( IndividuaL* theInd )<br>
+{<br>
+   &nbsp _thePopulation->AddObject( theInd );<br>
+} // end AddIndividual<br><br>
+
+void GeneticAlgorithM::SetSelectionStrategy( SelectionStrategY* theStrat )<br>
+{<br>
+   &nbsp if( _theSelector != 0 )<br>
+   &nbsp {<br>
+      &nbsp &nbsp delete _theSelector;<br>
+   &nbsp } // end if not null<br><br>
+
+   &nbsp _theSelector = theStrat;<br>
+} // end SetSelectionStrategy<br><br>
+
+void GeneticAlgorithM::CloneBestIndividual()<br>
+{<br>
+   &nbsp IndividuaL* theBest = _theBestIndividual->Clone();<br>
+   &nbsp ChromosomE* theChrom = theBest->GetChromosome()->Clone();<br>
+   &nbsp VectoR* theGenome = new VectoR( _theBestIndividual->GetChromosome()->GetGenome() );<br>
+   &nbsp theChrom->SetMutationStrategy( theBest->GetChromosome()->CloneMutationStrategy() );<br>
+   &nbsp theChrom->SetCrossoverStrategy( theBest->GetChromosome()->CloneCrossoverStrategy() );<br>
+   &nbsp theChrom->SetGenome( theGenome );<br>
+   &nbsp theBest->SetChromosome( theChrom );<br>
+   &nbsp _theBestIndividual = theBest;<br>
+} // end CloneBestIndividual<br><br>
+
+ObjectVectoR* GeneticAlgorithM::GetNewGeneration()<br>
+{<br>
+   &nbsp FPRINT( "GeneticAlgorithM::GetNewGeneration()" );<br>
+   &nbsp ObjectVectoR* myGeneration = new ObjectVectoR();<br>
+   &nbsp long double theBestEval    = 0;<br>
+   &nbsp int CurrPopulationSize     = 0;<br>
+   &nbsp IndividuaL* ParentOne      = 0;<br>
+   &nbsp IndividuaL* ParentTwo      = 0;<br>
+   &nbsp IndividuaL* theChild       = 0;<br><br>
+
+   &nbsp while( CurrPopulationSize++ < _PopulationSize )<br>
+   &nbsp {<br>
+      &nbsp &nbsp // Elitism:<br>
+      &nbsp &nbsp if( CurrPopulationSize == 1 && _theBestIndividual != 0 )<br>
+      &nbsp &nbsp {<br>
+         &nbsp &nbsp &nbsp myGeneration->AddObject( _theBestIndividual );<br>
+         &nbsp &nbsp &nbsp theBestEval = _theBestIndividual->EvaluateFitness();<br>
+         &nbsp &nbsp &nbsp CurrPopulationSize++;<br>
+      &nbsp &nbsp } // end if we have a best individual<br>
+      &nbsp &nbsp ParentOne = _theSelector->GetParent();<br>
+      &nbsp &nbsp ParentTwo = _theSelector->GetParent();<br>
+      &nbsp &nbsp theChild = &(*ParentOne + *ParentTwo);<br>
+      &nbsp &nbsp theChild->Mutate();<br>
+      &nbsp &nbsp myGeneration->AddObject( theChild );<br>
+      &nbsp &nbsp // Check for Elitism: <br>
+      &nbsp &nbsp if( theChild->EvaluateFitness() > theBestEval )<br>
+      &nbsp &nbsp {<br>
+         &nbsp &nbsp &nbsp _theBestIndividual = theChild;<br>
+         &nbsp &nbsp &nbsp theBestEval = _theBestIndividual->EvaluateFitness();<br>
+      &nbsp &nbsp } // end if best individual <br>
+      &nbsp &nbsp FPRINT << "Best Fitness is: " << theBestEval;<br>
+   &nbsp } // end while<br><br>
+
+   &nbsp return myGeneration;<br>
+} // end GetNewGeneration<br><br>
+
+IndividuaL* GeneticAlgorithM::Evolve()<br>
+{<br>
+   &nbsp FPRINT( "GeneticAlgorithM::Evolve()" );<br>
+   &nbsp int           CurrentGeneration = 0;<br>
+   &nbsp ObjectVectoR* currentPopulation = 0;<br>
+   &nbsp long double   theBestFitness    = 0;<br><br>
+
+   &nbsp while( CurrentGeneration++ < _MaxNumberOfGenerations &&<br>
+               &nbsp &nbsp theBestFitness < _MaximumFitness )<br>
+   &nbsp {<br>
+      &nbsp &nbsp FPRINT << "The Generation is: " << CurrentGeneration;<br>
+      &nbsp &nbsp // This method will delete the old population:<br>
+      &nbsp &nbsp _theSelector->SetPopulation( _thePopulation );<br>
+      &nbsp &nbsp currentPopulation = GetNewGeneration();<br>
+      &nbsp &nbsp CloneBestIndividual(); // Save the best for the next generation<br>
+      &nbsp &nbsp theBestFitness = _theBestIndividual->EvaluateFitness();<br>
+      &nbsp &nbsp _thePopulation = currentPopulation;<br>
+   &nbsp } // end generation loop<br><br>
+
+   &nbsp return _theBestIndividual;<br>
+} // end Evolve<br><br><br>
+
+      </code>
+      </div>
+
+<!--
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWGenetic5.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWGenetic5.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+-->
+
+
+</body>
+
+
+</html>

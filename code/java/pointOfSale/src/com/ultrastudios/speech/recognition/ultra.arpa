@@ -1,0 +1,287 @@
+#############################################################################
+## Copyright (c) 1996, Carnegie Mellon University, Cambridge University,
+## Ronald Rosenfeld and Philip Clarkson
+## Version 3, Copyright (c) 2006, Carnegie Mellon University 
+## Contributors includes Wen Xu, Ananlada Chotimongkol, 
+## David Huggins-Daines, Arthur Chan and Alan Black 
+#############################################################################
+=============================================================================
+===============  This file was produced by the CMU-Cambridge  ===============
+===============     Statistical Language Modeling Toolkit     ===============
+=============================================================================
+This is a 3-gram language model, based on a vocabulary of 46 words,
+  which begins "</s>", "<s>", "black"...
+This is a CLOSED-vocabulary model
+  (OOVs eliminated from training data and are forbidden in test data)
+Good-Turing discounting was applied.
+1-gram frequency of frequency : 35 
+2-gram frequency of frequency : 66 4 1 0 2 0 0 
+3-gram frequency of frequency : 97 4 1 1 1 0 0 
+1-gram discounting ratios : 0.97 
+2-gram discounting ratios : 0.08 0.35 
+3-gram discounting ratios : 0.05 0.36 
+This file is in the ARPA-standard format introduced by Doug Paul.
+
+p(wd3|wd1,wd2)= if(trigram exists)           p_3(wd1,wd2,wd3)
+                else if(bigram w1,w2 exists) bo_wt_2(w1,w2)*p(wd3|wd2)
+                else                         p(wd3|w2)
+
+p(wd2|wd1)= if(bigram exists) p_2(wd1,wd2)
+            else              bo_wt_1(wd1)*p_1(wd2)
+
+All probs and back-off weights (bo_wt) are given in log10 form.
+
+Data formats:
+
+Beginning of data mark: \data\
+ngram 1=nr            # number of 1-grams
+ngram 2=nr            # number of 2-grams
+ngram 3=nr            # number of 3-grams
+
+\1-grams:
+p_1     wd_1 bo_wt_1
+\2-grams:
+p_2     wd_1 wd_2 bo_wt_2
+\3-grams:
+p_3     wd_1 wd_2 wd_3 
+
+end of data mark: \end\
+
+\data\
+ngram 1=46
+ngram 2=75
+ngram 3=105
+
+\1-grams:
+-0.6198 </s>	-1.3676
+-0.6055 <s>	-0.2912
+-2.1091 black	0.0833
+-2.1091 blue	0.0833
+-2.1091 boulevard	-0.0325
+-2.1091 brown	0.0833
+-2.1091 chiffon	-0.0325
+-1.1938 color	-0.0080
+-1.3979 description	-0.0187
+-2.1091 dot	0.0000
+-1.6198 dress	-0.5798
+-2.1091 eight	0.0833
+-2.1091 esley	-0.0254
+-1.7959 extra	-0.0218
+-2.1091 five	0.0833
+-2.1091 floral	-0.0254
+-2.1091 four	0.0833
+-2.1091 grey	0.0833
+-2.1091 lace	-0.0289
+-1.7959 large	-0.0647
+-2.1091 luluvia	-0.0325
+-2.1091 medium	0.0833
+-2.1091 navy	0.0833
+-2.1091 nine	0.0833
+-2.1091 off	-0.0325
+-2.1091 one	0.0833
+-2.1091 people	-0.0325
+-2.1091 point	0.0833
+-2.1091 rayon	-0.0325
+-2.1091 red	0.0833
+-2.1091 seven	0.0833
+-2.1091 silver	-0.0325
+-2.1091 six	0.0833
+-1.3979 size	-0.0643
+-1.7959 small	-0.0647
+-2.1091 ten	0.0833
+-2.1091 three	0.0833
+-1.7959 top	-0.0647
+-2.1091 tree	-0.0325
+-2.1091 trim	-0.0289
+-2.1091 two	0.0833
+-2.1091 white	0.0833
+-2.1091 with	-0.0325
+-2.1091 woven	-0.0254
+-2.1091 yellow	0.0833
+-2.1091 zero	0.0833
+
+\2-grams:
+-0.0142 </s> <s> 0.0264
+-0.5883 <s> color 0.0122
+-0.7924 <s> description 0.0122
+-2.5917 <s> dot 0.0954
+-2.5917 <s> eight 0.0122
+-2.5917 <s> five 0.0122
+-2.5917 <s> four 0.0122
+-2.5917 <s> nine 0.0122
+-2.5917 <s> one 0.0122
+-2.5917 <s> point 0.0122
+-2.5917 <s> seven 0.0122
+-2.5917 <s> six 0.0122
+-0.7924 <s> size 0.0062
+-2.5917 <s> ten 0.0122
+-2.5917 <s> three 0.0122
+-2.5917 <s> two 0.0122
+-2.5917 <s> zero 0.0122
+-1.1004 black </s> 1.4676
+-1.1004 blue </s> 1.4676
+-1.1004 boulevard chiffon 0.0122
+-1.1004 brown </s> 1.4676
+-1.1004 chiffon with 0.0122
+-2.0035 color black 0.0122
+-2.0035 color blue 0.0122
+-2.0035 color brown 0.0122
+-2.0035 color grey 0.0122
+-2.0035 color navy 0.0122
+-2.0035 color off 0.0122
+-2.0035 color red 0.0122
+-2.0035 color yellow 0.0122
+-1.7993 description boulevard 0.0122
+-1.7993 description esley 0.0122
+-1.7993 description luluvia 0.0122
+-1.7993 description rayon 0.0122
+-1.7993 description tree 0.0122
+-0.0969 dress </s> 0.8893
+-1.1004 eight </s> 1.4676
+-1.1004 esley dress 0.6752
+-1.4014 extra large 0.1602
+-1.4014 extra small 0.1602
+-1.1004 five </s> 1.4676
+-1.1004 floral dress 0.6752
+-1.1004 four </s> 1.4676
+-1.1004 grey </s> 1.4676
+-1.1004 lace top 0.1602
+-0.4619 large </s> 1.3009
+-1.1004 luluvia floral 0.0122
+-1.1004 medium </s> 1.4676
+-1.1004 navy </s> 1.4676
+-1.1004 nine </s> 1.4676
+-1.1004 off white 0.0122
+-1.1004 one </s> 1.4676
+-1.1004 people woven 0.0122
+-1.1004 point </s> 1.4676
+-1.1004 rayon silver 0.0122
+-1.1004 red </s> 1.4676
+-1.1004 seven </s> 1.4676
+-1.1004 silver trim 0.0122
+-1.1004 six </s> 1.4676
+-0.8598 size extra 0.0122
+-1.7993 size large 0.1602
+-1.7993 size medium 0.0122
+-1.7993 size small 0.1602
+-0.4619 small </s> 1.3009
+-1.1004 ten </s> 1.4676
+-1.1004 three </s> 1.4676
+-0.4619 top </s> 1.3009
+-1.1004 tree people 0.0122
+-1.1004 trim top 0.1602
+-1.1004 two </s> 1.4676
+-1.1004 white </s> 1.4676
+-1.1004 with lace 0.0122
+-1.1004 woven dress 0.6752
+-1.1004 yellow </s> 1.4676
+-1.1004 zero </s> 1.4676
+
+\3-grams:
+-0.5740 </s> <s> color 
+-0.8751 </s> <s> description 
+-2.7513 </s> <s> dot 
+-2.7513 </s> <s> eight 
+-2.7513 </s> <s> five 
+-2.7513 </s> <s> four 
+-2.7513 </s> <s> nine 
+-2.7513 </s> <s> one 
+-2.7513 </s> <s> point 
+-2.7513 </s> <s> seven 
+-2.7513 </s> <s> six 
+-0.7782 </s> <s> size 
+-2.7513 </s> <s> ten 
+-2.7513 </s> <s> three 
+-2.7513 </s> <s> two 
+-2.7513 </s> <s> zero 
+-2.1772 <s> color black 
+-2.1772 <s> color blue 
+-2.1772 <s> color brown 
+-2.1772 <s> color grey 
+-2.1772 <s> color navy 
+-2.1772 <s> color off 
+-2.1772 <s> color red 
+-2.1772 <s> color yellow 
+-1.9731 <s> description boulevard 
+-1.9731 <s> description esley 
+-1.9731 <s> description luluvia 
+-1.9731 <s> description rayon 
+-1.9731 <s> description tree 
+-1.2742 <s> dot </s> 
+-1.2742 <s> eight </s> 
+-1.2742 <s> five </s> 
+-1.2742 <s> four </s> 
+-1.2742 <s> nine </s> 
+-1.2742 <s> one </s> 
+-1.2742 <s> point </s> 
+-1.2742 <s> seven </s> 
+-1.2742 <s> six </s> 
+-0.8476 <s> size extra 
+-1.9731 <s> size large 
+-1.9731 <s> size medium 
+-1.9731 <s> size small 
+-1.2742 <s> ten </s> 
+-1.2742 <s> three </s> 
+-1.2742 <s> two </s> 
+-1.2742 <s> zero </s> 
+-1.2742 black </s> <s> 
+-1.2742 blue </s> <s> 
+-1.2742 boulevard chiffon with 
+-1.2742 brown </s> <s> 
+-1.2742 chiffon with lace 
+-1.2742 color black </s> 
+-1.2742 color blue </s> 
+-1.2742 color brown </s> 
+-1.2742 color grey </s> 
+-1.2742 color navy </s> 
+-1.2742 color off white 
+-1.2742 color red </s> 
+-1.2742 color yellow </s> 
+-1.2742 description boulevard chiffon 
+-1.2742 description esley dress 
+-1.2742 description luluvia floral 
+-1.2742 description rayon silver 
+-1.2742 description tree people 
+-0.1249 dress </s> <s> 
+-1.2742 eight </s> <s> 
+-1.2742 esley dress </s> 
+-1.2742 extra large </s> 
+-1.2742 extra small </s> 
+-1.2742 five </s> <s> 
+-1.2742 floral dress </s> 
+-1.2742 four </s> <s> 
+-1.2742 grey </s> <s> 
+-1.2742 lace top </s> 
+-0.4497 large </s> <s> 
+-1.2742 luluvia floral dress 
+-1.2742 medium </s> <s> 
+-1.2742 navy </s> <s> 
+-1.2742 nine </s> <s> 
+-1.2742 off white </s> 
+-1.2742 one </s> <s> 
+-1.2742 people woven dress 
+-1.2742 point </s> <s> 
+-1.2742 rayon silver trim 
+-1.2742 red </s> <s> 
+-1.2742 seven </s> <s> 
+-1.2742 silver trim top 
+-1.2742 six </s> <s> 
+-1.5752 size extra large 
+-1.5752 size extra small 
+-1.2742 size large </s> 
+-1.2742 size medium </s> 
+-1.2742 size small </s> 
+-0.4497 small </s> <s> 
+-1.2742 ten </s> <s> 
+-1.2742 three </s> <s> 
+-0.4497 top </s> <s> 
+-1.2742 tree people woven 
+-1.2742 trim top </s> 
+-1.2742 two </s> <s> 
+-1.2742 white </s> <s> 
+-1.2742 with lace top 
+-1.2742 woven dress </s> 
+-1.2742 yellow </s> <s> 
+-1.2742 zero </s> <s> 
+
+\end\

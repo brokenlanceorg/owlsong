@@ -1,0 +1,348 @@
+http://rivals.yahoo.com/ncaa/basketball/teams/vad/schedule,Vermont
+http://rivals.yahoo.com/ncaa/basketball/teams/aca/schedule,Albany
+http://rivals.yahoo.com/ncaa/basketball/teams/ban/schedule,Boston U.
+http://rivals.yahoo.com/ncaa/basketball/teams/maa/schedule,Maine
+http://rivals.yahoo.com/ncaa/basketball/teams/mam/schedule,MD Baltimore Cty.
+http://rivals.yahoo.com/ncaa/basketball/teams/bai/schedule,Binghamton
+http://rivals.yahoo.com/ncaa/basketball/teams/hac/schedule,Hartford
+http://rivals.yahoo.com/ncaa/basketball/teams/nal/schedule,New Hampshire
+http://rivals.yahoo.com/ncaa/basketball/teams/scy/schedule,Stony Brook
+http://rivals.yahoo.com/ncaa/basketball/teams/nav/schedule,North Carolina
+http://rivals.yahoo.com/ncaa/basketball/teams/vaf/schedule,Virginia
+http://rivals.yahoo.com/ncaa/basketball/teams/maj/schedule,Maryland
+http://rivals.yahoo.com/ncaa/basketball/teams/vah/schedule,Virginia Tech
+http://rivals.yahoo.com/ncaa/basketball/teams/bam/schedule,Boston Coll.
+http://rivals.yahoo.com/ncaa/basketball/teams/dau/schedule,Duke
+http://rivals.yahoo.com/ncaa/basketball/teams/gah/schedule,Georgia Tech
+http://rivals.yahoo.com/ncaa/basketball/teams/cbg/schedule,Clemson
+http://rivals.yahoo.com/ncaa/basketball/teams/fan/schedule,Florida St.
+http://rivals.yahoo.com/ncaa/basketball/teams/nat/schedule,N.C. State
+http://rivals.yahoo.com/ncaa/basketball/teams/wad/schedule,Wake Forest
+http://rivals.yahoo.com/ncaa/basketball/teams/mav/schedule,Miami (FL)
+http://rivals.yahoo.com/ncaa/basketball/teams/eaa/schedule,E. Tennessee St.
+http://rivals.yahoo.com/ncaa/basketball/teams/bab/schedule,Belmont
+http://rivals.yahoo.com/ncaa/basketball/teams/lbu/schedule,Lipscomb
+http://rivals.yahoo.com/ncaa/basketball/teams/jab/schedule,Jacksonville
+http://rivals.yahoo.com/ncaa/basketball/teams/kns/schedule,Kennesaw St.
+http://rivals.yahoo.com/ncaa/basketball/teams/maq/schedule,Mercer
+http://rivals.yahoo.com/ncaa/basketball/teams/cai/schedule,Campbell
+http://rivals.yahoo.com/ncaa/basketball/teams/gal/schedule,Gardner-Webb
+http://rivals.yahoo.com/ncaa/basketball/teams/scd/schedule,Stetson
+http://rivals.yahoo.com/ncaa/basketball/teams/nfl/schedule,North Florida
+http://rivals.yahoo.com/ncaa/basketball/teams/xaa/schedule,Xavier
+http://rivals.yahoo.com/ncaa/basketball/teams/mak/schedule,Massachusetts
+http://rivals.yahoo.com/ncaa/basketball/teams/gac/schedule,Geo. Washington
+http://rivals.yahoo.com/ncaa/basketball/teams/fao/schedule,Fordham
+http://rivals.yahoo.com/ncaa/basketball/teams/rad/schedule,Rhode Island
+http://rivals.yahoo.com/ncaa/basketball/teams/sbq/schedule,St. Joseph's
+http://rivals.yahoo.com/ncaa/basketball/teams/sbr/schedule,Saint Louis
+http://rivals.yahoo.com/ncaa/basketball/teams/dae/schedule,Dayton
+http://rivals.yahoo.com/ncaa/basketball/teams/nad/schedule,Charlotte
+http://rivals.yahoo.com/ncaa/basketball/teams/tad/schedule,Temple
+http://rivals.yahoo.com/ncaa/basketball/teams/dav/schedule,Duquesne
+http://rivals.yahoo.com/ncaa/basketball/teams/raf/schedule,Richmond
+http://rivals.yahoo.com/ncaa/basketball/teams/sbl/schedule,St. Bonaventure
+http://rivals.yahoo.com/ncaa/basketball/teams/lad/schedule,La Salle
+http://rivals.yahoo.com/ncaa/basketball/teams/gae/schedule,Georgetown
+http://rivals.yahoo.com/ncaa/basketball/teams/pal/schedule,Pittsburgh
+http://rivals.yahoo.com/ncaa/basketball/teams/laq/schedule,Louisville
+http://rivals.yahoo.com/ncaa/basketball/teams/nbf/schedule,Notre Dame
+http://rivals.yahoo.com/ncaa/basketball/teams/maf/schedule,Marquette
+http://rivals.yahoo.com/ncaa/basketball/teams/sci/schedule,Syracuse
+http://rivals.yahoo.com/ncaa/basketball/teams/wal/schedule,West Virginia
+http://rivals.yahoo.com/ncaa/basketball/teams/vae/schedule,Villanova
+http://rivals.yahoo.com/ncaa/basketball/teams/dal/schedule,DePaul
+http://rivals.yahoo.com/ncaa/basketball/teams/pas/schedule,Providence
+http://rivals.yahoo.com/ncaa/basketball/teams/sbp/schedule,St. John's
+http://rivals.yahoo.com/ncaa/basketball/teams/cbp/schedule,Connecticut
+http://rivals.yahoo.com/ncaa/basketball/teams/sao/schedule,Seton Hall
+http://rivals.yahoo.com/ncaa/basketball/teams/sbg/schedule,South Florida
+http://rivals.yahoo.com/ncaa/basketball/teams/rak/schedule,Rutgers
+http://rivals.yahoo.com/ncaa/basketball/teams/cbc/schedule,Cincinnati
+http://rivals.yahoo.com/ncaa/basketball/teams/wai/schedule,Weber St.
+http://rivals.yahoo.com/ncaa/basketball/teams/nbc/schedule,Northern Arizona
+http://rivals.yahoo.com/ncaa/basketball/teams/mbm/schedule,Montana
+http://rivals.yahoo.com/ncaa/basketball/teams/pbe/schedule,Portland St.
+http://rivals.yahoo.com/ncaa/basketball/teams/eai/schedule,Eastern Wash.
+http://rivals.yahoo.com/ncaa/basketball/teams/iac/schedule,Idaho St.
+http://rivals.yahoo.com/ncaa/basketball/teams/mbn/schedule,Montana St.
+http://rivals.yahoo.com/ncaa/basketball/teams/saa/schedule,Sacramento St.
+http://rivals.yahoo.com/ncaa/basketball/teams/nbh/schedule,Northern Colorado
+http://rivals.yahoo.com/ncaa/basketball/teams/way/schedule,Winthrop
+http://rivals.yahoo.com/ncaa/basketball/teams/hbd/schedule,High Point
+http://rivals.yahoo.com/ncaa/basketball/teams/lai/schedule,Liberty
+http://rivals.yahoo.com/ncaa/basketball/teams/cbi/schedule,Coastal Carolina
+http://rivals.yahoo.com/ncaa/basketball/teams/nab/schedule,N.C. Asheville
+http://rivals.yahoo.com/ncaa/basketball/teams/vai/schedule,Virginia Military
+http://rivals.yahoo.com/ncaa/basketball/teams/raa/schedule,Radford
+http://rivals.yahoo.com/ncaa/basketball/teams/cax/schedule,Charleston S.
+http://rivals.yahoo.com/ncaa/basketball/teams/oad/schedule,Ohio St.
+http://rivals.yahoo.com/ncaa/basketball/teams/wbg/schedule,Wisconsin
+http://rivals.yahoo.com/ncaa/basketball/teams/iai/schedule,Indiana
+http://rivals.yahoo.com/ncaa/basketball/teams/iae/schedule,Illinois
+http://rivals.yahoo.com/ncaa/basketball/teams/pau/schedule,Purdue
+http://rivals.yahoo.com/ncaa/basketball/teams/ian/schedule,Iowa
+http://rivals.yahoo.com/ncaa/basketball/teams/may/schedule,(2) Michigan St.
+http://rivals.yahoo.com/ncaa/basketball/teams/max/schedule,Michigan
+http://rivals.yahoo.com/ncaa/basketball/teams/mbd/schedule,Minnesota
+http://rivals.yahoo.com/ncaa/basketball/teams/nbd/schedule,Northwestern
+http://rivals.yahoo.com/ncaa/basketball/teams/paf/schedule,Penn St.
+http://rivals.yahoo.com/ncaa/basketball/teams/kaa/schedule,Kansas
+http://rivals.yahoo.com/ncaa/basketball/teams/tan/schedule,Texas A&amp;M
+http://rivals.yahoo.com/ncaa/basketball/teams/tal/schedule,Texas
+http://rivals.yahoo.com/ncaa/basketball/teams/kab/schedule,Kansas St.
+http://rivals.yahoo.com/ncaa/basketball/teams/tas/schedule,Texas Tech
+http://rivals.yahoo.com/ncaa/basketball/teams/mbh/schedule,Missouri
+http://rivals.yahoo.com/ncaa/basketball/teams/oag/schedule,Oklahoma St.
+http://rivals.yahoo.com/ncaa/basketball/teams/nai/schedule,Nebraska
+http://rivals.yahoo.com/ncaa/basketball/teams/oae/schedule,Oklahoma
+http://rivals.yahoo.com/ncaa/basketball/teams/iao/schedule,Iowa St.
+http://rivals.yahoo.com/ncaa/basketball/teams/bae/schedule,Baylor
+http://rivals.yahoo.com/ncaa/basketball/teams/cbl/schedule,Colorado
+http://rivals.yahoo.com/ncaa/basketball/teams/lan/schedule,Long Beach St.
+http://rivals.yahoo.com/ncaa/basketball/teams/fat/schedule,CSU Fullerton
+http://rivals.yahoo.com/ncaa/basketball/teams/cag/schedule,Cal Poly
+http://rivals.yahoo.com/ncaa/basketball/teams/sah/schedule,UCSB
+http://rivals.yahoo.com/ncaa/basketball/teams/cab/schedule,UC Irvine
+http://rivals.yahoo.com/ncaa/basketball/teams/nbb/schedule,CSU Northridge
+http://rivals.yahoo.com/ncaa/basketball/teams/pab/schedule,Pacific
+http://rivals.yahoo.com/ncaa/basketball/teams/cau/schedule,UC Riverside
+http://rivals.yahoo.com/ncaa/basketball/teams/vaa/schedule,VCU
+http://rivals.yahoo.com/ncaa/basketball/teams/oah/schedule,Old Dominion
+http://rivals.yahoo.com/ncaa/basketball/teams/hak/schedule,Hofstra
+http://rivals.yahoo.com/ncaa/basketball/teams/dat/schedule,Drexel
+http://rivals.yahoo.com/ncaa/basketball/teams/gad/schedule,George Mason
+http://rivals.yahoo.com/ncaa/basketball/teams/nay/schedule,Northeastern
+http://rivals.yahoo.com/ncaa/basketball/teams/wbh/schedule,William &amp; Mary
+http://rivals.yahoo.com/ncaa/basketball/teams/tav/schedule,Towson
+http://rivals.yahoo.com/ncaa/basketball/teams/gag/schedule,Georgia St.
+http://rivals.yahoo.com/ncaa/basketball/teams/nag/schedule,N.C. Wilmington
+http://rivals.yahoo.com/ncaa/basketball/teams/jac/schedule,James Madison
+http://rivals.yahoo.com/ncaa/basketball/teams/dag/schedule,Delaware
+http://rivals.yahoo.com/ncaa/basketball/teams/map/schedule,Memphis
+http://rivals.yahoo.com/ncaa/basketball/teams/cap/schedule,UCF
+http://rivals.yahoo.com/ncaa/basketball/teams/ham/schedule,Houston
+http://rivals.yahoo.com/ncaa/basketball/teams/sbb/schedule,Southern Miss
+http://rivals.yahoo.com/ncaa/basketball/teams/tba/schedule,Tulsa
+http://rivals.yahoo.com/ncaa/basketball/teams/taz/schedule,Tulane
+http://rivals.yahoo.com/ncaa/basketball/teams/rae/schedule,Rice
+http://rivals.yahoo.com/ncaa/basketball/teams/abh/schedule,UAB
+http://rivals.yahoo.com/ncaa/basketball/teams/mah/schedule,Marshall
+http://rivals.yahoo.com/ncaa/basketball/teams/tap/schedule,UTEP
+http://rivals.yahoo.com/ncaa/basketball/teams/sav/schedule,SMU
+http://rivals.yahoo.com/ncaa/basketball/teams/eac/schedule,East Carolina
+http://rivals.yahoo.com/ncaa/basketball/teams/bav/schedule,Butler
+http://rivals.yahoo.com/ncaa/basketball/teams/wbj/schedule,Wright St.
+http://rivals.yahoo.com/ncaa/basketball/teams/las/schedule,Loyola Chicago
+http://rivals.yahoo.com/ncaa/basketball/teams/wbb/schedule,Wis. Green Bay
+http://rivals.yahoo.com/ncaa/basketball/teams/yab/schedule,Youngstown St.
+http://rivals.yahoo.com/ncaa/basketball/teams/iaf/schedule,Ill. Chicago
+http://rivals.yahoo.com/ncaa/basketball/teams/dam/schedule,Detroit
+http://rivals.yahoo.com/ncaa/basketball/teams/wbd/schedule,Wis. Milwaukee
+http://rivals.yahoo.com/ncaa/basketball/teams/cbh/schedule,Cleveland St.
+http://rivals.yahoo.com/ncaa/basketball/teams/uvs/schedule,Utah Valley St.
+http://rivals.yahoo.com/ncaa/basketball/teams/nds/schedule,North Dakota St.
+http://rivals.yahoo.com/ncaa/basketball/teams/tbc/schedule,Texas Pan Amer.
+http://rivals.yahoo.com/ncaa/basketball/teams/iav/schedule,IPFW
+http://rivals.yahoo.com/ncaa/basketball/teams/saj/schedule,Savannah St.
+http://rivals.yahoo.com/ncaa/basketball/teams/cay/schedule,Chicago St.
+http://rivals.yahoo.com/ncaa/basketball/teams/lay/schedule,Longwood
+http://rivals.yahoo.com/ncaa/basketball/teams/sds/schedule,South Dakota St.
+http://rivals.yahoo.com/ncaa/basketball/teams/caa/schedule,UC Davis
+http://rivals.yahoo.com/ncaa/basketball/teams/wbq/schedule,Winston-Salem
+http://rivals.yahoo.com/ncaa/basketball/teams/ncf/schedule,N.J.I.T.
+http://rivals.yahoo.com/ncaa/basketball/teams/pag/schedule,Pennsylvania
+http://rivals.yahoo.com/ncaa/basketball/teams/yaa/schedule,Yale
+http://rivals.yahoo.com/ncaa/basketball/teams/cbr/schedule,Cornell
+http://rivals.yahoo.com/ncaa/basketball/teams/cbn/schedule,Columbia
+http://rivals.yahoo.com/ncaa/basketball/teams/bas/schedule,Brown
+http://rivals.yahoo.com/ncaa/basketball/teams/had/schedule,Harvard
+http://rivals.yahoo.com/ncaa/basketball/teams/dac/schedule,Dartmouth
+http://rivals.yahoo.com/ncaa/basketball/teams/par/schedule,Princeton
+http://rivals.yahoo.com/ncaa/basketball/teams/mae/schedule,Marist
+http://rivals.yahoo.com/ncaa/basketball/teams/naq/schedule,Niagara
+http://rivals.yahoo.com/ncaa/basketball/teams/sas/schedule,Siena
+http://rivals.yahoo.com/ncaa/basketball/teams/lau/schedule,Loyola (MD)
+http://rivals.yahoo.com/ncaa/basketball/teams/mab/schedule,Manhattan
+http://rivals.yahoo.com/ncaa/basketball/teams/fab/schedule,Fairfield
+http://rivals.yahoo.com/ncaa/basketball/teams/rag/schedule,Rider
+http://rivals.yahoo.com/ncaa/basketball/teams/caj/schedule,Canisius
+http://rivals.yahoo.com/ncaa/basketball/teams/sby/schedule,St. Peter's
+http://rivals.yahoo.com/ncaa/basketball/teams/iam/schedule,Iona
+http://rivals.yahoo.com/ncaa/basketball/teams/aac/schedule,Akron
+http://rivals.yahoo.com/ncaa/basketball/teams/kae/schedule,Kent St.
+http://rivals.yahoo.com/ncaa/basketball/teams/maw/schedule,Miami (OH)
+http://rivals.yahoo.com/ncaa/basketball/teams/oab/schedule,Ohio
+http://rivals.yahoo.com/ncaa/basketball/teams/baz/schedule,Buffalo
+http://rivals.yahoo.com/ncaa/basketball/teams/bap/schedule,Bowling Green
+http://rivals.yahoo.com/ncaa/basketball/teams/tau/schedule,Toledo
+http://rivals.yahoo.com/ncaa/basketball/teams/wap/schedule,W. Michigan
+http://rivals.yahoo.com/ncaa/basketball/teams/caq/schedule,Cent. Michigan
+http://rivals.yahoo.com/ncaa/basketball/teams/eaf/schedule,East. Michigan
+http://rivals.yahoo.com/ncaa/basketball/teams/baa/schedule,Ball St.
+http://rivals.yahoo.com/ncaa/basketball/teams/naz/schedule,Northern Illinois
+http://rivals.yahoo.com/ncaa/basketball/teams/oai/schedule,Oral Roberts
+http://rivals.yahoo.com/ncaa/basketball/teams/oaa/schedule,Oakland
+http://rivals.yahoo.com/ncaa/basketball/teams/vab/schedule,Valparaiso
+http://rivals.yahoo.com/ncaa/basketball/teams/iak/schedule,IUPUI
+http://rivals.yahoo.com/ncaa/basketball/teams/sbc/schedule,Southern Utah
+http://rivals.yahoo.com/ncaa/basketball/teams/mbi/schedule,Mo. Kansas City
+http://rivals.yahoo.com/ncaa/basketball/teams/can/schedule,Centenary
+http://rivals.yahoo.com/ncaa/basketball/teams/wan/schedule,Western Ill.
+http://rivals.yahoo.com/ncaa/basketball/teams/dah/schedule,Delaware St.
+http://rivals.yahoo.com/ncaa/basketball/teams/fal/schedule,Florida A&amp;M
+http://rivals.yahoo.com/ncaa/basketball/teams/nas/schedule,N.C. A&amp;T
+http://rivals.yahoo.com/ncaa/basketball/teams/hay/schedule,Hampton
+http://rivals.yahoo.com/ncaa/basketball/teams/mbq/schedule,Morgan St.
+http://rivals.yahoo.com/ncaa/basketball/teams/sax/schedule,S. Carolina St.
+http://rivals.yahoo.com/ncaa/basketball/teams/ncb/schedule,Norfolk St.
+http://rivals.yahoo.com/ncaa/basketball/teams/cbq/schedule,Coppin St.
+http://rivals.yahoo.com/ncaa/basketball/teams/bag/schedule,Bethune-Cookman
+http://rivals.yahoo.com/ncaa/basketball/teams/hao/schedule,Howard
+http://rivals.yahoo.com/ncaa/basketball/teams/man/schedule,MD Eastern Shore
+http://rivals.yahoo.com/ncaa/basketball/teams/sbi/schedule,Southern Ill.
+http://rivals.yahoo.com/ncaa/basketball/teams/cbt/schedule,Creighton
+http://rivals.yahoo.com/ncaa/basketball/teams/scg/schedule,Missouri St.
+http://rivals.yahoo.com/ncaa/basketball/teams/baq/schedule,Bradley
+http://rivals.yahoo.com/ncaa/basketball/teams/nba/schedule,Northern Iowa
+http://rivals.yahoo.com/ncaa/basketball/teams/wax/schedule,Wichita St.
+http://rivals.yahoo.com/ncaa/basketball/teams/dar/schedule,Drake
+http://rivals.yahoo.com/ncaa/basketball/teams/iag/schedule,Illinois St.
+http://rivals.yahoo.com/ncaa/basketball/teams/ear/schedule,Evansville
+http://rivals.yahoo.com/ncaa/basketball/teams/ial/schedule,Indiana St.
+http://rivals.yahoo.com/ncaa/basketball/teams/baw/schedule,BYU
+http://rivals.yahoo.com/ncaa/basketball/teams/naj/schedule,UNLV
+http://rivals.yahoo.com/ncaa/basketball/teams/aab/schedule,Air Force
+http://rivals.yahoo.com/ncaa/basketball/teams/sae/schedule,San Diego St.
+http://rivals.yahoo.com/ncaa/basketball/teams/wbk/schedule,Wyoming
+http://rivals.yahoo.com/ncaa/basketball/teams/cbm/schedule,Colorado St.
+http://rivals.yahoo.com/ncaa/basketball/teams/uae/schedule,Utah
+http://rivals.yahoo.com/ncaa/basketball/teams/nam/schedule,New Mexico
+http://rivals.yahoo.com/ncaa/basketball/teams/tac/schedule,TCU
+http://rivals.yahoo.com/ncaa/basketball/teams/cao/schedule,Central Conn. St.
+http://rivals.yahoo.com/ncaa/basketball/teams/sdy/schedule,Sacred Heart
+http://rivals.yahoo.com/ncaa/basketball/teams/qae/schedule,Quinnipiac
+http://rivals.yahoo.com/ncaa/basketball/teams/rah/schedule,Robert Morris
+http://rivals.yahoo.com/ncaa/basketball/teams/faa/schedule,Fair. Dickinson
+http://rivals.yahoo.com/ncaa/basketball/teams/mbs/schedule,Mount St. Mary's
+http://rivals.yahoo.com/ncaa/basketball/teams/wac/schedule,Wagner
+http://rivals.yahoo.com/ncaa/basketball/teams/mbk/schedule,Monmouth
+http://rivals.yahoo.com/ncaa/basketball/teams/sbn/schedule,St. Francis (NY)
+http://rivals.yahoo.com/ncaa/basketball/teams/lal/schedule,Long Island
+http://rivals.yahoo.com/ncaa/basketball/teams/sbo/schedule,St. Francis (PA)
+http://rivals.yahoo.com/ncaa/basketball/teams/abf/schedule,Austin Peay
+http://rivals.yahoo.com/ncaa/basketball/teams/eae/schedule,Eastern Kentucky
+http://rivals.yahoo.com/ncaa/basketball/teams/taj/schedule,Tennessee Tech
+http://rivals.yahoo.com/ncaa/basketball/teams/mbv/schedule,Murray St.
+http://rivals.yahoo.com/ncaa/basketball/teams/sac/schedule,Samford
+http://rivals.yahoo.com/ncaa/basketball/teams/sap/schedule,SE Missouri St.
+http://rivals.yahoo.com/ncaa/basketball/teams/mbp/schedule,Morehead St.
+http://rivals.yahoo.com/ncaa/basketball/teams/tai/schedule,Tennessee St.
+http://rivals.yahoo.com/ncaa/basketball/teams/jae/schedule,Jacksonville St.
+http://rivals.yahoo.com/ncaa/basketball/teams/ead/schedule,Eastern Illinois
+http://rivals.yahoo.com/ncaa/basketball/teams/tae/schedule,Tenn-Martin
+http://rivals.yahoo.com/ncaa/basketball/teams/uaa/schedule,UCLA
+http://rivals.yahoo.com/ncaa/basketball/teams/wah/schedule,Washington St.
+http://rivals.yahoo.com/ncaa/basketball/teams/oaj/schedule,Oregon
+http://rivals.yahoo.com/ncaa/basketball/teams/uad/schedule,USC
+http://rivals.yahoo.com/ncaa/basketball/teams/aaq/schedule,Arizona
+http://rivals.yahoo.com/ncaa/basketball/teams/sca/schedule,Stanford
+http://rivals.yahoo.com/ncaa/basketball/teams/waf/schedule,Washington
+http://rivals.yahoo.com/ncaa/basketball/teams/cah/schedule,California
+http://rivals.yahoo.com/ncaa/basketball/teams/oak/schedule,Oregon St.
+http://rivals.yahoo.com/ncaa/basketball/teams/aar/schedule,Arizona St.
+http://rivals.yahoo.com/ncaa/basketball/teams/hal/schedule,Holy Cross
+http://rivals.yahoo.com/ncaa/basketball/teams/bau/schedule,Bucknell
+http://rivals.yahoo.com/ncaa/basketball/teams/aan/schedule,American
+http://rivals.yahoo.com/ncaa/basketball/teams/laf/schedule,Lehigh
+http://rivals.yahoo.com/ncaa/basketball/teams/cbk/schedule,Colgate
+http://rivals.yahoo.com/ncaa/basketball/teams/aax/schedule,Army
+http://rivals.yahoo.com/ncaa/basketball/teams/naa/schedule,Navy
+http://rivals.yahoo.com/ncaa/basketball/teams/laa/schedule,Lafayette
+http://rivals.yahoo.com/ncaa/basketball/teams/fak/schedule,Florida
+http://rivals.yahoo.com/ncaa/basketball/teams/tag/schedule,Tennessee
+http://rivals.yahoo.com/ncaa/basketball/teams/vac/schedule,Vanderbilt
+http://rivals.yahoo.com/ncaa/basketball/teams/kaf/schedule,Kentucky
+http://rivals.yahoo.com/ncaa/basketball/teams/gaf/schedule,Georgia
+http://rivals.yahoo.com/ncaa/basketball/teams/sbf/schedule,South Carolina
+http://rivals.yahoo.com/ncaa/basketball/teams/mbf/schedule,Mississippi
+http://rivals.yahoo.com/ncaa/basketball/teams/mbg/schedule,Mississippi St.
+http://rivals.yahoo.com/ncaa/basketball/teams/aaf/schedule,Alabama
+http://rivals.yahoo.com/ncaa/basketball/teams/aas/schedule,Arkansas
+http://rivals.yahoo.com/ncaa/basketball/teams/abb/schedule,Auburn
+http://rivals.yahoo.com/ncaa/basketball/teams/lav/schedule,LSU
+http://rivals.yahoo.com/ncaa/basketball/teams/aap/schedule,Appalachian St.
+http://rivals.yahoo.com/ncaa/basketball/teams/nae/schedule,N.C. Greensboro
+http://rivals.yahoo.com/ncaa/basketball/teams/wat/schedule,Western Carolina
+http://rivals.yahoo.com/ncaa/basketball/teams/cdc/schedule,Chattanooga
+http://rivals.yahoo.com/ncaa/basketball/teams/eat/schedule,Elon
+http://rivals.yahoo.com/ncaa/basketball/teams/dad/schedule,Davidson
+http://rivals.yahoo.com/ncaa/basketball/teams/cat/schedule,Charleston
+http://rivals.yahoo.com/ncaa/basketball/teams/fau/schedule,Furman
+http://rivals.yahoo.com/ncaa/basketball/teams/gab/schedule,Georgia Southern
+http://rivals.yahoo.com/ncaa/basketball/teams/wbi/schedule,Wofford
+http://rivals.yahoo.com/ncaa/basketball/teams/cbv/schedule,Citadel
+http://rivals.yahoo.com/ncaa/basketball/teams/nbe/schedule,Northwestern St.
+http://rivals.yahoo.com/ncaa/basketball/teams/mal/schedule,McNeese St.
+http://rivals.yahoo.com/ncaa/basketball/teams/sam/schedule,SE Louisiana
+http://rivals.yahoo.com/ncaa/basketball/teams/lab/schedule,Lamar
+http://rivals.yahoo.com/ncaa/basketball/teams/nar/schedule,Nicholls St.
+http://rivals.yahoo.com/ncaa/basketball/teams/cdm/schedule,Central Arkansas
+http://rivals.yahoo.com/ncaa/basketball/teams/tbq/schedule,Texas A&amp;M C.C.
+http://rivals.yahoo.com/ncaa/basketball/teams/sab/schedule,Sam Houston St.
+http://rivals.yahoo.com/ncaa/basketball/teams/scc/schedule,Stephen F. Austin
+http://rivals.yahoo.com/ncaa/basketball/teams/tao/schedule,TX Arlington
+http://rivals.yahoo.com/ncaa/basketball/teams/sch/schedule,Texas St.
+http://rivals.yahoo.com/ncaa/basketball/teams/tak/schedule,UTSA
+http://rivals.yahoo.com/ncaa/basketball/teams/mbe/schedule,Miss. Valley St.
+http://rivals.yahoo.com/ncaa/basketball/teams/jaa/schedule,Jackson St.
+http://rivals.yahoo.com/ncaa/basketball/teams/gak/schedule,Grambling St.
+http://rivals.yahoo.com/ncaa/basketball/teams/aaj/schedule,Alcorn St.
+http://rivals.yahoo.com/ncaa/basketball/teams/tar/schedule,Texas Southern
+http://rivals.yahoo.com/ncaa/basketball/teams/abi/schedule,AR Pine Bluff
+http://rivals.yahoo.com/ncaa/basketball/teams/sbh/schedule,Southern
+http://rivals.yahoo.com/ncaa/basketball/teams/aah/schedule,Alabama St.
+http://rivals.yahoo.com/ncaa/basketball/teams/pao/schedule,Prairie View A&amp;M
+http://rivals.yahoo.com/ncaa/basketball/teams/aag/schedule,Alabama A&amp;M
+http://rivals.yahoo.com/ncaa/basketball/teams/sbe/schedule,South Alabama
+http://rivals.yahoo.com/ncaa/basketball/teams/wao/schedule,West. Kentucky
+http://rivals.yahoo.com/ncaa/basketball/teams/fav/schedule,Florida Atlantic
+http://rivals.yahoo.com/ncaa/basketball/teams/maz/schedule,Middle Tenn. St.
+http://rivals.yahoo.com/ncaa/basketball/teams/taw/schedule,Troy
+http://rivals.yahoo.com/ncaa/basketball/teams/fam/schedule,Florida Intl.
+http://rivals.yahoo.com/ncaa/basketball/teams/nah/schedule,LA Monroe
+http://rivals.yahoo.com/ncaa/basketball/teams/aav/schedule,Arkansas St.
+http://rivals.yahoo.com/ncaa/basketball/teams/nax/schedule,North Texas
+http://rivals.yahoo.com/ncaa/basketball/teams/nao/schedule,New Orleans
+http://rivals.yahoo.com/ncaa/basketball/teams/aat/schedule,AR Little Rock
+http://rivals.yahoo.com/ncaa/basketball/teams/scf/schedule,LA Lafayette
+http://rivals.yahoo.com/ncaa/basketball/teams/dak/schedule,Denver
+http://rivals.yahoo.com/ncaa/basketball/teams/gaj/schedule,Gonzaga
+http://rivals.yahoo.com/ncaa/basketball/teams/sai/schedule,Santa Clara
+http://rivals.yahoo.com/ncaa/basketball/teams/sbt/schedule,St. Mary's
+http://rivals.yahoo.com/ncaa/basketball/teams/saf/schedule,San Francisco
+http://rivals.yahoo.com/ncaa/basketball/teams/sad/schedule,San Diego
+http://rivals.yahoo.com/ncaa/basketball/teams/lat/schedule,Loyola Marymount
+http://rivals.yahoo.com/ncaa/basketball/teams/pan/schedule,Portland
+http://rivals.yahoo.com/ncaa/basketball/teams/pah/schedule,Pepperdine
+http://rivals.yahoo.com/ncaa/basketball/teams/nak/schedule,Nevada
+http://rivals.yahoo.com/ncaa/basketball/teams/nan/schedule,New Mexico St.
+http://rivals.yahoo.com/ncaa/basketball/teams/far/schedule,Fresno St.
+http://rivals.yahoo.com/ncaa/basketball/teams/uaf/schedule,Utah St.
+http://rivals.yahoo.com/ncaa/basketball/teams/hae/schedule,Hawaii
+http://rivals.yahoo.com/ncaa/basketball/teams/bal/schedule,Boise St.
+http://rivals.yahoo.com/ncaa/basketball/teams/lap/schedule,Louisiana Tech
+http://rivals.yahoo.com/ncaa/basketball/teams/sag/schedule,San Jose St.
+http://rivals.yahoo.com/ncaa/basketball/teams/iaa/schedule,Idaho
+http://rivals.yahoo.com/ncaa/basketball/teams/ccm/schedule,CSU Bakersfield
+http://rivals.yahoo.com/ncaa/basketball/teams/paq/schedule,Presbyterian
+http://rivals.yahoo.com/ncaa/basketball/teams/nac/schedule,N.C. Central Eagles
+http://rivals.yahoo.com/ncaa/basketball/teams/flg/schedule,Fla Gulf Coast Eagles
+http://rivals.yahoo.com/ncaa/basketball/teams/sec/schedule,South Carolina Upstate
+http://rivals.yahoo.com/ncaa/basketball/teams/sdy/schedule,Sacred Heart Pioneers
+http://rivals.yahoo.com/ncaa/basketball/teams/say/schedule,South Dakota
+http://rivals.yahoo.com/ncaa/basketball/teams/san/schedule,Seattle
+http://rivals.yahoo.com/ncaa/basketball/teams/hba/schedule,Houston Baptist
+http://rivals.yahoo.com/ncaa/basketball/teams/nci/schedule,North Dakota
+http://rivals.yahoo.com/ncaa/basketball/teams/saw/schedule,SIU Edwardsville
+http://rivals.yahoo.com/ncaa/basketball/teams/bry/schedule,Bryant

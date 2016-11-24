@@ -1,0 +1,121 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <div class=bodyWhiteSmallJustify>
+      <code>
+<br><br>
+#include"SinglePointCrossoverStrategy.hpp"          <br><br>
+
+SinglePointCrossoverStrategY::SinglePointCrossoverStrategY() : CrossoverStrategY()<br>
+{<br>
+   &nbsp Setup();<br>
+} // end SinglePointCrossoverStrategY default constructor<br><br>
+
+SinglePointCrossoverStrategY::~SinglePointCrossoverStrategY()<br>
+{<br>
+} // end SinglePointCrossoverStrategY destructor<br><br>
+
+void SinglePointCrossoverStrategY::Setup()<br>
+{<br>
+} // end Setup<br><br>
+
+void SinglePointCrossoverStrategY::Crossover( void* p1, void* p2, void* p3 )<br>
+{<br>
+	&nbsp long double r = _theGenerator->GetRandomLngDouble();<br><br>
+   
+   &nbsp if( r > _CrossoverProbability )<br>
+   &nbsp {<br>
+      &nbsp &nbsp VectoR* theNew = new VectoR( ((ChromosomE*)p1)->GetGenome() );<br>
+      &nbsp &nbsp ((ChromosomE*)p3)->SetGenome( theNew );<br>
+      &nbsp &nbsp return;<br>
+   &nbsp } // end if<br><br>
+   
+   &nbsp ChromosomE* theParentOne = (ChromosomE*)p1;<br>
+   &nbsp ChromosomE* theParentTwo = (ChromosomE*)p2;<br>
+   &nbsp ChromosomE* theChild     = (ChromosomE*)p3;<br><br>
+
+	&nbsp int iPoint = (int)(_theGenerator->GetRandomLngDouble() * (theParentOne->GetGenome()->cnRows - 1) );<br>
+   &nbsp // We must have a least a little crossover:<br>
+   &nbsp if( iPoint == 0 )<br>
+      &nbsp &nbsp iPoint += 1;<br><br>
+
+   &nbsp theChild->AddGenes( theParentOne->GetGenes( 0, iPoint - 1 ) );<br>
+   &nbsp theChild->AddGenes( theParentTwo->GetGenes( iPoint, theParentTwo->GetGenome()->cnRows - 1 ) );<br><br>
+   
+} // end Crossover<br><br>
+
+CrossoverStrategY* SinglePointCrossoverStrategY::Clone()<br>
+{<br>
+   &nbsp return new SinglePointCrossoverStrategY();<br>
+} // end Clone<br><br>
+
+      </code>
+      </div>
+
+<!--
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWGenetic5.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWGenetic5.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+-->
+
+
+</body>
+
+
+</html>

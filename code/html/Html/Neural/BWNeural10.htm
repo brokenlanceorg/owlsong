@@ -1,0 +1,155 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Physics
+		</title>
+
+	<link rel=StyleSheet href="../Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="../Physics.jpg"></center>
+      <img src="../graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=90%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+In addition to the typical input, hidden, and output layers of neurons for most feed-forward networks, 
+the Jordan network also makes use of plan and state units, or layers of neurons. The state units, which feed the input units, receive 
+their input from the output of the network, and the plan units direct the general behavior of the network such as 
+“parse the sentence”, or “move the block across the room”, and other relevant behaviors.
+         </p>
+         <p>
+By far, the most common type of network is the backward error propagation network, which is typically arranged into three layers of 
+neurons: the input layer that receives the data instance into the network, the hidden layer, named so because the outside 
+world cannot affect this layer directly, and finally the output layer that holds the network’s response to the input data instance. 
+Each neuron is connected to every neuron in the layer above. For the sake of clarity, let the following definitions be made:
+         </p>
+         <ul>
+         <li>
+i denotes the number of input virtual neurons
+         </li>
+         <li>
+j the number of hidden virtual neurons
+         </li>
+         <li>
+k the number of output virtual neurons
+         </li>
+         <li>
+x denotes the input neurons as a vector with x<sub>i</sub> being the i<sup>th</sup> neuron
+         </li>
+         </ul>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <ul>
+         <li>
+h denotes the hidden neurons as a vector with h<sub>j</sub> being the j<sup>th</sup> hidden neuron
+         </li>
+         <li>
+o denotes the output neurons as a vector with o<sub>k</sub> being the k<sup>th</sup> output neuron
+         </li>
+         </ul>
+         <ul>
+         <p>
+In addition, we can represent the connections between the neurons as a matrix W of weights measuring the strength of the connection, thus:
+         </p>
+         <li>
+W<sub>ij</sub> denotes the connection between the i<sup>th</sup> input neuron and the j<sup>th</sup> hidden neuron
+         </li>
+         <li>
+W<sub>jk</sub> denotes the connection between the j<sup>th</sup> hidden neuron and the k<sup>th</sup> output neuron
+         </li>
+         </ul>
+         <p>
+We can specify the size of the backprop net as an i x j x k size network. Since each neuron must compute a weighted sum 
+of its connections, except of course for the input neurons, we can conveniently notate this quantity, called the activation, 
+as an inner product of the weight connections with the output of the previous level’s output:
+         </p>
+         <p>
+<center>
+<span class="symbol1"><span class="symbol2">h</span></span><sub>j</sub> = x
+<span class="symbol1"><span class="symbol2">&#215</span></span> W<sub>j</sub> &nbsp &nbsp &nbsp &nbsp(III.1)
+</center>
+<center>
+<span class="symbol1"><span class="symbol2">w</span></span><sub>k</sub> = h
+<span class="symbol1"><span class="symbol2">&#215</span></span> W<sub>k</sub> &nbsp &nbsp &nbsp &nbsp(III.2)
+</center>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWNeural9.htm" target="Main"><img src="../previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="../BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWNeural11.htm" target="Main"><img src="../next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="../mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>
+<!--             <span class="symbol1"><span class="symbol2">m</span></span> -->

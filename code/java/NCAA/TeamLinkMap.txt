@@ -1,0 +1,348 @@
+vad,Vermont
+aca,Albany
+ban,Boston U.
+maa,Maine
+mam,MD Baltimore Cty.
+bai,Binghamton
+hac,Hartford
+nal,New Hampshire
+scy,Stony Brook
+nav,North Carolina
+vaf,Virginia
+maj,Maryland
+vah,Virginia Tech
+bam,Boston Coll.
+dau,Duke
+gah,Georgia Tech
+cbg,Clemson
+fan,Florida St.
+nat,N.C. State
+wad,Wake Forest
+mav,Miami (FL)
+eaa,E. Tennessee St.
+bab,Belmont
+lbu,Lipscomb
+jab,Jacksonville
+kns,Kennesaw St.
+maq,Mercer
+cai,Campbell
+gal,Gardner-Webb
+scd,Stetson
+nfl,North Florida
+xaa,Xavier
+mak,Massachusetts
+gac,Geo. Washington
+fao,Fordham
+rad,Rhode Island
+sbq,St. Joseph's
+sbr,Saint Louis
+dae,Dayton
+nad,Charlotte
+tad,Temple
+dav,Duquesne
+raf,Richmond
+sbl,St. Bonaventure
+lad,La Salle
+gae,Georgetown
+pal,Pittsburgh
+laq,Louisville
+nbf,Notre Dame
+maf,Marquette
+sci,Syracuse
+wal,West Virginia
+vae,Villanova
+dal,DePaul
+pas,Providence
+sbp,St. John's
+cbp,Connecticut
+sao,Seton Hall
+sbg,South Florida
+rak,Rutgers
+cbc,Cincinnati
+wai,Weber St.
+nbc,Northern Arizona
+mbm,Montana
+pbe,Portland St.
+eai,Eastern Wash.
+iac,Idaho St.
+mbn,Montana St.
+saa,Sacramento St.
+nbh,Northern Colorado
+way,Winthrop
+hbd,High Point
+lai,Liberty
+cbi,Coastal Carolina
+nab,N.C. Asheville
+vai,Virginia Military
+raa,Radford
+cax,Charleston S.
+oad,Ohio St.
+wbg,Wisconsin
+iai,Indiana
+iae,Illinois
+pau,Purdue
+ian,Iowa
+may,(2) Michigan St.
+max,Michigan
+mbd,Minnesota
+nbd,Northwestern
+paf,Penn St.
+kaa,Kansas
+tan,Texas A&amp;M
+tal,Texas
+kab,Kansas St.
+tas,Texas Tech
+mbh,Missouri
+oag,Oklahoma St.
+nai,Nebraska
+oae,Oklahoma
+iao,Iowa St.
+bae,Baylor
+cbl,Colorado
+lan,Long Beach St.
+fat,CSU Fullerton
+cag,Cal Poly
+sah,UCSB
+cab,UC Irvine
+nbb,CSU Northridge
+pab,Pacific
+cau,UC Riverside
+vaa,VCU
+oah,Old Dominion
+hak,Hofstra
+dat,Drexel
+gad,George Mason
+nay,Northeastern
+wbh,William &amp; Mary
+tav,Towson
+gag,Georgia St.
+nag,N.C. Wilmington
+jac,James Madison
+dag,Delaware
+map,Memphis
+cap,UCF
+ham,Houston
+sbb,Southern Miss
+tba,Tulsa
+taz,Tulane
+rae,Rice
+abh,UAB
+mah,Marshall
+tap,UTEP
+sav,SMU
+eac,East Carolina
+bav,Butler
+wbj,Wright St.
+las,Loyola Chicago
+wbb,Wis. Green Bay
+yab,Youngstown St.
+iaf,Ill. Chicago
+dam,Detroit
+wbd,Wis. Milwaukee
+cbh,Cleveland St.
+uvs,Utah Valley St.
+nds,North Dakota St.
+tbc,Texas Pan Amer.
+iav,IPFW
+saj,Savannah St.
+cay,Chicago St.
+lay,Longwood
+sds,South Dakota St.
+caa,UC Davis
+wbq,Winston-Salem
+ncf,N.J.I.T.
+pag,Pennsylvania
+yaa,Yale
+cbr,Cornell
+cbn,Columbia
+bas,Brown
+had,Harvard
+dac,Dartmouth
+par,Princeton
+mae,Marist
+naq,Niagara
+sas,Siena
+lau,Loyola (MD)
+mab,Manhattan
+fab,Fairfield
+rag,Rider
+caj,Canisius
+sby,St. Peter's
+iam,Iona
+aac,Akron
+kae,Kent St.
+maw,Miami (OH)
+oab,Ohio
+baz,Buffalo
+bap,Bowling Green
+tau,Toledo
+wap,W. Michigan
+caq,Cent. Michigan
+eaf,East. Michigan
+baa,Ball St.
+naz,Northern Illinois
+oai,Oral Roberts
+oaa,Oakland
+vab,Valparaiso
+iak,IUPUI
+sbc,Southern Utah
+mbi,Mo. Kansas City
+can,Centenary
+wan,Western Ill.
+dah,Delaware St.
+fal,Florida A&amp;M
+nas,N.C. A&amp;T
+hay,Hampton
+mbq,Morgan St.
+sax,S. Carolina St.
+ncb,Norfolk St.
+cbq,Coppin St.
+bag,Bethune-Cookman
+hao,Howard
+man,MD Eastern Shore
+sbi,Southern Ill.
+cbt,Creighton
+scg,Missouri St.
+baq,Bradley
+nba,Northern Iowa
+wax,Wichita St.
+dar,Drake
+iag,Illinois St.
+ear,Evansville
+ial,Indiana St.
+baw,BYU
+naj,UNLV
+aab,Air Force
+sae,San Diego St.
+wbk,Wyoming
+cbm,Colorado St.
+uae,Utah
+nam,New Mexico
+tac,TCU
+cao,Central Conn. St.
+sdy,Sacred Heart
+qae,Quinnipiac
+rah,Robert Morris
+faa,Fair. Dickinson
+mbs,Mount St. Mary's
+wac,Wagner
+mbk,Monmouth
+sbn,St. Francis (NY)
+lal,Long Island
+sbo,St. Francis (PA)
+abf,Austin Peay
+eae,Eastern Kentucky
+taj,Tennessee Tech
+mbv,Murray St.
+sac,Samford
+sap,SE Missouri St.
+mbp,Morehead St.
+tai,Tennessee St.
+jae,Jacksonville St.
+ead,Eastern Illinois
+tae,Tenn-Martin
+uaa,UCLA
+wah,Washington St.
+oaj,Oregon
+uad,USC
+aaq,Arizona
+sca,Stanford
+waf,Washington
+cah,California
+oak,Oregon St.
+aar,Arizona St.
+hal,Holy Cross
+bau,Bucknell
+aan,American
+laf,Lehigh
+cbk,Colgate
+aax,Army
+naa,Navy
+laa,Lafayette
+fak,Florida
+tag,Tennessee
+vac,Vanderbilt
+kaf,Kentucky
+gaf,Georgia
+sbf,South Carolina
+mbf,Mississippi
+mbg,Mississippi St.
+aaf,Alabama
+aas,Arkansas
+abb,Auburn
+lav,LSU
+aap,Appalachian St.
+nae,N.C. Greensboro
+wat,Western Carolina
+cdc,Chattanooga
+eat,Elon
+dad,Davidson
+cat,Charleston
+fau,Furman
+gab,Georgia Southern
+wbi,Wofford
+cbv,Citadel
+nbe,Northwestern St.
+mal,McNeese St.
+sam,SE Louisiana
+lab,Lamar
+nar,Nicholls St.
+cdm,Central Arkansas
+tbq,Texas A&amp;M C.C.
+sab,Sam Houston St.
+scc,Stephen F. Austin
+tao,TX Arlington
+sch,Texas St.
+tak,UTSA
+mbe,Miss. Valley St.
+jaa,Jackson St.
+gak,Grambling St.
+aaj,Alcorn St.
+tar,Texas Southern
+abi,AR Pine Bluff
+sbh,Southern
+aah,Alabama St.
+pao,Prairie View A&amp;M
+aag,Alabama A&amp;M
+sbe,South Alabama
+wao,West. Kentucky
+fav,Florida Atlantic
+maz,Middle Tenn. St.
+taw,Troy
+fam,Florida Intl.
+nah,LA Monroe
+aav,Arkansas St.
+nax,North Texas
+nao,New Orleans
+aat,AR Little Rock
+scf,LA Lafayette
+dak,Denver
+gaj,Gonzaga
+sai,Santa Clara
+sbt,St. Mary's
+saf,San Francisco
+sad,San Diego
+lat,Loyola Marymount
+pan,Portland
+pah,Pepperdine
+nak,Nevada
+nan,New Mexico St.
+far,Fresno St.
+uaf,Utah St.
+hae,Hawaii
+bal,Boise St.
+lap,Louisiana Tech
+sag,San Jose St.
+iaa,Idaho
+ccm,CSU Bakersfield
+paq,Presbyterian
+nac,N.C. Central Eagles
+flg,Fla Gulf Coast Eagles
+sec,South Carolina Upstate
+sdy,Sacred Heart Pioneers
+say,South Dakota
+san,Seattle
+hba,Houston Baptist
+nci,North Dakota
+saw,SIU Edwardsville
+bry,Bryant

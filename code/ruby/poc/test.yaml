@@ -1,0 +1,4 @@
+cell: devel 
+ cluster: cluster1 
+name: enginecluster 
+node: ctapp1 

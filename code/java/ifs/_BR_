@@ -1,0 +1,31 @@
+
+Buildfile: build.xml
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=ifs
+     [echo] parent.project.home=/home/brandon/projects/code/java/ifs/..
+     [echo] project.home=/home/brandon/projects/code/java/ifs
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/ifs/lib
+     [echo] project.dist=/home/brandon/dist/ifs
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/ifs
+     [echo] project.src=/home/brandon/projects/code/java/ifs/src
+     [echo] java.version=1.6
+
+compile:
+    [javac] Compiling 1 source file to /home/brandon/build/ifs
+    [javac] Note: /home/brandon/projects/code/java/ifs/src/ifs/AffineIFS.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+resources:
+
+jar:
+      [jar] Updating jar: /home/brandon/dist/ifs/ifs.jar
+
+dist:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

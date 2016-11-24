@@ -1,0 +1,131 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            <span class=bodyGreenSmallJustify>[Pseudo Code]</span>
+         </p>
+         <p>
+           From the client perspective, using the OOGA would look something like the following:
+         </p>
+
+         <code>
+package com.evolution.ga;<br><br>
+
+SelectionStrategy theSelectionStrat = new RouletteWheelStrategy();<br>
+GeneticAlgorithm theGA = new GeneticAlgorithm( theSelectionStrat );<br>
+CrossoverStrategy theCross = new SinglePointCrossoverStrategy();<br><br>
+
+Chromosome theChrome = null;<br>
+Individual theIndividual = null;<br>
+Vector theGenome = null;<br><br>
+
+	theIndividual = new Individual();<br>
+	theGenome = new Vector( 0, 1, 0, 1 ); // random genome<br>
+	theChrome = new BinaryEncodedChromosome( theGenome );<br>
+	theIndividual.setChromosome( theChrome );<br>
+   	theGA.addIndividual( theIndividual );<br><br>
+
+	// Keep adding Individuals as needed ….<br><br>
+
+	// Now get the best fit individual, or the solution:<br>
+	theIndividual = theGA.evolve(); <br><br>
+
+         </code>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+<!--
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+-->
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWGenetic5.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWGenetic7.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+
+</body>
+
+
+</html>

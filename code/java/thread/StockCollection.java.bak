@@ -1,0 +1,116 @@
+import java.util.*;
+import java.io.*;
+
+public class StockCollection
+{
+
+   private String  _fileName      = "persistence.dat";
+   private HashMap _stockElements = null;
+
+   public StockCollection()
+   {
+      loadData();
+   } // end default constructor
+
+   public StockCollection( String fileName )
+   {
+      _fileName = fileName;
+      loadData();
+   } // end constructor
+
+   protected void loadData()
+   {
+      FileReader   theFile   = new FileReader( _fileName );
+      String[]     wordArray = theFile.getArrayOfWords();
+      StockElement theElem   = null;
+      _stockElements         = new HashMap();
+
+      for( int i=0; i<wordArray.length; i+=3 )
+      {
+         theElem = new StockElement( wordArray[i], wordArray[i+1], wordArray[i+2] );
+         _stockElements.put( theElem.getName(), theElem );
+      } // end for
+
+   } // end loadData
+
+   protected void saveData()
+   {
+      try
+      {
+         BufferedWriter theWriter = new BufferedWriter( new FileWriter( _fileName ) );
+         Iterator theIter = (getStockElementCollection()).iterator();
+         StringBuffer str = null;
+
+         while( theIter.hasNext() )
+         {
+            StockElement theElem = (StockElement)theIter.next();
+            str = new StringBuffer( theElem.getName() ).append( " " );
+            str.append( theElem.getLastVarianceSMA() );
+            str.append( " " ).append( theElem.getLastStabilitySMA() );
+            theWriter.write( str.toString() );
+            theWriter.newLine();
+         } // end while
+         theWriter.flush();
+         theWriter.close();
+      }
+      catch( IOException e )
+      {
+         System.out.println( "Error persisting data: " + e );
+      } // end catch
+   } // end saveData
+
+   public void update( String name, String open, String high, String close )
+   {
+      StockElement theElement = (StockElement)_stockElements.get( name );
+      theElement.addOpen( open );
+      theElement.addHigh( high );
+      theElement.addClose( close );
+   }  // end update
+ 
+   public Collection getSortedVarianceCollection()
+   {
+      Collection theColl      = _stockElements.values();
+      Iterator   theIter      = theColl.iterator();
+      TreeMap    theSortedMap = new TreeMap();
+      StockElement theElem    = null;
+
+      while( theIter.hasNext() )
+      {
+         theElem = (StockElement)theIter.next();
+         theSortedMap.put( theElem.getLastVarianceSMA(), theElem );
+      } // end while
+
+      return theSortedMap.values();
+
+   } // end getSortedVarianceCollection
+
+   public Collection getSortedStabilityCollection()
+   {
+      Collection theColl      = _stockElements.values();
+      Iterator   theIter      = theColl.iterator();
+      TreeMap    theSortedMap = new TreeMap();
+      StockElement theElem    = null;
+
+      while( theIter.hasNext() )
+      {
+         theElem = (StockElement)theIter.next();
+         theSortedMap.put( theElem.getLastStabilitySMA(), theElem );
+      } // end while
+
+      return theSortedMap.values();
+
+   } // end getSortedStabilityCollection
+
+   public Collection getStockElementCollection()
+   {
+      return _stockElements.values();
+   } // end getStockCollection
+
+   public String toString()
+   {
+      String str = new String( _stockElements.toString() );
+      return str;
+   } // end toString
+
+
+} // end class Stock Collection

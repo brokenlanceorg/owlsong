@@ -1,0 +1,55 @@
+# Project: MatcLib
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = Twovar.o Interval.o Domain.o Onevar.o Mathmatc.o Numerr.o Func.o Newton.o Random.o $(RES)
+LINKOBJ  = Twovar.o Interval.o Domain.o Onevar.o Mathmatc.o Numerr.o Func.o Newton.o Random.o $(RES)
+LIBS =  -L"lib" ../Logger/libLogger.a  
+INCS =  -I"include"  -I"F:/Home/knoppix/code/cc/Logger" 
+CXXINCS =  -I"lib/gcc/mingw32/3.4.2/include"  -I"include/c++/3.4.2/backward"  -I"include/c++/3.4.2/mingw32"  -I"include/c++/3.4.2"  -I"include"  -I"F:/Home/knoppix/code/cc/Logger" 
+BIN  = MatcLib.a
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before MatcLib.a all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(LINKOBJ)
+	ar r $(BIN) $(LINKOBJ)
+	ranlib $(BIN)
+
+Twovar.o: Twovar.cpp
+	$(CPP) -c Twovar.cpp -o Twovar.o $(CXXFLAGS)
+
+Interval.o: Interval.cpp
+	$(CPP) -c Interval.cpp -o Interval.o $(CXXFLAGS)
+
+Domain.o: Domain.cpp
+	$(CPP) -c Domain.cpp -o Domain.o $(CXXFLAGS)
+
+Onevar.o: Onevar.cpp
+	$(CPP) -c Onevar.cpp -o Onevar.o $(CXXFLAGS)
+
+Mathmatc.o: Mathmatc.cpp
+	$(CPP) -c Mathmatc.cpp -o Mathmatc.o $(CXXFLAGS)
+
+Numerr.o: Numerr.cpp
+	$(CPP) -c Numerr.cpp -o Numerr.o $(CXXFLAGS)
+
+Func.o: Func.cpp
+	$(CPP) -c Func.cpp -o Func.o $(CXXFLAGS)
+
+Newton.o: Newton.cpp
+	$(CPP) -c Newton.cpp -o Newton.o $(CXXFLAGS)
+
+Random.o: Random.cpp
+	$(CPP) -c Random.cpp -o Random.o $(CXXFLAGS)

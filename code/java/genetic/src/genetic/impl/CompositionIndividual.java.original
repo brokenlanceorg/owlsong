@@ -1,0 +1,131 @@
+package genetic.impl;
+
+import genetic.*;
+import math.*;
+
+import java.math.*;
+import java.util.*;
+
+/**
+ * 
+ * To create a fully balanced binary tree, you'll need this many nodes for the respective levels:
+ * 1  1
+ * 2  3
+ * 3  7
+ * 4  15
+ * 5  31
+ * 6  63
+ * 7  127
+ * 8  255
+ * 9  511
+ * 10 1023
+ * 11 2047
+ * 12 4095
+ * 13 8191
+ * 14 16383
+ * 15 32767
+ * 16 65535
+ * 17 131071
+ * 18 262143
+ * 19 524287
+ * 20 1048575
+ * 
+ */
+public class CompositionIndividual extends Individual
+{
+
+   /**
+    * Default constructor.
+    */
+   public CompositionIndividual()
+   {
+      setImplementationClass( "genetic.impl.CompositionIndividual" );
+      setGenomeLength( 31 * 4 );
+   }
+
+   /**
+    * Implementation of Interface.
+    */
+   public double evaluateFitness()
+   {
+      _myFitness = 0; // This is crucial for the algorithm to work this is because we can't leave the myFitness member variable
+                      // in and "inconsistent" state because the GA will think that whatever value it was, it was an "earned" value.
+      double[][]            streams = getEnvironmentCache().getDataStreams();
+      double[]              target  = getEnvironmentCache().getTargetStream();
+
+      FunctionalCorrelation[] trees = new FunctionalCorrelation[ 4 ];
+      ArrayList< Double >     tree  = new ArrayList< Double >();
+
+      int c = 0;
+      int t = 0;
+
+      for( Double d : _myGenotype )
+      {
+         tree.add( d );
+         if( c > 0 && ( c % 31 ) == 0 )
+         {
+            trees[ t++ ] = FunctionalCorrelation.buildBinaryTree( tree, streams ); 
+         }
+         c++;
+      }
+
+      for( int i=0; i<target.length; i++ )
+      {
+         double value = root.evaluate( i );
+         if( Double.isNaN( value ) || Double.isInfinite( value ) )
+         {
+            _myFitness = Double.MIN_VALUE;
+            return _myFitness;
+         }
+         _myFitness += Math.abs( value - target[ i ] );
+      }
+
+      _myFitness /= target.length;
+
+      if( _myFitness != 0 )
+      {
+         _myFitness = 1 / _myFitness;
+      }
+      else
+      {
+         _myFitness = Double.MAX_VALUE;
+      }
+
+      return _myFitness;
+   }
+
+   /**
+    *
+    */
+   public String toStringFinal()
+   {
+      double[] target = getEnvironmentCache().getTargetStream();
+      // These statements will print out the equation tree:
+      double[][] streams = getEnvironmentCache().getDataStreams();
+      FunctionalCorrelation root = FunctionalCorrelation.buildBinaryTree( _myGenotype, streams ); 
+      String result = root.toString( 0 );
+      result += "\nFitness: " + _myFitness + "\n";
+
+      result += "\nGenome: ";
+      for( double gene : _myGenotype )
+      {
+         result += gene + " ";
+      }
+
+      result += "\npredictions:\n";
+      double fitness = 0;
+      for( int i=0; i<target.length; i++ )
+      {
+         double value = root.evaluate( i );
+         result += value + "\n";
+      }
+      HashSet< Integer > vars = root.getDependentVariables();
+      for( Integer var : vars )
+      {
+         result += "A variable is: " + var + "\n";
+      }
+
+      return result;
+   }
+
+}

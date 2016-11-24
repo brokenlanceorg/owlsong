@@ -1,0 +1,153 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Proofs
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Proofs.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         <span class=bodyGreenSmallJustify>Proposition:</span> The square root of two is an irrational number.
+         </p>
+         <p>
+         Before a proof is given, the proposition must be explained. Consider the natural numbers: 
+         {1, 2, 3, ... } add to this set of numbers the set of negative numbers plus the number zero. This new set: 
+         { ..., -2, -1, 0, 1, 2, ... } is the set of Integers. Clearly, the integers is an infinite set of numbers. 
+         Even though this is an infinite set of numbers it can be seen that this set
+         needs to be enlarged to contain the numbers <i>between</i> successive whole numbers. These new additions are numbers such as &#188, &#189,
+         &#190, ..., numbers that we use everyday in commerce, time keeping, measuring distance, etc. These numbers are called 
+         rational because they are formed by taking the ratio of two whole numbers, thus the form of these numbers is: a / b, where a and b 
+         are integers. Define the set of rational numbers as the integers taken together with all of the rational numbers.
+         <p>
+         The obvious question is: "does the set of rational numbers contain all possible numbers?" This question is answered by this proof. This
+         proof shows that there are in fact numbers that are not contained in the set of rational numbers. These numbers are called <i>irrational
+         numbers</i> because they can not be formed by making a ratio of two whole numbers.	
+         </p>
+         <p>
+         To rigorously prove the proposition, we need to prove a minor lemma (a lemma is a theorem in its own right but is used in the proof of
+         a larger theorem).
+         </p>
+         <p>
+         <span class=bodyGreenSmallJustify>Lemma 1:</span> The square of an even number is an even number, and the square of an odd number is an
+         odd number.
+         </p>
+         <p>
+         <span class=bodyGreenSmallJustify>Proof of Lemma 1:</span> To begin, observe that an even number n is defined as n = 2k for some integer k. 
+         That is, if n is even, there is some number k such that two times that number k gives the number n. Similarly, the definition of an odd 
+         number m is m = 2k + 1 for some integer k. As in the statement of the lemma, take the square of an even number n: n&#178 = n * n = 2k * 2k = 4k&#178 
+         for some integer k. The result is 4k&#178, another way of writing this is: 2*2k&#178, now let m = 2k&#178 and we have: n&#178 = 2m, 
+         where m is some integer. Therefore, the square of an even number (n&#178) is also an even number (2m). 
+         Now to prove the second half of the lemma: let n be an odd number then since n = 2k + 1 for some integer k, we have: 
+         n&#178 = (2k + 1)&#178 = (2k + 1)(2k + 1) = 4k&#178 + 4k + 1 Now, factor out a 2 from the first two terms on the right hand side to get:
+         2(2k&#178 + 2k) + 1, and let m = 2k&#178 + 2k, then n&#178 = 2m + 1, where m is an integer. Therefore, when n is odd, n&#178 is odd.
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         With the lemma proved, the original proposition can be proved.
+         </p>
+         <p>
+         <span class=bodyGreenSmallJustify>Proof:</span> First, we introduce some notation. Since the square root of a number times itself 
+         gives back the number, denote the square root of n by: <span class="symbol1"><span class="symbol2">&#214</span></span>n because 
+         <span class="symbol1"><span class="symbol2">&#214</span></span>n * <span class="symbol1"><span class="symbol2">&#214</span></span>n = n. 
+         Suppose that our proposition is false, that is, the square root of 2 is a rational number so that: 
+         n / m = <span class="symbol1"><span class="symbol2">&#214</span></span>2, and that n / m is 
+         expressed in lowest terms, i.e., n and m share no common term. For example, suppose n = 5 and m = 10, then n / m can be 
+         expressed in lowest terms by factoring out the 5 in both the numerator and the denomenator and then we are left with 1 / 2. 
+         Looking again at n / m = <span class="symbol1"><span class="symbol2">&#214</span></span>2, with n / m expressed
+         in lowest terms, take the square of both sides: (n / m)&#178 = n&#178 / m&#178 = 2 now multiply by m&#178 to get: n&#178 = 2m&#178 
+         Thus, we see that n&#178 is an even number, and furthermore, by lemma 1, n must be even so that n = 2k for some integer k. 
+         Substitute 2k for n back into n&#178 = 2m&#178 to get: (2k)&#178 = 4k&#178 = 2m&#178 dividing through by 2 yields: 2k&#178 = m&#178 
+         Thus, m&#178 is even and by lemma 1, m must also be even. At this point, we have shown that <i>both</i> n and m are even, but n and m 
+         were expressed in lowest terms so that they do not share a common term such as 2. Therefore, our only assumption in this proof 
+         (that the square root of two equals a rational expression n / m) is false, and thus the square root of two is an irrational number.
+         </p>
+         <p>
+         This existence proof demonstrates through <i>reductio ad absurdum</i> that the square root of two is an irrational number, or more generally, that
+         the class of rationals does not constitute all of the numbers that we see in the world around us. A natural question that should be
+         looming in one's head is: "does the set of irrationals constitute all of the numbers?" The answer to this question is 'no'. 
+         </p>
+         <p>
+         The set of irrationals contains a subset known as the algebraic numbers. An example is the square root of two since it is the solution to the 
+         following algebraic equation with integer coefficients: x&#178 - 2 = 0. The imaginary number i which is defined as i&#178 = -1 is the 
+         solution to the algebraic equation: x&#178 + 1 = 0. All of the irrationals, and hence the rationals, integers, and naturals, can be 
+         defined as the solution to an algebraic equation with integer coefficients. There are, however, numbers that are not solutions to 
+         algebraic equations; these numbers are called <i>transcendental numbers</i>. Examples of this class of numbers are 
+         <span class="symbol1"><span class="symbol2">p</span></span> = 3.14159... and e = 2.71828... or 
+         <span class="symbol1"><span class="symbol2">p</span></span><sup>e</sup>, etc. 
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWProofs.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWProofs.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

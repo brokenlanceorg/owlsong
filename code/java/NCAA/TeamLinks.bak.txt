@@ -1,0 +1,336 @@
+http://sports.yahoo.com/ncaab/teams/vad/schedule,Vermont
+http://sports.yahoo.com/ncaab/teams/aca/schedule,Albany
+http://sports.yahoo.com/ncaab/teams/ban/schedule,Boston U.
+http://sports.yahoo.com/ncaab/teams/maa/schedule,Maine
+http://sports.yahoo.com/ncaab/teams/mam/schedule,MD Baltimore Cty.
+http://sports.yahoo.com/ncaab/teams/bai/schedule,Binghamton
+http://sports.yahoo.com/ncaab/teams/hac/schedule,Hartford
+http://sports.yahoo.com/ncaab/teams/nal/schedule,New Hampshire
+http://sports.yahoo.com/ncaab/teams/scy/schedule,Stony Brook
+http://sports.yahoo.com/ncaab/teams/nav/schedule,North Carolina
+http://sports.yahoo.com/ncaab/teams/vaf/schedule,Virginia
+http://sports.yahoo.com/ncaab/teams/maj/schedule,Maryland
+http://sports.yahoo.com/ncaab/teams/vah/schedule,Virginia Tech
+http://sports.yahoo.com/ncaab/teams/bam/schedule,Boston Coll.
+http://sports.yahoo.com/ncaab/teams/dau/schedule,Duke
+http://sports.yahoo.com/ncaab/teams/gah/schedule,Georgia Tech
+http://sports.yahoo.com/ncaab/teams/cbg/schedule,Clemson
+http://sports.yahoo.com/ncaab/teams/fan/schedule,Florida St.
+http://sports.yahoo.com/ncaab/teams/nat/schedule,N.C. State
+http://sports.yahoo.com/ncaab/teams/wad/schedule,Wake Forest
+http://sports.yahoo.com/ncaab/teams/mav/schedule,Miami (FL)
+http://sports.yahoo.com/ncaab/teams/eaa/schedule,E. Tennessee St.
+http://sports.yahoo.com/ncaab/teams/bab/schedule,Belmont
+http://sports.yahoo.com/ncaab/teams/lbu/schedule,Lipscomb
+http://sports.yahoo.com/ncaab/teams/jab/schedule,Jacksonville
+http://sports.yahoo.com/ncaab/teams/kns/schedule,Kennesaw St.
+http://sports.yahoo.com/ncaab/teams/maq/schedule,Mercer
+http://sports.yahoo.com/ncaab/teams/cai/schedule,Campbell
+http://sports.yahoo.com/ncaab/teams/gal/schedule,Gardner-Webb
+http://sports.yahoo.com/ncaab/teams/scd/schedule,Stetson
+http://sports.yahoo.com/ncaab/teams/nfl/schedule,North Florida
+http://sports.yahoo.com/ncaab/teams/xaa/schedule,Xavier
+http://sports.yahoo.com/ncaab/teams/mak/schedule,Massachusetts
+http://sports.yahoo.com/ncaab/teams/gac/schedule,Geo. Washington
+http://sports.yahoo.com/ncaab/teams/fao/schedule,Fordham
+http://sports.yahoo.com/ncaab/teams/rad/schedule,Rhode Island
+http://sports.yahoo.com/ncaab/teams/sbq/schedule,St. Joseph's
+http://sports.yahoo.com/ncaab/teams/sbr/schedule,Saint Louis
+http://sports.yahoo.com/ncaab/teams/dae/schedule,Dayton
+http://sports.yahoo.com/ncaab/teams/nad/schedule,Charlotte
+http://sports.yahoo.com/ncaab/teams/tad/schedule,Temple
+http://sports.yahoo.com/ncaab/teams/dav/schedule,Duquesne
+http://sports.yahoo.com/ncaab/teams/raf/schedule,Richmond
+http://sports.yahoo.com/ncaab/teams/sbl/schedule,St. Bonaventure
+http://sports.yahoo.com/ncaab/teams/lad/schedule,La Salle
+http://sports.yahoo.com/ncaab/teams/gae/schedule,Georgetown
+http://sports.yahoo.com/ncaab/teams/pal/schedule,Pittsburgh
+http://sports.yahoo.com/ncaab/teams/laq/schedule,Louisville
+http://sports.yahoo.com/ncaab/teams/nbf/schedule,Notre Dame
+http://sports.yahoo.com/ncaab/teams/maf/schedule,Marquette
+http://sports.yahoo.com/ncaab/teams/sci/schedule,Syracuse
+http://sports.yahoo.com/ncaab/teams/wal/schedule,West Virginia
+http://sports.yahoo.com/ncaab/teams/vae/schedule,Villanova
+http://sports.yahoo.com/ncaab/teams/dal/schedule,DePaul
+http://sports.yahoo.com/ncaab/teams/pas/schedule,Providence
+http://sports.yahoo.com/ncaab/teams/sbp/schedule,St. John's
+http://sports.yahoo.com/ncaab/teams/cbp/schedule,Connecticut
+http://sports.yahoo.com/ncaab/teams/sao/schedule,Seton Hall
+http://sports.yahoo.com/ncaab/teams/sbg/schedule,South Florida
+http://sports.yahoo.com/ncaab/teams/rak/schedule,Rutgers
+http://sports.yahoo.com/ncaab/teams/cbc/schedule,Cincinnati
+http://sports.yahoo.com/ncaab/teams/wai/schedule,Weber St.
+http://sports.yahoo.com/ncaab/teams/nbc/schedule,Northern Arizona
+http://sports.yahoo.com/ncaab/teams/mbm/schedule,Montana
+http://sports.yahoo.com/ncaab/teams/pbe/schedule,Portland St.
+http://sports.yahoo.com/ncaab/teams/eai/schedule,Eastern Wash.
+http://sports.yahoo.com/ncaab/teams/iac/schedule,Idaho St.
+http://sports.yahoo.com/ncaab/teams/mbn/schedule,Montana St.
+http://sports.yahoo.com/ncaab/teams/saa/schedule,Sacramento St.
+http://sports.yahoo.com/ncaab/teams/nbh/schedule,Northern Colorado
+http://sports.yahoo.com/ncaab/teams/way/schedule,Winthrop
+http://sports.yahoo.com/ncaab/teams/hbd/schedule,High Point
+http://sports.yahoo.com/ncaab/teams/lai/schedule,Liberty
+http://sports.yahoo.com/ncaab/teams/cbi/schedule,Coastal Carolina
+http://sports.yahoo.com/ncaab/teams/nab/schedule,N.C. Asheville
+http://sports.yahoo.com/ncaab/teams/vai/schedule,Virginia Military
+http://sports.yahoo.com/ncaab/teams/raa/schedule,Radford
+http://sports.yahoo.com/ncaab/teams/cax/schedule,Charleston S.
+http://sports.yahoo.com/ncaab/teams/oad/schedule,Ohio St.
+http://sports.yahoo.com/ncaab/teams/wbg/schedule,Wisconsin
+http://sports.yahoo.com/ncaab/teams/iai/schedule,Indiana
+http://sports.yahoo.com/ncaab/teams/iae/schedule,Illinois
+http://sports.yahoo.com/ncaab/teams/pau/schedule,Purdue
+http://sports.yahoo.com/ncaab/teams/ian/schedule,Iowa
+http://sports.yahoo.com/ncaab/teams/may/schedule,Michigan St.
+http://sports.yahoo.com/ncaab/teams/max/schedule,Michigan
+http://sports.yahoo.com/ncaab/teams/mbd/schedule,Minnesota
+http://sports.yahoo.com/ncaab/teams/nbd/schedule,Northwestern
+http://sports.yahoo.com/ncaab/teams/paf/schedule,Penn St.
+http://sports.yahoo.com/ncaab/teams/kaa/schedule,Kansas
+http://sports.yahoo.com/ncaab/teams/tan/schedule,Texas A&amp;M
+http://sports.yahoo.com/ncaab/teams/tal/schedule,Texas
+http://sports.yahoo.com/ncaab/teams/kab/schedule,Kansas St.
+http://sports.yahoo.com/ncaab/teams/tas/schedule,Texas Tech
+http://sports.yahoo.com/ncaab/teams/mbh/schedule,Missouri
+http://sports.yahoo.com/ncaab/teams/oag/schedule,Oklahoma St.
+http://sports.yahoo.com/ncaab/teams/nai/schedule,Nebraska
+http://sports.yahoo.com/ncaab/teams/oae/schedule,Oklahoma
+http://sports.yahoo.com/ncaab/teams/iao/schedule,Iowa St.
+http://sports.yahoo.com/ncaab/teams/bae/schedule,Baylor
+http://sports.yahoo.com/ncaab/teams/cbl/schedule,Colorado
+http://sports.yahoo.com/ncaab/teams/lan/schedule,Long Beach St.
+http://sports.yahoo.com/ncaab/teams/fat/schedule,CSU Fullerton
+http://sports.yahoo.com/ncaab/teams/cag/schedule,Cal Poly
+http://sports.yahoo.com/ncaab/teams/sah/schedule,UCSB
+http://sports.yahoo.com/ncaab/teams/cab/schedule,UC Irvine
+http://sports.yahoo.com/ncaab/teams/nbb/schedule,CSU Northridge
+http://sports.yahoo.com/ncaab/teams/pab/schedule,Pacific
+http://sports.yahoo.com/ncaab/teams/cau/schedule,UC Riverside
+http://sports.yahoo.com/ncaab/teams/vaa/schedule,VCU
+http://sports.yahoo.com/ncaab/teams/oah/schedule,Old Dominion
+http://sports.yahoo.com/ncaab/teams/hak/schedule,Hofstra
+http://sports.yahoo.com/ncaab/teams/dat/schedule,Drexel
+http://sports.yahoo.com/ncaab/teams/gad/schedule,George Mason
+http://sports.yahoo.com/ncaab/teams/nay/schedule,Northeastern
+http://sports.yahoo.com/ncaab/teams/wbh/schedule,William &amp; Mary
+http://sports.yahoo.com/ncaab/teams/tav/schedule,Towson
+http://sports.yahoo.com/ncaab/teams/gag/schedule,Georgia St.
+http://sports.yahoo.com/ncaab/teams/nag/schedule,N.C. Wilmington
+http://sports.yahoo.com/ncaab/teams/jac/schedule,James Madison
+http://sports.yahoo.com/ncaab/teams/dag/schedule,Delaware
+http://sports.yahoo.com/ncaab/teams/map/schedule,Memphis
+http://sports.yahoo.com/ncaab/teams/cap/schedule,UCF
+http://sports.yahoo.com/ncaab/teams/ham/schedule,Houston
+http://sports.yahoo.com/ncaab/teams/sbb/schedule,Southern Miss
+http://sports.yahoo.com/ncaab/teams/tba/schedule,Tulsa
+http://sports.yahoo.com/ncaab/teams/taz/schedule,Tulane
+http://sports.yahoo.com/ncaab/teams/rae/schedule,Rice
+http://sports.yahoo.com/ncaab/teams/abh/schedule,UAB
+http://sports.yahoo.com/ncaab/teams/mah/schedule,Marshall
+http://sports.yahoo.com/ncaab/teams/tap/schedule,UTEP
+http://sports.yahoo.com/ncaab/teams/sav/schedule,SMU
+http://sports.yahoo.com/ncaab/teams/eac/schedule,East Carolina
+http://sports.yahoo.com/ncaab/teams/bav/schedule,Butler
+http://sports.yahoo.com/ncaab/teams/wbj/schedule,Wright St.
+http://sports.yahoo.com/ncaab/teams/las/schedule,Loyola Chicago
+http://sports.yahoo.com/ncaab/teams/wbb/schedule,Wis. Green Bay
+http://sports.yahoo.com/ncaab/teams/yab/schedule,Youngstown St.
+http://sports.yahoo.com/ncaab/teams/iaf/schedule,Ill. Chicago
+http://sports.yahoo.com/ncaab/teams/dam/schedule,Detroit
+http://sports.yahoo.com/ncaab/teams/wbd/schedule,Wis. Milwaukee
+http://sports.yahoo.com/ncaab/teams/cbh/schedule,Cleveland St.
+http://sports.yahoo.com/ncaab/teams/uvs/schedule,Utah Valley St.
+http://sports.yahoo.com/ncaab/teams/nds/schedule,North Dakota St.
+http://sports.yahoo.com/ncaab/teams/tbc/schedule,Texas Pan Amer.
+http://sports.yahoo.com/ncaab/teams/iav/schedule,IPFW
+http://sports.yahoo.com/ncaab/teams/saj/schedule,Savannah St.
+http://sports.yahoo.com/ncaab/teams/cay/schedule,Chicago St.
+http://sports.yahoo.com/ncaab/teams/lay/schedule,Longwood
+http://sports.yahoo.com/ncaab/teams/sds/schedule,South Dakota St.
+http://sports.yahoo.com/ncaab/teams/caa/schedule,UC Davis
+http://sports.yahoo.com/ncaab/teams/wbq/schedule,Winston-Salem
+http://sports.yahoo.com/ncaab/teams/ncf/schedule,N.J.I.T.
+http://sports.yahoo.com/ncaab/teams/pag/schedule,Pennsylvania
+http://sports.yahoo.com/ncaab/teams/yaa/schedule,Yale
+http://sports.yahoo.com/ncaab/teams/cbr/schedule,Cornell
+http://sports.yahoo.com/ncaab/teams/cbn/schedule,Columbia
+http://sports.yahoo.com/ncaab/teams/bas/schedule,Brown
+http://sports.yahoo.com/ncaab/teams/had/schedule,Harvard
+http://sports.yahoo.com/ncaab/teams/dac/schedule,Dartmouth
+http://sports.yahoo.com/ncaab/teams/par/schedule,Princeton
+http://sports.yahoo.com/ncaab/teams/mae/schedule,Marist
+http://sports.yahoo.com/ncaab/teams/naq/schedule,Niagara
+http://sports.yahoo.com/ncaab/teams/sas/schedule,Siena
+http://sports.yahoo.com/ncaab/teams/lau/schedule,Loyola (MD)
+http://sports.yahoo.com/ncaab/teams/mab/schedule,Manhattan
+http://sports.yahoo.com/ncaab/teams/fab/schedule,Fairfield
+http://sports.yahoo.com/ncaab/teams/rag/schedule,Rider
+http://sports.yahoo.com/ncaab/teams/caj/schedule,Canisius
+http://sports.yahoo.com/ncaab/teams/sby/schedule,St. Peter's
+http://sports.yahoo.com/ncaab/teams/iam/schedule,Iona
+http://sports.yahoo.com/ncaab/teams/aac/schedule,Akron
+http://sports.yahoo.com/ncaab/teams/kae/schedule,Kent St.
+http://sports.yahoo.com/ncaab/teams/maw/schedule,Miami (OH)
+http://sports.yahoo.com/ncaab/teams/oab/schedule,Ohio
+http://sports.yahoo.com/ncaab/teams/baz/schedule,Buffalo
+http://sports.yahoo.com/ncaab/teams/bap/schedule,Bowling Green
+http://sports.yahoo.com/ncaab/teams/tau/schedule,Toledo
+http://sports.yahoo.com/ncaab/teams/wap/schedule,W. Michigan
+http://sports.yahoo.com/ncaab/teams/caq/schedule,Cent. Michigan
+http://sports.yahoo.com/ncaab/teams/eaf/schedule,East. Michigan
+http://sports.yahoo.com/ncaab/teams/baa/schedule,Ball St.
+http://sports.yahoo.com/ncaab/teams/naz/schedule,Northern Illinois
+http://sports.yahoo.com/ncaab/teams/oai/schedule,Oral Roberts
+http://sports.yahoo.com/ncaab/teams/oaa/schedule,Oakland
+http://sports.yahoo.com/ncaab/teams/vab/schedule,Valparaiso
+http://sports.yahoo.com/ncaab/teams/iak/schedule,IUPUI
+http://sports.yahoo.com/ncaab/teams/sbc/schedule,Southern Utah
+http://sports.yahoo.com/ncaab/teams/mbi/schedule,Mo. Kansas City
+http://sports.yahoo.com/ncaab/teams/can/schedule,Centenary
+http://sports.yahoo.com/ncaab/teams/wan/schedule,Western Ill.
+http://sports.yahoo.com/ncaab/teams/dah/schedule,Delaware St.
+http://sports.yahoo.com/ncaab/teams/fal/schedule,Florida A&amp;M
+http://sports.yahoo.com/ncaab/teams/nas/schedule,N.C. A&amp;T
+http://sports.yahoo.com/ncaab/teams/hay/schedule,Hampton
+http://sports.yahoo.com/ncaab/teams/mbq/schedule,Morgan St.
+http://sports.yahoo.com/ncaab/teams/sax/schedule,S. Carolina St.
+http://sports.yahoo.com/ncaab/teams/ncb/schedule,Norfolk St.
+http://sports.yahoo.com/ncaab/teams/cbq/schedule,Coppin St.
+http://sports.yahoo.com/ncaab/teams/bag/schedule,Bethune-Cookman
+http://sports.yahoo.com/ncaab/teams/hao/schedule,Howard
+http://sports.yahoo.com/ncaab/teams/man/schedule,MD Eastern Shore
+http://sports.yahoo.com/ncaab/teams/sbi/schedule,Southern Ill.
+http://sports.yahoo.com/ncaab/teams/cbt/schedule,Creighton
+http://sports.yahoo.com/ncaab/teams/scg/schedule,Missouri St.
+http://sports.yahoo.com/ncaab/teams/baq/schedule,Bradley
+http://sports.yahoo.com/ncaab/teams/nba/schedule,Northern Iowa
+http://sports.yahoo.com/ncaab/teams/wax/schedule,Wichita St.
+http://sports.yahoo.com/ncaab/teams/dar/schedule,Drake
+http://sports.yahoo.com/ncaab/teams/iag/schedule,Illinois St.
+http://sports.yahoo.com/ncaab/teams/ear/schedule,Evansville
+http://sports.yahoo.com/ncaab/teams/ial/schedule,Indiana St.
+http://sports.yahoo.com/ncaab/teams/baw/schedule,BYU
+http://sports.yahoo.com/ncaab/teams/naj/schedule,UNLV
+http://sports.yahoo.com/ncaab/teams/aab/schedule,Air Force
+http://sports.yahoo.com/ncaab/teams/sae/schedule,San Diego St.
+http://sports.yahoo.com/ncaab/teams/wbk/schedule,Wyoming
+http://sports.yahoo.com/ncaab/teams/cbm/schedule,Colorado St.
+http://sports.yahoo.com/ncaab/teams/uae/schedule,Utah
+http://sports.yahoo.com/ncaab/teams/nam/schedule,New Mexico
+http://sports.yahoo.com/ncaab/teams/tac/schedule,TCU
+http://sports.yahoo.com/ncaab/teams/cao/schedule,Central Conn. St.
+http://sports.yahoo.com/ncaab/teams/sdy/schedule,Sacred Heart
+http://sports.yahoo.com/ncaab/teams/qae/schedule,Quinnipiac
+http://sports.yahoo.com/ncaab/teams/rah/schedule,Robert Morris
+http://sports.yahoo.com/ncaab/teams/faa/schedule,Fair. Dickinson
+http://sports.yahoo.com/ncaab/teams/mbs/schedule,Mount St. Mary's
+http://sports.yahoo.com/ncaab/teams/wac/schedule,Wagner
+http://sports.yahoo.com/ncaab/teams/mbk/schedule,Monmouth
+http://sports.yahoo.com/ncaab/teams/sbn/schedule,St. Francis (NY)
+http://sports.yahoo.com/ncaab/teams/lal/schedule,Long Island
+http://sports.yahoo.com/ncaab/teams/sbo/schedule,St. Francis (PA)
+http://sports.yahoo.com/ncaab/teams/abf/schedule,Austin Peay
+http://sports.yahoo.com/ncaab/teams/eae/schedule,Eastern Kentucky
+http://sports.yahoo.com/ncaab/teams/taj/schedule,Tennessee Tech
+http://sports.yahoo.com/ncaab/teams/mbv/schedule,Murray St.
+http://sports.yahoo.com/ncaab/teams/sac/schedule,Samford
+http://sports.yahoo.com/ncaab/teams/sap/schedule,SE Missouri St.
+http://sports.yahoo.com/ncaab/teams/mbp/schedule,Morehead St.
+http://sports.yahoo.com/ncaab/teams/tai/schedule,Tennessee St.
+http://sports.yahoo.com/ncaab/teams/jae/schedule,Jacksonville St.
+http://sports.yahoo.com/ncaab/teams/ead/schedule,Eastern Illinois
+http://sports.yahoo.com/ncaab/teams/tae/schedule,Tenn-Martin
+http://sports.yahoo.com/ncaab/teams/uaa/schedule,UCLA
+http://sports.yahoo.com/ncaab/teams/wah/schedule,Washington St.
+http://sports.yahoo.com/ncaab/teams/oaj/schedule,Oregon
+http://sports.yahoo.com/ncaab/teams/uad/schedule,USC
+http://sports.yahoo.com/ncaab/teams/aaq/schedule,Arizona
+http://sports.yahoo.com/ncaab/teams/sca/schedule,Stanford
+http://sports.yahoo.com/ncaab/teams/waf/schedule,Washington
+http://sports.yahoo.com/ncaab/teams/cah/schedule,California
+http://sports.yahoo.com/ncaab/teams/oak/schedule,Oregon St.
+http://sports.yahoo.com/ncaab/teams/aar/schedule,Arizona St.
+http://sports.yahoo.com/ncaab/teams/hal/schedule,Holy Cross
+http://sports.yahoo.com/ncaab/teams/bau/schedule,Bucknell
+http://sports.yahoo.com/ncaab/teams/aan/schedule,American
+http://sports.yahoo.com/ncaab/teams/laf/schedule,Lehigh
+http://sports.yahoo.com/ncaab/teams/cbk/schedule,Colgate
+http://sports.yahoo.com/ncaab/teams/aax/schedule,Army
+http://sports.yahoo.com/ncaab/teams/naa/schedule,Navy
+http://sports.yahoo.com/ncaab/teams/laa/schedule,Lafayette
+http://sports.yahoo.com/ncaab/teams/fak/schedule,Florida
+http://sports.yahoo.com/ncaab/teams/tag/schedule,Tennessee
+http://sports.yahoo.com/ncaab/teams/vac/schedule,Vanderbilt
+http://sports.yahoo.com/ncaab/teams/kaf/schedule,Kentucky
+http://sports.yahoo.com/ncaab/teams/gaf/schedule,Georgia
+http://sports.yahoo.com/ncaab/teams/sbf/schedule,South Carolina
+http://sports.yahoo.com/ncaab/teams/mbf/schedule,Mississippi
+http://sports.yahoo.com/ncaab/teams/mbg/schedule,Mississippi St.
+http://sports.yahoo.com/ncaab/teams/aaf/schedule,Alabama
+http://sports.yahoo.com/ncaab/teams/aas/schedule,Arkansas
+http://sports.yahoo.com/ncaab/teams/abb/schedule,Auburn
+http://sports.yahoo.com/ncaab/teams/lav/schedule,LSU
+http://sports.yahoo.com/ncaab/teams/aap/schedule,Appalachian St.
+http://sports.yahoo.com/ncaab/teams/nae/schedule,N.C. Greensboro
+http://sports.yahoo.com/ncaab/teams/wat/schedule,Western Carolina
+http://sports.yahoo.com/ncaab/teams/cdc/schedule,Chattanooga
+http://sports.yahoo.com/ncaab/teams/eat/schedule,Elon
+http://sports.yahoo.com/ncaab/teams/dad/schedule,Davidson
+http://sports.yahoo.com/ncaab/teams/cat/schedule,Charleston
+http://sports.yahoo.com/ncaab/teams/fau/schedule,Furman
+http://sports.yahoo.com/ncaab/teams/gab/schedule,Georgia Southern
+http://sports.yahoo.com/ncaab/teams/wbi/schedule,Wofford
+http://sports.yahoo.com/ncaab/teams/cbv/schedule,Citadel
+http://sports.yahoo.com/ncaab/teams/nbe/schedule,Northwestern St.
+http://sports.yahoo.com/ncaab/teams/mal/schedule,McNeese St.
+http://sports.yahoo.com/ncaab/teams/sam/schedule,SE Louisiana
+http://sports.yahoo.com/ncaab/teams/lab/schedule,Lamar
+http://sports.yahoo.com/ncaab/teams/nar/schedule,Nicholls St.
+http://sports.yahoo.com/ncaab/teams/cdm/schedule,Central Arkansas
+http://sports.yahoo.com/ncaab/teams/tbq/schedule,Texas A&amp;M C.C.
+http://sports.yahoo.com/ncaab/teams/sab/schedule,Sam Houston St.
+http://sports.yahoo.com/ncaab/teams/scc/schedule,Stephen F. Austin
+http://sports.yahoo.com/ncaab/teams/tao/schedule,TX Arlington
+http://sports.yahoo.com/ncaab/teams/sch/schedule,Texas St.
+http://sports.yahoo.com/ncaab/teams/tak/schedule,UTSA
+http://sports.yahoo.com/ncaab/teams/mbe/schedule,Miss. Valley St.
+http://sports.yahoo.com/ncaab/teams/jaa/schedule,Jackson St.
+http://sports.yahoo.com/ncaab/teams/gak/schedule,Grambling St.
+http://sports.yahoo.com/ncaab/teams/aaj/schedule,Alcorn St.
+http://sports.yahoo.com/ncaab/teams/tar/schedule,Texas Southern
+http://sports.yahoo.com/ncaab/teams/abi/schedule,AR Pine Bluff
+http://sports.yahoo.com/ncaab/teams/sbh/schedule,Southern
+http://sports.yahoo.com/ncaab/teams/aah/schedule,Alabama St.
+http://sports.yahoo.com/ncaab/teams/pao/schedule,Prairie View A&amp;M
+http://sports.yahoo.com/ncaab/teams/aag/schedule,Alabama A&amp;M
+http://sports.yahoo.com/ncaab/teams/sbe/schedule,South Alabama
+http://sports.yahoo.com/ncaab/teams/wao/schedule,West. Kentucky
+http://sports.yahoo.com/ncaab/teams/fav/schedule,Florida Atlantic
+http://sports.yahoo.com/ncaab/teams/maz/schedule,Middle Tenn. St.
+http://sports.yahoo.com/ncaab/teams/taw/schedule,Troy
+http://sports.yahoo.com/ncaab/teams/fam/schedule,Florida Intl.
+http://sports.yahoo.com/ncaab/teams/nah/schedule,LA Monroe
+http://sports.yahoo.com/ncaab/teams/aav/schedule,Arkansas St.
+http://sports.yahoo.com/ncaab/teams/nax/schedule,North Texas
+http://sports.yahoo.com/ncaab/teams/nao/schedule,New Orleans
+http://sports.yahoo.com/ncaab/teams/aat/schedule,AR Little Rock
+http://sports.yahoo.com/ncaab/teams/scf/schedule,LA Lafayette
+http://sports.yahoo.com/ncaab/teams/dak/schedule,Denver
+http://sports.yahoo.com/ncaab/teams/gaj/schedule,Gonzaga
+http://sports.yahoo.com/ncaab/teams/sai/schedule,Santa Clara
+http://sports.yahoo.com/ncaab/teams/sbt/schedule,St. Mary's
+http://sports.yahoo.com/ncaab/teams/saf/schedule,San Francisco
+http://sports.yahoo.com/ncaab/teams/sad/schedule,San Diego
+http://sports.yahoo.com/ncaab/teams/lat/schedule,Loyola Marymount
+http://sports.yahoo.com/ncaab/teams/pan/schedule,Portland
+http://sports.yahoo.com/ncaab/teams/pah/schedule,Pepperdine
+http://sports.yahoo.com/ncaab/teams/nak/schedule,Nevada
+http://sports.yahoo.com/ncaab/teams/nan/schedule,New Mexico St.
+http://sports.yahoo.com/ncaab/teams/far/schedule,Fresno St.
+http://sports.yahoo.com/ncaab/teams/uaf/schedule,Utah St.
+http://sports.yahoo.com/ncaab/teams/hae/schedule,Hawaii
+http://sports.yahoo.com/ncaab/teams/bal/schedule,Boise St.
+http://sports.yahoo.com/ncaab/teams/lap/schedule,Louisiana Tech
+http://sports.yahoo.com/ncaab/teams/sag/schedule,San Jose St.
+http://sports.yahoo.com/ncaab/teams/iaa/schedule,Idaho

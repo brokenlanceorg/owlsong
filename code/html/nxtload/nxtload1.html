@@ -1,0 +1,704 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+
+   <title>Nxtload Transport</title>
+
+   <!-- CSS Stylesheet links -->
+   <link rel="stylesheet" type="text/css" href="css/declarations.css">
+   <link rel="stylesheet" type="text/css" href="js/reset/reset-min.css">
+   <link rel="stylesheet" type="text/css" href="js/fonts/fonts-min.css">
+   <link rel="stylesheet" type="text/css" href="js/grids/grids-min.css">
+   <link rel="stylesheet" type="text/css" href="js/container/assets/container.css">
+   <link rel="stylesheet" type="text/css" href="js/calendar/assets/calendar.css">
+
+   <style type="text/css">
+   <!--
+      fieldset { padding: 10px 5px; background: transparent; border: 1px #7A8073 solid; -moz-border-radius: 5px; }
+      legend { background: transparent; padding: 2px 6px; border: 1px black solid; -moz-border-radius: 5px; }
+   -->
+   </style>
+
+   <!-- Javascript imports -->
+   <script language="javascript" type="text/javascript" src="js/prototype.js"></script>
+   <script language="javascript" type="text/javascript" src="js/rico.js"></script>
+   <script language="javascript" type="text/javascript" src="js/yahoo/yahoo-min.js"></script>
+   <script language="javascript" type="text/javascript" src="js/event/event-min.js"></script>
+   <script language="javascript" type="text/javascript" src="js/dom/dom-min.js"></script>
+   <script language="javascript" type="text/javascript" src="js/container/container-min.js"></script>
+   <script language="javascript" type="text/javascript" src="js/container/container_core-min.js"></script>
+   <script language="javascript" type="text/javascript" src="js/calendar/calendar-min.js"></script>
+   <script language="javascript" type="text/javascript" src="js/sarissa.js"></script>
+
+   <!-- this will all be moved to another js file once it's been debuggged -->
+   <script type="text/javascript">
+
+      // Add the init event to load up everything we need.
+      YAHOO.util.Event.addListener( window, "load", init );
+      var _isLoggedIn = false;
+
+      /**
+       * The initialize function. Note that the Yahoo modules must have IDs that are longer
+       * than 10 or so chars. And the var name must either be different from the ID.
+       * 
+       */
+      function init()
+      {
+         loginInfoModule = new YAHOO.widget.Module( "loginInformation", { visible:true } );
+         loginInfoModule.render();
+
+         addPage = new YAHOO.widget.Module( "addPageModule", { visible:true } );
+         addPage.render();
+         addPage.hide();
+
+         firstScreen = new YAHOO.widget.Module( "firstScreenModule", { visible:true } );
+         firstScreen.render();
+
+         adminPage= new YAHOO.widget.Module( "adminPageModule" );
+         adminPage.render();
+         adminPage.hide();
+
+         _isLoggedIn = false;
+
+         setupCalendars();
+
+         // Test cookie:
+         //document.cookie = "nxtload=brandon,3;expires=01-01-01";
+         //document.cookie = "nxtload=brandon,3";
+         checkAndHandleLogin();
+      }
+
+      /**
+       * This function will setup the variables and things needed for the calendars.
+       */
+      function setupCalendars() 
+      {
+         this.today = new Date();
+         var thisMonth = this.today.getMonth();
+         var thisDay = this.today.getDate();
+         var thisYear = this.today.getFullYear();
+
+         this.link1 = document.getElementById( "dateLink1" );
+         this.link2 = document.getElementById( "dateLink2" );
+
+         pickupCal = new YAHOO.widget.Calendar2up( "pickupCal", "pContainer", (thisMonth+1)+"/"+thisYear,(thisMonth+1)+"/"+thisDay+"/"+thisYear );
+         pickupCal.title = "Select your desired pickup date:";
+         pickupCal.setChildFunction( "onSelect", setPickupDate) ;
+         pickupCal.render();
+         pickupCal.hide();
+
+         dropoffCal = new YAHOO.widget.Calendar2up( "dropoffCal", "pContainer2", (thisMonth+1)+"/"+thisYear,(thisMonth+1)+"/"+thisDay+"/"+thisYear );
+         dropoffCal.title = "Select your desired drop off date:";
+         dropoffCal.setChildFunction( "onSelect", setDropoffDate) ;
+         dropoffCal.render();
+         dropoffCal.hide();
+      }
+
+      /**
+       * This function will show the pickup calendar.
+       */
+      function showCalendar1() 
+      {
+         dropoffCal.hide();
+         var pos = YAHOO.util.Dom.getXY( link1 );
+         pickupCal.outerContainer.style.display='block';
+         YAHOO.util.Dom.setXY( pickupCalendar.outerContainer, [pos[0],pos[1]+link1.offsetHeight+1] );
+      }
+
+      /**
+       * This function will show the drop off calendar.
+       */
+      function showCalendar2() 
+      {
+         pickupCal.hide();
+         var pos = YAHOO.util.Dom.getXY( link2 );
+         dropoffCal.outerContainer.style.display='block';
+         YAHOO.util.Dom.setXY( dropoffCal.outerContainer, [pos[0],pos[1]+link1.offsetHeight+1] );
+      }
+
+      /**
+       * This function will set the pickup date in the text area.
+       */
+      function setPickupDate() 
+      {
+         var date1 = pickupCal.getSelectedDates()[0];
+
+         t1 = document.getElementById( "pickupDate" );
+         t1.value = (date1.getMonth()+1) + "/" + date1.getDate() + "/" + date1.getFullYear();
+         pickupCal.hide();
+      }
+
+      /**
+       * This function will set the drop off date in the text area.
+       */
+      function setDropoffDate() 
+      {
+         var date1 = dropoffCal.getSelectedDates()[0];
+
+         t1 = document.getElementById( "dropoffDate" );
+         t1.value = (date1.getMonth()+1) + "/" + date1.getDate() + "/" + date1.getFullYear();
+         dropoffCal.hide();
+      }
+
+      /**
+       * This function will check to see if the user has been authenticated
+       * by checking the cookie. If so, then it will update the login box.
+       */
+      function checkAndHandleLogin()
+      {
+         enableLoginBox();
+
+         var wrkImg = document.getElementById( "placeHolder" )
+         if( wrkImg != null )
+         {
+            wrkImg.removeChild( document.getElementById( "working" ) );
+         }
+
+         if( document.cookie == null || document.cookie.indexOf( "nxtload" ) == -1 )
+         {
+            loginInfoModule.hide();
+            Return;
+         }
+         
+         var myData = document.cookie.substring( document.cookie.indexOf( "nxtload" ) );
+         var loginData = myData.split( "=" );
+         var paramData = (loginData[1]);
+         var paramDataArray = paramData.split( "," );
+
+         var loginInfo = document.getElementById( "loginInformation" );
+         loginInfo.className = "loginBox";
+         loginInfoModule.setHeader( "You are logged in as <b>" + paramDataArray[0] + "</b>" );
+         loginInfoModule.setBody( "If you are not <b>" + paramDataArray[0] + "</b>" );
+         loginInfoModule.setFooter( "Then please click <a href=JavaScript:handleLogout()>here.</a>" );
+         loginInfoModule.render();
+         loginInfoModule.show();
+         _isLoggedIn = true;
+      }
+
+      /**
+       * This function will clear the cookies.
+       */
+      function clearCookie()
+      {
+         _isLoggedIn = false;
+         document.cookie = "nxtload=;expires=01-01-01";
+      }
+
+      /**
+       * This function will reset the cookie and redirect to the home page.
+       */
+      function handleLogout()
+      {
+         clearCookie();
+         document.location = "nxtload1.html";
+      }
+
+      /**
+       * This function will hide the associated section so that a full page reload
+       * will not be required. This will be used when the ajax call comes back.
+       */
+      function handleFirstScreenButton()
+      {
+         if( _isLoggedIn == true )
+         {
+            adminPage.show();
+            addPage.hide();
+         }
+         else
+         {
+            addPage.show();
+            adminPage.hide();
+         }
+         firstScreen.hide();
+      }
+
+      /**
+       * This function will send the async add a schedule request to the server.
+       * It will also send an email and text message to a cell phone.
+       */
+      function sendAddRequest()
+      {
+         var xmlHttp = new XMLHttpRequest();
+         xmlHttp.open( 'POST', 'requests/add.php', true );
+         xmlHttp.onreadystatechange = function() {
+            if( xmlHttp.readyState == 4 )
+            {
+               if( xmlHttp.status == 200 )
+               {
+                  var xmlRespElements = xmlHttp.responseXML.getElementsByTagName( 'result' );
+                  var data = xmlRespElements[0].firstChild.data;
+                  alert( "The response is: " + data );
+               }
+            }
+         }
+
+         xmlHttp.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+         xmlHttp.send( "callback=" + document.getElementById( "callBack" ).value + "&name=" + document.getElementById( "custName" ).value );
+      }
+
+      /**
+       * This function will send the async login request to the server.
+       */
+      function sendLoginRequest()
+      {
+         var useridField = document.getElementById( "userid" );
+         var passwordField = document.getElementById( "password" );
+         var xmlHttp = new XMLHttpRequest();
+         xmlHttp.open( 'POST', 'login/login.php', true );
+         xmlHttp.onreadystatechange = function() {
+            if( xmlHttp.readyState == 4 )
+            {
+               if( xmlHttp.status == 200 )
+               {
+                  var xmlRespElements = xmlHttp.responseXML.getElementsByTagName( 'user_level' );
+                  var level = xmlRespElements[0].firstChild.data;
+                  if( parseInt( level ) != -1 )
+                  {
+                     document.cookie = "nxtload=" + useridField.value + "," + level +";expires=01-01-2007";
+                  }
+                  else
+                  {
+                     clearCookie();
+                  }
+                  checkAndHandleLogin();
+               }
+            }
+         }
+
+         xmlHttp.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+         xmlHttp.send( "username=" + useridField.value + "&password=" + passwordField.value );
+
+         // temporarily disable the login box:
+         disableLoginBox();
+
+         // put up a working image
+         var workingImg = document.createElement( 'img' );
+         workingImg.src = 'media/working.gif';
+         workingImg.id = "working";
+         var place = document.getElementById( "placeHolder" );
+         //place.parentNode.replaceChild( workingImg , place);
+         place.appendChild( workingImg );
+      }
+
+      /**
+       * This function will disable the login dialog box components.
+       */
+      function disableLoginBox()
+      {
+         var useridField = document.getElementById( "userid" );
+         var passwordField = document.getElementById( "password" );
+         var loginButton = document.getElementById( "loginButton" );
+         useridField.disabled = true;
+         passwordField.disabled = true;
+         loginButton.disabled = true;
+      }
+
+      /**
+       * This function will enable the login dialog box components.
+       */
+      function enableLoginBox()
+      {
+         var useridField = document.getElementById( "userid" );
+         var passwordField = document.getElementById( "password" );
+         var loginButton = document.getElementById( "loginButton" );
+         useridField.disabled = false;
+         passwordField.disabled = false;
+         loginButton.disabled = false;
+      }
+
+   </script>
+
+</head>
+
+<body id="yahoo-com" style="background: #F3FFE6">
+
+<div id="doc" class="yui-t2">
+
+   <div id="hd">
+
+      <p class="header">
+      Nxtload <br/> Transport <br/> Services
+      </p>
+
+   </div>
+
+   <div id="bd">
+      <!-- start: primary column from outer template -->
+
+      <div id="yui-main">
+
+         <div class="yui-b">
+
+            <div class="bodyHeaderContainer" id="headerContainer">
+               <p class="bodyHeader">
+               Nxtload Transport &mdash;
+               <i>Hot Shot Delivery Services</i>
+               </p>
+            </div>
+            <script type="text/javascript" language="javascript" charset="utf-8">
+               Rico.Corner.round('headerContainer', {corners:"top",color:"fromElement"});
+            </script>
+
+            <!-- start: stack grids here -->
+            <div class="bodyContainer" id="bodyContainer">
+               <div class="padder">
+
+                  <div id="firstScreenModule">
+                     <div class="hd"></div>
+                     <div class="bd"></div>
+                     <div class="ft"></div>
+                     <br/>
+                     <p class="bodyTextTop">
+                        Nxtload Transport &mdash; when speed is required.
+                     </p>
+                     <br/>
+                     <br/>
+                     <p class="bodyText">
+                        Nxtload Transport is a delivery service specializing in hotshots
+                        with a certified professional commercial driver that is bonded and insured.
+                        <br/>
+                        <br/>
+                        Nxtload Transport is certified by the Instersate Commerce Commision and holds
+                        U.S. Department of Transportation certificates and ratings.
+                        <br/>
+                        <br/>
+                        Same day service deliveries are guarranteed within the North Texas area.
+                        <br/>
+                        <br/>
+                        Our specialized services include:
+                        <ul>
+                           <li>
+                              &ndash; Immediate and direct deliveries - we attend to your delivery as soon as we get the call!
+                           </li>
+                           <li>
+                              &ndash; Deliveries ranging from 1lb to 23,000lbs - our 40ft, 26,000lb trailer can handle any need
+                           </li>
+                           <li>
+                              &ndash; North Texas deliveries - but we service all of Texas too!
+                           </li>
+                           <li>
+                              &ndash; Tow service for vehicles under 15,000lbs
+                           </li>
+                           <li>
+                              &ndash; Moving pianos, both grand and upright.
+                           </li>
+                        </ul>
+                     </p>
+                     <br/>
+                     <br/>
+                     <div id="bodyText">
+                        <p class="bodyText">
+                        Click on the button below to schedule Nxtload for your next delivery, or 
+                        fill out the form to receive a call back for more information:
+                        </p>
+                        <center><button onClick="handleFirstScreenButton();" >Schedule or Contact Nxtload</button></center>
+                     </div>
+
+                  </div> <!-- end first screen -->
+
+                  <!-- -->
+                  <!-- -->
+                  <!-- Begin add page module-->
+                  <!-- -->
+                  <!-- -->
+                  <div id="addPageModule">
+                     <div class="padder">
+                        <br/>
+                        <p class="bodyTextTop">
+                           Schedule Nxtload for your next delivery.
+                        </p>
+
+                        <br/>
+                        <br/>
+
+                        <p class="bodyText">
+                           To request more information about Nxtload's services, simply enter a call-back number
+                           and we will contact you as soon as possible.
+                           <br/>
+                           <br/>
+                           Otherwise, fill out the form below and Nxtload will contact you for confirmation.
+                           <br/>
+                           <br/>
+
+                           <fieldset>
+                              <legend>Required Information</legend>
+                              Call-Back Number:
+                              <input type="text" id="callBack"/>
+                              Name:
+                              <input type="text" id="custName"/>
+                           </fieldset>
+
+                           <br/>
+                           <fieldset>
+                              <legend>Pick-Up Information</legend>
+
+                              Pick up date:
+                              <input type="text" size="12" id="pickupDate"/>
+                              <a href="javascript:void(null)" onclick="showCalendar1()">
+                                 <img id="dateLink1" src="media/pdate.gif" border="0" style="vertical-align:middle;margin:5px"/>
+                              </a>
+                              <div id="pContainer" style="position:absolute;display:none"></div>
+
+                              <br/>
+                              Pick up time:
+                              <select id="selectPickupHour">
+                                 <option value="1">1</option>
+                                 <option value="2">2</option>
+                                 <option value="3">3</option>
+                                 <option value="4">4</option>
+                                 <option value="5">5</option>
+                                 <option value="6">6</option>
+                                 <option value="7">7</option>
+                                 <option value="8">8</option>
+                                 <option value="9">9</option>
+                                 <option value="10">10</option>
+                                 <option value="11">11</option>
+                                 <option value="12">12</option>
+                              </select>
+                              :
+                              <select id="selectPickupMinute">
+                                 <option value="00">00</option>
+                                 <option value="15">15</option>
+                                 <option value="30">30</option>
+                                 <option value="45">45</option>
+                              </select>
+
+                              <select id="selectPickupAMPM">
+                                 <option value="AM">AM</option>
+                                 <option value="PM">PM</option>
+                              </select>
+
+                              <br/>
+                              Address line 1:
+                              <input type="text" size="32" id="pickupAddress1"/>
+                              <br/>
+                              Address line 2:
+                              <input type="text" size="32" id="pickupAddress2"/>
+                              <br/>
+                              City:
+                              <input type="text" size="12" id="pickupCity"/>
+                              State:
+                              <input type="text" size="2" id="pickupState"/>
+                              Zipcode:
+                              <input type="text" size="12" id="pickupZip"/>
+                              <br/>
+
+                              Special instructions:
+                              <textarea cols="50" id="pickupInfo"></textarea>
+                           </fieldset>
+
+                           <br/>
+
+                           <fieldset>
+                              <legend>Drop-Off Information</legend>
+                              Drop off date:
+                              <input type="text" size="12" id="dropoffDate"/>
+                              <a href="javascript:void(null)" onclick="showCalendar2()">
+                                 <img id="dateLink2" src="media/pdate.gif" border="0" style="vertical-align:middle;margin:5px"/>
+                              </a>
+                              <div id="pContainer2" style="position:absolute;display:none"></div>
+
+                              <br/>
+                              Drop off time:
+                              <select id="selectDropHour" value="8">
+                                 <option value="1">1</option>
+                                 <option value="2">2</option>
+                                 <option value="3">3</option>
+                                 <option value="4">4</option>
+                                 <option value="5">5</option>
+                                 <option value="6">6</option>
+                                 <option value="7">7</option>
+                                 <option value="8">8</option>
+                                 <option value="9">9</option>
+                                 <option value="10">10</option>
+                                 <option value="11">11</option>
+                                 <option value="12">12</option>
+                              </select>
+                              :
+                              <select id="selectDropMinute">
+                                 <option value="00">00</option>
+                                 <option value="15">15</option>
+                                 <option value="30">30</option>
+                                 <option value="45">45</option>
+                              </select>
+
+                              <select id="selectDropoffAMPM">
+                                 <option value="AM">AM</option>
+                                 <option value="PM">PM</option>
+                              </select>
+
+                              <br/>
+                              Address line 1:
+                              <input type="text" size="32" id="dropoffAddress1"/>
+                              <br/>
+                              Address line 2:
+                              <input type="text" size="32" id="dropoffAddress2"/>
+                              <br/>
+                              City:
+                              <input type="text" size="12" id="dropoffCity"/>
+                              State:
+                              <input type="text" size="2" id="dropoffState"/>
+                              Zipcode:
+                              <input type="text" size="12" id="dropoffZip"/>
+                              <br/>
+                              Special instructions:
+                              <textarea cols="50" id="dropoffInfo"></textarea>
+                           </fieldset>
+                           <br/>
+                           <center>
+                              <input type="button" value="Submit Request" name="addButton" onClick="sendAddRequest();" id="addButton" />
+                           </center>
+                        </p>
+                     </div> <!-- end padder -->
+                  </div> <!-- end add screen -->
+
+                  <!-- -->
+                  <!-- -->
+                  <!-- Begin admin page module-->
+                  <!-- -->
+                  <!-- -->
+                  <div id="adminPageModule">
+                     This will be the admin page
+                     <div>
+                        It even has another child division like this one here...
+                     </div>
+                  </div> <!-- end admin screen -->
+
+               </div> <!-- end padder -->
+            </div> <!-- end body container -->
+            <script type="text/javascript" language="javascript" charset="utf-8">
+               Rico.Corner.round('bodyContainer', {corners:"bottom",color:"fromElement"});
+            </script>
+
+         </div>
+      </div>
+      <!-- end: primary column from outer template -->
+
+      <!-- start: secondary column from outer template -->
+      <div class="yui-b">
+
+         <div class="loginBox" id="loginBox1">
+            <div style="padding:5px">
+               <p style="font-size:11pt;font-weight:900">Username:</p>
+               <input type="text" name="userid" id="userid" />
+               <p style="font-size:11pt;font-weight:900">Password:</p>
+               <input type="password" name="password" id="password" />
+               <input type="button" value="Login" name="loginButton" onClick="sendLoginRequest();" id="loginButton" />
+
+               <div id="loginInformation">
+                  <br/>
+                  <div class="hd"></div>
+                  <div class="bd"></div>
+                  <div class="ft"></div>
+               </div>
+
+            </div>
+         </div>
+         <script type="text/javascript" language="javascript" charset="utf-8">
+            Rico.Corner.round('loginBox1', {corners:"all",color:"fromElement"});
+	 </script>
+
+         <div class="workingImage" id="workingImage">
+            <div id="placeHolder">
+               <br/>
+               <br/>
+            </div>
+         </div>
+
+         <div class="loginBox" id="truckInfoHeader">
+            <div style="padding-left:5px;">
+               <p style="font-size:13pt;font-weight:900;">
+                 Truck Specs:
+               </p>
+            </div>
+         </div>
+         <script type="text/javascript" language="javascript" charset="utf-8">
+            Rico.Corner.round('truckInfoHeader', {corners:"top",color:"fromElement"});
+	 </script>
+
+         <div class="sideInformation" id="sideInformation">
+            <div class="padder">
+               <p class="side">
+                  <ul>
+                     <li>
+                     &ndash; Dodge 3500 Heavy Duty
+                     </li>
+                     <li>
+                     &ndash; Lone Star Edition
+                     <li>
+                     &ndash; 5.9L Cummins Turbo Diesel
+                     </li>
+                     <li>
+                     &ndash; 3.92 axle ratio
+                     </li>
+                     <li>
+                     &ndash; 34 gallon gas tank
+                     </li>
+                  </ul>
+               </p>
+            </div>
+         </div>
+         <script type="text/javascript" language="javascript" charset="utf-8">
+            Rico.Corner.round('sideInformation', {corners:"bottom",color:"fromElement"});
+	 </script>
+
+         <div class="workingImage">
+         </div>
+
+         <div class="loginBox" id="trailerInfoHeader">
+            <div style="padding-left:5px;">
+               <p style="font-size:13pt;font-weight:900;">
+                 Trailer Specs:
+               </p>
+            </div>
+         </div>
+         <script type="text/javascript" language="javascript" charset="utf-8">
+            Rico.Corner.round('trailerInfoHeader', {corners:"top",color:"fromElement"});
+	 </script>
+
+         <div class="sideInformation" id="sideInformation2">
+            <div class="padder">
+               <p class="side">
+                  <ul>
+                     <li>
+                     &ndash; 40 foot goose-neck trailer
+                     </li>
+                     <li>
+                     &ndash; 200HP wench
+                     </li>
+                     <li>
+                     &ndash; 23,000lb capacity
+                     </li>
+                  </ul>
+               </p>
+            </div>
+         </div>
+         <script type="text/javascript" language="javascript" charset="utf-8">
+            Rico.Corner.round('sideInformation2', {corners:"bottom",color:"fromElement"});
+	 </script>
+
+      </div>
+      <!-- end: secondary column from outer template -->
+
+   </div>
+
+   <div id="ft">
+
+      <div class="footer" id="footer">
+         <a href="mailto:brandon@aeiwireless.net">contact us</a>
+         | 
+         <a href="nxtload1.html">home</a>
+         | 
+         <a href="JavaScript:handleLogout()">logout</a>
+      </div>
+      <script type="text/javascript" language="javascript" charset="utf-8">
+         //Rico.Corner.round('footer', {corners:"all",color:"fromElement",border:"#890B13"});
+         Rico.Corner.round('footer', {corners:"all",color:"fromElement"});
+      </script>
+   </div>
+
+</div>
+
+</body>
+</html>

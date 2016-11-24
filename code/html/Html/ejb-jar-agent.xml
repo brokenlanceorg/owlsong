@@ -1,0 +1,562 @@
+<?xml version="1.0"?>
+<!DOCTYPE ejb-jar PUBLIC '-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 1.1//EN' 'classpath:/com/bluestone/ejb11/ejb-jar_1_1.dtd'>
+
+<ejb-jar>
+
+  <enterprise-beans>
+
+    <session>
+      <display-name>AgentSessionEJB</display-name>
+      <ejb-name>AgentSessionHome</ejb-name>
+      <home>com.aacorn.common.session.ejb.AgentSessionHome</home>
+      <remote>com.aacorn.common.session.ejb.AgentSession</remote>
+      <ejb-class>com.aacorn.common.session.ejb.AgentSessionEJB</ejb-class>
+      <session-type>Stateful</session-type>
+      <transaction-type>Container</transaction-type>
+
+      <env-entry>
+         <description></description>
+         <env-entry-name>TIMEOUT_VALUE</env-entry-name>
+         <env-entry-type>java.lang.Long</env-entry-type>
+         <env-entry-value>60000</env-entry-value>
+      </env-entry>
+
+      <env-entry>
+         <description></description>
+         <env-entry-name>AGENT_ID</env-entry-name>
+         <env-entry-type>java.lang.String</env-entry-type>
+         <env-entry-value>277338</env-entry-value>
+      </env-entry>
+      <env-entry>
+         <description></description>
+         <env-entry-name>AGENT_CATEGORY</env-entry-name>
+         <env-entry-type>java.lang.String</env-entry-type>
+         <env-entry-value>D</env-entry-value>
+      </env-entry>
+      <env-entry>
+         <description></description>
+         <env-entry-name>AGENT_SUFFIX</env-entry-name>
+         <env-entry-type>java.lang.String</env-entry-type>
+         <env-entry-value>AAO</env-entry-value>
+      </env-entry>
+      <env-entry>
+         <description></description>
+         <env-entry-name>PREFIX</env-entry-name>
+         <env-entry-type>java.lang.String</env-entry-type>
+         <env-entry-value>NNPBEA</env-entry-value>
+      </env-entry>
+      <env-entry>
+         <description></description>
+         <env-entry-name>DEFAULT_AGENT_DUTY_CODE</env-entry-name>
+         <env-entry-type>java.lang.String</env-entry-type>
+         <env-entry-value>1</env-entry-value>
+      </env-entry>
+      <env-entry>
+         <description></description>
+         <env-entry-name>DEFAULT_PR_IDENTIFIER</env-entry-name>
+         <env-entry-type>java.lang.String</env-entry-type>
+         <env-entry-value>E1321</env-entry-value>
+      </env-entry>
+      <env-entry>
+         <description></description>
+         <env-entry-name>POSTFIX</env-entry-name>
+         <env-entry-type>java.lang.String</env-entry-type>
+         <env-entry-value>97</env-entry-value>
+      </env-entry>
+
+     <env-entry>
+         <description></description>
+         <env-entry-name>DEFAULT_AGENT_CATEGORY</env-entry-name>
+         <env-entry-type>java.lang.String</env-entry-type>
+         <env-entry-value>D</env-entry-value>
+      </env-entry>
+
+     <env-entry>
+         <description></description>
+         <env-entry-name>DO_OAM_CLEANUP</env-entry-name>
+         <env-entry-type>java.lang.Boolean</env-entry-type>
+         <env-entry-value>true</env-entry-value>
+      </env-entry>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTAadvantageHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTAadvantageHome</home>
+         <remote>com.aacorn.middletier.ejb.MTAadvantage</remote>
+         <ejb-link>MTAadvantageHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTBookFlightHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTBookFlightHome</home>
+         <remote>com.aacorn.middletier.ejb.MTBookFlight</remote>
+         <ejb-link>MTBookFlightHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTCancelSegmentHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTCancelSegmentHome</home>
+         <remote>com.aacorn.middletier.ejb.MTCancelSegment</remote>
+         <ejb-link>MTCancelSegmentHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTCompassionHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTCompassionHome</home>
+         <remote>com.aacorn.middletier.ejb.MTCompassion</remote>
+         <ejb-link>MTCompassionHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTConnectingPointsHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTConnectingPointsHome</home>
+         <remote>com.aacorn.middletier.ejb.MTConnectingPoints</remote>
+         <ejb-link>MTConnectingPointsHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTCustomerDataHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTCustomerDataHome</home>
+         <remote>com.aacorn.middletier.ejb.MTCustomerData</remote>
+         <ejb-link>MTCustomerDataHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTDatabaseActionHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTDatabaseActionHome</home>
+         <remote>com.aacorn.middletier.ejb.MTDatabaseAction</remote>
+         <ejb-link>MTDatabaseActionHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTDirectReferenceHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTDirectReferenceHome</home>
+         <remote>com.aacorn.middletier.ejb.MTDirectReference</remote>
+         <ejb-link>MTDirectReferenceHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTDividePNRHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTDividePNRHome</home>
+         <remote>com.aacorn.middletier.ejb.MTDividePNR</remote>
+         <ejb-link>MTDividePNRHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTEmployeeNameHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTEmployeeNameHome</home>
+         <remote>com.aacorn.middletier.ejb.MTEmployeeName</remote>
+         <ejb-link>MTEmployeeNameHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTEnDecodeHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTEnDecodeHome</home>
+         <remote>com.aacorn.middletier.ejb.MTEnDecode</remote>
+         <ejb-link>MTEnDecodeHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTEnDecodeMiscHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTEnDecodeMiscHome</home>
+         <remote>com.aacorn.middletier.ejb.MTEnDecodeMisc</remote>
+         <ejb-link>MTEnDecodeMiscHome</ejb-link>
+      </ejb-ref>
+ 
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTEmergencyCallHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTEmergencyCallHome</home>
+         <remote>com.aacorn.middletier.ejb.MTEmergencyCall</remote>
+         <ejb-link>MTEmergencyCallHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTEPRHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTEPRHome</home>
+         <remote>com.aacorn.middletier.ejb.MTEPRRemote</remote>
+         <ejb-link>MTEPRHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTImmigrationHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTImmigrationHome</home>
+         <remote>com.aacorn.middletier.ejb.MTImmigration</remote>
+         <ejb-link>MTImmigrationHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTFareApplicableAvailHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.FareApplicableAvailHome</home>
+         <remote>com.aacorn.middletier.ejb.FareApplicableAvail</remote>
+         <ejb-link>MTFareApplicableAvailHome</ejb-link>
+      </ejb-ref>
+ 
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTFareOptionHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTFareOptionHome</home>
+         <remote>com.aacorn.middletier.ejb.MTFareOption</remote>
+         <ejb-link>MTFareOptionHome</ejb-link>
+      </ejb-ref>
+ 
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTFareRuleHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTFareRuleHome</home>
+         <remote>com.aacorn.middletier.ejb.MTFareRule</remote>
+         <ejb-link>MTFareRuleHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTRTEFavoritesHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTFavoritesHome</home>
+         <remote>com.aacorn.middletier.ejb.MTFavoritesRemote</remote>
+         <ejb-link>MTRTEFavoritesHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTFlifoDisplayHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTFlifoDisplayHome</home>
+         <remote>com.aacorn.middletier.ejb.MTFlifoDisplay</remote>
+         <ejb-link>MTFlifoDisplayHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTFlightLoadHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTFlightLoadHome</home>
+         <remote>com.aacorn.middletier.ejb.MTFlightLoad</remote>
+         <ejb-link>MTFlightLoadHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTMessagesLoadHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTMessagesLoadHome</home>
+         <remote>com.aacorn.middletier.ejb.MTMessagesLoad</remote>
+         <ejb-link>MTMessagesLoadHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTModifyAirItinHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTModifyAirItinHome</home>
+         <remote>com.aacorn.middletier.ejb.MTModifyAirItin</remote>
+         <ejb-link>MTModifyAirItinHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTNonRevHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTNonRevHome</home>
+         <remote>com.aacorn.middletier.ejb.MTNonRev</remote>
+         <ejb-link>MTNonRevHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTNowMoveStarLinesHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTNowMoveStarLinesHome</home>
+         <remote>com.aacorn.middletier.ejb.MTNowMoveStarLines</remote>
+         <ejb-link>MTNowMoveStarLinesHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTOSISSRHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTOSISSRHome</home>
+         <remote>com.aacorn.middletier.ejb.MTOSISSR</remote>
+         <ejb-link>MTOSISSRHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTPagingHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTPagingHome</home>
+         <remote>com.aacorn.middletier.ejb.MTPaging</remote>
+         <ejb-link>MTPagingHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTPartnerCarrierHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTPartnerCarrierHome</home>
+         <remote>com.aacorn.middletier.ejb.MTPartnerCarrier</remote>
+         <ejb-link>MTPartnerCarrierHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTPassengerHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTPassengerHome</home>
+         <remote>com.aacorn.middletier.ejb.MTPassenger</remote>
+         <ejb-link>MTPassengerHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTPreferencesHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTPreferencesHome</home>
+         <remote>com.aacorn.middletier.ejb.MTPreferences</remote>
+         <ejb-link>MTPreferencesHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTPrepaidTicketHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTPrepaidTicketHome</home>
+         <remote>com.aacorn.middletier.ejb.MTPrepaidTicket</remote>
+         <ejb-link>MTPrepaidTicketHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTPricingHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTPricingHome</home>
+         <remote>com.aacorn.middletier.ejb.MTPricing</remote>
+         <ejb-link>MTPricingHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTPNRCloseCloneHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTPNRCloseCloneHome</home>
+         <remote>com.aacorn.middletier.ejb.MTPNRCloseClone</remote>
+         <ejb-link>MTPNRCloseCloneHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTRemarksDisplayHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTRemarksDisplayHome</home>
+         <remote>com.aacorn.middletier.ejb.MTRemarksDisplay</remote>
+         <ejb-link>MTRemarksDisplayHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTReticketingHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTReticketingHome</home>
+         <remote>com.aacorn.middletier.ejb.MTReticketing</remote>
+         <ejb-link>MTReticketingHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTRetrievePNRHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTRetrievePNRHome</home>
+         <remote>com.aacorn.middletier.ejb.MTRetrievePNR</remote>
+         <ejb-link>MTRetrievePNRHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTRetrieveStarHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTRetrieveStarHome</home>
+         <remote>com.aacorn.middletier.ejb.MTRetrieveStar</remote>
+         <ejb-link>MTRetrieveStarHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTSAIHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTSAIHome</home>
+         <remote>com.aacorn.middletier.ejb.MTSAI</remote>
+         <ejb-link>MTSAIHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTSabreDBSyncHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTSabreDBSyncHome</home>
+         <remote>com.aacorn.middletier.ejb.MTSabreDBSync</remote>
+         <ejb-link>MTSabreDBSyncHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTSearchPNRHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTSearchPNRHome</home>
+         <remote>com.aacorn.middletier.ejb.MTSearchPNR</remote>
+         <ejb-link>MTSearchPNRHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTSearchVCRHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTSearchVCRHome</home>
+         <remote>com.aacorn.middletier.ejb.MTSearchVCR</remote>
+         <ejb-link>MTSearchVCRHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTSeatAssignerHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTSeatAssignerHome</home>
+         <remote>com.aacorn.middletier.ejb.MTSeatAssigner</remote>
+         <ejb-link>MTSeatAssignerHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTSeatMapGeneratorHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTSeatMapGeneratorHome</home>
+         <remote>com.aacorn.middletier.ejb.MTSeatMapGenerator</remote>
+         <ejb-link>MTSeatMapGeneratorHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTSecureHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTSecureHome</home>
+         <remote>com.aacorn.middletier.ejb.MTSecure</remote>
+         <ejb-link>MTSecureHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTTaxCodeHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTTaxCodeHome</home>
+         <remote>com.aacorn.middletier.ejb.MTTaxCode</remote>
+         <ejb-link>MTTaxCodeHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTTicketingHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTTicketingHome</home>
+         <remote>com.aacorn.middletier.ejb.MTTicketing</remote>
+         <ejb-link>MTTicketingHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTUpdatePassengerMailingHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTUpdatePassengerMailingHome</home>
+         <remote>com.aacorn.middletier.ejb.MTUpdatePassengerMailing</remote>
+         <ejb-link>MTUpdatePassengerMailingHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTUtilityHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTUtilityHome</home>
+         <remote>com.aacorn.middletier.ejb.MTUtility</remote>
+         <ejb-link>MTUtilityHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTAgencyPrepaidHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTAgencyPrepaidHome</home>
+         <remote>com.aacorn.middletier.ejb.MTAgencyPrepaid</remote>
+         <ejb-link>MTAgencyPrepaidHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTTaxBreakdownHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTTaxBreakdownHome</home>
+         <remote>com.aacorn.middletier.ejb.MTTaxBreakdown</remote>
+         <ejb-link>MTTaxBreakdownHome</ejb-link>
+      </ejb-ref>
+
+      <ejb-ref>
+         <description></description>
+         <ejb-ref-name>ejb/MTBugReportHome</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.aacorn.middletier.ejb.MTBugReportHome</home>
+         <remote>com.aacorn.middletier.ejb.MTBugReport</remote>
+         <ejb-link>MTBugReportHome</ejb-link>
+      </ejb-ref>
+
+      <resource-ref>
+         <description>A reference to the connection pool.</description>
+         <res-ref-name>jdbc/oraclePool</res-ref-name>
+	 <res-type>javax.sql.DataSource</res-type>
+	 <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+
+  </enterprise-beans>
+
+  <assembly-descriptor>
+
+    <container-transaction>
+      <method>
+        <ejb-name>AgentSessionHome</ejb-name>
+        <method-name>*</method-name>
+      </method>
+      <trans-attribute>NotSupported</trans-attribute>
+    </container-transaction>
+
+  </assembly-descriptor>
+
+</ejb-jar>

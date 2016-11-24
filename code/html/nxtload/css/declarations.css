@@ -1,0 +1,123 @@
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<html>
+   <head>
+      <style>
+
+         .body { }
+
+         p.bodyHeader 
+         { 
+            font: arial;
+            font-size: 15pt;
+            font-weight: 900;
+            color: #E5E4EA; /* wheel color */
+            margin-left: 5px;
+         }
+
+         p.header 
+         { 
+            padding-right: 30px;
+            height: 150px;
+            border: 1px solid black; 
+            background-image: url( '../media/3500_dark.jpg' );
+            font: arial;
+            font-size: 30pt;
+            font-weight: 900;
+            vertical-align: bottom;
+            text-align: right;
+            color: #E5E4EA; /* wheel color */
+            /* color: #950B18;  door color */
+            /* color: #890B13;  door color */
+         }
+
+         p.side 
+         { 
+            font: arial;
+            font-size: 10pt;
+            font-weight: 100;
+         }
+
+         p.bodyText
+         { 
+            font: arial;
+            font-size: 12pt;
+            font-weight: 100;
+         }
+
+         p.bodyTextTop
+         { 
+            font: arial;
+            font-size: 14pt;
+            font-weight: 900;
+         }
+
+         p
+         { 
+            color: black;
+            font-size: 15pt;
+            font-weight: 200;
+         }
+
+         a
+         { 
+            color: white;
+            text-decoration: none;
+         }
+
+         div.loginBox
+         {
+            padding: 0px;
+            margin: 0px;
+            color: black;
+            background-color: #7A8073;
+         }
+
+         div.sideInformation
+         {
+            padding: 0px;
+            margin: 0px;
+            color: black;
+            background-color: #B7BFAC;
+         }
+
+         div.padder
+         {
+            padding: 5px;
+            margin: 0px;
+         }
+
+         div.bodyHeaderContainer
+         { 
+            background-color: #950B18;
+         }
+
+         div.bodyContainer
+         { 
+            background-color: #B7BFAC;
+         }
+
+         div.footer 
+         { 
+            font-size: 10pt;
+            font-weight: 100;
+            text-align: center;
+            color: #E5E4EA; /* wheel color */
+            background: #890B13;
+         }
+
+         p.login
+         { 
+            color: black;
+            font-size: 10pt;
+            font-weight: 500;
+         }
+
+         .workingImage
+         {
+            text-align: center;
+            margin: 10px;
+         }
+
+         </style>
+   </head>
+</html>

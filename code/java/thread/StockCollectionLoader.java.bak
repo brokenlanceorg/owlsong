@@ -1,0 +1,40 @@
+import java.util.*;
+
+public class StockCollectionLoader
+{
+
+   private String[] _theDataArray = null;
+   private String _updateFileName = "update.zip";
+
+   public StockCollectionLoader()
+   {
+      loadData();
+   } // end default constructor
+
+   public StockCollectionLoader( String fileName )
+   {
+      _updateFileName = fileName;
+      loadData();
+   } // end constructor
+
+   protected void loadData()
+   {
+      ZipReader theZip = new ZipReader( _updateFileName );
+      theZip.writeData();
+      String lastFile = theZip.getLastFileName();
+      theZip = new ZipReader( lastFile );
+      theZip.writeData();
+      lastFile = theZip.getLastFileName();
+      FileReader theDataFile = new FileReader( lastFile, "," );
+      _theDataArray = theDataFile.getArrayOfWords();
+   } // end loadData
+
+   public void loadUpdate( StockCollection theCollection )
+   {
+      for( int i=0; i<_theDataArray.length; i+=6 )
+      {
+         theCollection.update( _theDataArray[i], _theDataArray[i+1], _theDataArray[i+2], _theDataArray[i+4] );
+      } // end for loop
+   } // end loadUpdate
+
+} // end class StockCollectionLoader

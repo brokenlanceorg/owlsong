@@ -1,0 +1,5 @@
+#!/bin/bash
+# For Windows:
+#javac -cp .;jul-to-slf4j-1.6.4.jar test.java
+# For Linux:
+javac -cp .:jul-to-slf4j-1.6.4.jar test.java

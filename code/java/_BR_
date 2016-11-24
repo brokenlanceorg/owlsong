@@ -1,0 +1,490 @@
+
+Buildfile: /home/brandon/projects/code/java/build.xml
+
+init:
+     [echo] Java Project Build Properties
+     [echo] -------------------------------
+     [echo] project.name=${project.name}
+     [echo] project.home=${project.home}
+     [echo] project.ver=${project.ver}
+     [echo] common.home=/home/brandon/projects/code/java/common
+     [echo] math.home=/home/brandon/projects/code/java/math
+     [echo] stock.home=/home/brandon/projects/code/java/stock
+     [echo] stock.dist=/home/brandon/dist/stock
+     [echo] run.stock.dist=${run.stock.dist}
+
+compile.common:
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] user.home=/home/brandon
+     [echo] project.name=common
+     [echo] parent.project.home=/home/brandon/projects/code/java/common/..
+     [echo] project.home=/home/brandon/projects/code/java/common
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/common/lib
+     [echo] project.dist=/home/brandon/dist/common
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/common
+     [echo] project.src=/home/brandon/projects/code/java/common/src
+     [echo] project.javac.ms=128m
+     [echo] java.version=1.8
+
+compile:
+    [javac] /home/brandon/projects/code/java/common/build.xml:97: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.math:
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=math
+     [echo] parent.project.home=/home/brandon/projects/code/java/math/..
+     [echo] project.home=/home/brandon/projects/code/java/math
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/math/lib
+     [echo] project.dist=/home/brandon/dist/math
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/math
+     [echo] project.src=/home/brandon/projects/code/java/math/src
+     [echo] java.version=1.8
+
+compile:
+    [javac] /home/brandon/projects/code/java/math/build.xml:95: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.database:
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=database
+     [echo] parent.project.home=/home/brandon/projects/code/java/database/..
+     [echo] project.home=/home/brandon/projects/code/java/database
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/database/lib
+     [echo] project.dist=/home/brandon/dist/database
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/database
+     [echo] project.src=/home/brandon/projects/code/java/database/src
+     [echo] java.version=1.8
+
+compile:
+    [javac] /home/brandon/projects/code/java/database/build.xml:104: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 2 source files to /home/brandon/build/database
+    [javac] Note: /home/brandon/projects/code/java/database/src/database/DBTester.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile.grafix:
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=grafix
+     [echo] parent.project.home=/home/brandon/projects/code/java/grafix/..
+     [echo] project.home=/home/brandon/projects/code/java/grafix
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/grafix/lib
+     [echo] project.dist=/home/brandon/dist/grafix
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/grafix
+     [echo] project.src=/home/brandon/projects/code/java/grafix/src
+     [echo] java.version=1.8
+
+compile:
+    [javac] /home/brandon/projects/code/java/grafix/build.xml:110: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.ifs:
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=ifs
+     [echo] parent.project.home=/home/brandon/projects/code/java/ifs/..
+     [echo] project.home=/home/brandon/projects/code/java/ifs
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/ifs/lib
+     [echo] project.dist=/home/brandon/dist/ifs
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/ifs
+     [echo] project.src=/home/brandon/projects/code/java/ifs/src
+     [echo] java.version=1.8
+
+compile:
+    [javac] /home/brandon/projects/code/java/ifs/build.xml:110: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.fuzzy:
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=fuzzy
+     [echo] parent.project.home=/home/brandon/projects/code/java/fuzzy/..
+     [echo] project.home=/home/brandon/projects/code/java/fuzzy
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/fuzzy/lib
+     [echo] project.dist=/home/brandon/dist/fuzzy
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/fuzzy
+     [echo] project.src=/home/brandon/projects/code/java/fuzzy/src
+     [echo] java.version=1.8
+
+compile:
+    [javac] /home/brandon/projects/code/java/fuzzy/build.xml:110: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.genetic:
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=genetic
+     [echo] parent.project.home=/home/brandon/projects/code/java/genetic/..
+     [echo] parent.project.lib=/home/brandon/projects/code/java/genetic/../lib
+     [echo] project.home=/home/brandon/projects/code/java/genetic
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/genetic/lib
+     [echo] project.dist=/home/brandon/dist/genetic
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/genetic
+     [echo] project.src=/home/brandon/projects/code/java/genetic/src
+     [echo] java.version=1.8
+
+compile:
+    [javac] /home/brandon/projects/code/java/genetic/build.xml:112: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.functionalNetwork:
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=functionalNetwork
+     [echo] parent.project.home=/home/brandon/projects/code/java/functionalNetwork/..
+     [echo] project.home=/home/brandon/projects/code/java/functionalNetwork
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/functionalNetwork/lib
+     [echo] project.dist=/home/brandon/dist/functionalNetwork
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/functionalNetwork
+     [echo] project.src=/home/brandon/projects/code/java/functionalNetwork/src
+     [echo] java.version=1.8
+
+compile:
+    [javac] /home/brandon/projects/code/java/functionalNetwork/build.xml:110: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 9 source files to /home/brandon/build/functionalNetwork
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile.stock:
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=stock
+     [echo] parent.project.home=/home/brandon/projects/code/java/stock/..
+     [echo] project.home=/home/brandon/projects/code/java/stock
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/stock/lib
+     [echo] project.dist=/home/brandon/dist/stock
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/stock
+     [echo] project.src=/home/brandon/projects/code/java/stock/src
+     [echo] java.version=1.8
+
+compile:
+    [mkdir] Created dir: /home/brandon/build/stock
+    [javac] /home/brandon/projects/code/java/stock/build.xml:104: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 11 source files to /home/brandon/build/stock
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:11: error: package functional.network does not exist
+    [javac] import functional.network.*;
+    [javac] ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:12: error: package openkinect.forest does not exist
+    [javac] import openkinect.forest.*;
+    [javac] ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:13: error: package openkinect.forest.DecisionForest does not exist
+    [javac] import openkinect.forest.DecisionForest.*;
+    [javac] ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4302: error: cannot find symbol
+    [javac]       ManyToManyCorrelation correlation = new ManyToManyCorrelation( date + "-e" + eSize + "-l" + gSize );
+    [javac]       ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4302: error: cannot find symbol
+    [javac]       ManyToManyCorrelation correlation = new ManyToManyCorrelation( date + "-e" + eSize + "-l" + gSize );
+    [javac]                                               ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4310: error: package ManyToManyCorrelation does not exist
+    [javac]       ManyToManyCorrelation.ManyToManyCorrelationDAO dao = 
+    [javac]                            ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4311: error: package ManyToManyCorrelation does not exist
+    [javac]          (ManyToManyCorrelation.ManyToManyCorrelationDAO) correlation.getDAO();
+    [javac]                                ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4435: error: cannot find symbol
+    [javac]       ManyToManyCorrelation correlation = new ManyToManyCorrelation( date + "-e" + eSize + "-l" + gSize );
+    [javac]       ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4435: error: cannot find symbol
+    [javac]       ManyToManyCorrelation correlation = new ManyToManyCorrelation( date + "-e" + eSize + "-l" + gSize );
+    [javac]                                               ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4443: error: package ManyToManyCorrelation does not exist
+    [javac]       ManyToManyCorrelation.ManyToManyCorrelationDAO dao = 
+    [javac]                            ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4444: error: package ManyToManyCorrelation does not exist
+    [javac]          (ManyToManyCorrelation.ManyToManyCorrelationDAO) correlation.getDAO();
+    [javac]                                ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4829: error: cannot find symbol
+    [javac]       ManyToManyCorrelation correlation = new ManyToManyCorrelation( date + "-e" + eSize + "-l" + gSize + "i" );
+    [javac]       ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4829: error: cannot find symbol
+    [javac]       ManyToManyCorrelation correlation = new ManyToManyCorrelation( date + "-e" + eSize + "-l" + gSize + "i" );
+    [javac]                                               ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4840: error: package ManyToManyCorrelation does not exist
+    [javac]       ManyToManyCorrelation.ManyToManyCorrelationDAO dao = 
+    [javac]                            ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:4841: error: package ManyToManyCorrelation does not exist
+    [javac]          (ManyToManyCorrelation.ManyToManyCorrelationDAO) correlation.getDAO();
+    [javac]                                ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5095: error: package ManyToManyCorrelation does not exist
+    [javac]       ManyToManyCorrelation.ManyToManyCorrelationDAO dao = (ManyToManyCorrelation.ManyToManyCorrelationDAO)
+    [javac]                            ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5095: error: package ManyToManyCorrelation does not exist
+    [javac]       ManyToManyCorrelation.ManyToManyCorrelationDAO dao = (ManyToManyCorrelation.ManyToManyCorrelationDAO)
+    [javac]                                                                                  ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5096: error: cannot find symbol
+    [javac]          (new ManyToManyCorrelation( "0-e" + eSize + "-l" + gSize + "i" )).getDAO();
+    [javac]               ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5097: error: cannot find symbol
+    [javac]       ManyToManyCorrelation correlation = dao.deserialize();
+    [javac]       ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5410: error: cannot find symbol
+    [javac]       ManyToManyCorrelation correlation = new ManyToManyCorrelation( trainingDays + "-e" + eSize + "-l" + gSize + "-sopen" );
+    [javac]       ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5410: error: cannot find symbol
+    [javac]       ManyToManyCorrelation correlation = new ManyToManyCorrelation( trainingDays + "-e" + eSize + "-l" + gSize + "-sopen" );
+    [javac]                                               ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5421: error: package ManyToManyCorrelation does not exist
+    [javac]       ManyToManyCorrelation.ManyToManyCorrelationDAO dao = 
+    [javac]                            ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5422: error: package ManyToManyCorrelation does not exist
+    [javac]          (ManyToManyCorrelation.ManyToManyCorrelationDAO) correlation.getDAO();
+    [javac]                                ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5517: error: package ManyToManyCorrelation does not exist
+    [javac]       ManyToManyCorrelation.ManyToManyCorrelationDAO dao = (ManyToManyCorrelation.ManyToManyCorrelationDAO)
+    [javac]                            ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5517: error: package ManyToManyCorrelation does not exist
+    [javac]       ManyToManyCorrelation.ManyToManyCorrelationDAO dao = (ManyToManyCorrelation.ManyToManyCorrelationDAO)
+    [javac]                                                                                  ^
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5518: error: cannot find symbol
+    [javac]          (new ManyToManyCorrelation( trainingDays + "-e" + eSize + "-l" + gSize + "-sopen" )).getDAO();
+    [javac]               ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:5519: error: cannot find symbol
+    [javac]       ManyToManyCorrelation correlation = dao.deserialize();
+    [javac]       ^
+    [javac]   symbol:   class ManyToManyCorrelation
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6451: error: cannot find symbol
+    [javac]          DecisionForest decisionForest = ( DecisionForest ) ( new DecisionForest( name + ".DF" ) ).getDAO().deserialize();
+    [javac]          ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6451: error: cannot find symbol
+    [javac]          DecisionForest decisionForest = ( DecisionForest ) ( new DecisionForest( name + ".DF" ) ).getDAO().deserialize();
+    [javac]                                            ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6451: error: cannot find symbol
+    [javac]          DecisionForest decisionForest = ( DecisionForest ) ( new DecisionForest( name + ".DF" ) ).getDAO().deserialize();
+    [javac]                                                                   ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6459: error: cannot find symbol
+    [javac]             decisionForest = new DecisionForest( name + ".DF", 1, quant[ 0 ], 1 );
+    [javac]                                  ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6507: error: cannot find symbol
+    [javac]          DecisionForestDAO dfDAO = ( DecisionForestDAO ) decisionForest.getDAO();
+    [javac]          ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6507: error: cannot find symbol
+    [javac]          DecisionForestDAO dfDAO = ( DecisionForestDAO ) decisionForest.getDAO();
+    [javac]                                      ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6544: error: cannot find symbol
+    [javac]       DecisionForest decisionForestQQQ  = ( DecisionForest ) ( new DecisionForest( nameQQQ  + ".DF" ) ).getDAO().deserialize();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6544: error: cannot find symbol
+    [javac]       DecisionForest decisionForestQQQ  = ( DecisionForest ) ( new DecisionForest( nameQQQ  + ".DF" ) ).getDAO().deserialize();
+    [javac]                                             ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6544: error: cannot find symbol
+    [javac]       DecisionForest decisionForestQQQ  = ( DecisionForest ) ( new DecisionForest( nameQQQ  + ".DF" ) ).getDAO().deserialize();
+    [javac]                                                                    ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6545: error: cannot find symbol
+    [javac]       DecisionForest decisionForestMSFT = ( DecisionForest ) ( new DecisionForest( nameMSFT + ".DF" ) ).getDAO().deserialize();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6545: error: cannot find symbol
+    [javac]       DecisionForest decisionForestMSFT = ( DecisionForest ) ( new DecisionForest( nameMSFT + ".DF" ) ).getDAO().deserialize();
+    [javac]                                             ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6545: error: cannot find symbol
+    [javac]       DecisionForest decisionForestMSFT = ( DecisionForest ) ( new DecisionForest( nameMSFT + ".DF" ) ).getDAO().deserialize();
+    [javac]                                                                    ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6546: error: cannot find symbol
+    [javac]       DecisionForest decisionForestAAPL = ( DecisionForest ) ( new DecisionForest( nameAAPL + ".DF" ) ).getDAO().deserialize();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6546: error: cannot find symbol
+    [javac]       DecisionForest decisionForestAAPL = ( DecisionForest ) ( new DecisionForest( nameAAPL + ".DF" ) ).getDAO().deserialize();
+    [javac]                                             ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6546: error: cannot find symbol
+    [javac]       DecisionForest decisionForestAAPL = ( DecisionForest ) ( new DecisionForest( nameAAPL + ".DF" ) ).getDAO().deserialize();
+    [javac]                                                                    ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6547: error: cannot find symbol
+    [javac]       DecisionForest decisionForestGOOG = ( DecisionForest ) ( new DecisionForest( nameGOOG + ".DF" ) ).getDAO().deserialize();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6547: error: cannot find symbol
+    [javac]       DecisionForest decisionForestGOOG = ( DecisionForest ) ( new DecisionForest( nameGOOG + ".DF" ) ).getDAO().deserialize();
+    [javac]                                             ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6547: error: cannot find symbol
+    [javac]       DecisionForest decisionForestGOOG = ( DecisionForest ) ( new DecisionForest( nameGOOG + ".DF" ) ).getDAO().deserialize();
+    [javac]                                                                    ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6548: error: cannot find symbol
+    [javac]       DecisionForest decisionForestCSCO = ( DecisionForest ) ( new DecisionForest( nameCSCO + ".DF" ) ).getDAO().deserialize();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6548: error: cannot find symbol
+    [javac]       DecisionForest decisionForestCSCO = ( DecisionForest ) ( new DecisionForest( nameCSCO + ".DF" ) ).getDAO().deserialize();
+    [javac]                                             ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6548: error: cannot find symbol
+    [javac]       DecisionForest decisionForestCSCO = ( DecisionForest ) ( new DecisionForest( nameCSCO + ".DF" ) ).getDAO().deserialize();
+    [javac]                                                                    ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6549: error: cannot find symbol
+    [javac]       DecisionForest decisionForestORCL = ( DecisionForest ) ( new DecisionForest( nameORCL + ".DF" ) ).getDAO().deserialize();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6549: error: cannot find symbol
+    [javac]       DecisionForest decisionForestORCL = ( DecisionForest ) ( new DecisionForest( nameORCL + ".DF" ) ).getDAO().deserialize();
+    [javac]                                             ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:6549: error: cannot find symbol
+    [javac]       DecisionForest decisionForestORCL = ( DecisionForest ) ( new DecisionForest( nameORCL + ".DF" ) ).getDAO().deserialize();
+    [javac]                                                                    ^
+    [javac]   symbol:   class DecisionForest
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7198: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOQQQ  = ( DecisionForestDAO ) decisionForestQQQ .getDAO();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7198: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOQQQ  = ( DecisionForestDAO ) decisionForestQQQ .getDAO();
+    [javac]                                       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7199: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOMSFT = ( DecisionForestDAO ) decisionForestMSFT.getDAO();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7199: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOMSFT = ( DecisionForestDAO ) decisionForestMSFT.getDAO();
+    [javac]                                       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7200: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOAAPL = ( DecisionForestDAO ) decisionForestAAPL.getDAO();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7200: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOAAPL = ( DecisionForestDAO ) decisionForestAAPL.getDAO();
+    [javac]                                       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7201: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOGOOG = ( DecisionForestDAO ) decisionForestGOOG.getDAO();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7201: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOGOOG = ( DecisionForestDAO ) decisionForestGOOG.getDAO();
+    [javac]                                       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7202: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOCSCO = ( DecisionForestDAO ) decisionForestCSCO.getDAO();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7202: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOCSCO = ( DecisionForestDAO ) decisionForestCSCO.getDAO();
+    [javac]                                       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7203: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOORCL = ( DecisionForestDAO ) decisionForestORCL.getDAO();
+    [javac]       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] /home/brandon/projects/code/java/stock/src/stock/StockManager.java:7203: error: cannot find symbol
+    [javac]       DecisionForestDAO dfDAOORCL = ( DecisionForestDAO ) decisionForestORCL.getDAO();
+    [javac]                                       ^
+    [javac]   symbol:   class DecisionForestDAO
+    [javac]   location: class StockManager
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 63 errors
+
+BUILD FAILED
+/home/brandon/projects/code/java/build.xml:93: The following error occurred while executing this line:
+/home/brandon/projects/code/java/stock/build.xml:104: Compile failed; see the compiler error output for details.
+
+Total time: 3 seconds

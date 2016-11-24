@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+  <appender name="STDOUT" class="org.apache.log4j.FileAppender">
+    <param name="File" value="System.out" />
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%5p [%t] (%c) - %m%n"/>
+    </layout>
+  </appender>
+  <appender name="FILEAPPENDER" class="org.apache.log4j.RollingFileAppender">
+    <param name="File" value="bmas.log" />
+    <param name="MaxFileSize" value="1000kb"/>
+    <param name="MaxBackupIndex" value="1" />
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{ISO8601} --> %5p[%t](%c)-%m%n"/>
+    </layout>
+  </appender>
+  <category name="org.apache.log4j.xml" additivity="false">
+    <priority value="fatal" />
+    <appender-ref ref="FILEAPPENDER"/>
+  </category>
+  <category name="com.aa.csp" additivity="false">
+    <priority value="debug" />
+    <appender-ref ref="FILEAPPENDER"/>
+  </category>
+  <category name="java.lang.reflect" additivity="false">
+    <priority value="debug" />
+    <appender-ref ref="FILEAPPENDER"/>
+  </category>
+  <category name="com.aa.ed" additivity="false">
+    <priority value="debug" />
+    <appender-ref ref="FILEAPPENDER"/>
+  </category>
+  <category name="org.apache.commons.digester.Digester" additivity="false">
+    <priority value="debug" />
+    <appender-ref ref="FILEAPPENDER"/>
+  </category>
+  <category name="com.aa.bac" additivity="false">
+    <priority value="debug" />
+    <appender-ref ref="FILEAPPENDER"/>
+  </category>
+</log4j:configuration>

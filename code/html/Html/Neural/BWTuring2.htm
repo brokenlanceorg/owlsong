@@ -1,0 +1,144 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Logic
+		</title>
+
+	<link rel=StyleSheet href="../Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="../Logic.jpg"></center>
+      <img src="../graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=90%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+Thus, it 
+can compute (given infinite time) infinitely many decimals of the expansion of 
+<span class="symbol1"><span class="symbol2">p</span></span>, it could compute the most elaborate graphics 
+rendering to date, and on and on. Since it 
+<a href="../BWEpistemology2.htm" target="Main"><span class=linkTextWhite>can be shown</span></a> 
+that <i>any</i> output from <i>any</i> computer can be mapped to a single 
+natural number (for instance, Gödel numbering will work), any number that can be computed can be computed by a particular Turing machine.
+         </p>
+         <p>
+As if these results weren’t enough, Turing showed that there exists a certain version of a Turing machine that can compute anything that any 
+other Turing machine can compute, this particular machine is called a Universal Turing Machine (UTM). Thus, with a single machine 
+the UTM, one can theoretically compute anything that can be computed! Now, although present-day computers don’t deal with an infinitely 
+long tape, they are <i>functionally</i> equivalent to the UTM. That’s why computers are so versatile; they can be programmed to do just about anything.
+         </p>
+         <p>
+So the UTM can be envisioned as a single machine that can print out any computable number and then halts. Turing then asked the 
+natural question: is there a single program that can examine any program and determine if the said program will eventually print out a 
+number and then halt? This is known as the Halting Problem and it is logically equivalent to Hilbert’s Decision Problem.
+         </p>
+         <p>
+Turing elegantly showed that there can be no such program. This is the reason why debuggers are so ineffectual when it comes to solving 
+human error. Thus, maintenance programmers will always be in demand! 
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+This negative solution to the Halting Problem has many 
+consequences. For example, some equivalent statements are: no computer program can generate all the true statements of arithmetic; 
+there exists numbers whose complexity is so large that no computer program can generate them and halt.
+         </p>
+         <p>
+To see why the Halting Problem is unsolvable, consider a program P(x). Assume that this program solves the Halting Problem, i.e., 
+it takes as input another program, x, and returns 0 if the program x prints out a number and halts, and 1 if the program x doesn’t 
+print out a number and halt. Consider now the program <span class="symbol1"><span class="symbol2">p</span></span>:
+         </p>
+         <pre>
+BEGIN
+   If( P(<span class="symbol1"><span class="symbol2">p</span></span>) == 0 )
+   {
+      LOOP FOREVER;
+   }
+   else if( P(<span class="symbol1"><span class="symbol2">p</span></span>) == 1 )
+   {
+      PRINT 1;
+      STOP;
+   }
+END
+         </pre>
+         <p>
+Thus, if the program prints out a number and halts, it doesn’t because it will loop forever, and conversely, 
+if the program doesn’t print out a number and halt, it does because it will print '1' and stop! 
+This result is related to the liar paradox and Gödel’s Incompleteness Theorems.
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWTuring1.htm" target="Main"><img src="../previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="../BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="../BWMain.htm" target="Main"><img src="../next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="../mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

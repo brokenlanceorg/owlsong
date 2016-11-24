@@ -1,0 +1,13 @@
+Performing real default function...
+Caught an exception executing update: java.sql.SQLException: Table 'finance.QQQ_DIV' doesn't exist
+Caught an exception executing update: java.sql.SQLException: Table 'finance.QQQ_DIV' doesn't exist
+Error deserializing: java.io.FileNotFoundException: QQQ.DF.ser (No such file or directory)
+Error deserializing: java.io.FileNotFoundException: MSFT.DF.ser (No such file or directory)
+Error deserializing: java.io.FileNotFoundException: AAPL.DF.ser (No such file or directory)
+Error deserializing: java.io.FileNotFoundException: GOOG.DF.ser (No such file or directory)
+Error deserializing: java.io.FileNotFoundException: CSCO.DF.ser (No such file or directory)
+Error deserializing: java.io.FileNotFoundException: ORCL.DF.ser (No such file or directory)
+Exception in thread "main" java.lang.NullPointerException
+	at stock.StockManager.mapQuantiles(StockManager.java:6598)
+	at stock.StockDriver.performStrategyX(StockDriver.java:1360)
+	at stock.StockDriver.main(StockDriver.java:1802)

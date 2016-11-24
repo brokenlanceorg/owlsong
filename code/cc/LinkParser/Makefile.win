@@ -1,0 +1,61 @@
+# Project: LinkParserLib
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = Constituent.o Link.o LinkItem.o LinkParser.o SemanticDifferential.o SemanticDifferentialDataSource.o Sentence.o SentenceIterator.o SentenceListener.o SentenceIteratorListener.o ConstituentItem.o $(RES)
+LINKOBJ  = Constituent.o Link.o LinkItem.o LinkParser.o SemanticDifferential.o SemanticDifferentialDataSource.o Sentence.o SentenceIterator.o SentenceListener.o SentenceIteratorListener.o ConstituentItem.o $(RES)
+LIBS =  -L"lib" ../Miscellaneous/libMisc.a C:/BB/3RDPartyCode/link41b/CCLinkLib.a ../Fuzzy/libFuzzy.a ../Matc/MatcLib.a ../Logger/libLogger.a  
+INCS =  -I"include"  -I"C:/BB/3RDPartyCode/link41b/include"  -I"F:/Home/knoppix/code/cc/Miscellaneous"  -I"F:/Home/knoppix/code/cc/Matc"  -I"F:/Home/knoppix/code/cc/Fuzzy"  -I"F:/Home/knoppix/code/cc/Logger"  -I"F:/Home/knoppix/code/cc/LinkParser" 
+CXXINCS =  -I"lib/gcc/mingw32/3.4.2/include"  -I"include/c++/3.4.2/backward"  -I"include/c++/3.4.2/mingw32"  -I"include/c++/3.4.2"  -I"include"  -I"C:/BB/3RDPartyCode/link41b/include"  -I"F:/Home/knoppix/code/cc/Miscellaneous"  -I"F:/Home/knoppix/code/cc/Matc"  -I"F:/Home/knoppix/code/cc/Fuzzy"  -I"F:/Home/knoppix/code/cc/Logger"  -I"F:/Home/knoppix/code/cc/LinkParser" 
+BIN  = LinkParserLib.a
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before LinkParserLib.a all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(LINKOBJ)
+	ar r $(BIN) $(LINKOBJ)
+	ranlib $(BIN)
+
+Constituent.o: Constituent.cpp
+	$(CPP) -c Constituent.cpp -o Constituent.o $(CXXFLAGS)
+
+Link.o: Link.cpp
+	$(CPP) -c Link.cpp -o Link.o $(CXXFLAGS)
+
+LinkItem.o: LinkItem.cpp
+	$(CPP) -c LinkItem.cpp -o LinkItem.o $(CXXFLAGS)
+
+LinkParser.o: LinkParser.cpp
+	$(CPP) -c LinkParser.cpp -o LinkParser.o $(CXXFLAGS)
+
+SemanticDifferential.o: SemanticDifferential.cpp
+	$(CPP) -c SemanticDifferential.cpp -o SemanticDifferential.o $(CXXFLAGS)
+
+SemanticDifferentialDataSource.o: SemanticDifferentialDataSource.cpp
+	$(CPP) -c SemanticDifferentialDataSource.cpp -o SemanticDifferentialDataSource.o $(CXXFLAGS)
+
+Sentence.o: Sentence.cpp
+	$(CPP) -c Sentence.cpp -o Sentence.o $(CXXFLAGS)
+
+SentenceIterator.o: SentenceIterator.cpp
+	$(CPP) -c SentenceIterator.cpp -o SentenceIterator.o $(CXXFLAGS)
+
+SentenceListener.o: SentenceListener.cpp
+	$(CPP) -c SentenceListener.cpp -o SentenceListener.o $(CXXFLAGS)
+
+SentenceIteratorListener.o: SentenceIteratorListener.cpp
+	$(CPP) -c SentenceIteratorListener.cpp -o SentenceIteratorListener.o $(CXXFLAGS)
+
+ConstituentItem.o: ConstituentItem.cpp
+	$(CPP) -c ConstituentItem.cpp -o ConstituentItem.o $(CXXFLAGS)

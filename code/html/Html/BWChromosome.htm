@@ -1,0 +1,204 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <div class=bodyWhiteSmallJustify>
+      <code>
+<br><br>
+#include"Chromosome.hpp"          
+
+ChromosomE::ChromosomE()<br>
+{<br>
+   &nbsp Setup();<br>
+} // end ChromosomE default constructor<br><br>
+
+ChromosomE::~ChromosomE()<br>
+{<br>
+   &nbsp if( _myCrosser != 0 )<br>
+   &nbsp {<br>
+      &nbsp &nbsp delete _myCrosser;<br>
+      &nbsp &nbsp _myCrosser = 0;<br>
+   &nbsp } // end if not null<br>
+   &nbsp if( _myGenome != 0 )<br>
+   &nbsp {<br>
+      &nbsp &nbsp delete _myGenome;<br>
+      &nbsp &nbsp _myGenome = 0;<br>
+   &nbsp } // end if not null<br>
+   &nbsp if( _myMutator != 0 )<br>
+   &nbsp {<br>
+      &nbsp &nbsp delete _myMutator;<br>
+      &nbsp &nbsp _myMutator = 0;<br>
+   &nbsp } // end if not null<br>
+} // end ChromosomE destructor<br><br>
+
+void ChromosomE::Setup()<br>
+{<br>
+   &nbsp _myCrosser = 0;<br>
+   &nbsp _myGenome  = 0;<br>
+   &nbsp _myMutator = 0;<br>
+   &nbsp _LowEndpoint  = 0.3;<br>
+   &nbsp _HighEndpoint = 0.7;<br>
+} // end Setup          <br><br>
+
+void ChromosomE::SetCrossoverStrategy( void* theStrat )<br>
+{<br>
+   &nbsp if( _myCrosser != 0 )<br>
+   &nbsp {<br>
+      &nbsp &nbsp delete _myCrosser;<br>
+   &nbsp } // end if not null<br><br>
+
+   &nbsp _myCrosser = theStrat; // Type: CrossoverStrategY*<br>
+} // end SetCrossoverStrategy<br><br>
+
+ChromosomE* ChromosomE::Crossover( ChromosomE* theMate )<br>
+{<br>
+   &nbsp ChromosomE* theChild = this->Clone();<br>
+   &nbsp ((CrossoverStrategY*)_myCrosser)->Crossover( this, theMate, theChild );<br>
+   &nbsp theChild->SetMutationStrategy( this->CloneMutationStrategy() );<br>
+   &nbsp theChild->SetCrossoverStrategy( this->CloneCrossoverStrategy() );<br><br>
+   
+   &nbsp return theChild;<br>
+} // end Crossover<br><br>
+
+void ChromosomE::Mutate()<br>
+{<br>
+   &nbsp ((MutationStrategY*)_myMutator)->Mutate( this );<br>
+} // end Mutate<br><br>
+
+VectoR* ChromosomE::GetGenes( int iStart, int iEnd )<br>
+{<br>
+   &nbsp VectoR* theGenes = new VectoR( iEnd - iStart + 1 );<br>
+   &nbsp int iCounter = 0;<br><br>
+
+   &nbsp for( int i=iStart; i<iEnd+1; i++ )<br>
+   &nbsp {<br>
+      &nbsp &nbsp theGenes->pVariables[ iCounter++ ] = _myGenome->pVariables[ i ];<br>
+   &nbsp } // end for loop<br><br>
+   
+   &nbsp return theGenes;<br>
+} // end GetGenes<br><br>
+
+void ChromosomE::AddGenes( VectoR* theGenes )<br>
+{<br>
+   &nbsp if( _myGenome == 0 )<br>
+   &nbsp {<br>
+      &nbsp &nbsp _myGenome = new VectoR( theGenes );<br>
+      &nbsp &nbsp delete theGenes;<br>
+      &nbsp &nbsp return;<br>
+   &nbsp } // end if first add<br><br>
+   
+   &nbsp VectoR* tempVector = new VectoR( _myGenome->cnRows + theGenes->cnRows );<br>
+   &nbsp int iCounter = 0;<br><br>
+
+   &nbsp for( int i=0; i<_myGenome->cnRows; i++ )<br>
+   &nbsp {<br>
+      &nbsp &nbsp tempVector->pVariables[ iCounter++ ] = _myGenome->pVariables[ i ];<br>
+   &nbsp } // end for loop<br>
+   &nbsp for( int i=0; i<theGenes->cnRows; i++ )<br>
+   &nbsp {<br>
+      &nbsp &nbsp tempVector->pVariables[ iCounter++ ] = theGenes->pVariables[ i ];<br>
+   &nbsp } // end for loop<br><br>
+      
+   &nbsp delete _myGenome;<br>
+   &nbsp _myGenome = tempVector;<br>
+} // end AddGenes<br><br>
+
+void ChromosomE::SetMutationStrategy( void* theStrat )<br>
+{<br>
+   &nbsp if( _myMutator != 0 )<br>
+   &nbsp {<br>
+      &nbsp &nbsp delete _myMutator;<br>
+   &nbsp } // end if not null<br><br>
+
+   &nbsp _myMutator = theStrat; // Type: MutationStrategY*<br>
+} // end SetMutationStrategy<br><br>
+
+void ChromosomE::SetGenome( VectoR* theGenome )<br>
+{<br>
+   &nbsp if( _myGenome != 0 )<br>
+   &nbsp {<br>
+      &nbsp &nbsp delete _myGenome;<br>
+   &nbsp } // end if not null<br><br>
+
+   &nbsp &nbsp _myGenome = theGenome;<br>
+} // end setGenome<br><br>
+
+void* ChromosomE::CloneMutationStrategy()<br>
+{<br>
+   &nbsp return ((MutationStrategY*)_myMutator)->Clone();<br>
+} // end CloneMutationStrategy<br><br>
+
+void* ChromosomE::CloneCrossoverStrategy()<br>
+{<br>
+   &nbsp return ((CrossoverStrategY*)_myCrosser)->Clone();<br>
+} // end CloneCrossoverStrategy<br><br><br>
+
+      </code>
+      </div>
+
+<!--
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWGenetic5.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWGenetic5.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+-->
+
+
+</body>
+
+
+</html>

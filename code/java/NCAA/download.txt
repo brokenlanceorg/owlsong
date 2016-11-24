@@ -1,0 +1,673 @@
+Will perform full download...
+Downloading data for team name: Boston U.
+The download link is: http://sports.yahoo.com/ncaab/teams/ban/schedule
+Downloading data for team name: Rhode Island
+The download link is: http://sports.yahoo.com/ncaab/teams/rad/schedule
+Downloading data for team name: Miami (FL)
+The download link is: http://sports.yahoo.com/ncaab/teams/mav/schedule
+Downloading data for team name: Valparaiso
+The download link is: http://sports.yahoo.com/ncaab/teams/vab/schedule
+Downloading data for team name: Central Arkansas
+The download link is: http://sports.yahoo.com/ncaab/teams/cdm/schedule
+Downloading data for team name: Cal Poly
+The download link is: http://sports.yahoo.com/ncaab/teams/cag/schedule
+Downloading data for team name: Indiana
+The download link is: http://sports.yahoo.com/ncaab/teams/iai/schedule
+Downloading data for team name: Fordham
+The download link is: http://sports.yahoo.com/ncaab/teams/fao/schedule
+Downloading data for team name: Rice
+The download link is: http://sports.yahoo.com/ncaab/teams/rae/schedule
+Downloading data for team name: E. Tennessee St.
+The download link is: http://sports.yahoo.com/ncaab/teams/eaa/schedule
+Downloading data for team name: Charleston
+The download link is: http://sports.yahoo.com/ncaab/teams/cat/schedule
+Downloading data for team name: Old Dominion
+The download link is: http://sports.yahoo.com/ncaab/teams/oah/schedule
+Downloading data for team name: St. Bonaventure
+The download link is: http://sports.yahoo.com/ncaab/teams/sbl/schedule
+Downloading data for team name: Northern Arizona
+The download link is: http://sports.yahoo.com/ncaab/teams/nbc/schedule
+Downloading data for team name: UC Davis
+The download link is: http://sports.yahoo.com/ncaab/teams/caa/schedule
+Downloading data for team name: Centenary
+The download link is: http://sports.yahoo.com/ncaab/teams/can/schedule
+Downloading data for team name: Arizona
+The download link is: http://sports.yahoo.com/ncaab/teams/aaq/schedule
+Downloading data for team name: Wis. Green Bay
+The download link is: http://sports.yahoo.com/ncaab/teams/wbb/schedule
+Downloading data for team name: UAB
+The download link is: http://sports.yahoo.com/ncaab/teams/abh/schedule
+Downloading data for team name: East Carolina
+The download link is: http://sports.yahoo.com/ncaab/teams/eac/schedule
+Downloading data for team name: Wright St.
+The download link is: http://sports.yahoo.com/ncaab/teams/wbj/schedule
+Downloading data for team name: Wyoming
+The download link is: http://sports.yahoo.com/ncaab/teams/wbk/schedule
+Downloading data for team name: Georgetown
+The download link is: http://sports.yahoo.com/ncaab/teams/gae/schedule
+Downloading data for team name: Western Carolina
+The download link is: http://sports.yahoo.com/ncaab/teams/wat/schedule
+Downloading data for team name: Illinois St.
+The download link is: http://sports.yahoo.com/ncaab/teams/iag/schedule
+Downloading data for team name: Niagara
+The download link is: http://sports.yahoo.com/ncaab/teams/naq/schedule
+Downloading data for team name: TCU
+The download link is: http://sports.yahoo.com/ncaab/teams/tac/schedule
+Downloading data for team name: San Diego
+The download link is: http://sports.yahoo.com/ncaab/teams/sad/schedule
+Downloading data for team name: Howard
+The download link is: http://sports.yahoo.com/ncaab/teams/hao/schedule
+Downloading data for team name: Toledo
+The download link is: http://sports.yahoo.com/ncaab/teams/tau/schedule
+Downloading data for team name: UNLV
+The download link is: http://sports.yahoo.com/ncaab/teams/naj/schedule
+Downloading data for team name: Boston Coll.
+The download link is: http://sports.yahoo.com/ncaab/teams/bam/schedule
+Downloading data for team name: UCLA
+The download link is: http://sports.yahoo.com/ncaab/teams/uaa/schedule
+Downloading data for team name: Fairfield
+The download link is: http://sports.yahoo.com/ncaab/teams/fab/schedule
+Downloading data for team name: South Carolina
+The download link is: http://sports.yahoo.com/ncaab/teams/sbf/schedule
+Downloading data for team name: Stephen F. Austin
+The download link is: http://sports.yahoo.com/ncaab/teams/scc/schedule
+Downloading data for team name: Florida
+The download link is: http://sports.yahoo.com/ncaab/teams/fak/schedule
+Downloading data for team name: San Diego St.
+The download link is: http://sports.yahoo.com/ncaab/teams/sae/schedule
+Downloading data for team name: Providence
+The download link is: http://sports.yahoo.com/ncaab/teams/pas/schedule
+Downloading data for team name: Idaho
+The download link is: http://sports.yahoo.com/ncaab/teams/iaa/schedule
+Downloading data for team name: American
+The download link is: http://sports.yahoo.com/ncaab/teams/aan/schedule
+Downloading data for team name: Bradley
+The download link is: http://sports.yahoo.com/ncaab/teams/baq/schedule
+Downloading data for team name: Northern Colorado
+The download link is: http://sports.yahoo.com/ncaab/teams/nbh/schedule
+Downloading data for team name: North Florida
+The download link is: http://sports.yahoo.com/ncaab/teams/nfl/schedule
+Downloading data for team name: North Dakota St.
+The download link is: http://sports.yahoo.com/ncaab/teams/nds/schedule
+Downloading data for team name: Eastern Wash.
+The download link is: http://sports.yahoo.com/ncaab/teams/eai/schedule
+Downloading data for team name: Jacksonville
+The download link is: http://sports.yahoo.com/ncaab/teams/jab/schedule
+Downloading data for team name: Pennsylvania
+The download link is: http://sports.yahoo.com/ncaab/teams/pag/schedule
+Downloading data for team name: Morgan St.
+The download link is: http://sports.yahoo.com/ncaab/teams/mbq/schedule
+Downloading data for team name: W. Michigan
+The download link is: http://sports.yahoo.com/ncaab/teams/wap/schedule
+Downloading data for team name: Central Conn. St.
+The download link is: http://sports.yahoo.com/ncaab/teams/cao/schedule
+Downloading data for team name: Utah
+The download link is: http://sports.yahoo.com/ncaab/teams/uae/schedule
+Downloading data for team name: Marquette
+The download link is: http://sports.yahoo.com/ncaab/teams/maf/schedule
+Downloading data for team name: Lamar
+The download link is: http://sports.yahoo.com/ncaab/teams/lab/schedule
+Downloading data for team name: Florida St.
+The download link is: http://sports.yahoo.com/ncaab/teams/fan/schedule
+Downloading data for team name: Iowa
+The download link is: http://sports.yahoo.com/ncaab/teams/ian/schedule
+Downloading data for team name: Temple
+The download link is: http://sports.yahoo.com/ncaab/teams/tad/schedule
+Downloading data for team name: Lipscomb
+The download link is: http://sports.yahoo.com/ncaab/teams/lbu/schedule
+Downloading data for team name: Stony Brook
+The download link is: http://sports.yahoo.com/ncaab/teams/scy/schedule
+Downloading data for team name: Cornell
+The download link is: http://sports.yahoo.com/ncaab/teams/cbr/schedule
+Downloading data for team name: N.C. Greensboro
+The download link is: http://sports.yahoo.com/ncaab/teams/nae/schedule
+Downloading data for team name: Denver
+The download link is: http://sports.yahoo.com/ncaab/teams/dak/schedule
+Downloading data for team name: LSU
+The download link is: http://sports.yahoo.com/ncaab/teams/lav/schedule
+Downloading data for team name: Appalachian St.
+The download link is: http://sports.yahoo.com/ncaab/teams/aap/schedule
+Downloading data for team name: Jackson St.
+The download link is: http://sports.yahoo.com/ncaab/teams/jaa/schedule
+Downloading data for team name: Florida Intl.
+The download link is: http://sports.yahoo.com/ncaab/teams/fam/schedule
+Downloading data for team name: Montana
+The download link is: http://sports.yahoo.com/ncaab/teams/mbm/schedule
+Downloading data for team name: Florida Atlantic
+The download link is: http://sports.yahoo.com/ncaab/teams/fav/schedule
+Downloading data for team name: Sacramento St.
+The download link is: http://sports.yahoo.com/ncaab/teams/saa/schedule
+Downloading data for team name: Nevada
+The download link is: http://sports.yahoo.com/ncaab/teams/nak/schedule
+Downloading data for team name: Hartford
+The download link is: http://sports.yahoo.com/ncaab/teams/hac/schedule
+Downloading data for team name: Connecticut
+The download link is: http://sports.yahoo.com/ncaab/teams/cbp/schedule
+Downloading data for team name: Clemson
+The download link is: http://sports.yahoo.com/ncaab/teams/cbg/schedule
+Downloading data for team name: Mercer
+The download link is: http://sports.yahoo.com/ncaab/teams/maq/schedule
+Downloading data for team name: Pittsburgh
+The download link is: http://sports.yahoo.com/ncaab/teams/pal/schedule
+Downloading data for team name: IPFW
+The download link is: http://sports.yahoo.com/ncaab/teams/iav/schedule
+Downloading data for team name: Texas A&amp;M
+The download link is: http://sports.yahoo.com/ncaab/teams/tan/schedule
+Downloading data for team name: Troy
+The download link is: http://sports.yahoo.com/ncaab/teams/taw/schedule
+Downloading data for team name: Illinois
+The download link is: http://sports.yahoo.com/ncaab/teams/iae/schedule
+Downloading data for team name: Monmouth
+The download link is: http://sports.yahoo.com/ncaab/teams/mbk/schedule
+Downloading data for team name: Southern Ill.
+The download link is: http://sports.yahoo.com/ncaab/teams/sbi/schedule
+Downloading data for team name: Ohio
+The download link is: http://sports.yahoo.com/ncaab/teams/oab/schedule
+Downloading data for team name: Memphis
+The download link is: http://sports.yahoo.com/ncaab/teams/map/schedule
+Downloading data for team name: Air Force
+The download link is: http://sports.yahoo.com/ncaab/teams/aab/schedule
+Downloading data for team name: Florida A&amp;M
+The download link is: http://sports.yahoo.com/ncaab/teams/fal/schedule
+Downloading data for team name: Hampton
+The download link is: http://sports.yahoo.com/ncaab/teams/hay/schedule
+Downloading data for team name: Georgia
+The download link is: http://sports.yahoo.com/ncaab/teams/gaf/schedule
+Downloading data for team name: Houston
+The download link is: http://sports.yahoo.com/ncaab/teams/ham/schedule
+Downloading data for team name: Quinnipiac
+The download link is: http://sports.yahoo.com/ncaab/teams/qae/schedule
+Downloading data for team name: Delaware
+The download link is: http://sports.yahoo.com/ncaab/teams/dag/schedule
+Downloading data for team name: Texas Tech
+The download link is: http://sports.yahoo.com/ncaab/teams/tas/schedule
+Downloading data for team name: Georgia Tech
+The download link is: http://sports.yahoo.com/ncaab/teams/gah/schedule
+Downloading data for team name: Missouri St.
+The download link is: http://sports.yahoo.com/ncaab/teams/scg/schedule
+Downloading data for team name: Boise St.
+The download link is: http://sports.yahoo.com/ncaab/teams/bal/schedule
+Downloading data for team name: Fair. Dickinson
+The download link is: http://sports.yahoo.com/ncaab/teams/faa/schedule
+Downloading data for team name: High Point
+The download link is: http://sports.yahoo.com/ncaab/teams/hbd/schedule
+Downloading data for team name: Maryland
+The download link is: http://sports.yahoo.com/ncaab/teams/maj/schedule
+Downloading data for team name: Kansas
+The download link is: http://sports.yahoo.com/ncaab/teams/kaa/schedule
+Downloading data for team name: UTEP
+The download link is: http://sports.yahoo.com/ncaab/teams/tap/schedule
+Downloading data for team name: Harvard
+The download link is: http://sports.yahoo.com/ncaab/teams/had/schedule
+Downloading data for team name: Louisiana Tech
+The download link is: http://sports.yahoo.com/ncaab/teams/lap/schedule
+Downloading data for team name: East. Michigan
+The download link is: http://sports.yahoo.com/ncaab/teams/eaf/schedule
+Downloading data for team name: Kentucky
+The download link is: http://sports.yahoo.com/ncaab/teams/kaf/schedule
+Downloading data for team name: Radford
+The download link is: http://sports.yahoo.com/ncaab/teams/raa/schedule
+Downloading data for team name: Portland St.
+The download link is: http://sports.yahoo.com/ncaab/teams/pbe/schedule
+Downloading data for team name: Drake
+The download link is: http://sports.yahoo.com/ncaab/teams/dar/schedule
+Downloading data for team name: Yale
+The download link is: http://sports.yahoo.com/ncaab/teams/yaa/schedule
+Downloading data for team name: Bowling Green
+The download link is: http://sports.yahoo.com/ncaab/teams/bap/schedule
+Downloading data for team name: Wisconsin
+The download link is: http://sports.yahoo.com/ncaab/teams/wbg/schedule
+Downloading data for team name: Coastal Carolina
+The download link is: http://sports.yahoo.com/ncaab/teams/cbi/schedule
+Downloading data for team name: Akron
+The download link is: http://sports.yahoo.com/ncaab/teams/aac/schedule
+Downloading data for team name: Minnesota
+The download link is: http://sports.yahoo.com/ncaab/teams/mbd/schedule
+Downloading data for team name: N.C. Asheville
+The download link is: http://sports.yahoo.com/ncaab/teams/nab/schedule
+Downloading data for team name: Ball St.
+The download link is: http://sports.yahoo.com/ncaab/teams/baa/schedule
+Downloading data for team name: San Jose St.
+The download link is: http://sports.yahoo.com/ncaab/teams/sag/schedule
+Downloading data for team name: California
+The download link is: http://sports.yahoo.com/ncaab/teams/cah/schedule
+Downloading data for team name: Texas St.
+The download link is: http://sports.yahoo.com/ncaab/teams/sch/schedule
+Downloading data for team name: Lafayette
+The download link is: http://sports.yahoo.com/ncaab/teams/laa/schedule
+Downloading data for team name: UC Riverside
+The download link is: http://sports.yahoo.com/ncaab/teams/cau/schedule
+Downloading data for team name: Oral Roberts
+The download link is: http://sports.yahoo.com/ncaab/teams/oai/schedule
+Downloading data for team name: Oakland
+The download link is: http://sports.yahoo.com/ncaab/teams/oaa/schedule
+Downloading data for team name: Northwestern
+The download link is: http://sports.yahoo.com/ncaab/teams/nbd/schedule
+Downloading data for team name: Tennessee St.
+The download link is: http://sports.yahoo.com/ncaab/teams/tai/schedule
+Downloading data for team name: Indiana St.
+The download link is: http://sports.yahoo.com/ncaab/teams/ial/schedule
+Downloading data for team name: Evansville
+The download link is: http://sports.yahoo.com/ncaab/teams/ear/schedule
+Downloading data for team name: Chattanooga
+The download link is: http://sports.yahoo.com/ncaab/teams/cdc/schedule
+Downloading data for team name: CSU Northridge
+The download link is: http://sports.yahoo.com/ncaab/teams/nbb/schedule
+Downloading data for team name: Sam Houston St.
+The download link is: http://sports.yahoo.com/ncaab/teams/sab/schedule
+Downloading data for team name: Purdue
+The download link is: http://sports.yahoo.com/ncaab/teams/pau/schedule
+Downloading data for team name: Vanderbilt
+The download link is: http://sports.yahoo.com/ncaab/teams/vac/schedule
+Downloading data for team name: Xavier
+The download link is: http://sports.yahoo.com/ncaab/teams/xaa/schedule
+Downloading data for team name: Utah St.
+The download link is: http://sports.yahoo.com/ncaab/teams/uaf/schedule
+Downloading data for team name: Grambling St.
+The download link is: http://sports.yahoo.com/ncaab/teams/gak/schedule
+Downloading data for team name: Gonzaga
+The download link is: http://sports.yahoo.com/ncaab/teams/gaj/schedule
+Downloading data for team name: North Carolina
+The download link is: http://sports.yahoo.com/ncaab/teams/nav/schedule
+Downloading data for team name: Jacksonville St.
+The download link is: http://sports.yahoo.com/ncaab/teams/jae/schedule
+Downloading data for team name: Tennessee
+The download link is: http://sports.yahoo.com/ncaab/teams/tag/schedule
+Downloading data for team name: St. John's
+The download link is: http://sports.yahoo.com/ncaab/teams/sbp/schedule
+Downloading data for team name: Washington
+The download link is: http://sports.yahoo.com/ncaab/teams/waf/schedule
+Downloading data for team name: USC
+The download link is: http://sports.yahoo.com/ncaab/teams/uad/schedule
+Downloading data for team name: Middle Tenn. St.
+The download link is: http://sports.yahoo.com/ncaab/teams/maz/schedule
+Downloading data for team name: Furman
+The download link is: http://sports.yahoo.com/ncaab/teams/fau/schedule
+Downloading data for team name: Campbell
+The download link is: http://sports.yahoo.com/ncaab/teams/cai/schedule
+Downloading data for team name: Savannah St.
+The download link is: http://sports.yahoo.com/ncaab/teams/saj/schedule
+Downloading data for team name: Tennessee Tech
+The download link is: http://sports.yahoo.com/ncaab/teams/taj/schedule
+Downloading data for team name: CSU Fullerton
+The download link is: http://sports.yahoo.com/ncaab/teams/fat/schedule
+Downloading data for team name: Mo. Kansas City
+The download link is: http://sports.yahoo.com/ncaab/teams/mbi/schedule
+Downloading data for team name: Duquesne
+The download link is: http://sports.yahoo.com/ncaab/teams/dav/schedule
+Downloading data for team name: UTSA
+The download link is: http://sports.yahoo.com/ncaab/teams/tak/schedule
+Downloading data for team name: Fresno St.
+The download link is: http://sports.yahoo.com/ncaab/teams/far/schedule
+Downloading data for team name: St. Francis (PA)
+The download link is: http://sports.yahoo.com/ncaab/teams/sbo/schedule
+Downloading data for team name: Duke
+The download link is: http://sports.yahoo.com/ncaab/teams/dau/schedule
+Downloading data for team name: Cent. Michigan
+The download link is: http://sports.yahoo.com/ncaab/teams/caq/schedule
+Downloading data for team name: S. Carolina St.
+The download link is: http://sports.yahoo.com/ncaab/teams/sax/schedule
+Downloading data for team name: Nebraska
+The download link is: http://sports.yahoo.com/ncaab/teams/nai/schedule
+Downloading data for team name: Colorado St.
+The download link is: http://sports.yahoo.com/ncaab/teams/cbm/schedule
+Downloading data for team name: Cleveland St.
+The download link is: http://sports.yahoo.com/ncaab/teams/cbh/schedule
+Downloading data for team name: New Mexico St.
+The download link is: http://sports.yahoo.com/ncaab/teams/nan/schedule
+Downloading data for team name: Arkansas
+The download link is: http://sports.yahoo.com/ncaab/teams/aas/schedule
+Downloading data for team name: La Salle
+The download link is: http://sports.yahoo.com/ncaab/teams/lad/schedule
+Downloading data for team name: Dayton
+The download link is: http://sports.yahoo.com/ncaab/teams/dae/schedule
+Downloading data for team name: Kent St.
+The download link is: http://sports.yahoo.com/ncaab/teams/kae/schedule
+Downloading data for team name: LA Monroe
+The download link is: http://sports.yahoo.com/ncaab/teams/nah/schedule
+Downloading data for team name: Oklahoma St.
+The download link is: http://sports.yahoo.com/ncaab/teams/oag/schedule
+Downloading data for team name: Loyola Chicago
+The download link is: http://sports.yahoo.com/ncaab/teams/las/schedule
+Downloading data for team name: Virginia Military
+The download link is: http://sports.yahoo.com/ncaab/teams/vai/schedule
+Downloading data for team name: Western Ill.
+The download link is: http://sports.yahoo.com/ncaab/teams/wan/schedule
+Downloading data for team name: Notre Dame
+The download link is: http://sports.yahoo.com/ncaab/teams/nbf/schedule
+Downloading data for team name: Loyola Marymount
+The download link is: http://sports.yahoo.com/ncaab/teams/lat/schedule
+Downloading data for team name: SE Louisiana
+The download link is: http://sports.yahoo.com/ncaab/teams/sam/schedule
+Downloading data for team name: Butler
+The download link is: http://sports.yahoo.com/ncaab/teams/bav/schedule
+Downloading data for team name: Georgia Southern
+The download link is: http://sports.yahoo.com/ncaab/teams/gab/schedule
+Downloading data for team name: Syracuse
+The download link is: http://sports.yahoo.com/ncaab/teams/sci/schedule
+Downloading data for team name: South Dakota St.
+The download link is: http://sports.yahoo.com/ncaab/teams/sds/schedule
+Downloading data for team name: West. Kentucky
+The download link is: http://sports.yahoo.com/ncaab/teams/wao/schedule
+Downloading data for team name: Washington St.
+The download link is: http://sports.yahoo.com/ncaab/teams/wah/schedule
+Downloading data for team name: Texas Southern
+The download link is: http://sports.yahoo.com/ncaab/teams/tar/schedule
+Downloading data for team name: Hawaii
+The download link is: http://sports.yahoo.com/ncaab/teams/hae/schedule
+Downloading data for team name: Wagner
+The download link is: http://sports.yahoo.com/ncaab/teams/wac/schedule
+Downloading data for team name: TX Arlington
+The download link is: http://sports.yahoo.com/ncaab/teams/tao/schedule
+Downloading data for team name: Oregon
+The download link is: http://sports.yahoo.com/ncaab/teams/oaj/schedule
+Downloading data for team name: St. Joseph's
+The download link is: http://sports.yahoo.com/ncaab/teams/sbq/schedule
+Downloading data for team name: Coppin St.
+The download link is: http://sports.yahoo.com/ncaab/teams/cbq/schedule
+Downloading data for team name: N.C. State
+The download link is: http://sports.yahoo.com/ncaab/teams/nat/schedule
+Downloading data for team name: Pacific
+The download link is: http://sports.yahoo.com/ncaab/teams/pab/schedule
+Downloading data for team name: Alabama St.
+The download link is: http://sports.yahoo.com/ncaab/teams/aah/schedule
+Downloading data for team name: N.J.I.T.
+The download link is: http://sports.yahoo.com/ncaab/teams/ncf/schedule
+Downloading data for team name: Robert Morris
+The download link is: http://sports.yahoo.com/ncaab/teams/rah/schedule
+Downloading data for team name: MD Eastern Shore
+The download link is: http://sports.yahoo.com/ncaab/teams/man/schedule
+Downloading data for team name: George Mason
+The download link is: http://sports.yahoo.com/ncaab/teams/gad/schedule
+Downloading data for team name: Drexel
+The download link is: http://sports.yahoo.com/ncaab/teams/dat/schedule
+Downloading data for team name: Charleston S.
+The download link is: http://sports.yahoo.com/ncaab/teams/cax/schedule
+Downloading data for team name: Idaho St.
+The download link is: http://sports.yahoo.com/ncaab/teams/iac/schedule
+Downloading data for team name: Wofford
+The download link is: http://sports.yahoo.com/ncaab/teams/wbi/schedule
+Downloading data for team name: Cincinnati
+The download link is: http://sports.yahoo.com/ncaab/teams/cbc/schedule
+Downloading data for team name: Saint Louis
+The download link is: http://sports.yahoo.com/ncaab/teams/sbr/schedule
+Downloading data for team name: New Orleans
+The download link is: http://sports.yahoo.com/ncaab/teams/nao/schedule
+Downloading data for team name: Princeton
+The download link is: http://sports.yahoo.com/ncaab/teams/par/schedule
+Downloading data for team name: Holy Cross
+The download link is: http://sports.yahoo.com/ncaab/teams/hal/schedule
+Downloading data for team name: UCSB
+The download link is: http://sports.yahoo.com/ncaab/teams/sah/schedule
+Downloading data for team name: Ill. Chicago
+The download link is: http://sports.yahoo.com/ncaab/teams/iaf/schedule
+Downloading data for team name: BYU
+The download link is: http://sports.yahoo.com/ncaab/teams/baw/schedule
+Downloading data for team name: Arkansas St.
+The download link is: http://sports.yahoo.com/ncaab/teams/aav/schedule
+Downloading data for team name: Georgia St.
+The download link is: http://sports.yahoo.com/ncaab/teams/gag/schedule
+Downloading data for team name: Michigan
+The download link is: http://sports.yahoo.com/ncaab/teams/max/schedule
+Downloading data for team name: Manhattan
+The download link is: http://sports.yahoo.com/ncaab/teams/mab/schedule
+Downloading data for team name: St. Francis (NY)
+The download link is: http://sports.yahoo.com/ncaab/teams/sbn/schedule
+Downloading data for team name: Morehead St.
+The download link is: http://sports.yahoo.com/ncaab/teams/mbp/schedule
+Downloading data for team name: Utah Valley St.
+The download link is: http://sports.yahoo.com/ncaab/teams/uvs/schedule
+Downloading data for team name: Davidson
+The download link is: http://sports.yahoo.com/ncaab/teams/dad/schedule
+Downloading data for team name: Kansas St.
+The download link is: http://sports.yahoo.com/ncaab/teams/kab/schedule
+Downloading data for team name: Stanford
+The download link is: http://sports.yahoo.com/ncaab/teams/sca/schedule
+Downloading data for team name: Austin Peay
+The download link is: http://sports.yahoo.com/ncaab/teams/abf/schedule
+Downloading data for team name: Towson
+The download link is: http://sports.yahoo.com/ncaab/teams/tav/schedule
+Downloading data for team name: Alabama
+The download link is: http://sports.yahoo.com/ncaab/teams/aaf/schedule
+Downloading data for team name: Oklahoma
+The download link is: http://sports.yahoo.com/ncaab/teams/oae/schedule
+Downloading data for team name: Maine
+The download link is: http://sports.yahoo.com/ncaab/teams/maa/schedule
+Downloading data for team name: Missouri
+The download link is: http://sports.yahoo.com/ncaab/teams/mbh/schedule
+Downloading data for team name: Weber St.
+The download link is: http://sports.yahoo.com/ncaab/teams/wai/schedule
+Downloading data for team name: Eastern Kentucky
+The download link is: http://sports.yahoo.com/ncaab/teams/eae/schedule
+Downloading data for team name: Oregon St.
+The download link is: http://sports.yahoo.com/ncaab/teams/oak/schedule
+Downloading data for team name: Richmond
+The download link is: http://sports.yahoo.com/ncaab/teams/raf/schedule
+Downloading data for team name: New Mexico
+The download link is: http://sports.yahoo.com/ncaab/teams/nam/schedule
+Downloading data for team name: Bethune-Cookman
+The download link is: http://sports.yahoo.com/ncaab/teams/bag/schedule
+Downloading data for team name: Stetson
+The download link is: http://sports.yahoo.com/ncaab/teams/scd/schedule
+Downloading data for team name: Delaware St.
+The download link is: http://sports.yahoo.com/ncaab/teams/dah/schedule
+Downloading data for team name: McNeese St.
+The download link is: http://sports.yahoo.com/ncaab/teams/mal/schedule
+Downloading data for team name: Rutgers
+The download link is: http://sports.yahoo.com/ncaab/teams/rak/schedule
+Downloading data for team name: MD Baltimore Cty.
+The download link is: http://sports.yahoo.com/ncaab/teams/mam/schedule
+Downloading data for team name: SMU
+The download link is: http://sports.yahoo.com/ncaab/teams/sav/schedule
+Downloading data for team name: West Virginia
+The download link is: http://sports.yahoo.com/ncaab/teams/wal/schedule
+Downloading data for team name: Charlotte
+The download link is: http://sports.yahoo.com/ncaab/teams/nad/schedule
+Downloading data for team name: Long Island
+The download link is: http://sports.yahoo.com/ncaab/teams/lal/schedule
+Downloading data for team name: Vermont
+The download link is: http://sports.yahoo.com/ncaab/teams/vad/schedule
+Downloading data for team name: UC Irvine
+The download link is: http://sports.yahoo.com/ncaab/teams/cab/schedule
+Downloading data for team name: Chicago St.
+The download link is: http://sports.yahoo.com/ncaab/teams/cay/schedule
+Downloading data for team name: Southern Miss
+The download link is: http://sports.yahoo.com/ncaab/teams/sbb/schedule
+Downloading data for team name: New Hampshire
+The download link is: http://sports.yahoo.com/ncaab/teams/nal/schedule
+Downloading data for team name: Miami (OH)
+The download link is: http://sports.yahoo.com/ncaab/teams/maw/schedule
+Downloading data for team name: Northern Illinois
+The download link is: http://sports.yahoo.com/ncaab/teams/naz/schedule
+Downloading data for team name: Navy
+The download link is: http://sports.yahoo.com/ncaab/teams/naa/schedule
+Downloading data for team name: IUPUI
+The download link is: http://sports.yahoo.com/ncaab/teams/iak/schedule
+Downloading data for team name: Virginia Tech
+The download link is: http://sports.yahoo.com/ncaab/teams/vah/schedule
+Downloading data for team name: Virginia
+The download link is: http://sports.yahoo.com/ncaab/teams/vaf/schedule
+Downloading data for team name: James Madison
+The download link is: http://sports.yahoo.com/ncaab/teams/jac/schedule
+Downloading data for team name: Elon
+The download link is: http://sports.yahoo.com/ncaab/teams/eat/schedule
+Downloading data for team name: Marist
+The download link is: http://sports.yahoo.com/ncaab/teams/mae/schedule
+Downloading data for team name: Alabama A&amp;M
+The download link is: http://sports.yahoo.com/ncaab/teams/aag/schedule
+Downloading data for team name: Winthrop
+The download link is: http://sports.yahoo.com/ncaab/teams/way/schedule
+Downloading data for team name: Auburn
+The download link is: http://sports.yahoo.com/ncaab/teams/abb/schedule
+Downloading data for team name: Colgate
+The download link is: http://sports.yahoo.com/ncaab/teams/cbk/schedule
+Downloading data for team name: Mount St. Mary's
+The download link is: http://sports.yahoo.com/ncaab/teams/mbs/schedule
+Downloading data for team name: Southern
+The download link is: http://sports.yahoo.com/ncaab/teams/sbh/schedule
+Downloading data for team name: Northeastern
+The download link is: http://sports.yahoo.com/ncaab/teams/nay/schedule
+Downloading data for team name: William &amp; Mary
+The download link is: http://sports.yahoo.com/ncaab/teams/wbh/schedule
+Downloading data for team name: Tulane
+The download link is: http://sports.yahoo.com/ncaab/teams/taz/schedule
+Downloading data for team name: Albany
+The download link is: http://sports.yahoo.com/ncaab/teams/aca/schedule
+Downloading data for team name: Montana St.
+The download link is: http://sports.yahoo.com/ncaab/teams/mbn/schedule
+Downloading data for team name: Hofstra
+The download link is: http://sports.yahoo.com/ncaab/teams/hak/schedule
+Downloading data for team name: Baylor
+The download link is: http://sports.yahoo.com/ncaab/teams/bae/schedule
+Downloading data for team name: Long Beach St.
+The download link is: http://sports.yahoo.com/ncaab/teams/lan/schedule
+Downloading data for team name: Tenn-Martin
+The download link is: http://sports.yahoo.com/ncaab/teams/tae/schedule
+Downloading data for team name: Alcorn St.
+The download link is: http://sports.yahoo.com/ncaab/teams/aaj/schedule
+Downloading data for team name: Texas A&amp;M C.C.
+The download link is: http://sports.yahoo.com/ncaab/teams/tbq/schedule
+Downloading data for team name: Samford
+The download link is: http://sports.yahoo.com/ncaab/teams/sac/schedule
+Downloading data for team name: Pepperdine
+The download link is: http://sports.yahoo.com/ncaab/teams/pah/schedule
+Downloading data for team name: North Texas
+The download link is: http://sports.yahoo.com/ncaab/teams/nax/schedule
+Downloading data for team name: UCF
+The download link is: http://sports.yahoo.com/ncaab/teams/cap/schedule
+Downloading data for team name: St. Peter's
+The download link is: http://sports.yahoo.com/ncaab/teams/sby/schedule
+Downloading data for team name: Winston-Salem
+The download link is: http://sports.yahoo.com/ncaab/teams/wbq/schedule
+Downloading data for team name: Columbia
+The download link is: http://sports.yahoo.com/ncaab/teams/cbn/schedule
+Downloading data for team name: Siena
+The download link is: http://sports.yahoo.com/ncaab/teams/sas/schedule
+Downloading data for team name: Texas
+The download link is: http://sports.yahoo.com/ncaab/teams/tal/schedule
+Downloading data for team name: Iowa St.
+The download link is: http://sports.yahoo.com/ncaab/teams/iao/schedule
+Downloading data for team name: Santa Clara
+The download link is: http://sports.yahoo.com/ncaab/teams/sai/schedule
+Downloading data for team name: AR Little Rock
+The download link is: http://sports.yahoo.com/ncaab/teams/aat/schedule
+Downloading data for team name: Detroit
+The download link is: http://sports.yahoo.com/ncaab/teams/dam/schedule
+Downloading data for team name: Buffalo
+The download link is: http://sports.yahoo.com/ncaab/teams/baz/schedule
+Downloading data for team name: Michigan St.
+The download link is: http://sports.yahoo.com/ncaab/teams/may/schedule
+Downloading data for team name: Murray St.
+The download link is: http://sports.yahoo.com/ncaab/teams/mbv/schedule
+Downloading data for team name: Dartmouth
+The download link is: http://sports.yahoo.com/ncaab/teams/dac/schedule
+Downloading data for team name: Youngstown St.
+The download link is: http://sports.yahoo.com/ncaab/teams/yab/schedule
+Downloading data for team name: Mississippi St.
+The download link is: http://sports.yahoo.com/ncaab/teams/mbg/schedule
+Downloading data for team name: Louisville
+The download link is: http://sports.yahoo.com/ncaab/teams/laq/schedule
+Downloading data for team name: SE Missouri St.
+The download link is: http://sports.yahoo.com/ncaab/teams/sap/schedule
+Downloading data for team name: Northwestern St.
+The download link is: http://sports.yahoo.com/ncaab/teams/nbe/schedule
+Downloading data for team name: N.C. Wilmington
+The download link is: http://sports.yahoo.com/ncaab/teams/nag/schedule
+Downloading data for team name: Canisius
+The download link is: http://sports.yahoo.com/ncaab/teams/caj/schedule
+Downloading data for team name: Wis. Milwaukee
+The download link is: http://sports.yahoo.com/ncaab/teams/wbd/schedule
+Downloading data for team name: South Florida
+The download link is: http://sports.yahoo.com/ncaab/teams/sbg/schedule
+Downloading data for team name: Longwood
+The download link is: http://sports.yahoo.com/ncaab/teams/lay/schedule
+Downloading data for team name: Army
+The download link is: http://sports.yahoo.com/ncaab/teams/aax/schedule
+Downloading data for team name: Villanova
+The download link is: http://sports.yahoo.com/ncaab/teams/vae/schedule
+Downloading data for team name: LA Lafayette
+The download link is: http://sports.yahoo.com/ncaab/teams/scf/schedule
+Downloading data for team name: Arizona St.
+The download link is: http://sports.yahoo.com/ncaab/teams/aar/schedule
+Downloading data for team name: Belmont
+The download link is: http://sports.yahoo.com/ncaab/teams/bab/schedule
+Downloading data for team name: Texas Pan Amer.
+The download link is: http://sports.yahoo.com/ncaab/teams/tbc/schedule
+Downloading data for team name: San Francisco
+The download link is: http://sports.yahoo.com/ncaab/teams/saf/schedule
+Downloading data for team name: Prairie View A&amp;M
+The download link is: http://sports.yahoo.com/ncaab/teams/pao/schedule
+Downloading data for team name: Sacred Heart
+The download link is: http://sports.yahoo.com/ncaab/teams/sdy/schedule
+Downloading data for team name: Loyola (MD)
+The download link is: http://sports.yahoo.com/ncaab/teams/lau/schedule
+Downloading data for team name: AR Pine Bluff
+The download link is: http://sports.yahoo.com/ncaab/teams/abi/schedule
+Downloading data for team name: VCU
+The download link is: http://sports.yahoo.com/ncaab/teams/vaa/schedule
+Downloading data for team name: Citadel
+The download link is: http://sports.yahoo.com/ncaab/teams/cbv/schedule
+Downloading data for team name: Eastern Illinois
+The download link is: http://sports.yahoo.com/ncaab/teams/ead/schedule
+Downloading data for team name: Massachusetts
+The download link is: http://sports.yahoo.com/ncaab/teams/mak/schedule
+Downloading data for team name: Geo. Washington
+The download link is: http://sports.yahoo.com/ncaab/teams/gac/schedule
+Downloading data for team name: Liberty
+The download link is: http://sports.yahoo.com/ncaab/teams/lai/schedule
+Downloading data for team name: Brown
+The download link is: http://sports.yahoo.com/ncaab/teams/bas/schedule
+Downloading data for team name: Miss. Valley St.
+The download link is: http://sports.yahoo.com/ncaab/teams/mbe/schedule
+Downloading data for team name: Seton Hall
+The download link is: http://sports.yahoo.com/ncaab/teams/sao/schedule
+Downloading data for team name: Wake Forest
+The download link is: http://sports.yahoo.com/ncaab/teams/wad/schedule
+Downloading data for team name: Bucknell
+The download link is: http://sports.yahoo.com/ncaab/teams/bau/schedule
+Downloading data for team name: Marshall
+The download link is: http://sports.yahoo.com/ncaab/teams/mah/schedule
+Downloading data for team name: DePaul
+The download link is: http://sports.yahoo.com/ncaab/teams/dal/schedule
+Downloading data for team name: Northern Iowa
+The download link is: http://sports.yahoo.com/ncaab/teams/nba/schedule
+Downloading data for team name: Colorado
+The download link is: http://sports.yahoo.com/ncaab/teams/cbl/schedule
+Downloading data for team name: Penn St.
+The download link is: http://sports.yahoo.com/ncaab/teams/paf/schedule
+Downloading data for team name: Creighton
+The download link is: http://sports.yahoo.com/ncaab/teams/cbt/schedule
+Downloading data for team name: Iona
+The download link is: http://sports.yahoo.com/ncaab/teams/iam/schedule
+Downloading data for team name: St. Mary's
+The download link is: http://sports.yahoo.com/ncaab/teams/sbt/schedule
+Downloading data for team name: N.C. A&amp;T
+The download link is: http://sports.yahoo.com/ncaab/teams/nas/schedule
+Downloading data for team name: Portland
+The download link is: http://sports.yahoo.com/ncaab/teams/pan/schedule
+Downloading data for team name: Southern Utah
+The download link is: http://sports.yahoo.com/ncaab/teams/sbc/schedule
+Downloading data for team name: Nicholls St.
+The download link is: http://sports.yahoo.com/ncaab/teams/nar/schedule
+Downloading data for team name: Lehigh
+The download link is: http://sports.yahoo.com/ncaab/teams/laf/schedule
+Downloading data for team name: Kennesaw St.
+The download link is: http://sports.yahoo.com/ncaab/teams/kns/schedule
+Downloading data for team name: Rider
+The download link is: http://sports.yahoo.com/ncaab/teams/rag/schedule
+Downloading data for team name: Wichita St.
+The download link is: http://sports.yahoo.com/ncaab/teams/wax/schedule
+Downloading data for team name: Mississippi
+The download link is: http://sports.yahoo.com/ncaab/teams/mbf/schedule
+Downloading data for team name: Gardner-Webb
+The download link is: http://sports.yahoo.com/ncaab/teams/gal/schedule
+Downloading data for team name: South Alabama
+The download link is: http://sports.yahoo.com/ncaab/teams/sbe/schedule
+Downloading data for team name: Ohio St.
+The download link is: http://sports.yahoo.com/ncaab/teams/oad/schedule
+Downloading data for team name: Binghamton
+The download link is: http://sports.yahoo.com/ncaab/teams/bai/schedule
+Downloading data for team name: Tulsa
+The download link is: http://sports.yahoo.com/ncaab/teams/tba/schedule
+Downloading data for team name: Norfolk St.
+The download link is: http://sports.yahoo.com/ncaab/teams/ncb/schedule

@@ -1,0 +1,27 @@
+
+Buildfile: build.xml
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=math
+     [echo] parent.project.home=/home/brandon/projects/code/java/math/..
+     [echo] project.home=/home/brandon/projects/code/java/math
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/math/lib
+     [echo] project.dist=/home/brandon/dist/math
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/math
+     [echo] project.src=/home/brandon/projects/code/java/math/src
+     [echo] java.version=1.6
+
+compile:
+    [javac] Compiling 1 source file to /home/brandon/build/math
+
+jar:
+      [jar] Updating jar: /home/brandon/dist/math/math.jar
+
+dist:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

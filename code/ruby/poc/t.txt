@@ -1,0 +1,933 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-US">
+<head>
+  <title>Economy 101: Who benefits from new banking rules? - Yahoo! Finance</title>
+  <meta name="keywords" content="Economy 101: Who benefits from new banking rules?">
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><meta name="description"  content="NEW YORK (AP) -- At the core of an international agreement to head off future financial meltdowns is a requirement that banks keep more money" ><link rel="image_src" href="http://l.yimg.com/a/p/fi/32/35/87.jpg" />
+
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/d/lib/yui/2.8.0/build/fonts/fonts-min.css" />
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/d/lib/yui/2.8.0/build/reset/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/d/lib/media/m/social_buttons/social-buttons-min-3585.css" />
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/d/lib/media/phugc/mwphcom_r141.css" />
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/bm/combo?fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/reset-fonts-grids/2.0.0/mini/reset-fonts-grids.css&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/tabview/assets/skins/sam/2.0.0/mini/tabview.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yui_helper.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_base.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/layout.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/news-article-print.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/finance-base.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/finance-theme.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/article-content-col.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/article-related-col.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/debug.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/headline-lineback.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/related-media.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/news-subscribe_base.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/news-subscribe_section-related.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_nav_topnav_base.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_nav_topnav_theme.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_nav_quotebar.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/morefrompartner.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/related-companies.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/ysm.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_nav_footer_base.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_nav_footer_theme.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_sharetoolbar.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_symbol_suggest.css" />
+
+<script type="text/javascript">document.documentElement.className += ' js';</script>   
+</head> 
+<body class="a44">
+
+    <div id="y-page" class="y-fin-wrapper">
+				<div id="y-head">
+						<div id="y-umh">
+						<!-- SpaceID=0 robot -->
+
+						</div><!-- /#y-umh -->
+						<div id="y-nav">
+						
+						
+<div id="yfi_streaming_quotes"><div id="yfsbar"><span id="yfs_onoff"></span><span id="yfs_wthis" style="display:none;"><a href="http://help.yahoo.com/l/us/yahoo/finance/quotes/quote-63.html">What are streaming quotes?</a></span></div><input type="hidden" id=".yficrumb" name=".yficrumb" value=""></div><span id="yfs_common_params" class="yfs_common_params">{ "market" : {"NAME" : "U.S.", "ID" : "us_market", "TZ" : "EDT", "TZOFFSET" : "-14400", "open" : "", "close" : "", "flags" : {}} , "STREAMER_SERVER" : "http://streamerapi.finance.yahoo.com","arrowAsChangeSign" : false,"throttleInterval": "1000"}</span>
+
+
+ 
+      <div id="y-nav-pri">
+    <!-- skip nav -->
+    <a href="#y-nav-sec" id="skip_nav">Skip navigation</a>
+    <!-- nav -->
+    <ul id="y-main-nav">
+        <li><a href="/"><span>Home</span></a></li><li>
+<a href="/marketupdate?u"><span>Investing</span></a><ul>
+<li><a href="/marketupdate/overview?u">Market Overview</a></li>
+<li><a href="/actives?e=us">Market Stats</a></li>
+<li><a href="http://biz.yahoo.com/r">Stocks</a></li>
+<li><a href="/funds">Mutual Funds</a></li>
+<li><a href="/etf">ETFs</a></li>
+<li><a href="/bonds">Bonds</a></li>
+<li><a href="http://biz.yahoo.com/opt">Options</a></li>
+<li><a href="http://biz.yahoo.com/ic/">Industries</a></li>
+<li><a href="/currency-investing">Currencies</a></li>
+<li><a href="/education">Education</a></li>
+</ul>
+</li><li id="y-current">
+<a href="/news"><span>News &amp; Opinion</span></a><noscript><link rel="stylesheet" type="text/css" href="http://l.yimg.com/bm/lib/fi/common/p/d/static/css/0.1.25/2.0.0/yfi_nav_topnav_noscript.css"></noscript>
+<ul>
+<li><a href="/news/category-stocks">Markets</a></li>
+<li><a href="/news/category-ideas-and-strategies">Investing Ideas</a></li>
+<li><a href="/expert/index">Expert Advice</a></li>
+<li><a href="http://biz.yahoo.com/special.html">Special Editions</a></li>
+<li><a href="/news/category-earnings">Company Finances</a></li>
+<li><a href="/news/index/">Providers</a></li>
+<li><a href="/video">Video<strong>new!</strong></a></li>
+</ul>
+</li><li>
+<a href="/personal-finance"><span>Personal Finance</span></a><ul>
+<li><a href="/banking-budgeting">Banking & Budgeting</a></li>
+<li><a href="/career-work">Career &amp; Work</a></li>
+<li><a href="/college-education">College &amp; Education</a></li>
+<li><a href="/family-home">Family &amp; Home</a></li>
+<li><a href="/insurance">Insurance</a></li>
+<li><a href="/loans">Loans</a></li>
+<li><a href="/real-estate">Real Estate</a></li>
+<li><a href="/retirement">Retirement</a></li>
+<li><a href="/taxes">Taxes</a></li>
+<li><a href="/lifelonginvesting/archive/">Lifelong Investing</a></li>
+</ul>
+</li>
+
+        <li>
+<a href="/portfolios.html" id="yfmya"><span>My Portfolios</span></a><ul>
+<li><a href="http://login.yahoo.com?.src=quote&amp;.intl=us&amp;.done=http://finance.yahoo.com/portfolios.html?yfiLogin=1">Sign in to access My Portfolios</a></li>
+<li><a href="http://billing.finance.yahoo.com/ym/f/FinanceReal1?.src=quote&amp;.refer=nb" class="yfmkttrack">Free trial of Real-Time Quotes</a></li>
+</ul>
+</li>
+
+        <li><a href="http://finance.yahoo.com/tech-ticker"><span>Tech Ticker</span></a></li>
+
+    </ul>
+</div>
+
+      <script>
+        
+        /** 
+            We use this if the browser does not support the html5 document.activeElement method
+            @link http://www.w3.org/TR/html5/editing.html#document-level-focus-apis
+            @author James Broad
+            @bug 3520846
+            
+            Usage:
+            if(myElement == document.activeElement){
+                doSomething();
+            }
+        */
+        (function(el) {
+            function focusHandler(e){
+                if (e && e.target){
+                    e.target == document ? null : e.target;
+                    document.activeElement = e.target;
+                }
+            }
+            // Handle !IE browsers that do not support the .activeElement property
+            if(!document.activeElement){
+                if (document.addEventListener){ 
+                    document.addEventListener("focus", focusHandler, true);
+                }
+            }
+        })(document);
+        
+        </script><div id="y-nav-sec" class="clear"><div id="searchQuotes" class="ticker-search mod">
+<div class="hd"></div>
+<div class="bd"><form id="quote" name="quote" action="/q">
+<h2 class="yfi_signpost">Search for share prices</h2>
+<label for="txtQuotes">Search for share prices</label><input id="txtQuotes" name="s" value="" type="text" autocomplete="off"><div id="yfi_quotes_submit"><span><span><span><input type="submit" value="Get Quotes"></span></span></span></div>
+</form></div>
+<div class="ft">
+<a href="http://finance.search.yahoo.com">Finance Search</a><p><span id="yfs_market_time">Mon, Sep 13, 2010, 9:28PM EDT - U.S. Markets closed</span></p>
+</div>
+</div></div>
+
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						</div><!-- ./end of article y-nav -->
+        </div><!--./#y-head -->
+        <div id="y-main" class="clear">
+            <!-- SpaceID=0 robot -->
+<!-- SpaceID=0 robot -->
+<div id="y-content">
+                        
+                        
+                        
+                        
+                <div class="col3"><div class="mod content-wrapper">
+                        
+                        
+                    <div  id="y-article-hd">
+                        <h1 class="test1">Economy 101: Who benefits from new banking rules?</h1><h2>Economy 101: What do new international banking rules require? Who stands to benefit? <br/> </h2>
+                        	<a href="http://us.rd.yahoo.com/finance/news/apf/SIG=10kfmofol/*http://www.ap.org/termsandconditions"><img src="http://l.yimg.com/a/i/us/fi/gr/ap_106x27.gif" alt="ap"  class="sponsorimage" /></a>	
+ 
+                        
+                    </div><!-- ./end of article hd -->
+										<div  id="y-article-bd">
+                        
+                        
+                        <!--- Insert the sidebar information -->                               
+<div id="y-article-related" class="mod-group">
+    <div class="mod related-media"><a href="" rel="no-follow"><span class="img"><img src="http://l.yimg.com/a/p/fi/32/35/87.jpg" alt=""  width="240"   height="159"  ></span></a><p>The building of the Bank for International Settlements, BIS, in Basel, Switzerland is pictured on Sunday, Sept. 12, 2010. The world's top central bankers are meeting  in Basel to work on new bank regulations, known as Basel III, aimed at reinforcing the financial stability of the global banking system. (AP Photo/ KEYSTONE/Georgios Kefalas)</p></div>
+    
+    
+    
+</div>
+
+                        <div class="mod provider-attribution">
+    <span class="byline">Pallavi Gogoi, AP Business Writer</span>, 	<span class="datetime">On Monday September 13, 2010, 4:35 pm EDT</span>
+	</div>
+                        <p>NEW YORK (AP) -- At the core of an international agreement to head off future financial meltdowns is a requirement that banks keep more money on hand in case of trouble.</p><p>The new rule released Sunday by the Basel Committee on Banking Supervision aims to fortify banks worldwide and prevent them from spiraling into the kind of global financial crisis that brought the world to its knees in 2008.</p><p>Banks will have about eight years to comply fully with the rules, but the proposed changes could have immediate effects on the U.S. economy. Some questions and answers about the new global banking rules:</p><p>Q. What is Basel and how does it have so much power?</p><p>A. The Basel Committee is a group of top central bankers from 27 nations who meet regularly and look for ways to manage risk for banks worldwide. The U.S. is represented by Federal Reserve Chairman Ben Bernanke. It is the only forum that the world relies on to create a common standard for large global banks.</p><p>Q. What's the main change this year?</p><p>A. The most dramatic change proposed by the Basel Committee was a more than three-fold increase, from 2 percent to 7 percent, in the "core capital ratio," or the amount of money banks need to set aside to help absorb losses on loans. The fear is that if banks have less capital than their losses, they cannot meet payments on their own debt, and they usually fail. Capital is expressed as a percentage of a bank's assets.</p><p>Q. Who stands to benefit?</p><p>A. Consumers and some shareholders, perhaps. Most American banks already meet the new standard, and some actually exceed it, according to Richard Bove, banking analyst at investment firm Rochdale Securities. Many of the larger U.S. banks raised enormous amounts of capital after American regulators required them to do so last year on the heels of the financial crisis.</p><p>That means the rules could help free up some capital for lending to American consumers, in the form of mortgages or credit cards. It will also benefit shareholders of the stronger banks who will likely see higher dividends.</p><p>It "should be a positive catalyst for banks with strong capital and in a position to increase dividends," Fred Cannon, banking analyst at Keefe, Bruyette & Woods, said in a report.</p><p>Q. Who stands to lose?</p><p>A. Smaller community banks or credit unions that are already struggling with high loan losses and foreclosures. Many of them have found it hard to raise capital, and they will struggle with the new requirements.</p><p>Small businesses that rely on community banks for their borrowing needs could have an even tougher time getting loans. That could hurt job creation.</p><p>"Right now, we need banks to lend in local economies, not focus on new requirements," said Sean Egan, managing director of Egan Jones Rating Agency. Egan believes that smaller banks will rush to comply with the rules rather than waiting years to comply. "They will try to make up for the higher capital requirements by lending at higher rates and stiffer terms," Egan said.</p><p>Q. Will these new rules prevent another meltdown?</p><p>A. Possibly. If banks are forced to hold a higher percentage of capital for all the loans they write, it will prevent the kind of zero-down, zero-interest loans that were offered during the real estate boom. And if banks are stronger, they will be able to withstand the kind of losses that they faced during the last financial crisis.</p><p>However, not everyone agrees that the capital requirements are strong enough to avoid another meltdown.</p><p>Said Simon Johnson, an economics professor at the Massachusetts Institute of Technology and a former International Monetary Fund chief economist: "Lehman Brothers had 11.6 percent (of the same kind of) capital one day before it failed. The new capital requirements will not even reach that inadequate level."</p>
+
+
+ 
+
+                        		<div id="y_provider_promo" class="mod ad">
+	<div class="bd">
+	<i>Search for <a href="http://finance.yahoo.com/rates/query"> mortgage, home equity, savings, auto and credit card rates </a>.</i>	</div>
+	</div>
+	
+	
+		
+
+                        
+                        
+                    </div><!-- ./end of article bd -->
+                    </div><!-- ./ index-content-col -->
+                </div><!-- ./end of col1--> 
+                
+                    <div class="mod-group">
+		<!--Sorry, our service is temporarily unavailable.Please check back later.-->
+
+		<!--Sorry, our service is temporarily unavailable.Please check back later.-->
+
+		
+		
+</div>
+
+                    
+                    
+                    
+                  
+                <div class="mod-group">
+                    
+                    
+                    
+                    
+                </div>  
+								
+                <div id="ygs-comments" class="ysp-mod">
+  <a name="comments"></a>
+  
+  
+  
+  <div id="mwpphu-container" class="mwpphu-container">            <div class="mwpphu-header">
+                <div class="mwpphu-left">
+                    <h3 id="mwpphu-stream-header" class="mwpphu-comments mwpphu-count-55 mwpphu-cmt-disabled-N ">55 Comments</h3>
+                </div>
+                <div class="mwpphu-right">
+                                            <form method="get" action="/comments/mwphucmtnojssort" id="mwp-phugc-sort-form">
+                            <label id="mwp-phugc-sort-form-option-lable" for="mwp-phugc-sort-form-option">Show:</label>
+                            <select name="SortCntrl" id="mwp-phugc-sort-form-option">
+                                <option selected value="/comments/mwphucmtgetcmt/headcontent/main/1157112056//date/desc/1/0">Newest First</option><option  value="/comments/mwphucmtgetcmt/headcontent/main/1157112056//date/asc/1/0">Oldest First</option><option  value="/comments/mwphucmtgetcmt/headcontent/main/1157112056//num_rating_up/desc/1/0">Highest Rated</option><option  value="/comments/mwphucmtgetcmt/headcontent/main/1157112056//reply_count/desc/1/0">Most Replied</option>
+                            </select>
+                            <input type="hidden" name="basepage" value="http://finance.yahoo.com/news/Economy-101-Who-benefits-from-apf-1157112056.html?x=0&sec=topStories&pos=5&asset=&ccode=">
+                            <input type="hidden" name="hdcntid" value="1157112056">
+                            <noscript>
+                                <button type="submit">Sort</button>
+                            </noscript>
+                        </form>
+                </div>
+            </div><div class="mwpphu-navigation">
+                        <div class="mwpphu-left">
+                        <div class="mwpphu-sprite_bg mwpphu-post-comments mwpphu-sprite_img"></div>
+                        &nbsp;<a id="mwpphu-postcommentinternal" href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D">Post a Comment</a>
+                        </div><div class="mwpphu-right imageloader_classname">
+            <ul id="mwpphu-paging" class="mwpphu-ul_links">
+            <li id="mwpphu-label-paging" class="mwpphu-first">Comments 1 - 10 of 55</li><li><a class="mwpphu-disabled" id="-date-desc-p-1-0" href="#">First</a></li><li><a class="mwpphu-disabled" id="-date-desc-p--9-0" href="#"> <span class="mwpphu-sprite_bg prev_arrow_off mwpphu-disabled"></span>Prev</a></li><li><a class="mwpphu-older" id="-date-desc-p-11-s990080" href="http://finance.yahoo.com/news/Economy-101-Who-benefits-from-apf-1157112056.html?x=0&sec=topStories&pos=5&asset=&ccode=&cmtnav=/mwphucmtgetnojspage/headcontent/main/1157112056//date/desc/11/s990080">Next<span class="mwpphu-sprite_bg next_arrow_on"></span></a></li><li class="mwpphu-last"><a class="mwpphu-oldest" id="-date-asc-p-1-0" href="http://finance.yahoo.com/news/Economy-101-Who-benefits-from-apf-1157112056.html?x=0&sec=topStories&pos=5&asset=&ccode=&cmtnav=/mwphucmtgetnojspage/headcontent/main/1157112056//date/asc/1/0">Last</a></li></ul></div></div><ul class="mwpphu-comments">
+            <li id="mwpphu-comment-991167" > <div id="mwpphu-replycount-991167-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_CUJXQ7TYOUWOWTIRGVP4RUTUDA">
+
+                <img id="com_991167_CUJXQ7TYOUWOWTIRGVP4RUTUDA" class="imageloader_classname"  width="48" height="48" alt="Sundiii" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991167" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991167" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991167" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991167" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_CUJXQ7TYOUWOWTIRGVP4RUTUDA"><strong>Sundiii</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:27:46-0400">5 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=CUJXQ7TYOUWOWTIRGVP4RUTUDA&commentid=991167" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">Corporations benefit, but people don&#39;t! Individuals cannot fight corporations!</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-991053" > <div id="mwpphu-replycount-991053-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_GYSSEUDG2VABDCFNYNB5JZX6QA">
+
+                <img id="com_991053_GYSSEUDG2VABDCFNYNB5JZX6QA" class="imageloader_classname"  width="48" height="48" alt="Kaveh" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991053" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991053" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991053" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991053" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_GYSSEUDG2VABDCFNYNB5JZX6QA"><strong>Kaveh</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:21:45-0400">11 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=GYSSEUDG2VABDCFNYNB5JZX6QA&commentid=991053" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">B.A.C. is werst bonk in CA</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-991032" > <div id="mwpphu-replycount-991032-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_M7G4T2KDNMQPC6HLF2MUBI73BE">
+
+                <img id="com_991032_M7G4T2KDNMQPC6HLF2MUBI73BE" class="imageloader_classname"  width="48" height="48" alt="agemingle.com" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991032" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991032" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991032" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991032" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_M7G4T2KDNMQPC6HLF2MUBI73BE"><strong>agemingle.com</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:21:15-0400">12 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=M7G4T2KDNMQPC6HLF2MUBI73BE&commentid=991032" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">Ever feel that you would best enjoy someone who is not in your<br />
+a*g*é group? Free of the embarrassment and annoyance of general d?*t*ing sité.<br />
+Oldér wo*mén and youngér m*én OR youngér wo*m*én and Oldér mén can bring<br />
+an exciting new dimension to relationships, at the website set as my name.<br />
+<br />
+%^^t52342</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-991021" > <div id="mwpphu-replycount-991021-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_IKCTNCJEHILTFWUHSZFJCY7754">
+
+                <img id="com_991021_IKCTNCJEHILTFWUHSZFJCY7754" class="imageloader_classname"  width="48" height="48" alt="Michael" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://a323.yahoofs.com/coreid/4bbf8702i2528zws105ac4/Ul4rnUY8f7OnTDs302olqbM-/2/tn48.jpeg?ciAQ2PNB7dK1zvMI);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991021" class="  mwpphu-rating-positive mwpphu-voted">1</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991021" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991021" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991021" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_IKCTNCJEHILTFWUHSZFJCY7754"><strong>Michael</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:20:48-0400">12 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=IKCTNCJEHILTFWUHSZFJCY7754&commentid=991021" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">We need Glass-Stegal re-enacted.   The banks lobbied to have it repealed so they could lend and profit from the interest from an unlimited amount of borrowing.   They still can use our capital to wage bets on hedge funds and dirivitives.   They need to completely stop betting the capital or there will be another fall out.   Just take your money out and hide it somewere lol.</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-990988" > <div id="mwpphu-replycount-990988-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_UKGE5XBU5AR6N3V25CFTINEUDE">
+
+                <img id="com_990988_UKGE5XBU5AR6N3V25CFTINEUDE" class="imageloader_classname"  width="48" height="48" alt="ron c" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/dg/users/1o0hHj-6rAAED_GFMcmE=.medium.png);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-990988" class="  mwpphu-rating-positive mwpphu-voted">1</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_990988" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_990988" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-990988" class=" mwpphu-rating-negetive mwpphu-voted-neg">1</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_UKGE5XBU5AR6N3V25CFTINEUDE"><strong>ron c</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:18:59-0400">14 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=UKGE5XBU5AR6N3V25CFTINEUDE&commentid=990988" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">here&#39;s the deal, banks borrow money from the govt. (your and my tax money) at maybe 1 cent on $100.00 interest. then they take our money and lend back to us at 5% or more interest. so the only ones making money are the banks and their investors. now when any politician says you are going to save money, he&#39;s a liar. remember the interest rate on your cd&#39;s and savings accounts are taxed at a higher rate then the bank pays you interest. don&#39;t believe me, then i got a bridge in brooklyn that i want to sell you</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-990732" > <div id="mwpphu-replycount-990732-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_W2KCYEE2MB3NBVGOKY53JZ22YY">
+
+                <img id="com_990732_W2KCYEE2MB3NBVGOKY53JZ22YY" class="imageloader_classname"  width="48" height="48" alt="Tank Jubblits" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-990732" class="  mwpphu-rating-positive mwpphu-voted">1</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_990732" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_990732" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-990732" class=" mwpphu-rating-negetive mwpphu-voted-neg">2</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_W2KCYEE2MB3NBVGOKY53JZ22YY"><strong>Tank Jubblits</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:00:11-0400">33 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=W2KCYEE2MB3NBVGOKY53JZ22YY&commentid=990732" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">Get it all out.<br />
+<br />
+Sales Tax<br />
+Hotel Tax<br />
+School Tax<br />
+Liquor Tax<br />
+Luxury Tax<br />
+Excise Taxes<br />
+Property Tax<br />
+Cigarette Tax<br />
+Medicare Tax<br />
+Inventory Tax<br />
+Car Rental Tax<br />
+Real Estate Tax<br />
+Well Permit Tax<br />
+Fuel Permit Tax<br />
+Inheritance Tax<br />
+Road Usage Tax<br />
+CDL license Tax<br />
+Dog License Tax<br />
+State Income Tax<br />
+Food License Tax<br />
+Vehicle Sales Tax<br />
+ Not one of these taxes existed 100 years ago, &amp; our nation was the most prosperous in the world. We had absolutely no national debt, had the largest middle class in the world, and Mom stayed home to raise the kids. We also were A Common Law Country!<br />
+<br />
+I have set up a place that the poor and middle class in the country can start to get some of this tax money back. It is our turn to have a piece of the action. <br />
+	<br />
+Here is my way to get your loot back.<br />
+<br />
+Just googl THE `CASH``TEACHER   and hit the very first link. Go right to the PENNY STOCK page to see what the rich don&#39;t want you to know.</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-990648" > <div id="mwpphu-replycount-990648-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_4QLF23AEF2VX5BLHAQRU3KBBZE">
+
+                <img id="com_990648_4QLF23AEF2VX5BLHAQRU3KBBZE" class="imageloader_classname"  width="48" height="48" alt="6sense" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://a323.yahoofs.com/coreid/4c3df44ai17f4zws105sp2/b2PKvGw5ea9xNLc06FpJ/2/tn48.jpeg?ciAQ2PNBkfYB.24s);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-990648" class="  mwpphu-rating-positive mwpphu-voted">4</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_990648" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_990648" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-990648" class=" mwpphu-rating-negetive mwpphu-voted-neg">2</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_4QLF23AEF2VX5BLHAQRU3KBBZE"><strong>6sense</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T00:53:37-0400">39 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=4QLF23AEF2VX5BLHAQRU3KBBZE&commentid=990648" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">Wall Street is setting investors up for a wipeout.      News stories from China and false numbers puffing up the markets temporarily until they get enough suckers to buy stocks.      Then they crash the market with their high frequency computer and ripp off millions of 401K&#39;s and IRA&#39;s.       Don&#39;t fall for all this recovery hype.    It is a trick.      Get out of this market and run!</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-990355" > <div id="mwpphu-replycount-990355-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_3QZJL2VEPHKDDMSKWIRUS7EEKQ">
+
+                <img id="com_990355_3QZJL2VEPHKDDMSKWIRUS7EEKQ" class="imageloader_classname"  width="48" height="48" alt="Michael" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-990355" class="  mwpphu-rating-positive mwpphu-voted">4</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_990355" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_990355" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-990355" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_3QZJL2VEPHKDDMSKWIRUS7EEKQ"><strong>Michael</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T00:36:29-0400">56 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=3QZJL2VEPHKDDMSKWIRUS7EEKQ&commentid=990355" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">Agree with the professor. Banks should limit their activies to lending money to business and housing mortgages. Leave investing in financial instruments out of it. this does not help/improve general communities to prosper/stablility when next wave hit.</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-990337" > <div id="mwpphu-replycount-990337-4" class="mwpphu-comment "><div class="mwpphu-avatar">
+
+            <img id="com_990337_6V6AAGADPIXEA7RER3LMBY5XFI" class="imageloader_classname"  width="48" height="48" alt="A Yahoo! User" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nonny2_48.gif);">
+            </div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-990337" class="  mwpphu-rating-positive mwpphu-voted">1</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg gray_thumb_up mwpphu-sprite_img" id="cmt-rate-tu_990337" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg gray_thumb_down mwpphu-sprite_img" id="cmt-rate-td_990337" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-990337" class=" mwpphu-rating-negetive mwpphu-voted-neg">13</em> <span>users disliked this comment</span></div><cite><span>A Yahoo! User</span> <span class="mwpphu-timestamp mwpphu-hide"><abbr title="2010-09-14T00:35:45-0400">57 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=6V6AAGADPIXEA7RER3LMBY5XFI&commentid=990337" class=" abuse mwpphu-hide ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext mwpphu-hide">The idiots in this country are the ones that are to blame not Obama or any other person that got handed this cluster of $h!T. But every republican and idiot that wants someone to blame puts it on the current presidency!!! Blame yourself for not educating yourself, blame yourself for spending your money like an idiot and living outside of your means and blame yourself for making poor decisions with your money. People that can think for themselves will realize that this economy and the situation that we live in is influenced and is an outcome of what has happened in the past not what is currently in effect. Yeah its Obama&#39;s fault that you went out and got a second mortgage and its his fault that the banks where so greedy that they lent an idiot that money and its also his fault that while this country was at war invading a place that has more oil than the rest of the planet our fuel charges where through the roof accept what you have created for yourself and quit blaming other people for your mistakes we as a society and a country are at fault not our current president nor the current policies!!!! Cowards find people to blame while men will stand behind there decisions and accept there faults!!!! Teach your kids and family the value of a dollar and the importance of saving money instead of spending and giving them things that we can not clearly afford. Why is it that a country we invade has a more sound and economic government than we do but we consider ourselves great and smart we need to humble ourselves and really see what we truly are. Thanks to Joe, Ken and M on this post as well as everyone else that hates Obama in this time of crisis, we will not progress as a society, be grateful that someone is willing to be in office. Get over yourself in being a republican, democrat or liberal we are all Americans and as a country we should get together and accept the blame we all did this not 1 man.</blockquote><div class="mwpphu-negative-rating">Comment hidden due to low rating. <a href="#" id="990337-blue_thumb_up_lout-blue_thumb_down_lout" class="mwphcom-show-hidden-comment"> Show Comment</a></div></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-990080" > <div id="mwpphu-replycount-990080-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_THBNIANFKRRV7QL7YS47YKB6PU">
+
+                <img id="com_990080_THBNIANFKRRV7QL7YS47YKB6PU" class="imageloader_classname"  width="48" height="48" alt="david the retardo" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-990080" class="  mwpphu-rating-positive mwpphu-voted">2</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_990080" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_990080" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-990080" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_THBNIANFKRRV7QL7YS47YKB6PU"><strong>david the retardo</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T00:20:29-0400"> 1 hour ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=THBNIANFKRRV7QL7YS47YKB6PU&commentid=990080" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">i wonder how long butt-rott ovomit could live without all his lavish government entitlements and bonuses, not to mention other things. well, dont take his bag of weed either.....he might crap liittle twinkies about that............anyway there bozo, you need some proffesional help.......the reverand al sharpton is at your disposal.</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li></ul><div class="mwpphu-navigation"><div class="mwpphu-right imageloader_classname">
+            <ul id="mwpphu-pagingcbottom" class="mwpphu-ul_links">
+            <li id="mwpphu-label-pagingcbottom" class="mwpphu-first">Comments 1 - 10 of 55</li><li><a class="mwpphu-disabled" id="-date-desc-p-1-0" href="#">First</a></li><li><a class="mwpphu-disabled" id="-date-desc-p--9-0" href="#"> <span class="mwpphu-sprite_bg prev_arrow_off mwpphu-disabled"></span>Prev</a></li><li><a class="mwpphu-older" id="-date-desc-p-11-s990080" href="http://finance.yahoo.com/news/Economy-101-Who-benefits-from-apf-1157112056.html?x=0&sec=topStories&pos=5&asset=&ccode=&cmtnav=/mwphucmtgetnojspage/headcontent/main/1157112056//date/desc/11/s990080">Next<span class="mwpphu-sprite_bg next_arrow_on"></span></a></li><li class="mwpphu-last"><a class="mwpphu-oldest" id="-date-asc-p-1-0" href="http://finance.yahoo.com/news/Economy-101-Who-benefits-from-apf-1157112056.html?x=0&sec=topStories&pos=5&asset=&ccode=&cmtnav=/mwphucmtgetnojspage/headcontent/main/1157112056//date/asc/1/0">Last</a></li></ul></div></div></div>         <div class="mwpphu-post-form imageloader_classname " id="mwpphu-post-form">
+             <h3 class="mwpphu-title mwpphu-comments">Post a Comment</h3>
+             <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D%23mwpphu-post-form"> Sign in </a> to post a comment, or <a href="http://edit.yahoo.com/config/eval_register?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D%23mwpphu-post-form"> Sign up </a> for a free account.
+         </div>
+  
+  
+</div>
+
+                    
+                 
+                 
+                 <!--  End of phUGC commenting integration -->
+								
+               
+               
+               
+                    
+                    
+<div class="mod-group">                
+	<div class="mod ysm clear">
+		<div class="hd">
+			<h2>Sponsored Links</h2>
+		</div>
+		<div class="bd">
+						<div class="col1">
+					<ul>
+			<li>
+			<h3><a href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20AHmvSZu691BhvgmRoSCqDQqEVqDp1eIGUrAgDYGAXasQSXkuqWHwfKQRUukT3wmuBcgwat2D90_oeDnXcNHXtv5s1k0Bg6ZQocSr3SlWqWG0NDEZ4mYytPy-hn4YDjsyQqutmYdZF-1i5VEQEN4HgbyV6kNigMSEmR3lDhIgNc6frIspu53marKxF91fmMH9-AoyiddcpRgdO3EITafR_wDrHYDnZn4PN1iLsaADz_vL_z-5scfdi64EDDY5WO0tvw.000000021714edb2">Invest Outside the Market</a></h3>
+			<div class="yfi-ysm-description">High-Return Partnership Since 1967. Pays Monthly. 100% Tax Deductable.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a class="yltasis" href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20AHmvSZu691BhvgmRoSCqDQqEVqDp1eIGUrAgDYGAXasQSXkuqWHwfKQRUukT3wmuBcgwat2D90_oeDnXcNHXtv5s1k0Bg6ZQocSr3SlWqWG0NDEZ4mYytPy-hn4YDjsyQqutmYdZF-1i5VEQEN4HgbyV6kNigMSEmR3lDhIgNc6frIspu53marKxF91fmMH9-AoyiddcpRgdO3EITafR_wDrHYDnZn4PN1iLsaADz_vL_z-5scfdi64EDDY5WO0tvw.000000021714edb2">www.OilGasDividend.com/Investing</a></div><!-- /.yfi-ysm-link -->
+		</li>		<li>
+			<h3><a href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20ABi3z7rJxqHXCL955l3789AVSETSzvtmEpo40tp-ZwLe6zmBcin91EFtom2YvhSidKzCTvSdG2Dn7XPIPES8o2S_ugHeB_pzZUnqpaehXuOU9FHA1HfiX-KRIOQp8rgK08_V0tsBcsNsxejNnMx5OtpWGVfwH097mEES4BzTKxBLej2NFDyOiF0hMkmTg-4r9tMbFGiWTOPAYVS6prDoniE-ffyv-QdHG63wJ8pW30oKVL-0dR-BH2kOoHDuQaLzKQ.000000021714edb2">Buy Stocks for $4</a></h3>
+			<div class="yfi-ysm-description">No Account or Investment Minimums. No Inactivity Fees. Start Today.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a class="yltasis" href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20ABi3z7rJxqHXCL955l3789AVSETSzvtmEpo40tp-ZwLe6zmBcin91EFtom2YvhSidKzCTvSdG2Dn7XPIPES8o2S_ugHeB_pzZUnqpaehXuOU9FHA1HfiX-KRIOQp8rgK08_V0tsBcsNsxejNnMx5OtpWGVfwH097mEES4BzTKxBLej2NFDyOiF0hMkmTg-4r9tMbFGiWTOPAYVS6prDoniE-ffyv-QdHG63wJ8pW30oKVL-0dR-BH2kOoHDuQaLzKQ.000000021714edb2">www.ShareBuilder.com</a></div><!-- /.yfi-ysm-link -->
+		</li>					</ul>
+				</div><!-- /.col0 -->
+								<div class="col2">
+					<ul>
+			<li>
+			<h3><a href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20ABi3z7rJxqHXJsQHGeSmxIumz80FweSrfjm2slKpS1R-2y-cU_1XJumeLVQv9u3EFmEc0rCViu7jVoROiEc3MoJfKsUQ3e_XYLkyo07PSnKEdxYv-uDFsTpL47oMRrbAMbGBNxBrAFMlMYAM3zsG5jj_95hyhu0jsC36uS0_9yxhcUT0QyNt_uOaWSjERwMuODIqyHfU8qo-pBAentMpwpuinuY5pxkbX7KwyjjuzJ8_PQlte1ZaGnP2FA6puKeGIw.000000021714edb2">Free Penny Stock Alerts</a></h3>
+			<div class="yfi-ysm-description">Get exclusive penny stock alerts set to move up big. Sign up today.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a class="yltasis" href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20ABi3z7rJxqHXJsQHGeSmxIumz80FweSrfjm2slKpS1R-2y-cU_1XJumeLVQv9u3EFmEc0rCViu7jVoROiEc3MoJfKsUQ3e_XYLkyo07PSnKEdxYv-uDFsTpL47oMRrbAMbGBNxBrAFMlMYAM3zsG5jj_95hyhu0jsC36uS0_9yxhcUT0QyNt_uOaWSjERwMuODIqyHfU8qo-pBAentMpwpuinuY5pxkbX7KwyjjuzJ8_PQlte1ZaGnP2FA6puKeGIw.000000021714edb2">PennyStockAlley.com</a></div><!-- /.yfi-ysm-link -->
+		</li>		<li>
+			<h3><a href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20ANyp9y8jyEsu0ny8tSSpyMFO41m7v6cwzTEHHT7N7WktLRiGyoY3PprHbyZBBpVuCn0ooQJXGqI9jjE-EtsB6qZcnjF_4Fa7xBafK3WQhZYWTwxMpTpbfLBkNc76CV0wD1GpZEHkBOiNyAi95AE9gwlHT2JX7uhMwWj_naToFV_L8gC9R41ojWLkxdoHXoi6LwDhRqddceWAUhVotXErSTaNIbDfK7GjScDRewi5f9FFgmKw6WxyLBBImTmTrBWNf265Gc13JS4RY8szGAOOiLLwvdE2BZ4pgg.000000021714edb2">stock market quote</a></h3>
+			<div class="yfi-ysm-description">Trade stocks, options, futures and Bonds online with optionsXpress.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a class="yltasis" href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20ANyp9y8jyEsu0ny8tSSpyMFO41m7v6cwzTEHHT7N7WktLRiGyoY3PprHbyZBBpVuCn0ooQJXGqI9jjE-EtsB6qZcnjF_4Fa7xBafK3WQhZYWTwxMpTpbfLBkNc76CV0wD1GpZEHkBOiNyAi95AE9gwlHT2JX7uhMwWj_naToFV_L8gC9R41ojWLkxdoHXoi6LwDhRqddceWAUhVotXErSTaNIbDfK7GjScDRewi5f9FFgmKw6WxyLBBImTmTrBWNf265Gc13JS4RY8szGAOOiLLwvdE2BZ4pgg.000000021714edb2">optionsXpress.com</a></div><!-- /.yfi-ysm-link -->
+		</li>					</ul>
+				</div><!-- /.col0 -->
+						</div>
+	</div>
+</div>
+
+                    
+                    
+
+
+            </div><!--./ end of y-content -->
+            
+            <div id="y-related">
+                <div class="mod article-related-col">
+                    
+                    			<div class="mod newslist ">
+		
+		
+					<div class="hd">
+				<h2>Top Stories</h2>
+			</div>
+				<div class="bd">
+			<ul class="articles">
+			
+					<li class="    first " >
+					<a href="http://us.rd.yahoo.com/finance/news/topnews/*http://biz.yahoo.com/ap/100913/us_tax_cuts.html" >Senate Republicans say they'll block tax increase</a>  <cite>- AP</cite> 
+					</li>
+          
+					<li class="    " >
+					<a href="http://us.rd.yahoo.com/finance/news/topnews/*http://biz.yahoo.com/ap/100913/us_rental_car_takeovers.html" >Dollar Thrifty deal could boost rental car prices</a>  <cite>- AP</cite> 
+					</li>
+          
+					<li class="    " >
+					<a href="http://us.rd.yahoo.com/finance/news/topnews/*http://biz.yahoo.com/ap/100913/us_pipeline_leak.html" >Ill. oil pipeline leak stopped; cleanup under way</a>  <cite>- AP</cite> 
+					</li>
+          
+					<li class="    " >
+					<a href="http://us.rd.yahoo.com/finance/news/topnews/*http://biz.yahoo.com/ap/100913/us_hewlett_packard_arcsight.html" >Hewlett-Packard buying ArcSight for $1.5 billion</a>  <cite>- AP</cite> 
+					</li>
+          			</ul>
+					</div>	
+		<div class="ft"></div>
+	</div><!-- /.mod.newslist -->
+	 
+
+                    
+                    <div class="ad mod lrec">
+                        <!-- SpaceID=0 robot -->
+
+                    </div>
+                    
+                    
+                    		<div class="mod techticker newslist">
+		<div class="hd">
+			<h2>Tech Ticker Recent Posts</h2>
+		</div>
+		<div class="bd">
+			<ul class="articles">
+								<li><a href="/tech-ticker/too-big-to-jail-dont-expect-perp-walks-for-wall-street-execs-sorkin-says-yftt_535416.html">Too Big to Jail: Don't Expect 'Perp Walks' for Wall Street Execs, Sorkin Says</a> <cite> - Aaron Task</cite></li>					<li><a href="/tech-ticker/investors-are-too-negative-says-art-hogan-and-thats-good-news-for-the-market-yftt_535415.html">Investors Are Too Negative, Says Art Hogan -- And That's Good News For The Market</a> <cite> - Henry Blodget</cite></li>					<li><a href="/tech-ticker/2-years-after-lehman-is-the-system-any-safer-andrew-ross-sorkin-weighs-in-yftt_535414.html">2 Years After Lehman: Is the System Any Safer? Andrew Ross Sorkin Weighs In</a> <cite> - Tech Ticker</cite></li>			</ul>
+		</div>	
+		<div class="ft">
+			<a href="/tech-ticker" class="more">View More</a>		</div>                 
+	</div><!-- /.mod.techticker -->
+		 
+
+                    
+                    
+    <div class="mod news-topic-subscribe">
+        <div class="hd">
+            <h2>Subscribe to Topics</h2>
+    	</div><!-- /.hd -->
+    	<div class="bd">
+			<ul>
+            				<li>Top Stories 
+					<ul>
+						<li>
+	<a 
+	href="http://add.my.yahoo.com/add/module?lg=us&url=http%3A%2F%2Ffinance.yahoo.com%2Frss%2Ftopstories" 
+	title="Add to My Yahoo!"
+	mapleUltPriority="1000">
+	<img src="http://l.yimg.com/a/i/us/fi/gr/my/atomyrss_usuk.gif" alt="Add to My Yahoo!">	</a>
+	</li>
+	<li>
+	<a href="http://finance.yahoo.com/rss/topstories" 
+	title="Subscribe to RSS"
+	mapleUltPriority="1000">
+	<img src="http://l.yimg.com/us.yimg.com/i/nt/ic/ut/bsc/rss16_1.gif" alt="RSS" >	</a>
+	</li>
+	<li>
+		<a href="http://alerts.yahoo.com/main.php?view=blogs&nep=rssi&url=http%3A%2F%2Ffinance.yahoo.com%2Frss%2Ftopstories" 
+		title="Subscribe to RSS"	
+        mapleUltPriority="1000">
+		<img src="http://l.yimg.com/us.yimg.com/i/nt/ic/ut/bsc/alrt16_1.gif" alt=""> Add Alert 		</a>
+	</li>
+					</ul>
+				</li>
+                		
+		
+			</ul>
+            
+            
+    	</div><!-- /.bd -->
+    	<div class="ft">
+            		<p class="rssindex"><a href="http://finance.yahoo.com/rssindex" class="more">See all RSS links</a></p>    	</div><!-- /.ft -->
+    </div><!-- /.mod -->
+
+                    <!-- SpaceID=0 robot -->
+
+                    
+                </div>
+            </div><!-- ./end of article y-related -->
+
+                    <p class="disclaimer">Copyright &copy; 2010 The Associated Press. All rights reserved. The information contained in the AP News report may not be published, broadcast, rewritten, or redistributed without the prior written authority of The Associated Press.</p>
+                    
+                    
+        </div><!-- ./end of article y-main -->
+        
+        
+        <div id="y-footer">
+            
+             
+            <div class="y-footer"><div class="footer-wrapper-first"><div class="footer-wrapper-inner"><div class="elsewhere"><div>
+<div class="property">
+<h2>Yahoo! Finance</h2>
+<ul>
+<li><a href="/banking-budgeting" mapleUltParams="sec=footer-yfinance">Banking & Budgeting</a></li>
+<li><a href="/calculator/index" mapleUltParams="sec=footer-yfinance">Calculators</a></li>
+<li><a href="/currency" mapleUltParams="sec=footer-yfinance">Currency</a></li>
+<li><a href="/etf" mapleUltParams="sec=footer-yfinance">ETFs</a></li>
+<li><a href="/expert/index" mapleUltParams="sec=footer-yfinance">Experts</a></li>
+<li><a href="/marketupdate?u" mapleUltParams="sec=footer-yfinance">Investing</a></li>
+</ul>
+<ul>
+<li><a href="/insurance" mapleUltParams="sec=footer-yfinance">Insurance</a></li>
+<li><a href="/actives?e=us" mapleUltParams="sec=footer-yfinance">Market Stats</a></li>
+<li><a href="http://biz.yahoo.com/promo/mbbeta.html" mapleUltParams="sec=footer-yfinance">Message Boards</a></li>
+<li><a href="http://mobile.yahoo.com" mapleUltParams="sec=footer-yfinance">Mobile</a></li>
+<li><a href="/personal-finance" mapleUltParams="sec=footer-yfinance">Personal Finance</a></li>
+<li><a href="/whatsnew" mapleUltParams="sec=footer-yfinance">What's New</a></li>
+</ul>
+</div>
+<div class="also">
+<h2>Also on Yahoo!</h2>
+<ol>
+<li><a href="http://autos.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Autos</a></li>
+<li><a href="http://finance.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Finance</a></li>
+<li><a href="http://www.flickr.com" mapleUltParams="sec=footer-alsoonyahoo">Flickr</a></li>
+<li><a href="http://games.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Games</a></li>
+<li><a href="http://groups.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Groups</a></li>
+<li><a href="http://health.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Health</a></li>
+</ol>
+<ol start="7">
+<li><a href="http://hotjobs.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Hot Jobs</a></li>
+<li><a href="http://mail.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Mail</a></li>
+<li><a href="http://maps.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Maps</a></li>
+<li><a href="http://movies.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Movies</a></li>
+<li><a href="http://music.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Music</a></li>
+<li><a href="http://my.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">My Yahoo!</a></li>
+</ol>
+<ol start="13">
+<li><a href="http://news.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">News</a></li>
+<li><a href="http://shopping.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Shopping</a></li>
+<li><a href="http://sports.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Sports</a></li>
+<li><a href="http://travel.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Travel</a></li>
+<li><a href="http://tv.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">TV</a></li>
+<li><a href="http://video.yahoo.com" mapleUltParams="sec=footer-alsoonyahoo">Video</a></li>
+<li class="all">&raquo; <a href="http://everything.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">All Y! Services</a>
+</li>
+</ol>
+</div>
+<div class="functions">
+<h2>Things To Do</h2>
+<ul>
+<li><a href="http://yfinanceblog.com/" mapleUltParams="sec=footer-thingstodo">Read Our Blog</a></li>
+<li><a href="http://mobile.yahoo.com" mapleUltParams="sec=footer-thingstodo">Finance on Your Phone</a></li>
+<li><a href="http://realestate.yahoo.com/Homevalues" mapleUltParams="sec=footer-thingstodo">Check Home Values</a></li>
+<li><a href="http://autos.yahoo.com/" mapleUltParams="sec=footer-thingstodo">Find a New Car</a></li>
+<li><a href="http://hotjobs.yahoo.com/" mapleUltParams="sec=footer-thingstodo">Search Jobs Across the Web</a></li>
+</ul>
+</div>
+</div></div></div></div></div>
+
+            <div class="y-footer"><div class="footer-wrapper"><div class="footer-wrapper-inner"><div class="worldwide">
+<h2>Yahoo! Finance Worldwide</h2>
+<ul>
+<li><a href="http://ar.finance.yahoo.com/">Argentina</a></li>
+<li><a href="http://au.finance.yahoo.com/">Australia</a></li>
+<li><a href="http://br.finance.yahoo.com/">Brazil</a></li>
+<li><a href="http://ca.finance.yahoo.com/">Canada</a></li>
+<li><a href="http://finance.cn.yahoo.com/">China</a></li>
+<li><a href="http://chinese.finance.yahoo.com/">Chinese</a></li>
+<li><a href="http://fr.finance.yahoo.com/">France</a></li>
+<li><a href="http://qc.finance.yahoo.com/">French Canada</a></li>
+<li><a href="http://de.finance.yahoo.com/">Germany</a></li>
+</ul>
+<ul>
+<li><a href="http://hk.finance.yahoo.com/">Hong Kong</a></li>
+<li><a href="http://in.finance.yahoo.com/">India</a></li>
+<li><a href="http://it.finance.yahoo.com/">Italy</a></li>
+<li><a href="http://finance.yahoo.co.jp/">Japan</a></li>
+<li><a href="http://kr.finance.yahoo.com/">Korea</a></li>
+<li><a href="http://mx.finance.yahoo.com/">Mexico</a></li>
+<li><a href="http://nz.finance.yahoo.com/">New Zealand</a></li>
+<li><a href="http://sg.finance.yahoo.com/">Singapore</a></li>
+<li><a href="http://es.finance.yahoo.com/">Spain</a></li>
+<li><a href="http://espanol.finance.yahoo.com/">Spanish</a></li>
+<li><a href="http://tw.stock.yahoo.com/">Taiwan</a></li>
+<li><a href="http://uk.finance.yahoo.com/">UK & Ireland</a></li>
+<li><a href="http://finance.yahoo.com">USA</a></li>
+</ul>
+</div></div></div></div>
+
+            <div class="footer_legal">
+    <!-- SpaceID=0 robot -->
+
+</div>
+
+  <div class="footer_disclaimer">
+<p><strong>Quotes delayed</strong>, except where indicated otherwise. Delay times are 15 mins for NASDAQ, NYSE and Amex. See also delay times for <a href="http://help.yahoo.com/l/us/yahoo/finance/quotes/fitadelay.html">other exchanges</a>. Quotes and other information supplied by independent providers identified on the Yahoo! Finance <a href="http://help.yahoo.com/l/us/yahoo/finance/quotes/fitadelay.html">partner page</a>.Quotes are updated automatically, but will be turned off after 25 minutes of inactivity. Quotes are delayed at least 15 minutes. All information provided "as is" for informational purposes only, not intended for trading purposes or advice. Neither Yahoo! nor any of independent providers is liable for any informational errors, incompleteness, or delays, or for any actions taken in reliance on information contained herein. By accessing the Yahoo! site, you agree not to redistribute the information found therein.</p>
+<p>Fundamental company data provided by <a href="http://www.capitaliq.com">Capital IQ</a>. Historical chart data and daily updates provided by <a href="http://www.csidata.com">Commodity Systems, Inc. (CSI)</a>. International historical chart data, daily updates, fundAnalyst estimates data provided by <a href="http://thomsonreuters.com/">Thomson Financial Network</a>. All data povided by Thomson Financial Network is based solely upon research information provided by third party analysts. Yahoo! has not reviewed, and in no way endorses the validity of such data. Yahoo! and ThomsonFN shall not be liable for any actions taken in reliance thereon.</p>
+</div>
+
+
+
+
+                        
+            
+                              
+            
+                              
+            
+        </div><!-- ./end of article y-footer -->
+        
+    </div><!--./y-page -->
+
+<script type="text/javascript">
+if (typeof YAHOO == "undefined") { YAHOO = {}; }
+if (typeof YAHOO.Finance == "undefined") { YAHOO.Finance = {}; }
+if (typeof YAHOO.Finance.YfiSharingToolbar == "undefined") { YAHOO.Finance.YfiSharingToolbar = {}; }
+
+YAHOO.Finance.YfiSharingToolbar.PageConf = {
+    clean_url : "http://finance.yahoo.com/news/Economy-101-Who-benefits-from-apf-1157112056.html?x=0",
+    facebook_iframe_url: "http://d.yimg.com/bm/social_buttons/facebook-share-iframe.php?u={url}&t={title}",
+    intl : "us",
+    mail_property : "finance"
+};
+
+
+YAHOO.Finance.YfiSharingToolbar.ContainerConf = 
+                
+                    [{
+                        selector: '.content-wrapper #y-article-hd',
+                        position: 'after', //|before
+                        classNames: ['ymsb-facebook', 'ymsb-retweet', 'ymsb-mail', 'ymsb-print', 'ymsb','clearfix']
+                    }]
+                
+            ;
+</script>
+
+<script type="text/javascript" src="http://yui.yahooapis.com/3.1.1/build/yui/yui-min.js"></script>
+
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/yahoo/yahoo-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/event/event-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/dom/dom-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/imageloader/imageloader-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/get/get-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/connection/connection-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/animation/animation-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/json/json-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/container/container_core-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/element/element-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/cookie/cookie-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/media/phugc/mwphcom_min_r1413.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/bm/combo?fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/yahoo-dom-event/2.0.0/mini/yahoo-dom-event.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/element/2.0.0/mini/element-min.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/get/2.0.0/mini/get.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/tabview/2.0.0/mini/tabview-min.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/cookie/2.0.0/mini/cookie.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/connection/2.0.0/mini/connection.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/ylc_1.9.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi_nav_topnav.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi_nav_topnav_init.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi_sharetoolbar.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi_common.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi_symbol_suggest.js"></script>
+
+                    <script type="text/javascript">
+                        if(typeof(YAHOO.Finance) == "undefined" || typeof(YAHOO.Finance.ConfigL10n) == "undefined") {
+                            YAHOO.namespace("YAHOO.Finance.CommonL10n");
+                        }    
+                        YAHOO.Finance.CommonL10n = {
+                            lang: "en-US",
+                            region: "US",
+                            intl: "us"
+                        };   
+                    </script>
+                
+
+        <script language="javascript">
+        
+    if(!("Media" in YAHOO)){YAHOO.Media = {};}
+    if(!("MwPhCom" in YAHOO.Media)){YAHOO.Media.MwPhCom = {};}
+    YAHOO.Media.MwPhCom.coms = new YAHOO.phugcmwpcmt.comments({
+        asset_id:"1157112056",
+        asset_cat:"headcontent",
+        login_url:"http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D",
+        section:"main",
+        sServiceUrl:"/comments",
+        sAppLang:"en-US",
+        sAbuseUrl:"http://help.yahoo.com/l/us/yahoo/finance/abuse.html",
+        sCharCountAllowed:"4000",
+        rating_type:"up_down",
+        rating_url:"mwphucmtrate",
+        sParentAssetUrl:"http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D",
+        sParentAssetTitle:"Dummy",
+        sVitalityProperty:"y.finance",
+        sVitalityRating:"0",
+        sVitalityRatingType:"0",
+        sVitalityPosting:"1",
+        sAllowReply:"1",
+        sDisclosureProp:"y.finance",
+        sDisclosureRateEvent:"genericrate",
+        sVitalityConsumption:"0",
+        sUltBeaconSec:"na",
+        sPostingDisabled:"N",        
+        sUltBeaconSpID:"2142428251",
+        sUltBeaconEnable:"1",
+        sUtlBeaconRcdPgVew:"0",        
+        sUltBeaconProp:"yahoo_finance",
+        sSortOptionDisp:"Newest First",
+        sYuiBasePath:"yui/2.8.0/build/",
+        sCmtGuideLineUrl:"http://help.yahoo.com/l/us/yahoo/finance/news/fitacomguide.html",
+        sPostCrumb:"",
+        sSortBy:"date",
+        sSortOrder:"desc",
+        sStartForm:"",
+        sFilterBy:"",
+        sAssetExcerpt:"VGhpcyBpcyBleGNlcnB0IiBvZiBhcnRpY2xlIA==",
+        sAssetImgURL:"",
+        sAssetBlogName:"",
+        sAssetImgSige:"",
+        sAssetAuthor:"",
+        sAssetTypeVita:"aGVhZGNvbnRlbnQ=",
+        sAssetSource:"",
+        sIsDegraded:"false",
+        sPostActionUrl:"/comments/mwphucmtpost",
+        vitaMeta:{
+                "vmeta_mandatory":{
+                             "asset_type": "article" ,
+                             "prop_source": "y.finance",
+                             "target_return_url":"http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D"
+                            } ,
+                  "vmeta_trg_imgt_opt":{
+                              "target_img_url": "http%3A%2F%2Fl.yimg.com%2Fhv%2Fapi%2Fres%2F1.2%2F.YcwzcQVM3yxgNl_EJah2A--%2FYXBwaWQ9eWZpbmFuY2U7aD05MTt3PTEyMA--%2Fhttp%3A%2F%2Fl.yimg.com%2Fa%2Fp%2Ffi%2F32%2F35%2F87.jpg",
+                              "target_img_height": "91",
+                              "target_img_width":"120",
+                              "target_img_rights":""
+                            } ,
+                  "vmeta_trg_title_opt":{
+                              "target_title": "Economy+101%3A+Who+benefits+from+new+banking+rules%3F",
+                              "target_url": "http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D"
+                            } ,
+                  "vmeta_testing":{
+                              "update_variant": "",
+                              "update_transform": ""
+                            },
+                      "vmeta_article_opt":{
+                                 "article_source": "Yahoo%21+Finance",
+                                 "article_author": "",
+                                 "article_description":"At+the+core+of+an+international+agreement+to+head+off+future+financial+meltdowns+is+a+requirement+that+banks+keep+more+money+on+hand+in+case+of+trouble."
+                               }
+        },
+        oL10n:{
+            "CHARACTERS_LEFT":"{0} characters remaining",
+            "CHARACTER_LEFT":"{0} character remaining",
+            "SIGN_IN":"Sign in",
+            "TO_RATE":"to rate",
+            "THANK_YOU":"Thank You!",
+            "COMMENTS_POST_SUCESS_PRV_MSG":"Your comment has been received and should be available shortly. A preview is shown here.",
+            "POST_ANOTHER_COMMENT":"Post Another Comment",
+            "POST_ANOTHER_REPLY":"Post Another Reply",
+            "A_SECOND_AGO":"a second ago",
+            "THANK_YOU":"Thank You!",
+            "COMMENTS_REPLY_SUCESS_PRV_MSG":"Your reply has been received and should be available shortly. A preview is shown here.",
+            "POST_GENERIC_ERROR":"We apologize. An error has occurred. Please try again.",
+            "FETCHING_UPDATES":"Fetching updates...",
+            "SERVER_ERROR":"Server Error",
+            "POSTING":"Posting",
+            "NO_COMMENTS_ERR":"Please enter a comment",
+            "REQUEST_FAILED":"An internal error has occurred",
+            "NO_UPDATE_AVAILAVLE":"No Updates available",
+            "SIGN_IN_TO_RATE":"Please sign in to rate!",
+            "RATE_SIGN_IN_TXT":"<p>Signing in ensures ratings are counted accurately and prevents system abuse.</p><p><a href=\"http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D\">Sign in to rate</a> or, <a href=\"http://edit.yahoo.com/config/eval_register?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FEconomy-101-Who-benefits-from-apf-1157112056.html%3Fx%3D0%26sec%3DtopStories%26pos%3D5%26asset%3D%26ccode%3D\">sign up</a> for a new account.</p>",
+            "CLOSE_LINK_TXT":"Close this message",
+            "REPLY_LINK_TXT":"Reply",
+            "COLLAPSE_REPLIES":"Collapse Replies",
+            "VIEW_ALL_REPLIES":"View all {0} Replies",
+            "VIEW_ALL_REPLY":"View all  {0} Reply",
+            "COMMENT_GUIDELINES":"Comment Guidelines",
+            "CANCEL_BTN_TXT":"Clear",
+            "POST_REPLY":"Post Reply",
+            "REPLY_TO_CONVERSTION":"Reply to Above Conversation",
+            "PLZ_ENTER_COMMENT":"Please Enter a Comment",
+            "ANONYMOUS_DISP_TXT":"A Yahoo! User",
+            "POST_CMT_DISABLED":"Comments have been closed for this article",
+            "REPLIES_LINK_TXT":"Replies"
+    }
+            ,bRecordPageviews:true,
+            nSpaceId:""
+            
+    });
+    YAHOO.namespace("phugcmaplecomt.container");
+    
+    YAHOO.util.Event.addListener(window, "load",
+        function(){
+            if(YAHOO.Updates != undefined){
+                if(YAHOO.Updates.Disclosure.manager != undefined){
+                    YAHOO.Updates.Disclosure.manager.registerPostLinkCallback({"fn":
+                        function() {YAHOO.Media.MwPhCom.coms.reValidateCrumb=true;}});
+                }
+            }    
+        });
+    
+        </script>
+
+<script type="text/javascript" src="http://l.yimg.com/us.js.yimg.com/lib/media/m/social_buttons/social-buttons-min-3585.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/us.js.yimg.com/lib/media/m/social_buttons/social-buttons-easy-min-3585.js"></script>
+
+
+
+    
+	<div id="spaceid" style="display:none;">2142203358</div><script type="text/javascript">
+                  var dsServerVal = 'http://d.yimg.com/aq/autoc';
+                  var dsRegionVal = 'US';
+                  var dsLangVal = 'en-US';
+                  var dsFooterVal = '<div class="moreresults"><a class="[[tickdquote]]" href="http://finance.yahoo.com/lookup?s=[[link]]">Show all results for [[tickdquote]]</a></div><div class="tip"><em>Tip:</em> Use comma (,) to separate multiple quotes. <a href="http://help.yahoo.com/l/us/yahoo/finance/quotes/quotelookup.html">Learn more...</a></div>';
+
+				    
+                    // Ensure we have loaded all YUI dependencies for us to run symbol suggest
+                    function loadRequiredLibraries(libs, config){
+                        this.log = function(msg, more){
+                            if(config.debug && window.console && window.console.log){
+                                window.console.log(msg, more);
+                            }
+                        }
+                        
+                        var YSS = YAHOO.Finance.SymbolSuggest();
+                        var conf = {
+                            dsServer:dsServerVal,
+                            dsRegion:dsRegionVal,
+                            dsLang:dsLangVal,
+                            dsFooter:dsFooterVal,
+                            acInputId:'txtQuotes',
+                            acInputFormId:'quote',
+                            acContainerId:'quoteContainer'
+                        }
+                        
+                        // Deal with focus issues of autocomplete
+                        if(document.activeElement == document.getElementById(conf.acInputId)){
+                            YSS.acInputHasFocus(true);
+                        }
+
+                        var libsLoadedEvent = new YAHOO.util.CustomEvent("libsLoadedEvent", this);
+                        var libsLoadedDone = function (){
+                            this.log('Yay, we have all our YUI dependencies!');
+                            YSS.init(conf);
+                        }
+
+                        libsLoadedEvent.subscribe(libsLoadedDone, this);
+
+                        // this.log = console.log;
+                        var lazyLoadLibs = [];
+                        // Go through provided
+                        for(i = 0, l = libs.length; i < l; i++ ){
+                            if(!YAHOO.env.getVersion(libs[i])){
+                                this.log('I need to load', libs[i]);
+                                lazyLoadLibs.push(libs[i]);
+                            }
+                        }
+
+                        if(lazyLoadLibs.length > 0){
+                            var that = this;
+                            var loaderConf = {
+                                require: lazyLoadLibs,
+                                loadOptional: false,
+                                onSuccess: function(o) {
+                                    that.log('loaded lib', o);
+                                    libsLoadedEvent.fire();
+                                },
+                                onFailure: function(o) {
+                                    that.log('failed to load lib', o);
+                                    return false;
+                                },
+                                timeout: 1000,
+                                combine: true
+                            }
+                            var loader = new YAHOO.util.YUILoader(loaderConf);
+                            loader.insert();
+                        } else {
+                            // All the libraries we need are already loaded
+                            libsLoadedEvent.fire();
+                        }
+                        return true;
+                    };
+
+
+                    YAHOO.util.Event.onAvailable('txtQuotes' ,function() {
+                        // Identify the components you want to load.  Loader will automatically identify
+                        var requiredLibs = ["datasource", "autocomplete", "json", "event", "dom"];
+                        var config = {debug : false};
+                        var loadLibraries = loadRequiredLibraries(requiredLibs, config);
+                    });
+                    				    
+				</script>
+
+    <script type="text/javascript" src="http://l.yimg.com/a/i/us/fi/yfs/js/yfs_concat_200903061452.js"></script><script type="text/javascript">
+			YAHOO.util.Event.addListener(window, 'load', function() { setTimeout(YAHOO.Finance.Streaming.init, 5000); });
+	</script>
+
+<!-- SpaceID=0 robot -->
+
+    
+</body>
+</html>
+
+<!-- finance:myservice-us:0:Success -->
+<!-- xsltm16.finance.ac4.yahoo.com uncompressed/chunked Mon Sep 13 18:33:21 PDT 2010 -->

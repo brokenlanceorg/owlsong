@@ -1,0 +1,31 @@
+
+Buildfile: /home/brandon/projects/code/java/genetic/build.xml
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=genetic
+     [echo] parent.project.home=/home/brandon/projects/code/java/genetic/..
+     [echo] parent.project.lib=/home/brandon/projects/code/java/genetic/../lib
+     [echo] project.home=/home/brandon/projects/code/java/genetic
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/genetic/lib
+     [echo] project.dist=/home/brandon/dist/genetic
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/genetic
+     [echo] project.src=/home/brandon/projects/code/java/genetic/src
+     [echo] java.version=1.8
+
+compile:
+    [javac] /home/brandon/projects/code/java/genetic/build.xml:112: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+resources:
+     [copy] Copying 1 file to /home/brandon/build/genetic
+
+jar:
+      [jar] Updating jar: /home/brandon/dist/genetic/genetic.jar
+
+dist:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

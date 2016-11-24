@@ -1,0 +1,158 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Philosophy2.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         Suppose we modify step (2) by making the restriction that if program R is on the list, then do not execute it. Even if this restriction is
+         applied we will continue to face the same problem because there is more than one way to write a program--some methods are more elegant
+         while others are less elegant--but the output is <i>equivalent</i>. Thus, no matter how hard we try, any program of this form will always
+         regress into infinite recursion.         
+         </p>
+         <p>
+         So what does all of this mean? There are at least a couple of points to note immediately:
+         <ul>
+         <li>
+         Although it is possible to verify the syntactics of any program, it is impossible to verify the <i>semantics</i> of any arbitrary sufficiently complex
+         program with a single program. This result is often referred to as the halting problem. (Colloquially, we say 'halting problem', though more appropriately we say
+         the 'unsolvability of the halting problem', which means that there is no program that can verify that any given program will correctly
+         execute and halt in a manner that the programmer intended.)
+         </li>
+         <li>
+         No program can prove that it is the shortest and most efficient program that performs its semantics.
+         </li>
+         <li>
+         There is a finite limit to the amount of knowledge one can have about the universe in which we live.
+         </li>
+         </ul>
+         <p>
+         For any program or equivalently any sentence in a given language, and given that the program is sufficiently complex, i.e., rich enough to 
+         perform looping, incrementing, etc., there is no general purpose program that can prove that the program's semantics are correct. 
+         So, even though we can write other programs to verify the syntactics of any other program (or any sentence in any language), it is impossible 
+         to verify, with a single program, that any program does what it is supposed to do.
+         </p>
+         <p>
+         Computer scientists have been aware of this problem since the discipline's inception. When one executes a program without a proof of its correctness, one is never guarranteed that
+         the said program will ever terminate when it should. 
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         This doesn't imply that we can't prove <i>any</i> program to be correct, there are indeed
+         large classes of programs that we can prove to be correct, but we can't say that <i>any arbitrary</i> program can be proved to be correct 
+         semantically.
+         </p>
+         <p>
+         Suppose we make a list of propositions together with their proofs about the universe. These propositions can be coded into programs that output
+         a certain unique number. To see this, observe that the fundamental theorem of arithmatic says that every natural number n can be written in 
+         the form:
+         </p>
+         <center><img src="FTA.gif"></center>
+         <p>
+         where each <span class="symbol1"><span class="symbol2">p</span></span> is a prime number, and the subscripts denote the order of the prime,
+         and the superscript denotes the power that the prime is raised. For instance, the number 60 can be written as: 
+         60 = 2 &#183 2 &#183 3 &#183 5 = 2&#178 &#183 3 &#183 5
+         </p>
+         <p>
+         Now we want to map some simple propositions into the natural numbers, thus we could make a mapping such as:
+         </p>
+         <center>&#179 <span class="symbol1"><span class="symbol2">&#174</span></span> 1</center>
+         <center>= <span class="symbol1"><span class="symbol2">&#174</span></span> 2</center>
+         <center>2 <span class="symbol1"><span class="symbol2">&#174</span></span> 3</center>
+         <center>7 <span class="symbol1"><span class="symbol2">&#174</span></span> 4</center>
+         <center><span class="symbol1"><span class="symbol2">&#222</span></span> <span class="symbol1"><span class="symbol2">&#174</span></span> 5</center>
+         <center>3 <span class="symbol1"><span class="symbol2">&#174</span></span> 6</center>
+         <p>
+         We would then specify that variables are mapped to prime numbers greater than six (because we have only six symbols in our grammar).
+         Thus, the proposition: 
+         </p>
+         <center>x&#179 = 27 <span class="symbol1"><span class="symbol2">&#222</span></span> x = 3</center> 
+         <p>
+         would be mapped into the number:
+         </p>
+         <center><img src="MappedNum.gif"></center>
+         <p>
+         Do you see why? With this mapping, any formula using our abbrieviated grammar, could be mapped to a unique natural number, and conversely,
+         given any natural number, we could recover the original proposition. One could then construct a "master program" that computes all of the 
+         numbers on the list in the most elegant way. It is immediately obvious that this program is itself subject to the halting problem, 
+         thus there are vast (infinite) domains of knowledge and information that are beyond the scope of any UTM no matter how much 'intelligence' 
+         the UTM contains.
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWEpistemology3.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWEpistemology5.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

@@ -1,0 +1,391 @@
+#############################################################################
+## Copyright (c) 1996, Carnegie Mellon University, Cambridge University,
+## Ronald Rosenfeld and Philip Clarkson
+## Version 3, Copyright (c) 2006, Carnegie Mellon University 
+## Contributors includes Wen Xu, Ananlada Chotimongkol, 
+## David Huggins-Daines, Arthur Chan and Alan Black 
+#############################################################################
+=============================================================================
+===============  This file was produced by the CMU-Cambridge  ===============
+===============     Statistical Language Modeling Toolkit     ===============
+=============================================================================
+This is a 3-gram language model, based on a vocabulary of 63 words,
+  which begins "</s>", "<s>", "add"...
+This is a CLOSED-vocabulary model
+  (OOVs eliminated from training data and are forbidden in test data)
+Good-Turing discounting was applied.
+1-gram frequency of frequency : 43 
+2-gram frequency of frequency : 93 10 2 0 2 0 0 
+3-gram frequency of frequency : 141 10 2 0 2 0 1 
+1-gram discounting ratios : 0.98 
+2-gram discounting ratios : 0.16 0.25 
+3-gram discounting ratios : 0.10 0.27 
+This file is in the ARPA-standard format introduced by Doug Paul.
+
+p(wd3|wd1,wd2)= if(trigram exists)           p_3(wd1,wd2,wd3)
+                else if(bigram w1,w2 exists) bo_wt_2(w1,w2)*p(wd3|wd2)
+                else                         p(wd3|w2)
+
+p(wd2|wd1)= if(bigram exists) p_2(wd1,wd2)
+            else              bo_wt_1(wd1)*p_1(wd2)
+
+All probs and back-off weights (bo_wt) are given in log10 form.
+
+Data formats:
+
+Beginning of data mark: \data\
+ngram 1=nr            # number of 1-grams
+ngram 2=nr            # number of 2-grams
+ngram 3=nr            # number of 3-grams
+
+\1-grams:
+p_1     wd_1 bo_wt_1
+\2-grams:
+p_2     wd_1 wd_2 bo_wt_2
+\3-grams:
+p_3     wd_1 wd_2 wd_3 
+
+end of data mark: \end\
+
+\data\
+ngram 1=63
+ngram 2=110
+ngram 3=157
+
+\1-grams:
+-0.6112 </s>	-1.5563
+-0.6021 <s>	-0.3205
+-2.2933 add	-0.0740
+-2.2933 armani	0.0457
+-2.2933 black	0.0457
+-2.2933 blue	0.0457
+-2.2933 boulevard	-0.0740
+-2.2933 brown	0.0457
+-2.2933 chiffon	-0.0740
+-2.2933 clear	0.0457
+-1.3802 color	-0.0557
+-2.2933 cost	0.0457
+-1.3802 description	-0.0675
+-2.2933 dot	0.0457
+-1.5843 dress	-0.7232
+-2.2933 eight	0.0457
+-2.2933 esley	-0.0647
+-1.9823 extra	-0.0671
+-1.9823 filter	0.0487
+-2.2933 five	0.0457
+-2.2933 floral	-0.0647
+-2.2933 four	0.0457
+-2.2933 grey	0.0457
+-2.2933 lace	-0.0716
+-1.9823 large	-0.0040
+-2.2933 luluvia	-0.0740
+-2.2933 mark	-0.0740
+-2.2933 medium	0.0457
+-2.2933 navy	0.0457
+-2.2933 new	0.0000
+-2.2933 nine	0.0457
+-1.9823 off	0.0487
+-1.9823 on	-0.0040
+-2.2933 one	0.0457
+-2.2933 paisley	-0.0647
+-1.9823 people	0.0487
+-2.2933 point	0.0457
+-2.2933 rayon	-0.0740
+-2.2933 red	0.0457
+-1.8062 return	0.0579
+-2.2933 row	0.0457
+-2.2933 sash	0.0457
+-2.2933 seven	0.0457
+-2.2933 silver	-0.0740
+-2.2933 six	0.0457
+-1.5843 size	-0.0793
+-1.9823 small	-0.0040
+-2.2933 ten	0.0457
+-2.2933 three	0.0457
+-1.9823 top	-0.0040
+-1.8062 trade	0.0192
+-2.2933 transaction	-0.0740
+-1.9823 tree	-0.1214
+-2.2933 trim	-0.0716
+-2.2933 two	0.0457
+-2.2933 up	0.0457
+-1.9823 vendor	-0.0694
+-1.9823 wedding	-0.0625
+-2.2933 white	0.0457
+-2.2933 with	-0.0740
+-2.2933 woven	-0.0647
+-2.2933 yellow	0.0457
+-2.2933 zero	0.0457
+
+\2-grams:
+-0.0091 </s> <s> 0.0313
+-2.4746 <s> add 0.0286
+-0.7782 <s> color 0.0286
+-2.4746 <s> cost 0.0286
+-0.7782 <s> description 0.0201
+-2.4746 <s> dot 0.0286
+-2.4746 <s> eight 0.0286
+-1.9793 <s> filter 0.0286
+-2.4746 <s> five 0.0286
+-2.4746 <s> four 0.0286
+-2.4746 <s> mark 0.0286
+-2.4746 <s> nine 0.0286
+-2.4746 <s> one 0.0286
+-2.4746 <s> point 0.0286
+-1.2041 <s> return 0.0286
+-2.4746 <s> seven 0.0286
+-2.4746 <s> six 0.0286
+-0.9823 <s> size 0.0146
+-2.4746 <s> ten 0.0286
+-2.4746 <s> three 0.0286
+-1.2041 <s> trade 0.0042
+-2.4746 <s> transaction 0.0286
+-2.4746 <s> two 0.0286
+-1.9793 <s> vendor 0.0286
+-2.4746 <s> zero 0.0286
+-0.7934 add row 0.0286
+-0.7934 armani </s> 1.6337
+-0.7934 black </s> 1.6337
+-0.7934 blue </s> 1.6337
+-0.7934 boulevard chiffon 0.0286
+-0.7934 brown </s> 1.6337
+-0.7934 chiffon with 0.0286
+-0.7934 clear </s> 1.6337
+-1.6965 color black 0.0286
+-1.6965 color blue 0.0286
+-1.6965 color brown 0.0286
+-1.6965 color grey 0.0286
+-1.6965 color navy 0.0286
+-1.6965 color off -0.0111
+-1.6965 color red 0.0286
+-1.6965 color yellow 0.0286
+-0.7934 cost </s> 1.6337
+-1.6965 description boulevard 0.0286
+-1.6965 description esley 0.0286
+-1.6965 description luluvia 0.0286
+-1.6965 description paisley 0.0286
+-1.6965 description rayon 0.0286
+-1.6965 description tree 0.0784
+-1.2011 description wedding 0.0286
+-0.7934 dot </s> 1.6337
+-0.0669 dress </s> 0.9031
+-0.7934 eight </s> 1.6337
+-0.7934 esley dress 0.7975
+-1.0944 extra large 0.0784
+-1.0944 extra small 0.0784
+-1.0944 filter </s> 1.6337
+-1.0944 filter clear 0.0286
+-0.7934 five </s> 1.6337
+-0.7934 floral dress 0.7975
+-0.7934 four </s> 1.6337
+-0.7934 grey </s> 1.6337
+-0.7934 lace top 0.0784
+-0.5991 large </s> 1.5452
+-0.7934 luluvia floral 0.0286
+-0.7934 mark up 0.0286
+-0.7934 medium </s> 1.6337
+-0.7934 navy </s> 1.6337
+-0.7934 nine </s> 1.6337
+-1.0944 off </s> 1.6337
+-1.0944 off white 0.0286
+-0.5991 on </s> 1.5452
+-0.7934 one </s> 1.6337
+-0.7934 paisley dress 0.7975
+-1.0944 people </s> 1.6337
+-1.0944 people woven 0.0286
+-0.7934 point </s> 1.6337
+-0.7934 rayon silver 0.0286
+-0.7934 red </s> 1.6337
+-1.2705 return </s> 1.6337
+-1.2705 return off -0.0111
+-1.2705 return on 0.0784
+-0.7934 row </s> 1.6337
+-0.7934 sash </s> 1.6337
+-0.7934 seven </s> 1.6337
+-0.7934 silver trim 0.0286
+-0.7934 six </s> 1.6337
+-0.9970 size extra 0.0286
+-1.4924 size large 0.0784
+-1.4924 size medium 0.0286
+-1.4924 size small 0.0784
+-0.5991 small </s> 1.5452
+-0.7934 ten </s> 1.6337
+-0.7934 three </s> 1.6337
+-0.5991 top </s> 1.5452
+-0.7752 trade </s> 1.5452
+-1.2705 trade on 0.0784
+-0.7934 transaction new 0.0744
+-0.5991 tree people 0.0286
+-0.7934 trim top 0.0784
+-0.7934 two </s> 1.6337
+-0.7934 up </s> 1.6337
+-1.0944 vendor armani 0.0286
+-1.0944 vendor tree 0.0784
+-1.0944 wedding dress 0.7975
+-1.0944 wedding sash 0.0286
+-0.7934 white </s> 1.6337
+-0.7934 with lace 0.0286
+-0.7934 woven dress 0.7975
+-0.7934 yellow </s> 1.6337
+-0.7934 zero </s> 1.6337
+
+\3-grams:
+-2.6563 </s> <s> add 
+-0.7690 </s> <s> color 
+-2.6563 </s> <s> cost 
+-0.8270 </s> <s> description 
+-2.6563 </s> <s> dot 
+-2.6563 </s> <s> eight 
+-1.9415 </s> <s> filter 
+-2.6563 </s> <s> five 
+-2.6563 </s> <s> four 
+-2.6563 </s> <s> mark 
+-2.6563 </s> <s> nine 
+-2.6563 </s> <s> one 
+-2.6563 </s> <s> point 
+-1.1950 </s> <s> return 
+-2.6563 </s> <s> seven 
+-2.6563 </s> <s> six 
+-0.9731 </s> <s> size 
+-2.6563 </s> <s> ten 
+-2.6563 </s> <s> three 
+-1.1950 </s> <s> trade 
+-2.6563 </s> <s> transaction 
+-2.6563 </s> <s> two 
+-1.9415 </s> <s> vendor 
+-2.6563 </s> <s> zero 
+-0.9842 <s> add row 
+-1.8873 <s> color black 
+-1.8873 <s> color blue 
+-1.8873 <s> color brown 
+-1.8873 <s> color grey 
+-1.8873 <s> color navy 
+-1.8873 <s> color off 
+-1.8873 <s> color red 
+-1.8873 <s> color yellow 
+-0.9842 <s> cost </s> 
+-1.8873 <s> description boulevard 
+-1.8873 <s> description esley 
+-1.8873 <s> description luluvia 
+-1.8873 <s> description paisley 
+-1.8873 <s> description rayon 
+-1.8873 <s> description tree 
+-1.1725 <s> description wedding 
+-0.9842 <s> dot </s> 
+-0.9842 <s> eight </s> 
+-1.2852 <s> filter </s> 
+-1.2852 <s> filter clear 
+-0.9842 <s> five </s> 
+-0.9842 <s> four </s> 
+-0.9842 <s> mark up 
+-0.9842 <s> nine </s> 
+-0.9842 <s> one </s> 
+-0.9842 <s> point </s> 
+-1.4613 <s> return </s> 
+-1.4613 <s> return off 
+-1.4613 <s> return on 
+-0.9842 <s> seven </s> 
+-0.9842 <s> six </s> 
+-0.9684 <s> size extra 
+-1.6832 <s> size large 
+-1.6832 <s> size medium 
+-1.6832 <s> size small 
+-0.9842 <s> ten </s> 
+-0.9842 <s> three </s> 
+-0.7465 <s> trade </s> 
+-1.4613 <s> trade on 
+-0.9842 <s> transaction new 
+-0.9842 <s> two </s> 
+-1.2852 <s> vendor armani 
+-1.2852 <s> vendor tree 
+-0.9842 <s> zero </s> 
+-0.9842 add row </s> 
+-0.9842 armani </s> <s> 
+-0.9842 black </s> <s> 
+-0.9842 blue </s> <s> 
+-0.9842 boulevard chiffon with 
+-0.9842 brown </s> <s> 
+-0.9842 chiffon with lace 
+-0.9842 clear </s> <s> 
+-0.9842 color black </s> 
+-0.9842 color blue </s> 
+-0.9842 color brown </s> 
+-0.9842 color grey </s> 
+-0.9842 color navy </s> 
+-0.9842 color off white 
+-0.9842 color red </s> 
+-0.9842 color yellow </s> 
+-0.9842 cost </s> <s> 
+-0.9842 description boulevard chiffon 
+-0.9842 description esley dress 
+-0.9842 description luluvia floral 
+-0.9842 description paisley dress 
+-0.9842 description rayon silver 
+-0.9842 description tree people 
+-1.2852 description wedding dress 
+-1.2852 description wedding sash 
+-0.9842 dot </s> <s> 
+-0.0792 dress </s> <s> 
+-0.9842 eight </s> <s> 
+-0.9842 esley dress </s> 
+-0.9842 extra large </s> 
+-0.9842 extra small </s> 
+-0.9842 filter </s> <s> 
+-0.9842 filter clear </s> 
+-0.9842 five </s> <s> 
+-0.9842 floral dress </s> 
+-0.9842 four </s> <s> 
+-0.9842 grey </s> <s> 
+-0.9842 lace top </s> 
+-0.5704 large </s> <s> 
+-0.9842 luluvia floral dress 
+-0.9842 mark up </s> 
+-0.9842 medium </s> <s> 
+-0.9842 navy </s> <s> 
+-0.9842 nine </s> <s> 
+-0.9842 off </s> <s> 
+-0.9842 off white </s> 
+-0.5704 on </s> <s> 
+-0.9842 one </s> <s> 
+-0.9842 paisley dress </s> 
+-0.9842 people </s> <s> 
+-0.9842 people woven dress 
+-0.9842 point </s> <s> 
+-0.9842 rayon silver trim 
+-0.9842 red </s> <s> 
+-0.9842 return </s> <s> 
+-0.9842 return off </s> 
+-0.9842 return on </s> 
+-0.9842 row </s> <s> 
+-0.9842 sash </s> <s> 
+-0.9842 seven </s> <s> 
+-0.9842 silver trim top 
+-0.9842 six </s> <s> 
+-1.2852 size extra large 
+-1.2852 size extra small 
+-0.9842 size large </s> 
+-0.9842 size medium </s> 
+-0.9842 size small </s> 
+-0.5704 small </s> <s> 
+-0.9842 ten </s> <s> 
+-0.9842 three </s> <s> 
+-0.5704 top </s> <s> 
+-0.5704 trade </s> <s> 
+-0.9842 trade on </s> 
+-0.9842 transaction new </s> 
+-1.2852 tree people </s> 
+-1.2852 tree people woven 
+-0.9842 trim top </s> 
+-0.9842 two </s> <s> 
+-0.9842 up </s> <s> 
+-0.9842 vendor armani </s> 
+-0.9842 vendor tree people 
+-0.9842 wedding dress </s> 
+-0.9842 wedding sash </s> 
+-0.9842 white </s> <s> 
+-0.9842 with lace top 
+-0.9842 woven dress </s> 
+-0.9842 yellow </s> <s> 
+-0.9842 zero </s> <s> 
+
+\end\

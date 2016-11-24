@@ -1,0 +1,8116 @@
+cscope 15 $HOME/projects/code/java/genetic/src/genetic/impl               0000040970
+	@AffineSystemIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+12 
+public
+ cÏs 
+	cAffšeSy¡emIndividu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+19 
+public
+ 
+	$AffšeSy¡emIndividu®
+()
+
+27 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+29 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`AffšeSy¡emIndividu®
+();
+
+31 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+33 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+38 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+39  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+41 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+43 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+46  
+šdy
+;
+
+47 
+	}
+}
+
+53 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+55 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+<
+DoubË
+>();
+
+56  
+i
+=0; i<18; i++ )
+
+58 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©h
+.
+	`¿ndom
+() );
+
+60 
+	}
+}
+
+69 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+71 [] 
+·¿ms
+ = 
+Ãw
+ [ 
+_myG’Ùy³
+.
+	`size
+() ];
+
+72  
+i
+=0; i<
+·¿ms
+.
+Ëngth
+; i++ )
+
+74 
+·¿ms
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+( i );
+
+76 
+AffšeSy¡em
+ 
+sys
+ = 
+Ãw
+ 
+	`AffšeSy¡em
+Ğ
+·¿ms
+ );
+
+78 [] 
+´obs
+ = 
+sys
+.
+	`g‘Probab™›s
+();
+
+80 
+_myF™Ãss
+ = 
+M©h
+.
+	`abs
+Ğ0.83557311053832 - 
+´obs
+[ 0 ] );
+
+81 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ0.06932640621040896 - 
+´obs
+[ 1 ] );
+
+82 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ0.09510048325126202 - 
+´obs
+[ 2 ] );
+
+84 ifĞ
+_myF™Ãss
+ != 0 )
+
+86 
+_myF™Ãss
+ = 1 / _myFitness;
+
+90 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+93  
+_myF™Ãss
+;
+
+94 
+	}
+}
+
+99 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+101 [] 
+·¿ms
+ = 
+Ãw
+ [ 
+_myG’Ùy³
+.
+	`size
+() ];
+
+102  
+i
+=0; i<
+·¿ms
+.
+Ëngth
+; i++ )
+
+104 
+·¿ms
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+( i );
+
+106 
+AffšeSy¡em
+ 
+sys
+ = 
+Ãw
+ 
+	`AffšeSy¡em
+Ğ
+·¿ms
+ );
+
+107 
+SŒšg
+ 
+»suÉ
+ = 
+sys
+.
+	`toSŒšg
+();
+
+108 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+110  
+»suÉ
+;
+
+111 
+	}
+}
+
+	@DySoRMIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+24 
+public
+ cÏs 
+	cDySoRMIndividu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+27 
+´iv©e
+ 
+fš®
+ 
+	m_»gessiÚMod–G’omeSize
+ = 17;
+
+28 
+´iv©e
+ 
+fš®
+ 
+	m_™”©iÚs
+ = 2;
+
+33 
+public
+ 
+	$DySoRMIndividu®
+()
+
+41 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+43 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`DySoRMIndividu®
+();
+
+45 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+47 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+52 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+53  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+55 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+57 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+60  
+šdy
+;
+
+61 
+	}
+}
+
+67 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+69 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+< 
+DoubË
+ >();
+
+70 
+size
+ = (
+	`g‘EnvœÚm’tCache
+().
+	`g‘DysÜmV¬ŸbËs
+()).
+Ëngth
+ * 
+_»gessiÚMod–G’omeSize
+;
+
+72  
+i
+=0; i<
+size
+; i++ )
+
+74 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©h
+.
+	`¿ndom
+() );
+
+76 
+	}
+}
+
+83 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+85 
+_myF™Ãss
+ = 0;
+
+86 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘DysÜmV¬ŸbËs
+();
+
+87 [][] 
+v¬ŸbËs
+ = 
+Ãw
+ [ 
+¡»ams
+.
+Ëngth
+ ][ streams[ 0 ].length ];
+
+88  
+i
+=0; i<
+¡»ams
+.
+Ëngth
+; i++ )
+
+90  
+j
+=0; j<
+¡»ams
+[ 
+i
+ ].
+Ëngth
+; j++ )
+
+92 
+v¬ŸbËs
+[ 
+i
+ ][ 
+j
+ ] = 
+¡»ams
+[ i ][ j ];
+
+95 
+DySoRM
+ 
+dyn
+ = 
+Ãw
+ 
+	`DySoRM
+Ğ
+_myG’Ùy³
+, 
+v¬ŸbËs
+ );
+
+96 [][] 
+exŒ­Ş©iÚs
+ = 
+dyn
+.
+	`ev®u©e
+Ğ
+_™”©iÚs
+ );
+
+98  
+i
+=0; i<
+exŒ­Ş©iÚs
+.
+Ëngth
+; i++ )
+
+100  
+j
+=0; j<
+exŒ­Ş©iÚs
+[ 
+i
+ ].
+Ëngth
+; j++ )
+
+104 ifĞ
+exŒ­Ş©iÚs
+[ 
+i
+ ][ 
+j
+ ] !ğ
+DoubË
+.
+NaN
+ )
+
+106 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+¡»ams
+[ 
+i
+ ][ 
+j
+ ] - 
+exŒ­Ş©iÚs
+[ i ][ j ] );
+
+110  
+DoubË
+.
+MIN_VALUE
+;
+
+115 ifĞ
+_myF™Ãss
+ != 0 )
+
+117 
+_myF™Ãss
+ = 1 / _myFitness;
+
+119 ifĞ
+_myF™Ãss
+ =ğ
+DoubË
+.
+NaN
+ )
+
+121 
+_myF™Ãss
+ = 
+DoubË
+.
+MIN_VALUE
+;
+
+125 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+130  
+_myF™Ãss
+;
+
+131 
+	}
+}
+
+136 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+138 
+SŒšg
+ 
+»suÉ
+ = "\nGenome: ";
+
+139  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+141 
+»suÉ
+ +ğ
+g’e
+ + " ";
+
+143 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+145  
+»suÉ
+;
+
+146 
+	}
+}
+
+	@FEFIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+5 
+impÜt
+ 
+	gifs
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+8 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+35 
+public
+ cÏs 
+	cFEFIndividu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+41 
+public
+ 
+	$FEFIndividu®
+()
+
+49 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+51 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`FEFIndividu®
+();
+
+52 
+šdy
+.
+	`£tEnvœÚm’tCache
+Ğ
+	`g‘EnvœÚm’tCache
+() );
+
+53 
+šdy
+.
+	`£tF™Ãss
+Ğ
+_myF™Ãss
+ );
+
+55 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+57 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+62 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+63  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+65 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+67 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+70  
+šdy
+;
+
+71 
+	}
+}
+
+77 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+79 
+s
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘G’omeL’gth
+();
+
+80 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+< 
+DoubË
+ >Ğ
+s
+ );
+
+81  
+i
+=0; i<
+s
+; i++ )
+
+83 
+_myG’Ùy³
+.
+	`add
+Ğ(
+Ãw
+ 
+	`M©hUt™›s
+()).
+	`¿ndom
+() );
+
+85 
+	}
+}
+
+91 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+93 
+_myF™Ãss
+ = 0;
+
+95 
+_myG’Ùy³
+ = (
+Ãw
+ 
+	`M©hUt™›s
+()).
+	`nÜm®ize
+( _myGenotype, 1 );
+
+99 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+100 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+101 
+F¿ù®IÁ”pŞ©iÚFunùiÚIFS
+ 
+ifs
+ = 
+Ãw
+ 
+	`F¿ù®IÁ”pŞ©iÚFunùiÚIFS
+Ğ
+nuÎ
+, (
+rg‘
+.
+Ëngth
+ + 1), (target.length + 1), 100000);
+
+102 [] 
+‹mp
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ + 1 ];
+
+103 
+pos
+ = 0;
+
+104  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+106 
+‹mp
+[ 
+i
+ ] = 
+rg‘
+[ i ];
+
+108 
+‹mp
+[ 
+rg‘
+.
+Ëngth
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+109 
+rg‘
+ = 
+‹mp
+;
+
+110 
+ifs
+.
+	`£tIn™ŸlX
+Ğ
+¡»ams
+[ 0 ] );
+
+111 
+ifs
+.
+	`£tIn™ŸlY
+Ğ
+rg‘
+ );
+
+112 
+ifs
+.
+	`£tIn™ŸlZ
+Ğ
+¡»ams
+[ 0 ] );
+
+113 [] 
+d
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+114  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+116 
+d
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+117 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+119 
+d
+[ 
+i
+ ] *= -1;
+
+122 
+ifs
+.
+	`£tP¬amD
+Ğ
+d
+ );
+
+123 [] 
+h
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+124  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+126 
+h
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+127 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+129 
+h
+[ 
+i
+ ] *= -1;
+
+132 
+ifs
+.
+	`£tP¬amH
+Ğ
+h
+ );
+
+133 [] 
+l
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+134  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+136 
+l
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+137 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+139 
+l
+[ 
+i
+ ] *= -1;
+
+142 
+ifs
+.
+	`£tP¬amL
+Ğ
+l
+ );
+
+143 [] 
+m
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+144  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+146 
+m
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+147 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+149 
+m
+[ 
+i
+ ] *= -1;
+
+152 
+ifs
+.
+	`£tP¬amM
+Ğ
+m
+ );
+
+153 
+A¼ayLi¡
+< 
+DoubË
+ > 
+v
+ = 
+ifs
+.
+	`ü—‹F¿ù®D©a
+();
+
+156  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+158 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+v
+.
+	`g‘
+Ğ
+i
+ ) - 
+rg‘
+[ i ] );
+
+161 
+_myF™Ãss
+ /ğ
+rg‘
+.
+Ëngth
+;
+
+163 ifĞ
+_myF™Ãss
+ != 0 )
+
+165 
+_myF™Ãss
+ = 1 / _myFitness;
+
+169 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+172  
+_myF™Ãss
+;
+
+173 
+	}
+}
+
+178 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+180 
+SŒšg
+ 
+»suÉ
+ = "\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+181  
+»suÉ
+;
+
+182 
+	}
+}
+
+187 
+public
+ 
+SŒšg
+ 
+	$toSŒšgFš®
+()
+
+189 
+SŒšg
+ 
+»suÉ
+ = "genome:\n";
+
+190 
+_myF™Ãss
+ = 0;
+
+192 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+193 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+194 
+F¿ù®IÁ”pŞ©iÚFunùiÚIFS
+ 
+ifs
+ = 
+Ãw
+ 
+	`F¿ù®IÁ”pŞ©iÚFunùiÚIFS
+Ğ
+nuÎ
+, (
+rg‘
+.
+Ëngth
+ + 1), (target.length + 1), 100000);
+
+195 [] 
+‹mp
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ + 1 ];
+
+196 
+pos
+ = 0;
+
+197  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+199 
+‹mp
+[ 
+i
+ ] = 
+rg‘
+[ i ];
+
+201 
+‹mp
+[ 
+rg‘
+.
+Ëngth
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+202 
+rg‘
+ = 
+‹mp
+;
+
+203 
+ifs
+.
+	`£tIn™ŸlX
+Ğ
+¡»ams
+[ 0 ] );
+
+204 
+ifs
+.
+	`£tIn™ŸlY
+Ğ
+rg‘
+ );
+
+205 
+ifs
+.
+	`£tIn™ŸlZ
+Ğ
+¡»ams
+[ 0 ] );
+
+206 [] 
+d
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+207  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+209 
+d
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+210 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+212 
+d
+[ 
+i
+ ] *= -1;
+
+214 
+»suÉ
+ +ğ
+d
+[ 
+i
+ ] + " ";
+
+216 
+ifs
+.
+	`£tP¬amD
+Ğ
+d
+ );
+
+217 [] 
+h
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+218  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+220 
+h
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+221 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+223 
+h
+[ 
+i
+ ] *= -1;
+
+225 
+»suÉ
+ +ğ
+h
+[ 
+i
+ ] + " ";
+
+227 
+ifs
+.
+	`£tP¬amH
+Ğ
+h
+ );
+
+228 [] 
+l
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+229  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+231 
+l
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+232 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+234 
+l
+[ 
+i
+ ] *= -1;
+
+236 
+»suÉ
+ +ğ
+l
+[ 
+i
+ ] + " ";
+
+238 
+ifs
+.
+	`£tP¬amL
+Ğ
+l
+ );
+
+239 [] 
+m
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+240  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+242 
+m
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+243 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+245 
+m
+[ 
+i
+ ] *= -1;
+
+247 
+»suÉ
+ +ğ
+m
+[ 
+i
+ ] + " ";
+
+249 
+ifs
+.
+	`£tP¬amM
+Ğ
+m
+ );
+
+250 
+A¼ayLi¡
+< 
+DoubË
+ > 
+v
+ = 
+ifs
+.
+	`ü—‹F¿ù®D©a
+();
+
+253 
+»suÉ
+ += "\nPredictions:\n";
+
+254  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+256 
+»suÉ
+ +ğ
+v
+.
+	`g‘
+Ğ
+i
+ ) + "\n";
+
+257 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+v
+.
+	`g‘
+Ğ
+i
+ ) - 
+rg‘
+[ i ] );
+
+260 
+_myF™Ãss
+ /ğ
+rg‘
+.
+Ëngth
+;
+
+262 ifĞ
+_myF™Ãss
+ != 0 )
+
+264 
+_myF™Ãss
+ = 1 / _myFitness;
+
+268 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+270 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+;
+
+272  
+»suÉ
+;
+
+273 
+	}
+}
+
+	@FIFIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+5 
+impÜt
+ 
+	gifs
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+8 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+35 
+public
+ cÏs 
+	cFIFIndividu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+41 
+public
+ 
+	$FIFIndividu®
+()
+
+49 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+51 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`FIFIndividu®
+();
+
+52 
+šdy
+.
+	`£tEnvœÚm’tCache
+Ğ
+	`g‘EnvœÚm’tCache
+() );
+
+53 
+šdy
+.
+	`£tF™Ãss
+Ğ
+_myF™Ãss
+ );
+
+55 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+57 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+62 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+63  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+65 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+67 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+70  
+šdy
+;
+
+71 
+	}
+}
+
+77 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+79 
+s
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘G’omeL’gth
+();
+
+80 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+< 
+DoubË
+ >Ğ
+s
+ );
+
+81  
+i
+=0; i<
+s
+; i++ )
+
+83 
+_myG’Ùy³
+.
+	`add
+Ğ(
+Ãw
+ 
+	`M©hUt™›s
+()).
+	`¿ndom
+() );
+
+85 
+	}
+}
+
+91 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+93 
+d©aPošts
+ = 5;
+
+94 
+f™Ãss
+ = 0;
+
+97 
+_myG’Ùy³
+ = (
+Ãw
+ 
+	`M©hUt™›s
+()).
+	`nÜm®ize
+( _myGenotype, 1 );
+
+98 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+99 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+100 
+F¿ù®IÁ”pŞ©iÚFunùiÚIFS
+ 
+ifs
+ = 
+Ãw
+ 
+	`F¿ù®IÁ”pŞ©iÚFunùiÚIFS
+Ğ
+nuÎ
+, 
+rg‘
+.
+Ëngth
+,arget.length, 50000);
+
+101 
+ifs
+.
+	`£tIn™ŸlX
+Ğ
+¡»ams
+[ 0 ] );
+
+102 
+ifs
+.
+	`£tIn™ŸlY
+Ğ
+rg‘
+ );
+
+103 
+ifs
+.
+	`£tIn™ŸlZ
+Ğ
+¡»ams
+[ 0 ] );
+
+104 
+pos
+ = 0;
+
+105 [] 
+d
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+106  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+108 
+d
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+109 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+111 
+d
+[ 
+i
+ ] *= -1;
+
+114 
+ifs
+.
+	`£tP¬amD
+Ğ
+d
+ );
+
+115 [] 
+h
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+116  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+118 
+h
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+119 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+121 
+h
+[ 
+i
+ ] *= -1;
+
+124 
+ifs
+.
+	`£tP¬amH
+Ğ
+h
+ );
+
+125 [] 
+l
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+126  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+128 
+l
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+129 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+131 
+l
+[ 
+i
+ ] *= -1;
+
+134 
+ifs
+.
+	`£tP¬amL
+Ğ
+l
+ );
+
+135 [] 
+m
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+136  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+138 
+m
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+139 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+141 
+m
+[ 
+i
+ ] *= -1;
+
+144 
+ifs
+.
+	`£tP¬amM
+Ğ
+m
+ );
+
+145  
+j
+=0; j<
+d©aPošts
+; j++ )
+
+147 
+_myF™Ãss
+ = 0;
+
+148 
+A¼ayLi¡
+< 
+DoubË
+ > 
+v
+ = 
+ifs
+.
+	`ü—‹F¿ù®D©a
+();
+
+151  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+153 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+v
+.
+	`g‘
+Ğ
+i
+ ) - 
+rg‘
+[ i ] );
+
+156 
+_myF™Ãss
+ /ğ
+rg‘
+.
+Ëngth
+;
+
+158 ifĞ
+_myF™Ãss
+ != 0 )
+
+160 
+_myF™Ãss
+ = 1 / _myFitness;
+
+164 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+166 
+f™Ãss
+ +ğ
+_myF™Ãss
+;
+
+168 
+_myF™Ãss
+ /ğ()
+d©aPošts
+;
+
+171  
+_myF™Ãss
+;
+
+172 
+	}
+}
+
+177 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+179 
+SŒšg
+ 
+»suÉ
+ = "\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+180  
+»suÉ
+;
+
+181 
+	}
+}
+
+186 
+public
+ 
+SŒšg
+ 
+	$toSŒšgFš®
+()
+
+188 
+SŒšg
+ 
+»suÉ
+ = "genome:\n";
+
+189 
+_myF™Ãss
+ = 0;
+
+191 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+192 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+193 
+F¿ù®IÁ”pŞ©iÚFunùiÚIFS
+ 
+ifs
+ = 
+Ãw
+ 
+	`F¿ù®IÁ”pŞ©iÚFunùiÚIFS
+Ğ
+nuÎ
+, 
+rg‘
+.
+Ëngth
+,arget.length, 50000);
+
+194 
+ifs
+.
+	`£tIn™ŸlX
+Ğ
+¡»ams
+[ 0 ] );
+
+195 
+ifs
+.
+	`£tIn™ŸlY
+Ğ
+rg‘
+ );
+
+196 
+ifs
+.
+	`£tIn™ŸlZ
+Ğ
+¡»ams
+[ 0 ] );
+
+197 
+pos
+ = 0;
+
+198 [] 
+d
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+199  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+201 
+d
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+202 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+204 
+d
+[ 
+i
+ ] *= -1;
+
+206 
+»suÉ
+ +ğ
+d
+[ 
+i
+ ] + " ";
+
+208 
+ifs
+.
+	`£tP¬amD
+Ğ
+d
+ );
+
+209 [] 
+h
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+210  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+212 
+h
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+213 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+215 
+h
+[ 
+i
+ ] *= -1;
+
+217 
+»suÉ
+ +ğ
+h
+[ 
+i
+ ] + " ";
+
+219 
+ifs
+.
+	`£tP¬amH
+Ğ
+h
+ );
+
+220 [] 
+l
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+221  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+223 
+l
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+224 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+226 
+l
+[ 
+i
+ ] *= -1;
+
+228 
+»suÉ
+ +ğ
+l
+[ 
+i
+ ] + " ";
+
+230 
+ifs
+.
+	`£tP¬amL
+Ğ
+l
+ );
+
+231 [] 
+m
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+232  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+234 
+m
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+235 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+237 
+m
+[ 
+i
+ ] *= -1;
+
+239 
+»suÉ
+ +ğ
+m
+[ 
+i
+ ] + " ";
+
+241 
+ifs
+.
+	`£tP¬amM
+Ğ
+m
+ );
+
+242 
+A¼ayLi¡
+< 
+DoubË
+ > 
+v
+ = 
+ifs
+.
+	`ü—‹F¿ù®D©a
+();
+
+245 
+»suÉ
+ += "\nPredictions:\n";
+
+246  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+248 
+»suÉ
+ +ğ
+v
+.
+	`g‘
+Ğ
+i
+ ) + "\n";
+
+249 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+v
+.
+	`g‘
+Ğ
+i
+ ) - 
+rg‘
+[ i ] );
+
+252 
+_myF™Ãss
+ /ğ
+rg‘
+.
+Ëngth
+;
+
+254 ifĞ
+_myF™Ãss
+ != 0 )
+
+256 
+_myF™Ãss
+ = 1 / _myFitness;
+
+260 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+262 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+;
+
+264  
+»suÉ
+;
+
+265 
+	}
+}
+
+	@FunctionalFuzzyIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+34 
+public
+ cÏs 
+	cFunùiÚ®FuzzyIndividu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+40 
+public
+ 
+	$FunùiÚ®FuzzyIndividu®
+()
+
+48 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+50 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`FunùiÚ®FuzzyIndividu®
+();
+
+51 
+šdy
+.
+	`£tEnvœÚm’tCache
+Ğ
+	`g‘EnvœÚm’tCache
+() );
+
+52 
+šdy
+.
+	`£tF™Ãss
+Ğ
+_myF™Ãss
+ );
+
+54 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+56 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+61 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+62  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+64 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+66 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+69  
+šdy
+;
+
+70 
+	}
+}
+
+76 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+78 
+s
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘G’omeL’gth
+();
+
+79 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+< 
+DoubË
+ >Ğ
+s
+ );
+
+80  
+i
+=0; i<
+s
+; i++ )
+
+82 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©hUt™›s
+.
+	`¿ndom
+() );
+
+84 
+	}
+}
+
+150 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+152 
+_myF™Ãss
+ = 0;
+
+153 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘RªdomD©aSŒ—ms
+();
+
+154 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘RªdomT¬g‘SŒ—m
+();
+
+155 
+numb”OfS‘s
+ = 30;
+
+156 
+numb”ofNodes
+ = 7;
+
+158 
+numb”ofCÚ£qu’t
+ = 301;
+
+159 
+FunùiÚ®CÜ»ÏtiÚ
+[] 
+£ts
+ = 
+Ãw
+ FunùiÚ®CÜ»ÏtiÚ[ 
+numb”OfS‘s
+ ];
+
+160 
+FunùiÚ®CÜ»ÏtiÚ
+ 
+cÚ£qu’t
+ = 
+nuÎ
+;
+
+161 [][] 
+outSŒ—ms
+ = 
+Ãw
+ [ 
+numb”OfS‘s
+ ][ 
+rg‘
+.
+Ëngth
+ ];
+
+162 
+A¼ayLi¡
+< 
+DoubË
+ > 
+g’ome
+ = 
+nuÎ
+;
+
+164  
+i
+=0; i<
+numb”OfS‘s
+; i++ )
+
+166 
+g’ome
+ = 
+Ãw
+ 
+A¼ayLi¡
+<
+DoubË
+>();
+
+167  
+j
+=0; j<
+numb”ofNodes
+; j++ )
+
+169 
+g’ome
+.
+	`add
+Ğ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+i
+ + 
+j
+ ) );
+
+171 
+£ts
+[ 
+i
+ ] = 
+FunùiÚ®CÜ»ÏtiÚ
+.
+	`budBš¬yT»e
+Ğ
+g’ome
+, 
+¡»ams
+ );
+
+174  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+176  
+j
+=0; j<
+numb”OfS‘s
+; j++ )
+
+178 
+outSŒ—ms
+[ 
+j
+ ][ 
+i
+ ] = 
+£ts
+[ j ].
+	`ev®u©e
+( i );
+
+182 
+g’ome
+ = 
+Ãw
+ 
+A¼ayLi¡
+<
+DoubË
+>();
+
+183  
+i
+=0; i<
+numb”ofCÚ£qu’t
+; i++ )
+
+185 
+g’ome
+.
+	`add
+Ğ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+numb”OfS‘s
+ * 
+numb”ofNodes
+ + 
+i
+ ) );
+
+187 
+cÚ£qu’t
+ = 
+FunùiÚ®CÜ»ÏtiÚ
+.
+	`budBš¬yT»e
+Ğ
+g’ome
+, 
+outSŒ—ms
+ );
+
+189  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+191 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+cÚ£qu’t
+.
+	`ev®u©e
+Ğ
+i
+ ) - 
+rg‘
+[ i ] );
+
+194 ifĞ
+_myF™Ãss
+ != 0 )
+
+196 
+_myF™Ãss
+ = 1 / _myFitness;
+
+200 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+203  
+_myF™Ãss
+;
+
+204 
+	}
+}
+
+263 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+265 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘RªdomD©aSŒ—ms
+();
+
+266 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘RªdomT¬g‘SŒ—m
+();
+
+267 
+numb”OfS‘s
+ = 30;
+
+268 
+numb”ofNodes
+ = 7;
+
+269 
+numb”ofCÚ£qu’t
+ = 301;
+
+270 
+FunùiÚ®CÜ»ÏtiÚ
+[] 
+£ts
+ = 
+Ãw
+ FunùiÚ®CÜ»ÏtiÚ[ 
+numb”OfS‘s
+ ];
+
+271 
+FunùiÚ®CÜ»ÏtiÚ
+ 
+cÚ£qu’t
+ = 
+nuÎ
+;
+
+272 [][] 
+outSŒ—ms
+ = 
+Ãw
+ [ 
+numb”OfS‘s
+ ][ 
+rg‘
+.
+Ëngth
+ ];
+
+273 
+A¼ayLi¡
+< 
+DoubË
+ > 
+g’ome
+ = 
+nuÎ
+;
+
+275  
+i
+=0; i<
+numb”OfS‘s
+; i++ )
+
+277 
+g’ome
+ = 
+Ãw
+ 
+A¼ayLi¡
+<
+DoubË
+>();
+
+278  
+j
+=0; j<
+numb”ofNodes
+; j++ )
+
+280 
+g’ome
+.
+	`add
+Ğ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+i
+ + 
+j
+ ) );
+
+282 
+£ts
+[ 
+i
+ ] = 
+FunùiÚ®CÜ»ÏtiÚ
+.
+	`budBš¬yT»e
+Ğ
+g’ome
+, 
+¡»ams
+ );
+
+285  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+287  
+j
+=0; j<
+numb”OfS‘s
+; j++ )
+
+289 
+outSŒ—ms
+[ 
+j
+ ][ 
+i
+ ] = 
+£ts
+[ j ].
+	`ev®u©e
+( i );
+
+293 
+g’ome
+ = 
+Ãw
+ 
+A¼ayLi¡
+<
+DoubË
+>();
+
+294  
+i
+=0; i<
+numb”ofCÚ£qu’t
+; i++ )
+
+296 
+g’ome
+.
+	`add
+Ğ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+numb”OfS‘s
+ * 
+numb”ofNodes
+ + 
+i
+ ) );
+
+298 
+cÚ£qu’t
+ = 
+FunùiÚ®CÜ»ÏtiÚ
+.
+	`budBš¬yT»e
+Ğ
+g’ome
+, 
+outSŒ—ms
+ );
+
+300 
+SŒšg
+ 
+»suÉ
+ = "***\n";
+
+301  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+303 
+»suÉ
+ +ğ
+cÚ£qu’t
+.
+	`ev®u©e
+Ğ
+i
+ ) + "\n";
+
+305 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+307  
+»suÉ
+;
+
+308 
+	}
+}
+
+	@FunctionalIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+34 
+public
+ cÏs 
+	cFunùiÚ®Individu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+40 
+public
+ 
+	$FunùiÚ®Individu®
+()
+
+48 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+50 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`FunùiÚ®Individu®
+();
+
+51 
+šdy
+.
+	`£tEnvœÚm’tCache
+Ğ
+	`g‘EnvœÚm’tCache
+() );
+
+52 
+šdy
+.
+	`£tF™Ãss
+Ğ
+_myF™Ãss
+ );
+
+54 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+56 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+61 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+62  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+64 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+66 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+69  
+šdy
+;
+
+70 
+	}
+}
+
+76 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+89 
+s
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘G’omeL’gth
+();
+
+91 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+< 
+DoubË
+ >Ğ
+s
+ );
+
+92  
+i
+=0; i<
+s
+; i++ )
+
+94 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©hUt™›s
+.
+	`¿ndom
+() );
+
+109 
+	}
+}
+
+114 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+116 
+_myF™Ãss
+ = 0;
+
+117 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+118 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+133 
+FunùiÚ®CÜ»ÏtiÚ
+ 
+roÙ
+ = FunùiÚ®CÜ»ÏtiÚ.
+	`budBš¬yT»e
+Ğ
+_myG’Ùy³
+, 
+¡»ams
+ );
+
+143  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+145 
+v®ue
+ = 
+roÙ
+.
+	`ev®u©e
+Ğ
+i
+ );
+
+146 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+v®ue
+ - 
+rg‘
+[ 
+i
+ ] );
+
+152 
+_myF™Ãss
+ /ğ
+rg‘
+.
+Ëngth
+;
+
+154 ifĞ
+_myF™Ãss
+ != 0 )
+
+156 
+_myF™Ãss
+ = 1 / _myFitness;
+
+160 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+163  
+_myF™Ãss
+;
+
+164 
+	}
+}
+
+169 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+171 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+174 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+176 
+FunùiÚ®CÜ»ÏtiÚ
+ 
+roÙ
+ = FunùiÚ®CÜ»ÏtiÚ.
+	`budBš¬yT»e
+Ğ
+_myG’Ùy³
+, 
+¡»ams
+ );
+
+177 
+SŒšg
+ 
+»suÉ
+ = 
+roÙ
+.
+	`toSŒšg
+( 0 );
+
+178 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+200  
+»suÉ
+;
+
+201 
+	}
+}
+
+206 
+public
+ 
+SŒšg
+ 
+	$toSŒšgFš®
+()
+
+208 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+211 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+213 
+FunùiÚ®CÜ»ÏtiÚ
+ 
+roÙ
+ = FunùiÚ®CÜ»ÏtiÚ.
+	`budBš¬yT»e
+Ğ
+_myG’Ùy³
+, 
+¡»ams
+ );
+
+214 
+SŒšg
+ 
+»suÉ
+ = 
+roÙ
+.
+	`toSŒšg
+( 0 );
+
+215 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+217 
+»suÉ
+ += "\nGenome: ";
+
+218  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+220 
+»suÉ
+ +ğ
+g’e
+ + " ";
+
+225 
+»suÉ
+ += "predictions:\n";
+
+226 
+f™Ãss
+ = 0;
+
+227  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+229 
+v®ue
+ = 
+roÙ
+.
+	`ev®u©e
+Ğ
+i
+ );
+
+233 
+»suÉ
+ +ğ
+v®ue
+ + "\n";
+
+235 
+HashS‘
+< 
+IÁeg”
+ > 
+v¬s
+ = 
+roÙ
+.
+	`g‘D•’d’tV¬ŸbËs
+();
+
+236  
+IÁeg”
+ 
+v¬
+ : 
+v¬s
+ )
+
+238 
+»suÉ
+ +ğ"A v¬ŸbË is: " + 
+v¬
+ + "\n";
+
+242  
+»suÉ
+;
+
+243 
+	}
+}
+
+	@FunctionalMapIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+12 
+public
+ cÏs 
+	cFunùiÚ®M­Individu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+18 
+public
+ 
+	$FunùiÚ®M­Individu®
+()
+
+26 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+28 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`FunùiÚ®M­Individu®
+();
+
+29 
+šdy
+.
+	`£tEnvœÚm’tCache
+Ğ
+	`g‘EnvœÚm’tCache
+() );
+
+30 
+šdy
+.
+	`£tF™Ãss
+Ğ
+_myF™Ãss
+ );
+
+32 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+34 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+39 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+40  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+42 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+44 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+47  
+šdy
+;
+
+48 
+	}
+}
+
+54 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+56 
+s
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘G’omeL’gth
+();
+
+57 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+< 
+DoubË
+ >Ğ
+s
+ );
+
+58  
+i
+=0; i<
+s
+; i++ )
+
+60 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©hUt™›s
+.
+	`¿ndom
+() );
+
+62 
+	}
+}
+
+67 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+69 
+_myF™Ãss
+ = 0;
+
+70 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+71 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+72 
+FunùiÚ®CÜ»ÏtiÚ
+ 
+roÙ
+ = FunùiÚ®CÜ»ÏtiÚ.
+	`budBš¬yT»e
+Ğ
+_myG’Ùy³
+, 
+¡»ams
+ );
+
+74  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+76 
+v®ue
+ = 0;
+
+77 
+A¼ayLi¡
+< 
+DoubË
+ > 
+d©a
+ = 
+Ãw
+ ArrayList< Double >();
+
+78  
+j
+=0; j<100; j++ )
+
+80 
+v®ue
+ = 
+roÙ
+.
+	`ev®u©e
+Ğ
+i
+ );
+
+81 
+d©a
+.
+	`add
+Ğ
+v®ue
+ );
+
+82 
+¡»ams
+[ 0 ][ 0 ] = 
+v®ue
+;
+
+85 
+StUt™›s
+ 
+s
+ = 
+Ãw
+ 
+	`StUt™›s
+();
+
+86 
+s
+.
+	`ÿlcuÏ‹Sts
+Ğ
+d©a
+ );
+
+87 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+s
+.
+	`g‘M—n
+(è- 
+rg‘
+[ 
+i
+ ] );
+
+90 ifĞ
+_myF™Ãss
+ != 0 )
+
+92 
+_myF™Ãss
+ = 1 / _myFitness;
+
+96 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+99  
+_myF™Ãss
+;
+
+100 
+	}
+}
+
+105 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+109 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+110 
+FunùiÚ®CÜ»ÏtiÚ
+ 
+roÙ
+ = FunùiÚ®CÜ»ÏtiÚ.
+	`budBš¬yT»e
+Ğ
+_myG’Ùy³
+, 
+¡»ams
+ );
+
+111 
+SŒšg
+ 
+»suÉ
+ = 
+roÙ
+.
+	`toSŒšg
+( 0 );
+
+112 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+134  
+»suÉ
+;
+
+135 
+	}
+}
+
+	@FunctionalWeightsIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+16 
+public
+ cÏs 
+	cFunùiÚ®WeightsIndividu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+22 
+public
+ 
+	$FunùiÚ®WeightsIndividu®
+()
+
+30 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+32 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`FunùiÚ®WeightsIndividu®
+();
+
+33 
+šdy
+.
+	`£tEnvœÚm’tCache
+Ğ
+	`g‘EnvœÚm’tCache
+() );
+
+35 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+37 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+42 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+43  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+45 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+47 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+49 
+šdy
+.
+	`£tF™Ãss
+Ğ
+_myF™Ãss
+ );
+
+51  
+šdy
+;
+
+52 
+	}
+}
+
+58 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+60 
+FunùiÚ®CÜ»ÏtiÚ
+ 
+cÜ»Ï‹
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘CÜ»Ï‹
+();
+
+61 
+s
+ = 
+cÜ»Ï‹
+.
+	`g‘Numb”OfNodes
+();
+
+63 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+< 
+DoubË
+ >Ğ
+s
+ );
+
+65  
+i
+=0; i<
+s
+; i++ )
+
+67 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©hUt™›s
+.
+	`¿ndom
+() );
+
+69 
+	}
+}
+
+74 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+76 
+_myF™Ãss
+ = 0;
+
+77 
+FunùiÚ®CÜ»ÏtiÚ
+ 
+cÜ»Ï‹
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘CÜ»Ï‹
+();
+
+78 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+79 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+81 
+cÜ»Ï‹
+.
+	`£tWeights
+Ğ
+_myG’Ùy³
+ );
+
+83  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+85 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+cÜ»Ï‹
+.
+	`ev®u©e
+Ğ
+i
+ ) - 
+rg‘
+[ i ] );
+
+88 ifĞ
+_myF™Ãss
+ != 0 )
+
+90 
+_myF™Ãss
+ = 1 / _myFitness;
+
+94 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+97  
+_myF™Ãss
+;
+
+98 
+	}
+}
+
+103 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+105 
+FunùiÚ®CÜ»ÏtiÚ
+ 
+cÜ»Ï‹
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘CÜ»Ï‹
+();
+
+106 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+107 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+108 
+SŒšg
+ 
+»suÉ
+ = 
+cÜ»Ï‹
+.
+	`toSŒšg
+( 0 );
+
+110 
+cÜ»Ï‹
+.
+	`£tWeights
+Ğ
+_myG’Ùy³
+ );
+
+111 
+»suÉ
+ += "\nGenome: ";
+
+112  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+114 
+»suÉ
+ +ğ
+g’e
+ + " ";
+
+116 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+118 
+»suÉ
+ += "predictions:\n";
+
+119 
+f™Ãss
+ = 0;
+
+120  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+122 
+v®ue
+ = 
+cÜ»Ï‹
+.
+	`ev®u©e
+Ğ
+i
+ );
+
+123 
+rg‘V®ue
+ = 
+rg‘
+[ 
+i
+ ];
+
+124 
+Sy¡em
+.
+out
+.
+	`´šn
+Ğ
+v®ue
+ );
+
+125 
+f™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+v®ue
+ - 
+rg‘V®ue
+ );
+
+126 
+»suÉ
+ +ğ
+v®ue
+ + "\n";
+
+128 
+»suÉ
+ +ğ"f™Ãss: " + (1 / 
+f™Ãss
+);
+
+130  
+»suÉ
+;
+
+131 
+	}
+}
+
+	@FuzzyNetworkIndividual.java
+
+9 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+11 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+12 
+impÜt
+ 
+	gfuzzy
+.
+	gÃtwÜk
+.*;
+
+13 
+impÜt
+ 
+	gfuzzy
+.
+	gcÚfigu¿tiÚ
+.*;
+
+14 
+impÜt
+ 
+	gfuzzy
+.*;
+
+15 
+impÜt
+ 
+	gm©h
+.*;
+
+17 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+18 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+23 
+public
+ cÏs 
+	cFuzzyN‘wÜkIndividu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+27 
+´iv©e
+ 
+FuzzyN‘wÜkCÚfigu¿tiÚ
+ 
+	m_ÃtwÜkCÚfig
+;
+
+33 
+	m_ÃtwÜkCÚfig
+ = (
+Ãw
+ 
+XMLP¬£r
+()).
+·r£XML
+( "simple" );
+
+39 
+public
+ 
+	$FuzzyN‘wÜkIndividu®
+()
+
+41 
+_myAge
+ = 0;
+
+42 
+_myF™Ãss
+ = 0;
+
+43 
+	}
+}
+
+48 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+50  
+Ãw
+ 
+	`FuzzyN‘wÜkIndividu®
+();
+
+51 
+	}
+}
+
+60 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+63  
+i
+=0; i<(13); i++ )
+
+66 
+_myG’Ùy³
+.
+	`add
+Ğ
+Ãw
+ 
+	`DoubË
+Ğ
+M©h
+.
+	`¿ndom
+() ) );
+
+68 
+	}
+}
+
+74 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+78 
+_myF™Ãss
+ = 0;
+
+82 
+A¼ayLi¡
+<
+DoubË
+> 
+·¿ms
+ = (
+Ãw
+ 
+	`Pow”S‘T¿nsfÜm
+()).
+	`ÿlcuÏ‹T¿nsfÜm
+Ğ
+_myG’Ùy³
+ );
+
+85 
+FuzzyNeu¿lN‘wÜk
+ 
+Ãt
+ = 
+Ãw
+ 
+	`FuzzyNeu¿lN‘wÜk
+Ğ
+_ÃtwÜkCÚfig
+, 
+·¿ms
+ );
+
+91 
+T¿ššgD©aR•os™Üy
+.
+	`š™ŸlizeR•os™Üy
+Ğ
+_ÃtwÜkCÚfig
+, 10 );
+
+94 
+Œaš
+ = 
+Ãt
+.
+	`Œaš
+Ğ
+T¿ššgD©aR•os™Üy
+.
+	`g‘In¡ªû
+().
+	`g‘Ob£rvabËs
+(),
+
+95 
+T¿ššgD©aR•os™Üy
+.
+	`g‘In¡ªû
+().
+	`g‘Ouuts
+() );
+
+97 ifĞ
+Œaš
+ == 0 )
+
+99 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+103 
+_myF™Ãss
+ = 1 / 
+Œaš
+;
+
+108  
+_myF™Ãss
+;
+
+109 
+	}
+}
+
+	@ILPIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+5 
+impÜt
+ 
+	gifs
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+8 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+35 
+public
+ cÏs 
+	cILPIndividu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+41 
+public
+ 
+	$ILPIndividu®
+()
+
+49 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+51 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`ILPIndividu®
+();
+
+52 
+šdy
+.
+	`£tEnvœÚm’tCache
+Ğ
+	`g‘EnvœÚm’tCache
+() );
+
+53 
+šdy
+.
+	`£tF™Ãss
+Ğ
+_myF™Ãss
+ );
+
+55 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+57 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+62 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+63  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+65 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+67 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+70  
+šdy
+;
+
+71 
+	}
+}
+
+77 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+79 
+s
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘G’omeL’gth
+();
+
+80 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+< 
+DoubË
+ >Ğ
+s
+ );
+
+81  
+i
+=0; i<
+s
+; i++ )
+
+83 
+_myG’Ùy³
+.
+	`add
+Ğ(
+Ãw
+ 
+	`M©hUt™›s
+()).
+	`¿ndom
+() );
+
+85 
+	}
+}
+
+94 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+96 
+_myF™Ãss
+ = 0;
+
+100 [][] 
+m
+ = 
+Ãw
+ [ 
+_myG’Ùy³
+.
+	`size
+() ][ _myGenotype.size() ];
+
+138 
+m
+[ 0 ][ 0 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+139 
+m
+[ 0 ][ 1 ] = 1;
+
+140 
+m
+[ 0 ][ 2 ] = 1;
+
+141 
+m
+[ 0 ][ 3 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+142 
+m
+[ 0 ][ 4 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+143 
+m
+[ 0 ][ 5 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+144 
+m
+[ 1 ][ 0 ] = 1;
+
+145 
+m
+[ 1 ][ 1 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+146 
+m
+[ 1 ][ 2 ] = 1;
+
+147 
+m
+[ 1 ][ 3 ] = 1;
+
+148 
+m
+[ 1 ][ 4 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+149 
+m
+[ 1 ][ 5 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+150 
+m
+[ 2 ][ 0 ] = 1;
+
+151 
+m
+[ 2 ][ 1 ] = 1;
+
+152 
+m
+[ 2 ][ 2 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+153 
+m
+[ 2 ][ 3 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+154 
+m
+[ 2 ][ 4 ] = 1;
+
+155 
+m
+[ 2 ][ 5 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+156 
+m
+[ 3 ][ 0 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+157 
+m
+[ 3 ][ 1 ] = 1;
+
+158 
+m
+[ 3 ][ 2 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+159 
+m
+[ 3 ][ 3 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+160 
+m
+[ 3 ][ 4 ] = 1;
+
+161 
+m
+[ 3 ][ 5 ] = 1;
+
+162 
+m
+[ 4 ][ 0 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+163 
+m
+[ 4 ][ 1 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+164 
+m
+[ 4 ][ 2 ] = 1;
+
+165 
+m
+[ 4 ][ 3 ] = 1;
+
+166 
+m
+[ 4 ][ 4 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+167 
+m
+[ 4 ][ 5 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+168 
+m
+[ 5 ][ 0 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+169 
+m
+[ 5 ][ 1 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+170 
+m
+[ 5 ][ 2 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+171 
+m
+[ 5 ][ 3 ] = 1;
+
+172 
+m
+[ 5 ][ 4 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+173 
+m
+[ 5 ][ 5 ] = 
+DoubË
+.
+MAX_VALUE
+;
+
+175 [] 
+v”tiûs
+ = 
+Ãw
+ [ 
+_myG’Ùy³
+.
+	`size
+() ];
+
+176 
+sum
+ = 0;
+
+178  
+i
+=0; i<
+_myG’Ùy³
+.
+	`size
+(); i++ )
+
+180 
+v”tiûs
+[ 
+i
+ ] = ( 
+_myG’Ùy³
+.
+	`g‘
+( i ) < 0.5 ) ? 0 : 1;
+
+181 
+sum
+ +ğ
+v”tiûs
+[ 
+i
+ ];
+
+184  
+i
+=0; i<
+m
+.
+Ëngth
+; i++ )
+
+186  
+j
+=0; j<
+m
+[ 
+i
+ ].
+Ëngth
+; j++ )
+
+189 ifĞ
+m
+[ 
+i
+ ][ 
+j
+ ] == 1 )
+
+191 ifĞ
+v”tiûs
+[ 
+i
+ ] =ğ0 && v”tiûs[ 
+j
+ ] == 0 )
+
+193 
+_myF™Ãss
+ = 
+DoubË
+.
+MIN_VALUE
+;
+
+194  
+_myF™Ãss
+;
+
+200 ifĞ
+sum
+ > 0.0 )
+
+202 
+_myF™Ãss
+ = 1 / 
+sum
+;
+
+206 
+_myF™Ãss
+ = 
+DoubË
+.
+MIN_VALUE
+;
+
+210  
+_myF™Ãss
+;
+
+211 
+	}
+}
+
+216 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+218  "" + 
+_myF™Ãss
+;
+
+219 
+	}
+}
+
+224 
+public
+ 
+SŒšg
+ 
+	$toSŒšgFš®
+()
+
+226 
+SŒšg
+ 
+»suÉ
+ = "Vetex Cover:\n";
+
+228  
+i
+=0; i<
+_myG’Ùy³
+.
+	`size
+(); i++ )
+
+230 
+»suÉ
+ +ğ" v”‹x: " + 
+i
+ + " memb”sh: " + ( ( 
+_myG’Ùy³
+.
+	`g‘
+( i ) < 0.5 ) ? 0 : 1 ) + "\n";
+
+232  
+»suÉ
+;
+
+233 
+	}
+}
+
+	@NonLinearIFSIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+5 
+impÜt
+ 
+	gifs
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+8 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+35 
+public
+ cÏs 
+	cNÚLš—rIFSIndividu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+41 
+public
+ 
+	$NÚLš—rIFSIndividu®
+()
+
+49 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+51 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`NÚLš—rIFSIndividu®
+();
+
+52 
+šdy
+.
+	`£tEnvœÚm’tCache
+Ğ
+	`g‘EnvœÚm’tCache
+() );
+
+53 
+šdy
+.
+	`£tF™Ãss
+Ğ
+_myF™Ãss
+ );
+
+55 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+57 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+62 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+63  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+65 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+67 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+70  
+šdy
+;
+
+71 
+	}
+}
+
+77 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+79 
+s
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘G’omeL’gth
+();
+
+80 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+< 
+DoubË
+ >Ğ
+s
+ );
+
+81  
+i
+=0; i<
+s
+; i++ )
+
+83 
+_myG’Ùy³
+.
+	`add
+Ğ(
+Ãw
+ 
+	`M©hUt™›s
+()).
+	`¿ndom
+() );
+
+85 
+	}
+}
+
+90 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+92 
+_myF™Ãss
+ = 0;
+
+93 [][] 
+d©a
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+94 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+95 
+‹mp
+ = 0;
+
+96 [][] 
+š™Ÿl
+ = 
+Ãw
+ [ 2 ][ 1 ];
+
+97 
+š™Ÿl
+[ 0 ][ 0 ] = 
+d©a
+[ 0 ][ 0 ];
+
+98 
+š™Ÿl
+[ 1 ][ 0 ] = 
+rg‘
+[ 0 ];
+
+99 
+numb”OfD©aPošts
+ = 20;
+
+100 
+¡•s
+ = 6;
+
+101 
+¡•Size
+ = 0.2;
+
+102 [][] 
+poštA
+ = 
+Ãw
+ [ 2 ][ 1 ];
+
+103 [][] 
+poštB
+ = 
+Ãw
+ [ 2 ][ 1 ];
+
+104 [] 
+poštC
+ = 
+nuÎ
+;
+
+105 [] 
+poštD
+ = 
+nuÎ
+;
+
+106 
+di¡1
+ = 0;
+
+107 
+di¡2
+ = 0;
+
+109 
+NÚLš—rF¿ù®FunùiÚ
+ 
+f
+ = 
+Ãw
+ 
+	`NÚLš—rF¿ù®FunùiÚ
+Ğ
+numb”OfD©aPošts
+ - 1, 2 );
+
+110 
+f
+.
+	`£tIn™ŸlPošt
+Ğ
+š™Ÿl
+ );
+
+111 
+f
+.
+	`£tResŞutiÚWidth
+Ğ
+numb”OfD©aPošts
+ );
+
+112 [] 
+g’ome
+ = 
+Ãw
+ [ 
+_myG’Ùy³
+.
+	`size
+() ];
+
+113  
+i
+=0; i<
+g’ome
+.
+Ëngth
+; i++ )
+
+115 
+g’ome
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+( i );
+
+117 
+f
+.
+	`£tG’ome
+Ğ
+g’ome
+ );
+
+118  
+j
+=0; j<5; j++ )
+
+120 
+_myF™Ãss
+ = 0;
+
+122 [] 
+v®ues
+ = 
+f
+.
+	`ü—‹F¿ù®D©a
+();
+
+125  
+i
+=0; i<
+¡•s
+; i++ )
+
+127 
+poštA
+[ 0 ][ 0 ] = 
+i
+ * 
+¡•Size
+;
+
+128  
+k
+=0; k<
+¡•s
+; k++ )
+
+130 
+poštA
+[ 1 ][ 0 ] = 
+k
+ * 
+¡•Size
+;
+
+131  
+w
+=0; w<
+¡•s
+; w++ )
+
+133 
+poštB
+[ 0 ][ 0 ] = 
+w
+ * 
+¡•Size
+;
+
+134  
+z
+=0; z<
+¡•s
+; z++ )
+
+136 
+poštB
+[ 1 ][ 0 ] = 
+z
+ * 
+¡•Size
+;
+
+137 
+di¡1
+ = (
+Ãw
+ 
+	`M©hUt™›s
+()).
+	`g‘Euşid—nDi¡ªû2D
+Ğ
+poštA
+[ 0 ][ 0 ],…ointA[ 1 ][ 0 ],
+
+138 
+poštB
+[ 0 ][ 0 ],…ointB[ 1 ][ 0 ] );
+
+139  
+s
+=0; s<
+numb”OfD©aPošts
+ - 1; s++ )
+
+141 
+poštC
+ = 
+f
+.
+	`ev®u©eO³¿tÜ
+Ğ
+s
+, 
+poštA
+ );
+
+142 
+poštD
+ = 
+f
+.
+	`ev®u©eO³¿tÜ
+Ğ
+s
+, 
+poštB
+ );
+
+143 
+di¡2
+ = (
+Ãw
+ 
+	`M©hUt™›s
+()).
+	`g‘Euşid—nDi¡ªû2D
+Ğ
+poštC
+[ 0 ],…ointC[ 1 ],
+
+144 
+poštD
+[ 0 ],…ointD[ 1 ] );
+
+145 ifĞ
+di¡2
+ > 
+di¡1
+ )
+
+147  
+DoubË
+.
+MAX_VALUE
+;
+
+155  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+157 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+v®ues
+[ 
+i
+ ] - 
+rg‘
+[ i ] );
+
+160 
+_myF™Ãss
+ /ğ()
+rg‘
+.
+Ëngth
+;
+
+162 ifĞ
+_myF™Ãss
+ != 0 )
+
+164 
+_myF™Ãss
+ = 1 / _myFitness;
+
+168 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+170 
+‹mp
+ +ğ
+_myF™Ãss
+;
+
+173 
+_myF™Ãss
+ = 
+‹mp
+ / 5.0;
+
+175  
+_myF™Ãss
+;
+
+176 
+	}
+}
+
+181 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+183  "" + 
+_myF™Ãss
+;
+
+184 
+	}
+}
+
+189 
+public
+ 
+SŒšg
+ 
+	$toSŒšgFš®
+()
+
+191 
+SŒšg
+ 
+»suÉ
+ = "Predictions:\n";
+
+192 
+_myF™Ãss
+ = 0;
+
+193 [][] 
+d©a
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+194 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+195 
+numb”OfD©aPošts
+ = 20;
+
+197 
+NÚLš—rF¿ù®FunùiÚ
+ 
+f
+ = 
+Ãw
+ 
+	`NÚLš—rF¿ù®FunùiÚ
+Ğ
+numb”OfD©aPošts
+ - 1, 2 );
+
+198 
+‹mp
+ = 0;
+
+199 [][] 
+š™Ÿl
+ = 
+Ãw
+ [ 2 ][ 1 ];
+
+200 
+š™Ÿl
+[ 0 ][ 0 ] = 
+d©a
+[ 0 ][ 0 ];
+
+201 
+š™Ÿl
+[ 1 ][ 0 ] = 
+rg‘
+[ 0 ];
+
+202 
+f
+.
+	`£tIn™ŸlPošt
+Ğ
+š™Ÿl
+ );
+
+203 
+f
+.
+	`£tResŞutiÚWidth
+Ğ
+numb”OfD©aPošts
+ );
+
+204 [] 
+g’ome
+ = 
+Ãw
+ [ 
+_myG’Ùy³
+.
+	`size
+() ];
+
+205  
+i
+=0; i<
+g’ome
+.
+Ëngth
+; i++ )
+
+207 
+g’ome
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+( i );
+
+209 
+f
+.
+	`£tG’ome
+Ğ
+g’ome
+ );
+
+210 [] 
+v®ues
+ = 
+f
+.
+	`ü—‹F¿ù®D©a
+();
+
+212  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+214 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+v®ues
+[ 
+i
+ ] - 
+rg‘
+[ i ] );
+
+215 
+»suÉ
+ +ğ
+v®ues
+[ 
+i
+ ] + "\n";
+
+218 
+_myF™Ãss
+ /ğ()
+rg‘
+.
+Ëngth
+;
+
+220 ifĞ
+_myF™Ãss
+ != 0 )
+
+222 
+_myF™Ãss
+ = 1 / _myFitness;
+
+226 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+229 
+»suÉ
+ +ğ"F™Ãss: " + 
+_myF™Ãss
+;
+
+231  
+»suÉ
+;
+
+232 
+	}
+}
+
+	@PowerSetIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+12 
+public
+ cÏs 
+	cPow”S‘Individu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+174 
+public
+ 
+	$Pow”S‘Individu®
+()
+
+182 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+184 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`Pow”S‘Individu®
+();
+
+186 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+188 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+193 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+194  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+196 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+198 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+201  
+šdy
+;
+
+202 
+	}
+}
+
+208 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+210 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+<
+DoubË
+>();
+
+211 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©h
+.
+	`¿ndom
+() );
+
+212 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©h
+.
+	`¿ndom
+() );
+
+213 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©h
+.
+	`¿ndom
+() );
+
+214 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©h
+.
+	`¿ndom
+() );
+
+215 
+_myG’Ùy³
+.
+	`add
+Ğ
+M©h
+.
+	`¿ndom
+() );
+
+216 
+	}
+}
+
+223 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+225 
+A¼ayLi¡
+<
+DoubË
+> 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘Pow”S‘
+();
+
+226 
+A¼ayLi¡
+<
+DoubË
+> 
+v®ues
+ = (
+Ãw
+ 
+	`Pow”S‘T¿nsfÜm
+()).
+	`ÿlcuÏ‹T¿nsfÜm
+Ğ
+_myG’Ùy³
+ );
+
+227 
+CŞËùiÚs
+.
+	`sÜt
+Ğ
+v®ues
+ );
+
+229  
+i
+=0; i<
+rg‘
+.
+	`size
+(); i++ )
+
+231 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+rg‘
+.
+	`g‘
+Ğ
+i
+ ) - 
+v®ues
+.get( i ) );
+
+234 ifĞ
+_myF™Ãss
+ != 0 )
+
+236 
+_myF™Ãss
+ = 1 / _myFitness;
+
+240 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+243  
+_myF™Ãss
+;
+
+244 
+	}
+}
+
+249 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+251 
+A¼ayLi¡
+<
+DoubË
+> 
+v®ues
+ = (
+Ãw
+ 
+	`Pow”S‘T¿nsfÜm
+()).
+	`ÿlcuÏ‹T¿nsfÜm
+Ğ
+_myG’Ùy³
+ );
+
+252 
+CŞËùiÚs
+.
+	`sÜt
+Ğ
+v®ues
+ );
+
+253 
+SŒšg
+ 
+»suÉ
+ = "";
+
+255 
+»suÉ
+ += "\nGenome: \n";
+
+256  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+258 
+»suÉ
+ +ğ
+g’e
+ + " ";
+
+261 [] 
+unsÜ‹d
+ = 
+Ãw
+ [ 
+v®ues
+.
+	`size
+() ];
+
+262 
+A¼ayLi¡
+< 
+ShÜt
+ > 
+Üd”
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘SÜtOrd”
+();
+
+263  
+i
+=0; i<
+v®ues
+.
+	`size
+(); i++)
+
+265 
+‹mp
+ = 
+v®ues
+.
+	`g‘
+Ğ
+i
+ );
+
+266 
+pos
+ = 
+Üd”
+.
+	`g‘
+Ğ
+i
+ );
+
+267 
+unsÜ‹d
+[ 
+pos
+ ] = 
+‹mp
+;
+
+270 
+»suÉ
+ += "\nValues…rediction: \n";
+
+271  
+‹mp
+ : 
+unsÜ‹d
+ )
+
+273 
+»suÉ
+ +ğ"\n" + 
+‹mp
+;
+
+276 
+»suÉ
+ += "\nValues…rediction†ine: \n";
+
+277  
+‹mp
+ : 
+unsÜ‹d
+ )
+
+279 
+»suÉ
+ +ğ" " + 
+‹mp
+;
+
+282 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+284  
+»suÉ
+;
+
+285 
+	}
+}
+
+	@SFIFIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+4 
+impÜt
+ 
+	gm©h
+.*;
+
+5 
+impÜt
+ 
+	gifs
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+8 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+35 
+public
+ cÏs 
+	cSFIFIndividu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+41 
+public
+ 
+	$SFIFIndividu®
+()
+
+49 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+51 
+Individu®
+ 
+šdy
+ = 
+Ãw
+ 
+	`SFIFIndividu®
+();
+
+52 
+šdy
+.
+	`£tEnvœÚm’tCache
+Ğ
+	`g‘EnvœÚm’tCache
+() );
+
+53 
+šdy
+.
+	`£tF™Ãss
+Ğ
+_myF™Ãss
+ );
+
+55 ifĞ
+_myG’Ùy³
+ =ğ
+nuÎ
+ || _myG’Ùy³.
+	`size
+() == 0 )
+
+57 
+šdy
+.
+	`¿ndomizeG’ome
+();
+
+62 
+A¼ayLi¡
+<
+DoubË
+> 
+g’Ùy³
+ = 
+Ãw
+ ArrayList<Double>();
+
+63  
+g’e
+ : 
+_myG’Ùy³
+ )
+
+65 
+g’Ùy³
+.
+	`add
+Ğ
+g’e
+ );
+
+67 
+šdy
+.
+	`£tG’Ùy³
+Ğ
+g’Ùy³
+ );
+
+70  
+šdy
+;
+
+71 
+	}
+}
+
+77 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+79 
+s
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘G’omeL’gth
+();
+
+80 
+_myG’Ùy³
+ = 
+Ãw
+ 
+A¼ayLi¡
+< 
+DoubË
+ >Ğ
+s
+ );
+
+81  
+i
+=0; i<
+s
+; i++ )
+
+83 
+_myG’Ùy³
+.
+	`add
+Ğ(
+Ãw
+ 
+	`M©hUt™›s
+()).
+	`¿ndom
+() );
+
+85 
+	}
+}
+
+91 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+93 
+d©aPošts
+ = 5;
+
+94 
+f™Ãss
+ = 0;
+
+97 
+_myG’Ùy³
+ = (
+Ãw
+ 
+	`M©hUt™›s
+()).
+	`nÜm®ize
+( _myGenotype, 1 );
+
+98 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+99 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+100 
+Sim¶eIÁ”pŞ©iÚFunùiÚIFS
+ 
+ifs
+ =
+
+101 
+Ãw
+ 
+	`Sim¶eIÁ”pŞ©iÚFunùiÚIFS
+Ğ
+nuÎ
+, 
+rg‘
+.
+Ëngth
+,arget.length, 50000);
+
+102 
+ifs
+.
+	`£tIn™ŸlX
+Ğ
+¡»ams
+[ 0 ] );
+
+103 
+ifs
+.
+	`£tIn™ŸlY
+Ğ
+rg‘
+ );
+
+105 
+pos
+ = 0;
+
+106 [] 
+d
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+107  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+109 
+d
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+110 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+112 
+d
+[ 
+i
+ ] *= -1;
+
+115 
+ifs
+.
+	`£tP¬amD
+Ğ
+d
+ );
+
+116  
+j
+=0; j<
+d©aPošts
+; j++ )
+
+118 
+_myF™Ãss
+ = 0;
+
+119 
+A¼ayLi¡
+< 
+DoubË
+ > 
+v
+ = 
+ifs
+.
+	`ü—‹F¿ù®D©a
+();
+
+122  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+124 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+v
+.
+	`g‘
+Ğ
+i
+ ) - 
+rg‘
+[ i ] );
+
+127 
+_myF™Ãss
+ /ğ
+rg‘
+.
+Ëngth
+;
+
+129 ifĞ
+_myF™Ãss
+ != 0 )
+
+131 
+_myF™Ãss
+ = 1 / _myFitness;
+
+135 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+137 
+f™Ãss
+ +ğ
+_myF™Ãss
+;
+
+139 
+_myF™Ãss
+ /ğ()
+d©aPošts
+;
+
+142  
+_myF™Ãss
+;
+
+143 
+	}
+}
+
+148 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+()
+
+150 
+SŒšg
+ 
+»suÉ
+ = "\nF™Ãss: " + 
+_myF™Ãss
+ + "\n";
+
+151  
+»suÉ
+;
+
+152 
+	}
+}
+
+157 
+public
+ 
+SŒšg
+ 
+	$toSŒšgFš®
+()
+
+159 
+SŒšg
+ 
+»suÉ
+ = "genome:\n";
+
+160 
+_myF™Ãss
+ = 0;
+
+162 [][] 
+¡»ams
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘D©aSŒ—ms
+();
+
+163 [] 
+rg‘
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘T¬g‘SŒ—m
+();
+
+164 
+Sim¶eIÁ”pŞ©iÚFunùiÚIFS
+ 
+ifs
+ =
+
+165 
+Ãw
+ 
+	`Sim¶eIÁ”pŞ©iÚFunùiÚIFS
+Ğ
+nuÎ
+, 
+rg‘
+.
+Ëngth
+,arget.length, 50000);
+
+166 
+ifs
+.
+	`£tIn™ŸlX
+Ğ
+¡»ams
+[ 0 ] );
+
+167 
+ifs
+.
+	`£tIn™ŸlY
+Ğ
+rg‘
+ );
+
+169 
+pos
+ = 0;
+
+170 [] 
+d
+ = 
+Ãw
+ [ 
+rg‘
+.
+Ëngth
+ ];
+
+171  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+173 
+d
+[ 
+i
+ ] = 
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ );
+
+174 ifĞ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) < 0.5 )
+
+176 
+d
+[ 
+i
+ ] *= -1;
+
+178 
+»suÉ
+ +ğ
+d
+[ 
+i
+ ] + " ";
+
+180 
+ifs
+.
+	`£tP¬amD
+Ğ
+d
+ );
+
+181 
+A¼ayLi¡
+< 
+DoubË
+ > 
+v
+ = 
+ifs
+.
+	`ü—‹F¿ù®D©a
+();
+
+184 
+»suÉ
+ += "\nPredictions:\n";
+
+185  
+i
+=0; i<
+rg‘
+.
+Ëngth
+; i++ )
+
+187 
+»suÉ
+ +ğ
+v
+.
+	`g‘
+Ğ
+i
+ ) + "\n";
+
+188 
+_myF™Ãss
+ +ğ
+M©h
+.
+	`abs
+Ğ
+v
+.
+	`g‘
+Ğ
+i
+ ) - 
+rg‘
+[ i ] );
+
+191 
+_myF™Ãss
+ /ğ
+rg‘
+.
+Ëngth
+;
+
+193 ifĞ
+_myF™Ãss
+ != 0 )
+
+195 
+_myF™Ãss
+ = 1 / _myFitness;
+
+199 
+_myF™Ãss
+ = 
+DoubË
+.
+MAX_VALUE
+;
+
+201 
+»suÉ
+ +ğ"\nF™Ãss: " + 
+_myF™Ãss
+;
+
+203  
+»suÉ
+;
+
+204 
+	}
+}
+
+	@StockBrokerIndividual.java
+
+1 
+·ckage
+ 
+	gg’‘ic
+.
+	gim¶
+;
+
+3 
+impÜt
+ 
+	g¡ock
+.*;
+
+4 
+impÜt
+ 
+	gg’‘ic
+.*;
+
+5 
+impÜt
+ 
+	gfuzzy
+.*;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.*;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+12 
+public
+ cÏs 
+	cStockBrok”Individu®
+ 
+ex‹nds
+ 
+	mIndividu®
+
+
+15 
+´iv©e
+ 
+	m_sh¬es
+ = 0;
+
+16 
+´iv©e
+ 
+	m_ÿsh
+ = 10000;
+
+21 
+public
+ 
+	$StockBrok”Individu®
+()
+
+23 
+_myAge
+ = 0;
+
+24 
+_myF™Ãss
+ = 0;
+
+30 
+public
+ 
+Individu®
+ 
+	$şÚe
+()
+
+32  
+Ãw
+ 
+	`StockBrok”Individu®
+();
+
+33 
+	}
+}
+
+38 
+public
+ 
+	$¿ndomizeG’ome
+()
+
+40  
+i
+=0; i<(32); i++ )
+
+42 
+_myG’Ùy³
+.
+	`add
+Ğ
+Ãw
+ 
+	`DoubË
+Ğ
+M©h
+.
+	`¿ndom
+() ) );
+
+44 
+	}
+}
+
+58 
+public
+ 
+	$ev®u©eF™Ãss
+()
+
+60 
+A¼ayLi¡
+<
+SŒšg
+> 
+Çmes
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘StockNames
+();
+
+61 
+A¼ayLi¡
+<
+DoubË
+> 
+ŒŸls
+ = 
+Ãw
+ ArrayList<Double>();
+
+62 
+A¼ayLi¡
+<
+DoubË
+> 
+£ts
+ = 
+Ãw
+ ArrayList<Double>();
+
+63 
+A¼ayLi¡
+<
+DoubË
+> 
+¥ec
+ = 
+Ãw
+ ArrayList<Double>();
+
+64 
+StockEËm’t
+ 
+theStock
+ = 
+nuÎ
+;
+
+65 
+FuzzyRuË
+ 
+ruË
+ = 
+nuÎ
+;
+
+66 
+numTrŸls
+ = 10;
+
+67 
+numS‘s
+ = 4;
+
+68 
+numObs
+ = 4;
+
+69 
+¡İ
+ = 0;
+
+70 
+pos
+ = 0;
+
+77  
+i
+=0; i<(
+numS‘s
+ * 4); i++ )
+
+79 
+£ts
+.
+	`add
+Ğ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) );
+
+81  
+i
+=0; i<(
+numS‘s
+ * 
+numObs
+); i++ )
+
+83 
+¥ec
+.
+	`add
+Ğ
+_myG’Ùy³
+.
+	`g‘
+Ğ
+pos
+++ ) );
+
+85 
+ruË
+ = 
+Ãw
+ 
+	`FuzzyRuË
+Ğ
+£ts
+, 
+¥ec
+ );
+
+88  
+i
+=0; i<
+numTrŸls
+; i++ )
+
+90 
+¿nd
+ = 
+M©h
+.
+	`¿ndom
+(è* 
+Çmes
+.
+	`size
+();
+
+91 
+theStock
+ = 
+	`g‘EnvœÚm’tCache
+().
+	`g‘StockEËm’t
+Ğ
+Çmes
+.
+	`g‘
+Ğ()
+¿nd
+ ) );
+
+92 
+A¼ayLi¡
+<
+DoubË
+> 
+şo£s
+ = 
+theStock
+.
+	`g‘AÎClo£s
+();
+
+94 
+¡İ
+ = 
+şo£s
+.
+	`size
+();
+
+96 ifĞ
+¡İ
+ <ğ(2 * 
+numObs
+) )
+
+101 
+´evious
+ = 
+şo£s
+.
+	`g‘
+Ğ
+¡İ
+ - 
+numObs
+ - 1 );
+
+102 
+¿tio
+ = 0;
+
+103 
+cu¼’t
+ = 0;
+
+106  
+j
+=(
+¡İ
+-
+numObs
+); j<stop; j++ )
+
+108 
+A¼ayLi¡
+<
+DoubË
+> 
+obs
+ = 
+Ãw
+ ArrayList<Double>();
+
+109  
+k
+=
+j
+-
+numObs
+; k<j; k++ )
+
+111 
+cu¼’t
+ = 
+şo£s
+.
+	`g‘
+Ğ
+k
+ );
+
+112 
+¿tio
+ = 
+cu¼’t
+ / 
+´evious
+;
+
+113 
+¿tio
+ -= 0.5;
+
+114 
+obs
+.
+	`add
+Ğ
+¿tio
+ );
+
+115 
+´evious
+ = 
+cu¼’t
+;
+
+118 
+buy
+ = 
+ruË
+.
+	`ŒuthV®ue
+Ğ
+obs
+ );
+
+119 
+sh¬es
+ = 0;
+
+120 
+_sh¬es
+ = 0;
+
+121 
+_ÿsh
+ = 10000;
+
+124 ifĞ
+buy
+ > 0.5 )
+
+126 ifĞ
+_ÿsh
+ > 0 )
+
+128 
+maxSh¬es
+ = ()Ğ
+_ÿsh
+ / 
+cu¼’t
+ );
+
+129 
+‹mp
+ = 2 * ( 
+buy
+ - 0.5 );
+
+130 
+sh¬es
+ = ()Ğ
+‹mp
+ * 
+maxSh¬es
+ );
+
+131 
+_sh¬es
+ +ğ
+sh¬es
+;
+
+132 
+_ÿsh
+ -ğĞ
+sh¬es
+ * 
+cu¼’t
+ );
+
+138 
+sh¬es
+ = ()Ğ
+buy
+ * 2 * 
+_sh¬es
+ );
+
+139 ifĞ
+sh¬es
+ > 
+_sh¬es
+ )
+
+141 
+_ÿsh
+ +ğ(
+_sh¬es
+ * 
+cu¼’t
+);
+
+142 
+_sh¬es
+ = 0;
+
+146 
+_sh¬es
+ -ğ
+sh¬es
+;
+
+147 
+_ÿsh
+ +ğ(
+_sh¬es
+ * 
+cu¼’t
+);
+
+151 
+ŒŸls
+.
+	`add
+Ğ
+Ãw
+ 
+	`DoubË
+Ğ
+_ÿsh
+ ) );
+
+155 
+CŞËùiÚs
+.
+	`sÜt
+Ğ
+ŒŸls
+ );
+
+156 
+_myF™Ãss
+ = 
+ŒŸls
+.
+	`g‘
+Ğ()ÑrŸls.
+	`size
+() / 2) );
+
+158  
+_myF™Ãss
+;
+
+159 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+14
+353
+AffineSystemIndividual.java
+DySoRMIndividual.java
+FEFIndividual.java
+FIFIndividual.java
+FunctionalFuzzyIndividual.java
+FunctionalIndividual.java
+FunctionalMapIndividual.java
+FunctionalWeightsIndividual.java
+FuzzyNetworkIndividual.java
+ILPIndividual.java
+NonLinearIFSIndividual.java
+PowerSetIndividual.java
+SFIFIndividual.java
+StockBrokerIndividual.java

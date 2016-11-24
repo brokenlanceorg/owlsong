@@ -1,0 +1,9 @@
+/home/brandon/projects/code/bin
+./daily-open-spread.sh: line 14:  9388 Killed                  /home/brandon/projects/code/bin/stockDriver.sh 10 6h 9 57 amend > /home/brandon/logs/daily-open-spread-train.log 2>&1
+./daily-open-spread.sh: line 17:  2989 Killed                  /home/brandon/projects/code/bin/stockDriver.sh -10 1 9 57 > /home/brandon/logs/daily-open-spread-predict.log 2>&1
+./daily-open-spread.sh: line 19:  3013 Killed                  /home/brandon/projects/code/bin/stockDriver.sh -10 1 9 57 > /home/brandon/logs/daily-open-spread-predict-previous.log 2>&1
+/home/brandon/projects/code/bin
+./daily-open-spread.sh: line 14:  2309 Killed                  /home/brandon/projects/code/bin/stockDriver.sh 10 6h 9 57 amend > /home/brandon/logs/daily-open-spread-train.log 2>&1
+./daily-open-spread.sh: line 17:  2019 Killed                  /home/brandon/projects/code/bin/stockDriver.sh -10 1 9 57 > /home/brandon/logs/daily-open-spread-predict.log 2>&1
+./daily-open-spread.sh: line 19:  2063 Killed                  /home/brandon/projects/code/bin/stockDriver.sh -10 1 9 57 > /home/brandon/logs/daily-open-spread-predict-previous.log 2>&1
+/home/brandon/projects/code/bin

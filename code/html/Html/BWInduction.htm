@@ -1,0 +1,141 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Proofs
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Proofs.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         <span class=bodyGreenSmallJustify>Proposition:</span> 
+         The Principle of Induction and the Well-Ordering Principle are logically equivalent.
+         </p>
+         <p>
+         Before the proof is given, the two principles must be defined and explained.<br>
+         <span class=bodyGreenSmallJustify>The Principle of Induction:</span> Given a set S <span class="symbol1"><span class="symbol2">&#205</span></span>
+         <span class="symbol1"><span class="symbol2"><b>N</b></span></span> such that 1, 2, ..., k <span class="symbol1"><span class="symbol2">&#206</span></span>
+         S and if n <span class="symbol1"><span class="symbol2">&#206</span></span> S then (n+1) <span class="symbol1"><span class="symbol2">&#206</span></span>
+         S then it must be the case that S = <span class="symbol1"><span class="symbol2"><b>N</b></span></span>.
+         </p>
+         <p>
+         Thus, the principle of induction says that if we have some set that satisfies the conditions of the set S, then it is equivalent to the set
+         of natural numbers.
+         </p>
+         <p>
+         <span class=bodyGreenSmallJustify>The Well-Ordering Principle:</span> 
+         Every non-empty set of natrual numbers contains a least element.
+         </p>
+         <p>
+         Suppose we have a subset S <span class="symbol1"><span class="symbol2">&#205</span></span> 
+         <span class="symbol1"><span class="symbol2"><b>N</b></span></span>, then the well-ordering principle guarrantees that we will always be able
+         to select the smallest element from the set S.
+         </p>
+         <p>
+         <span class=bodyGreenSmallJustify>Proof:</span> Consider an arbirary set S <span class="symbol1"><span class="symbol2">&#205</span></span>
+         <span class="symbol1"><span class="symbol2"><b>N</b></span></span> and form the set T = {n <span class="symbol1"><span class="symbol2">&#206</span></span>
+         <span class="symbol1"><span class="symbol2"><b>N</b></span></span> : n <span class="symbol1"><span class="symbol2">&#207</span></span> S }.
+         What remains to be shown is that the arbitrary set T has a least element. There are three cases to consider: (1) If 1 
+         <span class="symbol1"><span class="symbol2">&#206</span></span> T, then 1 is the least element of T. (2) If k 
+         <span class="symbol1"><span class="symbol2">&#206</span></span> S and (k+1) <span class="symbol1"><span class="symbol2">&#207</span></span>
+         S, then (k+1) is the least element of T. (3) If k <span class="symbol1"><span class="symbol2">&#206</span></span> S and (k+1) <span class="symbol1"><span class="symbol2">&#206</span></span>
+         S, then by the principle of induction, S = <span class="symbol1"><span class="symbol2"><b>N</b></span></span> and therefore T = 
+         <span class="symbol1"><span class="symbol2">&#198</span></span> and since T is empty, it has no element to be the least.
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         The proof so far has shown that if the principle of induction is true, then the well-ordering principle is true. It remains to show that the
+         well-ordering principle implies the principle of induction. 
+         </p>
+         <p>
+         Define the set A = { n <span class="symbol1"><span class="symbol2">&#206</span></span>
+         <span class="symbol1"><span class="symbol2"><b>N</b></span></span> : 1 <span class="symbol1"><span class="symbol2">&#206</span></span> A,
+         <span class="symbol1"><span class="symbol2">&#34</span></span> 
+         n, when n <span class="symbol1"><span class="symbol2">&#206</span></span> A, (n+1) <span class="symbol1"><span class="symbol2">&#206</span></span> A },
+         then form the set T = {n <span class="symbol1"><span class="symbol2">&#206</span></span>
+         <span class="symbol1"><span class="symbol2"><b>N</b></span></span> : n <span class="symbol1"><span class="symbol2">&#207</span></span> A }.
+         Obviously, if the principle of induction is true, the set A should be equivalent to the natural numbers and thus the set T will be empty. So,
+         assume that T <span class="symbol1"><span class="symbol2">&#185</span></span> <span class="symbol1"><span class="symbol2">&#198</span></span>.
+         Since T is non-empty, by the well-ordering principle, T must have a least element--call it t. Since t is the least element of T and by the
+         definitions of the sets T and A, it must be the case that (t-1) is an element of A. But, recall that by the definition of the set A, since
+         (t-1) <span class="symbol1"><span class="symbol2">&#206</span></span> A, ((t-1)+1) <span class="symbol1"><span class="symbol2">&#206</span></span>
+         A as well, which is: (t-1+1) = t <span class="symbol1"><span class="symbol2">&#206</span></span> A. This is a contradiction, t has been shown
+         as an element of <i>both</i> of the sets T and A, but by definition the sets are mutually exclusive. Therefore, our only assumption must be false,
+         thus, T = <span class="symbol1"><span class="symbol2">&#198</span></span>. Therefore, if the well-ordering principle is true, the principle of
+         induction follows as well.
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWProofs2.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWProofs2.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

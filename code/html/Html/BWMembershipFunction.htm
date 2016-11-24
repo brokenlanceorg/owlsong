@@ -1,0 +1,232 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+      <div class=bodyWhiteSmallJustify>
+
+<br><br><br>
+#include"MembershipFunc.hpp"<br><br>
+
+MembershipFunctioN::MembershipFunctioN() : OnevariablE(_OVERFLOW)<br>
+{<br>
+MemFPRINT( "MembershipFunctioN::MembershipFunctioN( )" );<br>
+	&nbsp Setup();<br>
+} // end MembershipFunctioN default constructor<br><br>
+
+MembershipFunctioN::MembershipFunctioN( long double ld1, long double ld2 ) : OnevariablE(_OVERFLOW)<br>
+{<br>
+MemFPRINT( "MembershipFunctioN::MembershipFunctioN( long double ld1, long double ld2 )" );<br>
+long double ldLength = 0;<br><br>
+
+	&nbsp Setup();<br>
+   &nbsp ldLength = ld1 / 2;<br>
+   &nbsp Dthe_Domain = new DomaiN( ld2 - ldLength, ld2 + ldLength );<br>
+
+   &nbsp // Our Gaussian equation number is 26<br>
+   &nbsp SetEquation( 26 );<br>
+   &nbsp SetParams( ld1, ld2 );<br>
+} // end MembershipFunctioN constructor<br><br>
+
+MembershipFunctioN::MembershipFunctioN( 	long double ld1, <br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp long double ld2,<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp long double ld3,<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp bool bIncreasing ) : OnevariablE(_OVERFLOW)<br>
+{<br>
+MemFPRINT( "MembershipFunctioN::MembershipFunctioN( Sigmoid )" );<br><br>
+
+	&nbsp Setup();<br>
+   &nbsp bIs_Increasing = bIncreasing;<br>
+   &nbsp bIs_Sigmoid = true;<br>
+   &nbsp Dthe_Domain = new DomaiN( ld1, ld3 );<br>
+   &nbsp // Our Sigmoid equation number is 28<br>
+   &nbsp SetEquation( 28 );<br>
+   &nbsp SetParams( ld1, ld2, ld3 );<br>
+} // end MembershipFunctioN constructor<br><br>
+
+MembershipFunctioN::MembershipFunctioN( 	long double ldX1, <br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp long double ldY1,<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp long double ldX2,<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp long double ldY2 ) : OnevariablE(_OVERFLOW)<br>
+{<br>
+MemFPRINT( "MembershipFunctioN::MembershipFunctioN( Linear )" );<br>
+long double ldTemp = 0;<br>
+long double ldSlope = 0;<br><br>
+
+	&nbsp Setup();<br>
+   &nbsp Dthe_Domain = new DomaiN( ldX1, ldX2 );<br>
+   &nbsp ldTemp = ldX2 - ldX1;<br>
+   &nbsp if( Absolute( ldTemp ) <= GetEpsilon() )<br>
+   &nbsp {<br>
+   &nbsp &nbsp 	// throw an error<br>
+      &nbsp &nbsp return; // for now<br>
+   &nbsp } // end if<br>
+   &nbsp ldSlope = ( ldY2 - ldY1 ) / ldTemp;<br>
+   &nbsp if ( ldSlope < 0 ) {<br>
+   	&nbsp &nbsp bIs_Increasing = false; }<br>
+   &nbsp else {<br>
+   &nbsp &nbsp 	bIs_Increasing = true; }<br>
+   &nbsp ldTemp = ldY1 - (ldSlope * ldX1);<br>
+   &nbsp SetParams( ldSlope, ldTemp );<br>
+   &nbsp // Our Linear equation number is 27<br>
+   &nbsp SetEquation( 27 );<br>
+} // end MembershipFunctioN constructor<br><br>
+
+MembershipFunctioN::~MembershipFunctioN()<br>
+{<br>
+MemFPRINT( "MembershipFunctioN::~MembershipFunctioN( )" );<br><br>
+
+   &nbsp if ( Dthe_Domain != 0 )<br>
+   &nbsp &nbsp 	delete Dthe_Domain;<br>
+} // end MembershipFunctioN destructor<br>
+
+void MembershipFunctioN::Setup()<br>
+{<br>
+MemFPRINT( "MembershipFunctioN::Setup( )" );<br><br>
+
+   &nbsp Dthe_Domain 	= 0;                              <br>
+   &nbsp bIs_Increasing = true;<br>
+   &nbsp bIs_Sigmoid 	= false;<br>
+} // end Setup<br><br>
+
+long double MembershipFunctioN::EvaluateIt( long double ldThe_Var )<br>
+{<br>
+MemFPRINT( "MembershipFunctioN::EvaluateIt( long double )" );<br>
+long double ldReturn = 0;           <br><br>
+
+	&nbsp SetVariable( ldThe_Var );<br>
+   &nbsp if( bIs_Sigmoid )<br>
+   &nbsp {<br>
+   	&nbsp &nbsp if( bIs_Increasing )<br>
+			&nbsp &nbsp &nbsp ldReturn = OnevariablE::EvaluateIt();<br>
+      &nbsp &nbsp else<br>
+			&nbsp &nbsp &nbsp ldReturn = 1 - OnevariablE::EvaluateIt();<br>
+   &nbsp } else // end if<br>
+		&nbsp &nbsp ldReturn = OnevariablE::EvaluateIt();<br><br>
+
+   &nbsp return ldReturn;<br>
+} // end EvaluateIt<br><br>
+
+long double MembershipFunctioN::PerformAND( long double ldA, long double ldB )<br>
+{<br>
+long double ldANDRet = 0;<br><br>
+
+	&nbsp ldANDRet = ( ldA + ldB ) / 2;<br>
+
+	&nbsp return ldANDRet;<br>
+} // end PerformAND<br><br>
+
+long double MembershipFunctioN::PerformOR( long double ldA, long double ldB )<br>
+{<br>
+long double ldANDRet = 0;<br><br>
+
+	&nbsp if( Find_Max(ldA, ldB) )<br>
+		&nbsp &nbsp ldANDRet = ( ldB + 2 * ldA ) / 3;<br>
+   &nbsp else<br>
+		&nbsp &nbsp ldANDRet = ( ldA + 2 * ldB ) / 3;<br><br>
+
+	&nbsp return ldANDRet;<br>
+} // end PerformOR<br><br>
+
+
+<br><br><br>
+
+
+       </div>
+<!--
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+-->
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWFuzzy9.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWFuzzy9.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

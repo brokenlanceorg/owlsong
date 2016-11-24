@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+
+<project name="all_projects" default="compile" basedir=".">
+
+  <target name="compile" depends="compile.common, compile.math, compile.database, compile.grafix, compile.ifs, compile.fuzzy, compile.genetic, compile.functionalNetwork, compile.kinect, compile.stock"/>
+
+  <target name="dist" depends="dist.common, dist.math, dist.database, dist.grafix, dist.ifs, dist.fuzzy, dist.genetic, dist.functionalNetwork, dist.kinect, dist.stock"/>
+
+  <target name="all" depends="scrub, dist"/>
+
+  <target name="clean" depends="clean.common, clean.math, clean.database, clean.grafix, clean.ifs, clean.stock, clean.fuzzy, clean.genetic, clean.functionalNetwork, clean.kinect"/>
+
+  <target name="scrub" depends="scrub.common, scrub.math, scrub.database, scrub.grafix, scrub.ifs, scrub.stock, scrub.fuzzy, scrub.genetic, scrub.functionalNetwork, scrub.kinect"/>
+
+  <target name="init">
+    <!-- Setup the project home and source in the environment -->
+    <property environment="env"/>
+
+    <!-- include user specific env properties first, then project defaults -->
+    <!--property file="${user.home}/build.properties"/-->
+    <!--property file="${project.home}/etc/build.properties"/-->
+
+    <!-- Create the time stamp -->
+    <tstamp/>
+
+    <!-- Run project directory structure -->
+    <property name="run.dir"                value="${user.home}/dist/run"/>
+    <property name="stock.dist"             value="${user.home}/dist/stock"/>
+    <property name="common.dist"            value="${user.home}/dist/common"/>
+    <property name="math.dist"              value="${user.home}/dist/math"/>
+    <property name="database.dist"          value="${user.home}/dist/database"/>
+    <property name="fuzzy.dist"             value="${user.home}/dist/fuzzy"/>
+    <property name="genetic.dist"           value="${user.home}/dist/genetic"/>
+    <property name="grafix.dist"            value="${user.home}/dist/grafix"/>
+    <property name="ifs.dist"               value="${user.home}/dist/ifs"/>
+    <property name="functionalNetwork.dist" value="${user.home}/dist/functionalNetwork"/>
+    <property name="kinect.dist"            value="${user.home}/dist/kinect"/>
+
+    <!-- sub-project directories -->
+    <property name="common.home"            value="${basedir}/common"/>
+    <property name="math.home"              value="${basedir}/math"/>
+    <property name="grafix.home"            value="${basedir}/grafix"/>
+    <property name="stock.home"             value="${basedir}/stock"/>
+    <property name="database.home"          value="${basedir}/database"/>
+    <property name="fuzzy.home"             value="${basedir}/fuzzy"/>
+    <property name="genetic.home"           value="${basedir}/genetic"/>
+    <property name="ifs.home"               value="${basedir}/ifs"/>
+    <property name="functionalNetwork.home" value="${basedir}/functionalNetwork"/>
+    <property name="kinect.home"            value="${basedir}/kinect"/>
+
+    <!-- classpath -->
+    <path id="project.classpath">
+      <fileset dir="${run.dir}">
+        <include name="**/*.jar"/>
+        <include name="**/*.zip"/>
+      </fileset>
+    </path>
+
+    <!-- Print out properties -->
+    <echo>Java Project Build Properties</echo>
+    <echo>-------------------------------</echo>
+    <echo>project.name=${project.name}</echo>
+    <echo>project.home=${project.home}</echo>
+    <echo>project.ver=${project.ver}</echo>
+    <echo>common.home=${common.home}</echo>
+    <echo>math.home=${math.home}</echo>
+    <echo>stock.home=${stock.home}</echo>
+    <echo>stock.dist=${stock.dist}</echo>
+    <echo>run.stock.dist=${run.stock.dist}</echo>
+
+  </target>
+
+  <!-- compile sub-project targets -->
+  <target name="compile.common" depends="init" unless="skip.common">
+    <ant dir="${common.home}" target="compile"/>
+  </target>
+
+  <target name="compile.math" depends="init" unless="skip.math">
+    <ant dir="${math.home}" target="compile"/>
+  </target>
+
+  <target name="compile.database" depends="init" unless="skip.database">
+    <ant dir="${database.home}" target="compile"/>
+  </target>
+
+  <target name="compile.grafix" depends="init" unless="skip.grafix">
+    <ant dir="${grafix.home}" target="compile"/>
+  </target>
+
+  <target name="compile.ifs" depends="init" unless="skip.ifs">
+    <ant dir="${ifs.home}" target="compile"/>
+  </target>
+
+  <target name="compile.stock" depends="init" unless="skip.stock">
+    <ant dir="${stock.home}" target="compile"/>
+  </target>
+
+  <target name="compile.fuzzy" depends="init" unless="skip.fuzzy">
+    <ant dir="${fuzzy.home}" target="compile"/>
+  </target>
+
+  <target name="compile.genetic" depends="init" unless="skip.genetic">
+    <ant dir="${genetic.home}" target="compile"/>
+  </target>
+
+  <target name="compile.functionalNetwork" depends="init" unless="skip.functionalNetwork">
+    <ant dir="${functionalNetwork.home}" target="compile"/>
+  </target>
+
+  <target name="compile.kinect" depends="init" unless="skip.kinect">
+    <ant dir="${kinect.home}" target="compile"/>
+  </target>
+
+  <!-- dist sub-project targets -->
+  <target name="dist.common" depends="init" unless="skip.common">
+    <ant dir="${common.home}" target="dist"/>
+  </target>
+
+  <target name="dist.math" depends="init" unless="skip.math">
+    <ant dir="${math.home}" target="dist"/>
+  </target>
+
+  <target name="dist.database" depends="init" unless="skip.database">
+    <ant dir="${database.home}" target="dist"/>
+  </target>
+
+  <target name="dist.grafix" depends="init" unless="skip.grafix">
+    <ant dir="${grafix.home}" target="dist"/>
+  </target>
+
+  <target name="dist.ifs" depends="init" unless="skip.ifs">
+    <ant dir="${ifs.home}" target="dist"/>
+  </target>
+
+  <target name="dist.stock" depends="init" unless="skip.stock">
+    <ant dir="${stock.home}" target="dist"/>
+  </target>
+
+  <target name="dist.fuzzy" depends="init" unless="skip.fuzzy">
+    <ant dir="${fuzzy.home}" target="dist"/>
+  </target>
+
+  <target name="dist.genetic" depends="init" unless="skip.genetic">
+    <ant dir="${genetic.home}" target="dist"/>
+  </target>
+
+  <target name="dist.functionalNetwork" depends="init" unless="skip.functionalNetwork">
+    <ant dir="${functionalNetwork.home}" target="dist"/>
+  </target>
+
+  <target name="dist.kinect" depends="init" unless="skip.kinect">
+    <ant dir="${kinect.home}" target="dist"/>
+  </target>
+
+  <!-- all sub-project targets -->
+  <target name="all.common" depends="init" unless="skip.common">
+    <ant dir="${common.home}" target="all"/>
+  </target>
+
+  <target name="all.math" depends="init" unless="skip.math">
+    <ant dir="${math.home}" target="all"/>
+  </target>
+
+  <target name="all.database" depends="init" unless="skip.database">
+    <ant dir="${database.home}" target="all"/>
+  </target>
+
+  <target name="all.grafix" depends="init" unless="skip.grafix">
+    <ant dir="${grafix.home}" target="all"/>
+  </target>
+
+  <target name="all.ifs" depends="init" unless="skip.ifs">
+    <ant dir="${ifs.home}" target="all"/>
+  </target>
+
+  <target name="all.stock" depends="init" unless="skip.stock">
+    <ant dir="${stock.home}" target="all"/>
+  </target>
+
+  <target name="all.fuzzy" depends="init" unless="skip.fuzzy">
+    <ant dir="${fuzzy.home}" target="all"/>
+  </target>
+
+  <target name="all.genetic" depends="init" unless="skip.genetic">
+    <ant dir="${genetic.home}" target="all"/>
+  </target>
+
+  <target name="all.functionalNetwork" depends="init" unless="skip.functionalNetwork">
+    <ant dir="${functionalNetwork.home}" target="all"/>
+  </target>
+
+  <target name="all.kinect" depends="init" unless="skip.kinect">
+    <ant dir="${kinect.home}" target="all"/>
+  </target>
+
+  <!-- clean sub-project targets -->
+  <target name="clean.common" depends="init" unless="skip.common">
+    <ant dir="${common.home}" target="clean"/>
+  </target>
+
+  <target name="clean.math" depends="init" unless="skip.math">
+    <ant dir="${math.home}" target="clean"/>
+  </target>
+
+  <target name="clean.database" depends="init" unless="skip.database">
+    <ant dir="${database.home}" target="clean"/>
+  </target>
+
+  <target name="clean.grafix" depends="init" unless="skip.grafix">
+    <ant dir="${grafix.home}" target="clean"/>
+  </target>
+
+  <target name="clean.ifs" depends="init" unless="skip.ifs">
+    <ant dir="${ifs.home}" target="clean"/>
+  </target>
+
+  <target name="clean.stock" depends="init" unless="skip.stock">
+    <ant dir="${stock.home}" target="clean"/>
+  </target>
+
+  <target name="clean.fuzzy" depends="init" unless="skip.fuzzy">
+    <ant dir="${fuzzy.home}" target="clean"/>
+  </target>
+
+  <target name="clean.genetic" depends="init" unless="skip.genetic">
+    <ant dir="${genetic.home}" target="clean"/>
+  </target>
+
+  <target name="clean.functionalNetwork" depends="init" unless="skip.functionalNetwork">
+    <ant dir="${functionalNetwork.home}" target="clean"/>
+  </target>
+
+  <target name="clean.kinect" depends="init" unless="skip.kinect">
+    <ant dir="${kinect.home}" target="clean"/>
+  </target>
+
+  <!-- scrub sub-project targets -->
+  <target name="scrub.common" depends="init" unless="skip.common">
+    <ant dir="${common.home}" target="scrub"/>
+  </target>
+
+  <target name="scrub.math" depends="init" unless="skip.math">
+    <ant dir="${math.home}" target="scrub"/>
+  </target>
+
+  <target name="scrub.database" depends="init" unless="skip.database">
+    <ant dir="${database.home}" target="scrub"/>
+  </target>
+
+  <target name="scrub.grafix" depends="init" unless="skip.grafix">
+    <ant dir="${grafix.home}" target="scrub"/>
+  </target>
+
+  <target name="scrub.ifs" depends="init" unless="skip.ifs">
+    <ant dir="${ifs.home}" target="scrub"/>
+  </target>
+
+  <target name="scrub.stock" depends="init" unless="skip.stock">
+    <ant dir="${stock.home}" target="scrub"/>
+  </target>
+
+  <target name="scrub.fuzzy" depends="init" unless="skip.fuzzy">
+    <ant dir="${fuzzy.home}" target="scrub"/>
+  </target>
+
+  <target name="scrub.genetic" depends="init" unless="skip.genetic">
+    <ant dir="${genetic.home}" target="scrub"/>
+  </target>
+
+  <target name="scrub.functionalNetwork" depends="init" unless="skip.functionalNetwork">
+    <ant dir="${functionalNetwork.home}" target="scrub"/>
+  </target>
+
+  <target name="scrub.kinect" depends="init" unless="skip.kinect">
+    <ant dir="${kinect.home}" target="scrub"/>
+  </target>
+
+  <target name="scrub.run" depends="init" unless="skip.run">
+    <delete dir="${run.dir}"/>
+  </target>
+
+  <target name="resources" depends="dist">
+    <delete dir="${run.dir}"/>
+    <copy todir="${run.dir}">
+      <fileset dir="${stock.dist}">
+        <include name="**/*.jar"/>
+      </fileset>
+      <fileset dir="${common.dist}">
+        <include name="**/*.jar"/>
+      </fileset>
+      <fileset dir="${math.dist}">
+        <include name="**/*.jar"/>
+      </fileset>
+      <fileset dir="${database.dist}">
+        <include name="**/*.jar"/>
+      </fileset>
+      <fileset dir="${fuzzy.dist}">
+        <include name="**/*.jar"/>
+      </fileset>
+      <fileset dir="${genetic.dist}">
+        <include name="**/*.jar"/>
+      </fileset>
+    </copy>
+    <copy todir="${run.dir}/SP500">
+      <fileset dir="${stock.home}/lib">
+        <include name="**/*.dat"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <!-- Run sub-project targets -->
+  <target name="run.stock" depends="resources" unless="skip.run.stock">
+
+    <java classname="stock.SP500Downloader"
+          fork="true"
+          failonerror="true">
+      <classpath refid="project.classpath"/>
+      <jvmarg line="${ejbc.jvmargs}"/>
+      <arg line="${run.args}"/>
+    </java>
+
+  </target>
+
+</project>
+

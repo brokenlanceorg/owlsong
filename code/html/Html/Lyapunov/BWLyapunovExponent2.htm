@@ -1,0 +1,137 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Fractals
+		</title>
+
+	<link rel=StyleSheet href="../Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="../Fractals.jpg"></center>
+      <img src="../graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+And if |<span class="symbol1"><span class="symbol2">&#166</span></span>’(x) | > 1, then:
+         </p>
+         <center>|<span class="symbol1"><span class="symbol2">&#166</span></span>(x + e) - 
+<span class="symbol1"><span class="symbol2">&#166</span></span>(x)| > |e|	&nbsp &nbsp &nbsp &nbsp &nbsp (1)</center>
+         <p>
+And if |<span class="symbol1"><span class="symbol2">&#166</span></span>’(x) | < 1, then:
+         </p>
+         <center>|<span class="symbol1"><span class="symbol2">&#166</span></span>(x + e) - 
+<span class="symbol1"><span class="symbol2">&#166</span></span>(x)| < |e|	&nbsp &nbsp &nbsp &nbsp &nbsp (2)</center>
+         <p>
+Equation (1) tells us that the errors are magnified, and equation (2) tells us that the errors are not pernicious. 
+But, for a recursive function, we can’t just consider the first iteration, but all recursions, so that the product of 
+all the absolute values of the derivatives of each recursion is less than one. That is to say, 
+let x<sub>1</sub> = <span class="symbol1"><span class="symbol2">&#166</span></span>(x<sub>0</sub>), 
+x<sub>2</sub> =<span class="symbol1"><span class="symbol2">&#166</span></span>(x<sub>1</sub>), …, 
+and in general x<sub>n+1</sub> = <span class="symbol1"><span class="symbol2">&#166</span></span>(x<sub>n</sub>), 
+we want to see that the number:
+         </p>
+         <center><img src="lya3.gif"> &nbsp &nbsp &nbsp &nbsp (3)</center>
+         <p>
+converges to a number less than one. If this product isn’t less than one, then we know the errors are 
+magnified too much and our computation is worthless.
+         </p>
+         <p>
+Computing a number such as (3) on a digital computer is itself a process that can be overcome with error. 
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+Instead, we can compute the product as a sum using the properties of logarithms. Then, the right-hand side of (3) becomes:
+         </p>
+         <center><img src="lya4.gif"></center>
+         <p>
+Again, the right-hand side is an infinite sum, and this can only be approximated by summing to a finite number, 
+then dividing by that number:
+         </p>
+         <center><img src="lya5.gif"> &nbsp &nbsp &nbsp &nbsp (4)</center>
+         <p>
+The number given by equation (4) is known as the Lyapunov exponent for the given function. 
+Since the natural logarithm was taken, the sum is no longer compared to unity, but rather zero. 
+Thus, if the number given in (4) is positive, then the function and the initial seed are ‘unstable’ in that small 
+errors in the initial seed (x0) are magnified. If, however, the Lyapunov exponent is negative, 
+then the function and the initial seed are said to be ‘stable’, that is to say, errors in the initial seed 
+do not infect the calculation in the long run. Observe that the more positive the number, 
+the more unstable the system is, and conversely, the more negative a number, the more stable the system is.
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWLyapunovExponent1.htm" target="Main"><img src="../previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWLyapunovFractal2.htm" target="Main"><img src="../next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="../mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

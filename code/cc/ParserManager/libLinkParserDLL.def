@@ -1,0 +1,6 @@
+; dlltool --base-file C:\DOCUME~1\Owner\LOCALS~1\Temp/cca01564.base --output-exp LinkParserDLL.exp --dllname LinkParserDLL.dll --output-def libLinkParserDLL.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\DOCUME~1\Owner\LOCALS~1\Temp/cca01564.def --output-lib libLinkParserDLL.a
+EXPORTS
+	Java_linkparser_SentenceParser_parseConversation@16 @ 1
+	Java_linkparser_SentenceParser_parseSentence = Java_linkparser_SentenceParser_parseSentence@16 @ 2
+	Java_linkparser_SentenceParser_parseSentence@16 @ 3
+	Java_linkparser_SentenceParser_parseConversation = Java_linkparser_SentenceParser_parseConversation@16 @ 4

@@ -1,0 +1,136 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Logic
+		</title>
+
+	<link rel=StyleSheet href="../Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="../Logic.jpg"></center>
+      <img src="../graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=90%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            <span class=bodyGreenSmallJustify>[Cellular Automata]</span>
+         </p>
+         <p>
+The invention of the modern form of cellular automata is generally accredited to the gifted mathematician John von Neumann. 
+Von Neumann was developing an abstract model of self-reproduction in biology when he discovered cellular automata. 
+         </p>
+         <p>
+He first began by working on three-dimensional models of factories described by partial differential equations around 1947. Then, by a suggestion 
+from Stanislaw Ulam, he simplified his model to two-dimensions and came up with the finite cellular automata. He apparently wanted the model to 
+be continuous and thus amenable to the calculus so that he could transform the problem into partial differential equations.
+         </p>
+         <p>
+In the early 80’s, Stephen Wolfram began publishing papers on cellular automata which served to bring attention to the subject. 
+Wolfram studied the very simplest type of cellular automata: one-dimensional, nearest-neighbor ruled automata.
+         </p>
+         <p>
+These automata consist of a row of cells which get produced for each generation, or time step. Each cell can be either black or white. 
+The cellular automata rules take a given cell and consider the three neighbors above the cell: the cell immediately above, the cell that 
+touches the left corner, and the cell that touches the right corner in the row above. Based on whether those cells are white or black, 
+the rule will then color the current cell either white or black.
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+For instance, an example of a cellular automata rule is the following: if the left cell is black, the center cell is white, and the right 
+cell is black, then color the current cell black. This is just one rule however, out of all the possible rules for three cells. 
+Since each cell can be either white or black (two values) and there are three permutations of these values, there are 2<sup>3</sup> 
+rules for such a cellular automata.
+         </p>
+         <p>
+Wolfram developed a convenient way to designate rules using the binary representation of numbers. Let the 
+triplet (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>) represent the three touching cells above the current cell, 
+then there are 2<sup>3</sup> = 8 such ordered pairs 
+for which a rule must be specified. Thus, Wolfram considered the eighth bit-position in an integer to specify what color 
+to assign the current cell if the ordered triplet is (black, black, black). He then considered the seventh bit-position to 
+specify the color of the current cell if the ordered triplet is (black, black, white) and so on though all the bit-positions.
+         </p>
+         <p>
+For example, consider the rule set for the following: if all three cells are white, then make the current cell white, otherwise 
+make the current cell black. In Wolfram’s notation, this would be specified as follows. Since the current cell is made 
+black in all cases except for the ordered triplet (white, white, white), all bit-positions will be 1 (black) while the first 
+bit-position will be 0 (white), then the number is: 11111110. In the base 10 number system, this number translates to 254. 
+
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="../BWMain.htm" target="Main"><img src="../previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="../BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWCellularAutomata2.htm" target="Main"><img src="../next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="../mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>
+<!--             <span class="symbol1"><span class="symbol2">m</span></span> -->

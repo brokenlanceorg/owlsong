@@ -1,0 +1,293 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+      <div class=bodyWhiteSmallJustify>
+
+<br><br><br>
+#include"FuzzySet.hpp"<br><br>
+
+FuzzyseT::FuzzyseT()      <br>
+{<br>
+FuzzFPRINT("FuzzyseT::FuzzyseT()");<br><br>
+
+	&nbsp Setup();<br>
+&nbsp    MemThe_Function = new MembershipFunctioN();<br>
+} // end FuzzyseT default constructor<br><br>
+
+FuzzyseT::~FuzzyseT()      <br>
+{<br>
+FuzzFPRINT("FuzzyseT::~FuzzyseT()");<br><br>
+
+	&nbsp if( MemThe_Function != 0 )<br>
+   &nbsp 	delete MemThe_Function;<br>
+} // end FuzzyseT default constructor<br><br>
+
+FuzzyseT::FuzzyseT( long double ldP1, long double ldP2, bool bUseCuts )<br>
+{<br>
+FuzzFPRINT("FuzzyseT::FuzzyseT(long double ldP1, long double ldP2 )");<br>
+long double ldVal = 0;<br><br>
+
+	&nbsp Setup();<br>
+   &nbsp MemThe_Function = new MembershipFunctioN( ldP1, ldP2 );<br>
+   &nbsp if( bUseCuts )<br>
+   &nbsp {<br>
+   	&nbsp &nbsp ldVal = MemThe_Function->GetLeftEndpoint();<br>
+	   &nbsp &nbsp SetAlphaCut( ldVal, 0 );<br>
+   	&nbsp &nbsp ldVal = MemThe_Function->GetRightEndpoint();<br>
+   	&nbsp &nbsp SetOmegaCut( MemThe_Function->GetRightEndpoint(), 0 );<br>
+   &nbsp } // end if useCuts<br>
+} // end FuzzyseT Bell-shaped constructor<br><br>
+
+FuzzyseT::FuzzyseT( long double ld1, long double ld2, long double ld3, bool bI )<br>
+{<br>
+FuzzFPRINT("FuzzyseT::FuzzyseT(ld1, ld2, ld3, bI)");<br><br>
+
+	&nbsp Setup();                <br>
+   &nbsp MemThe_Function = new MembershipFunctioN( ld1, ld2, ld3, bI );<br>
+   &nbsp if( bI )<br>
+   &nbsp {<br>
+	   &nbsp &nbsp SetAlphaCut( ld1, 0 );<br>
+	   &nbsp &nbsp SetOmegaCut( ld3, 1 );<br>
+   &nbsp } else<br>
+   &nbsp {<br>
+	   &nbsp &nbsp SetAlphaCut( ld1, 1 );                       <br>
+	   &nbsp &nbsp SetOmegaCut( ld3, 0 );<br>
+   &nbsp } // end else if increasing<br>
+} // end FuzzyseT Bell-shaped constructor<br><br>
+
+FuzzyseT::FuzzyseT( long double ldX1, long double ldY1, long double ldX2, long double ldY2 )<br>
+{<br>
+FuzzFPRINT("FuzzyseT::FuzzyseT(ldX1, ldY1, ldX2, ldY2)");<br><br>
+
+	&nbsp Setup();                <br>
+   &nbsp MemThe_Function = new MembershipFunctioN( ldX1, ldY1, ldX2, ldY2 );<br>
+   &nbsp if( MemThe_Function->IsIncreasing() )<br>
+   &nbsp {<br>
+      &nbsp &nbsp SetAlphaCut( ldX1, 0 );<br>
+      &nbsp &nbsp SetOmegaCut( ldX2, 1 );<br>
+   &nbsp } else // end if<br>
+   &nbsp {<br>
+      &nbsp &nbsp SetAlphaCut( ldX1, 1 );<br>
+      &nbsp &nbsp SetOmegaCut( ldX2, 0 );<br>
+   &nbsp } // end else<br>
+} // end constructor<br><br>
+
+void FuzzyseT::Setup()<br>
+{<br>
+FuzzFPRINT("FuzzyseT::Setup()");<br><br>
+
+	&nbsp MemThe_Function 	= 0; // Null the pointer out<br>
+	&nbsp ldAlpha 				= 0;<br>
+	&nbsp ldAlpha_Value 		= 0;<br>
+	&nbsp bHas_Alpha 			= false;<br>
+	&nbsp // Omega-cut threshold:<br>
+	&nbsp ldOmega 				= 0;<br>
+	&nbsp ldOmega_Value 		= 0;<br>
+	&nbsp bHas_Omega 			= false;<br>
+	&nbsp // The truth value:<br>
+	&nbsp ldThe_Truth_Value = 0;<br>
+   &nbsp iWhich_Variable	= 0;<br>
+	&nbsp ldThe_AND_Value	= 0;<br>
+	&nbsp ldThe_OR_Value		= 0;<br>
+} // end Setup<br><br>
+
+long double FuzzyseT::EvaluateIt( long double ldTheArg )<br>
+{<br>
+FuzzFPRINT("FuzzyseT::EvaluateIt( ldTheArg )");<br>
+long double ldTheRet = 0;<br>
+
+	&nbsp if( bHas_Alpha )<br>
+   &nbsp {<br>
+      &nbsp &nbsp if( ldTheArg < ldAlpha ) <br>
+      &nbsp &nbsp {<br>
+         &nbsp &nbsp &nbsp ldTheRet = ldAlpha_Value; <br>
+         &nbsp &nbsp &nbsp return ldTheRet;<br>
+      &nbsp &nbsp } // end if less than<br>
+   &nbsp } // end if Alpha-Cut<br>
+	&nbsp if( bHas_Omega )<br>
+   &nbsp {<br>
+      &nbsp &nbsp if( ldTheArg > ldOmega ) <br>
+      &nbsp &nbsp {<br>
+         &nbsp &nbsp &nbsp ldTheRet = ldOmega_Value; <br>
+         &nbsp &nbsp &nbsp return ldTheRet;<br>
+      &nbsp &nbsp } // end if less than<br>
+   &nbsp } // end if Omega-Cut <br><br>
+
+   &nbsp ldThe_Truth_Value = MemThe_Function->EvaluateIt( ldTheArg );<br><br>
+   
+	&nbsp return ldThe_Truth_Value;<br>
+} // end EvaluateIt<br><br>
+
+long double FuzzyseT::GetResultVariable()<br>
+{<br>
+FuzzFPRINT("FuzzyseT::GetResultVariable()");<br>
+long double ldArg = 0;<br>
+<br>
+	&nbsp switch( iWhich_Variable )<br>
+   &nbsp {<br>
+   	&nbsp &nbsp case 0 :<br>
+			&nbsp &nbsp &nbsp ldArg = ldThe_Truth_Value;<br>
+      &nbsp &nbsp break;<br>
+      
+   	&nbsp &nbsp case 1 :<br>
+			&nbsp &nbsp &nbsp ldArg = ldThe_AND_Value;           <br>
+      &nbsp &nbsp break;<br>
+      
+   	&nbsp &nbsp case 2 :<br>
+			&nbsp &nbsp &nbsp ldArg = ldThe_OR_Value;<br>
+      &nbsp &nbsp break;<br>
+
+      &nbsp &nbsp default :<br>
+			&nbsp &nbsp &nbsp ldArg = ldThe_Truth_Value;<br>
+      &nbsp &nbsp break;<br>
+   &nbsp } // end switch<br>
+	&nbsp return ldArg;<br>
+} // end GetResultVariable<br><br>
+
+FuzzyseT& FuzzyseT::operator << ( const long double& ldArg )<br>
+{<br>
+FuzzFPRINT("FuzzyseT::operator << ()");<br><br>
+
+	&nbsp SetTruthValue( EvaluateIt( ldArg ) );<br>
+
+	&nbsp return *this;<br>
+} // end operator <<<br>
+
+FuzzyseT& FuzzyseT::operator >> ( long double& ldArg )<br>
+{<br>
+FuzzFPRINT("FuzzyseT::operator >> (long double)");<br>
+
+	&nbsp ldArg = GetResultVariable();<br>
+
+	&nbsp return *this;<br>
+} // end operator << <br><br>
+
+FuzzyseT& FuzzyseT::operator & ( const FuzzyseT& FzsRHS )<br>
+{<br>
+FuzzFPRINT("FuzzyseT::operator & FuzzyseT&");<br>
+long double ldTmp1 = 0;<br>
+long double ldTmp2 = 0;<br><br>
+
+	&nbsp ldTmp1 = FzsRHS.GetResultVariable();<br>
+   &nbsp ldTmp2 = GetResultVariable();<br>
+   &nbsp ldTmp1 = MemThe_Function->PerformAND( ldTmp1, ldTmp2 );<br>
+   &nbsp SetANDValue( ldTmp1 );<br>
+   
+	&nbsp return *this;<br>
+} // end operator & <br><br>
+
+FuzzyseT& FuzzyseT::operator | ( const FuzzyseT& FzsRHS )<br>
+{<br>
+FuzzFPRINT("FuzzyseT::operator | FuzzyseT&");<br>
+long double ldTmp1 = 0;<br>
+long double ldTmp2 = 0;<br><br>
+
+	&nbsp ldTmp1 = FzsRHS.GetResultVariable();<br>
+   &nbsp ldTmp2 = GetResultVariable();<br>
+   &nbsp ldTmp1 = MemThe_Function->PerformOR( ldTmp1, ldTmp2 );<br>
+   &nbsp SetORValue( ldTmp1 );<br><br>
+                                                                     
+	&nbsp return *this;<br>
+} // end operator | <br><br><br>
+
+
+       </div>
+<!--
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+-->
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWFuzzy9.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWFuzzy9.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

@@ -1,0 +1,18 @@
+delete from LIQUID;
+insert into LIQUID values ( 'C' );
+insert into LIQUID values ( 'BAC' );
+insert into LIQUID values ( 'SPY' );
+insert into LIQUID values ( 'QQQQ' );
+insert into LIQUID values ( 'F' );
+insert into LIQUID values ( 'GE' );
+insert into LIQUID values ( 'INTC' );
+insert into LIQUID values ( 'PFE' );
+insert into LIQUID values ( 'MSFT' );
+insert into LIQUID values ( 'S' );
+insert into LIQUID values ( 'CSCO' );
+insert into LIQUID values ( 'WFC' );
+insert into LIQUID values ( 'JPM' );
+insert into LIQUID values ( 'ETFC' );
+insert into LIQUID values ( 'AA' );
+insert into LIQUID values ( 'MOT' );
+commit;

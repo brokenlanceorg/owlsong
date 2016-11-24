@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "param 1 is: ${2}";
+echo "param 2 is: ${2}";
+export SEARCH=`echo ${2} | sed s/\</""/g | sed s/\>/""/g`;
+echo "search is: ${SEARCH}";
+vim `find ~/projects/code/java -name "${1}.java"` +/"${SEARCH}";

@@ -1,0 +1,152 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+      <div class=bodyWhiteSmallJustify>
+
+<br><br><br>
+#include"Hedge.hpp"<br><br>
+
+HedgE::HedgE()<br>
+{<br>
+HFPRINT( "HedgE::HedgE()" );<br>
+
+	&nbsp Setup();<br>
+} // end default constructor<br><br>
+
+HedgE::~HedgE()<br>
+{<br>
+HFPRINT( "HedgE::~HedgE()" );<br><br>
+
+	&nbsp if( Fct1The_Hedge_Function != 0 )<br>
+		&nbsp &nbsp delete Fct1The_Hedge_Function;<br>
+} // end destructor<br><br>
+
+void HedgE::Setup()<br>
+{<br>
+HFPRINT( "HedgE::Setup()" );<br><br>
+
+	&nbsp FzsNext_Set						= 0;<br>
+	&nbsp Fct1The_Hedge_Function		= 0;<br>
+   &nbsp ldPower_Variable				= 0;<br>
+   &nbsp ldModified_Power_Variable	= 0;<br>
+} // end Setup<br><br>
+
+HedgE& HedgE::operator + ( FuzzyseT& FzsRHS )<br>
+{<br>
+HFPRINT( "HedgE::operator + (const FuzzyseT& FzsRHS)" );<br><br>
+
+	&nbsp // Make sure that we don't point to ourselves, which could be fatal.<br>
+	&nbsp if ( this == &FzsRHS )<br>
+      &nbsp {<br>
+   	&nbsp &nbsp //HFPRINT << "Caught reference to self!";<br>
+   	&nbsp &nbsp cout << "Caught reference to self!";<br>
+		&nbsp &nbsp return *this; <br>
+      }<br>
+	&nbsp FzsNext_Set = &FzsRHS;<br><br>
+   
+	&nbsp return *this;<br>
+} // end operator +<br><br>
+
+<br><br><br>
+
+
+       </div>
+<!--
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+-->
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWFuzzy9.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWFuzzy9.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

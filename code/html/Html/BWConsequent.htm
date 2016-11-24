@@ -1,0 +1,179 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+      <div class=bodyWhiteSmallJustify>
+
+<br><br><br>
+#include"Consequent.hpp"<br><br>
+
+ConsequenT::ConsequenT()      <br>
+{<br>
+ConFPRINT("ConsequenT::ConsequenT()");<br><br>
+
+	&nbsp Setup();<br>
+} // end ConsequenT default constructor<br><br>
+
+ConsequenT::~ConsequenT()      <br>
+{<br>
+ConFPRINT("ConsequenT::~ConsequenT()");<br>
+} // end ConsequenT destructor<br><br>
+
+ConsequenT::ConsequenT( FuzzyseT* pFzs )      <br>
+{<br>
+ConFPRINT("ConsequenT::ConsequenT( FuzzyseT* )");<br><br>
+
+	&nbsp Setup();<br>
+	&nbsp FzsThe_Set = pFzs;<br>
+} // end ConsequenT constructor<br><br>
+
+void ConsequenT::Setup()      <br>
+{<br>
+ConFPRINT("ConsequenT::Setup()");<br><br>
+
+	&nbsp FzsThe_Set 			= 0;<br>
+	&nbsp ldScale_Variable 	= 1;<br>
+
+} // end Setup<br><br>
+
+ConsequenT& ConsequenT::operator << ( FuzzyseT& FzsRHS )      <br>
+{<br>
+ConFPRINT("ConsequenT::operator << ( const FuzzyseT& FzsRHS )");<br>
+
+	&nbsp if( FzsThe_Set != 0 )<br>
+   	&nbsp &nbsp cout << "FzsThe_Set is already set!";<br>
+   &nbsp else<br>
+		&nbsp &nbsp FzsThe_Set = &FzsRHS;<br><br>
+      
+	&nbsp return *this;<br>
+} // end operator << <br><br>
+
+ConsequenT& ConsequenT::operator << ( const long double& ldRHS )      <br>
+{<br>
+ConFPRINT("ConsequenT::operator << ( const long double& ldRHS )");<br><br>
+
+	&nbsp ldScale_Variable = ldRHS;<br>
+	&nbsp return *this;<br>
+} // end operator << <br><br>
+
+ConsequenT& ConsequenT::operator >> ( long double& ldRHS )      <br>
+{<br>
+ConFPRINT("ConsequenT::operator >> ( long double& ldRHS )");<br><br>
+
+	&nbsp ldRHS = FzsThe_Set->InverseIt( ldScale_Variable );<br>
+	&nbsp return *this;<br>
+} // end operator >><br><br>
+
+long double ConsequenT::EvaluateIt( const long double ldArg )<br>
+{<br>
+ConFPRINT("ConsequenT::EvaluateIt( long double ldArgument )");<br>
+long double ldE = 0;<br><br>
+
+	&nbsp (*FzsThe_Set << ldArg) >> ldE;<br>
+        &nbsp ldE *= ldScale_Variable;<br><br>
+
+	&nbsp return ldE;<br>
+} // end EvaluateIt<br><br>
+
+<br><br><br>
+
+
+       </div>
+<!--
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+-->
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWFuzzy9.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWFuzzy9.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

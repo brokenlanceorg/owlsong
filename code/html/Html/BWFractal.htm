@@ -1,0 +1,114 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fractals
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Fractals.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         When constructing a new <a href="BWConst.htm" target="Main"><span class=linkTextWhite>algorithm</span></a> to solve a particular problem, 
+         one must always consider the error analysis. That is, how fast does the purported algorithm converge to the solution set? Does the algorithm 
+         even converge to the solution set? If not, what classes of data sets engender difficulties? Questions such as these should be answered by an 
+         in-depth mathematical analysis of the algorithm. However, sometimes this analysis is difficult, not readily available, or impossible. 
+         For the previous two cases, it would be beneficial if the algorithm could
+         be applied against a benchmark set (a data set chosen specifically for the problem at hand), and the output be arranged in such a way that
+         a simple visual inspection could be performed to ascertain the effeciveness of the algorithm. In many instances, this representation is just what fractals
+         perform. As an example, consider <a href="BWNewton.htm" target="Main"><span class=linkTextWhite>Newton's method</span></a> for finding 
+         solution points of an equation. [ The stability and rate of convergence for Newton's method are well known, but the following method can be
+         applied to other solution-finding algorithms equally well. ] Pick a point in the complex plane and multiply by its conjugate. Use this new
+         real point as the initial point in <a href="BWNewton.htm" target="Main"><span class=linkTextWhite>Newton's method.</span></a> Newton's method
+         will then create a sequence of points (usually a <a href="BWCauchySeq.htm" target="Main"><span class=linkTextWhite>Cauchy sequence</span></a>) 
+         that will converge to the nearest solution point--provided that the initial approximation was chosen close enough to the real solution point.	
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         When the algorithm finds the solution point, determine the cardinality of the sequence that the algorithm produced, and color-code the initial
+         point to this number. Since the initial point was in the complex plane, this point can be mapped easily to a pixel on the computer screen
+         to generate a visual representation of the effectiveness of the algorithm. The following images were computed in this manner. <br><br>
+         <center>
+         <a href="BWCRed2000.htm" target="Main"><img src="CRed2000_S.jpg" border=no></a>
+         <a href="BWCRed1000.htm" target="Main"><img src="CRed1000_S.jpg" border=no></a>
+         </center>
+         <center>
+         <a href="BWCRed_033.htm" target="Main"><img src="CRed_033_S.jpg" border=no></a>
+         <a href="BWCRed_034.htm" target="Main"><img src="CRed_034_S.jpg" border=no></a>
+         </center>
+         <center>
+         <a href="BWCRed_0625.htm" target="Main"><img src="CRed_0625_S.jpg" border=no></a>
+         <a href="BWCRed_009.htm" target="Main"><img src="CRed_009_S.jpg" border=no></a>
+         </center>
+         <br>
+         <a href="BWFuzzyFractal.htm" target="Main"><span class=linkTextWhite>more Fractals...</span></a>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWMathematics.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWCRed2000.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

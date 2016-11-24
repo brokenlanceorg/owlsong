@@ -1,0 +1,663 @@
+package math;
+
+import common.FileReader;
+import java.util.*;
+
+/**
+ *  The idea behind this class is the notion of correlation. So, for example if
+ * two data series are correlated in some way, then the correlation coefficient will
+ * be high or low. The data streams will be composed in various functions to produce
+ * or correlate with a result dataset. The problem is how to represent an aribitrary
+ * functional of all input datasets to represent the output dataset.
+ *
+ * Some of the data are:
+ * Math.E
+ * Math.PI
+ * Miscellaneous data streams
+ * 
+ * Math unary methods: 
+ * sqrt( double )
+ * cbrt( double)
+ * cos( double )
+ * cosh( double )
+ * sin( double )
+ * sinh( double )
+ * tan( double )
+ * tanh( double )
+ * exp( double )
+ * log( double )
+ * log10( double )
+ * 
+ * Math binary methods: 
+ * hypot( double , double )
+ * pow( double , double )
+ * *
+ * /
+ * +
+ * 
+ * The idea is to have an array of function objects which have an obvious index value.
+ * Then the genome will specify which index is used to compute the next value.
+ *
+ */
+public class FunctionalCorrelation
+{
+
+   private static FunctionalCorrelation        _root;
+   private FunctionalCorrelation               _left;
+   private FunctionalCorrelation               _right;
+   private double                              _dataValue = Double.NaN;
+   private static int                          _numberOfStreams;
+   private static ArrayList<ArrayList<Double>> _dataStreams;
+
+   /**
+    *
+    */
+   public FunctionalCorrelation()
+   {
+   }
+
+   /**
+    *
+    */
+   public FunctionalCorrelation( ArrayList<Double> list, int node )
+   {
+      if( node < list.size() )
+      {
+         _dataValue = list.get( node - 1 );
+      }
+
+      if( (2 * node) < list.size() )
+      {
+         _left = new FunctionalCorrelation( list, (2 * node) );
+      }
+
+      if( ((2 * node) + 1) < list.size() )
+      {
+         _right = new FunctionalCorrelation( list, ((2 * node) + 1) );
+      }
+   }
+
+   /**
+    *
+    */
+   public static FunctionalCorrelation buildBinaryTree( ArrayList<Double> list )
+   {
+      return (_root = new FunctionalCorrelation( list, 1 ));
+   }
+
+   /**
+    *
+    */
+   public double getDataValue()
+   {
+      return _dataValue;
+   }
+
+   /**
+    *
+    */
+   public void setDataStreams( ArrayList<ArrayList<Double>> streams )
+   {
+      _dataStreams = streams;
+      _numberOfStreams = streams.size();
+//       System.out.println( "Set data streams, size is: " + _numberOfStreams );
+   }
+
+   /**
+    * The idea is that the data value will range from .00 to .99.
+    * There are three possibilities: unused, data lines or operators, while
+    * operators can be unary or binary.
+    * There are 16 operators and at least 2 data streams
+    *
+    *
+    * @param int -- The index position to pull from data streams.
+    */
+   public double evaluate( int index )
+   {
+      double result = Double.NaN;
+      double left = (_left != null) ? _left.evaluate( index ) : Double.NaN;
+      double right = (_right != null) ? _right.evaluate( index ) : Double.NaN;
+
+      // If we're a leaf node and we're still an operator, let's become a data stream:
+      if( _left == null && _right == null && _dataValue < 0.33 )
+      {
+         _dataValue += 0.33;
+//          System.out.println( "resetting leaf node: " + _dataValue );
+      }
+
+//       System.out.println( "Entering evaluate with: " + _dataValue + " left is: " + left + " right is: " + right );
+
+      // Operator
+      if( _dataValue >= 0 && _dataValue < 0.33 )
+      {
+         if( _dataValue >= 0 && _dataValue < 0.02 && left != Double.NaN && right != Double.NaN )
+         {
+//             System.out.println( "in if #1" );
+            result = left * right;
+         }
+         else if( _dataValue >= 0.02 && _dataValue < 0.04 && left != Double.NaN && right != Double.NaN )
+         {
+//             System.out.println( "in if #2" );
+            result = Math.hypot( left, right );
+         }
+         else if( _dataValue >= 0.04 && _dataValue < 0.06 && left != Double.NaN && right != Double.NaN )
+         {                          
+//             System.out.println( "in if #3" );
+            result = Math.pow( left, right );
+         }                          
+         else if( _dataValue >= 0.06 && _dataValue < 0.08 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #4" );
+            result = Math.sqrt( Math.abs( left ) );
+         }                          
+         else if( _dataValue >= 0.08 && _dataValue < 0.10 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #5" );
+            result = Math.cbrt( Math.abs( left ) );
+         }                          
+         else if( _dataValue >= 0.10 && _dataValue < 0.12 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #6" );
+            result = Math.cos( left );
+         }                          
+         else if( _dataValue >= 0.12 && _dataValue < 0.14 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #7" );
+            result = Math.cosh( left );
+         }                          
+         else if( _dataValue >= 0.14 && _dataValue < 0.16 && left != Double.NaN && right != Double.NaN )
+         {                          
+//             System.out.println( "in if #8" );
+            if( right != 0 )
+            {
+               result = left / right;
+            }
+         }                          
+         else if( _dataValue >= 0.16 && _dataValue < 0.18 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #9" );
+            result = Math.sin( left );
+         }                          
+         else if( _dataValue >= 0.18 && _dataValue < 0.20 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #10" );
+            result = Math.sinh( left );
+         }                          
+         else if( _dataValue >= 0.20 && _dataValue < 0.22 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #11" );
+            result = Math.tan( left );
+         }                          
+         else if( _dataValue >= 0.22 && _dataValue < 0.24 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #12" );
+            result = Math.tanh( left );
+         }                          
+         else if( _dataValue >= 0.24 && _dataValue < 0.26 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #13" );
+            result = Math.exp( left );
+         }                          
+         else if( _dataValue >= 0.26 && _dataValue < 0.28 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #14" );
+            if( left == 0 )
+            {
+               left += 1;
+            }
+            result = Math.log( left );
+         }                          
+         else if( _dataValue >= 0.28 && _dataValue < 0.30 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #15" );
+            if( left == 0 )
+            {
+               left += 1;
+            }
+            result = Math.log10( left );
+         }                          
+         else if( _dataValue >= 0.30 && _dataValue <= 0.33 && left != Double.NaN && right != Double.NaN )
+         {                          
+//             System.out.println( "in if #16" );
+            result = left + right;
+         }                          
+      }
+      // Data Line
+      else if( _dataValue >= 0.33 && _dataValue < 0.66 )
+      {
+         double leftEndpoint = 0.33;
+         int numberOfSteps = _numberOfStreams + 2;
+         double stepSize = 0.33 / (double)numberOfSteps;
+         double rightEndpoint = leftEndpoint + stepSize;
+
+//          System.out.println( "in if #17 numberOfSteps is: " + numberOfSteps );
+         for( int i=0; i<numberOfSteps; i++ )
+         {
+//             System.out.println( "leftEndpoint is: " + leftEndpoint + " rightEndpoint is: " + rightEndpoint );
+            if( _dataValue >= leftEndpoint && _dataValue < rightEndpoint )
+            {
+//                System.out.println( "in if #18 i is: " + i );
+               if( i == (numberOfSteps - 1) )
+               {
+//                   System.out.println( "in if #19" );
+//                   System.out.println( "i is: " + i );
+                  result = Math.E;
+               }
+               else if( i == (numberOfSteps - 2) )
+               {
+//                   System.out.println( "in if #20" );
+//                   System.out.println( "i is: " + i );
+                  result = Math.PI;
+               }
+               else
+               {
+//                   System.out.println( "in if #21" );
+//                   System.out.println( "i is: " + i );
+                  result = (_dataStreams.get( i )).get( index );
+               }
+               break;
+            }
+            rightEndpoint += stepSize;
+            leftEndpoint += stepSize;
+         }
+      }
+      // Unused
+      else if( _dataValue >= 0.66 && _dataValue <= 1 )
+      {
+//          System.out.println( "in if #19" );
+         result = Double.NaN;
+      }
+//       System.out.println( "returning result: " + result );
+
+      return result;
+   }
+
+   /**
+    * The idea is that the data value will range from .00 to .99.
+    * There are three possibilities: unused, data lines or operators, while
+    * operators can be unary or binary.
+    * There are 16 operators and at least 2 data streams
+    *
+    *
+    * @param int -- The index position to pull from data streams.
+    */
+   public double evaluate( double argument )
+   {
+      double result = Double.NaN;
+      double left = (_left != null) ? _left.evaluate( argument ) : Double.NaN;
+      double right = (_right != null) ? _right.evaluate( argument ) : Double.NaN;
+
+      // If we're a leaf node and we're still an operator, let's become a data stream:
+      if( _left == null && _right == null && _dataValue < 0.33 )
+      {
+         _dataValue += 0.33;
+//          System.out.println( "resetting leaf node: " + _dataValue );
+      }
+
+//       System.out.println( "Entering evaluate with: " + _dataValue + " left is: " + left + " right is: " + right );
+
+      // Operator
+      if( _dataValue >= 0 && _dataValue < 0.33 )
+      {
+         if( _dataValue >= 0 && _dataValue < 0.02 && left != Double.NaN && right != Double.NaN )
+         {
+//             System.out.println( "in if #1" );
+            result = left * right;
+         }
+         else if( _dataValue >= 0.02 && _dataValue < 0.04 && left != Double.NaN && right != Double.NaN )
+         {
+//             System.out.println( "in if #2" );
+            result = Math.hypot( left, right );
+         }
+         else if( _dataValue >= 0.04 && _dataValue < 0.06 && left != Double.NaN && right != Double.NaN )
+         {                          
+//             System.out.println( "in if #3" );
+            result = Math.pow( left, right );
+         }                          
+         else if( _dataValue >= 0.06 && _dataValue < 0.08 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #4" );
+            result = Math.sqrt( Math.abs( left ) );
+         }                          
+         else if( _dataValue >= 0.08 && _dataValue < 0.10 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #5" );
+            result = Math.cbrt( Math.abs( left ) );
+         }                          
+         else if( _dataValue >= 0.10 && _dataValue < 0.12 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #6" );
+            result = Math.cos( left );
+         }                          
+         else if( _dataValue >= 0.12 && _dataValue < 0.14 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #7" );
+            result = Math.cosh( left );
+         }                          
+         else if( _dataValue >= 0.14 && _dataValue < 0.16 && left != Double.NaN && right != Double.NaN )
+         {                          
+//             System.out.println( "in if #8" );
+            if( right != 0 )
+            {
+               result = left / right;
+            }
+         }                          
+         else if( _dataValue >= 0.16 && _dataValue < 0.18 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #9" );
+            result = Math.sin( left );
+         }                          
+         else if( _dataValue >= 0.18 && _dataValue < 0.20 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #10" );
+            result = Math.sinh( left );
+         }                          
+         else if( _dataValue >= 0.20 && _dataValue < 0.22 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #11" );
+            result = Math.tan( left );
+         }                          
+         else if( _dataValue >= 0.22 && _dataValue < 0.24 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #12" );
+            result = Math.tanh( left );
+         }                          
+         else if( _dataValue >= 0.24 && _dataValue < 0.26 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #13" );
+            result = Math.exp( left );
+         }                          
+         else if( _dataValue >= 0.26 && _dataValue < 0.28 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #14" );
+            if( left == 0 )
+            {
+               left += 1;
+            }
+            result = Math.log( left );
+         }                          
+         else if( _dataValue >= 0.28 && _dataValue < 0.30 && left != Double.NaN )
+         {                          
+//             System.out.println( "in if #15" );
+            if( left == 0 )
+            {
+               left += 1;
+            }
+            result = Math.log10( left );
+         }                          
+         else if( _dataValue >= 0.30 && _dataValue <= 0.33 && left != Double.NaN && right != Double.NaN )
+         {                          
+//             System.out.println( "in if #16" );
+            result = left + right;
+         }                          
+      }
+      // Data Line
+      else if( _dataValue >= 0.33 && _dataValue < 0.66 )
+      {
+         double leftEndpoint = 0.33;
+         int numberOfSteps = _numberOfStreams + 2;
+         double stepSize = 0.33 / (double)numberOfSteps;
+         double rightEndpoint = leftEndpoint + stepSize;
+
+//          System.out.println( "in if #17 numberOfSteps is: " + numberOfSteps );
+         for( int i=0; i<numberOfSteps; i++ )
+         {
+//             System.out.println( "leftEndpoint is: " + leftEndpoint + " rightEndpoint is: " + rightEndpoint );
+            if( _dataValue >= leftEndpoint && _dataValue < rightEndpoint )
+            {
+//                System.out.println( "in if #18 i is: " + i );
+               if( i == (numberOfSteps - 1) )
+               {
+//                   System.out.println( "in if #19" );
+//                   System.out.println( "i is: " + i );
+                  result = Math.E;
+               }
+               else if( i == (numberOfSteps - 2) )
+               {
+//                   System.out.println( "in if #20" );
+//                   System.out.println( "i is: " + i );
+                  result = Math.PI;
+               }
+               else
+               {
+//                   System.out.println( "in if #21" );
+//                   System.out.println( "i is: " + i );
+                  result = argument;
+               }
+               break;
+            }
+            rightEndpoint += stepSize;
+            leftEndpoint += stepSize;
+         }
+      }
+      // Unused
+      else if( _dataValue >= 0.66 && _dataValue <= 1 )
+      {
+//          System.out.println( "in if #19" );
+         result = Double.NaN;
+      }
+//       System.out.println( "returning result: " + result );
+
+      return result;
+   }
+
+   /**
+    *
+    */
+   public String toString( int depth )
+   {
+      String result = "\n";
+      String padding = "";
+      for( int i=0; i<depth; i++ )
+      {
+         padding += " ";
+      }
+
+      // If we're a leaf node and we're still an operator, let's become a data stream:
+      if( _left == null && _right == null && _dataValue < 0.33 )
+      {
+         _dataValue += 0.33;
+      }
+
+      result += padding + "DataValue is: " + getDataValue();
+
+      if( _dataValue >= 0 && _dataValue < 0.33 )
+      {
+         if( _dataValue >= 0 && _dataValue < 0.02 )
+         {
+            result += " operator: * ";
+         }
+         else if( _dataValue >= 0.02 && _dataValue < 0.04 )
+         {
+            result += " operator: hypot( double, double ) ";
+         }
+         else if( _dataValue >= 0.04 && _dataValue < 0.06 )
+         {                          
+            result += " operator: pow( double, double ) ";
+         }                          
+         else if( _dataValue >= 0.06 && _dataValue < 0.08 )
+         {                          
+            result += " operator: sqrt( double ) ";
+         }                          
+         else if( _dataValue >= 0.08 && _dataValue < 0.10 )
+         {                          
+            result += " operator: cbrt( double ) ";
+         }                          
+         else if( _dataValue >= 0.10 && _dataValue < 0.12 )
+         {                          
+            result += " operator: cos( double ) ";
+         }                          
+         else if( _dataValue >= 0.12 && _dataValue < 0.14 )
+         {                          
+            result += " operator: cosh( double ) ";
+         }                          
+         else if( _dataValue >= 0.14 && _dataValue < 0.16 )
+         {                          
+            result += " operator: / ";
+         }                          
+         else if( _dataValue >= 0.16 && _dataValue < 0.18 )
+         {                          
+            result += " operator: sin( double ) ";
+         }                          
+         else if( _dataValue >= 0.18 && _dataValue < 0.20 )
+         {                          
+            result += " operator: sinh( double ) ";
+         }                          
+         else if( _dataValue >= 0.20 && _dataValue < 0.22 )
+         {                          
+            result += " operator: tan( double ) ";
+         }                          
+         else if( _dataValue >= 0.22 && _dataValue < 0.24 )
+         {                          
+            result += " operator: tanh( double ) ";
+         }                          
+         else if( _dataValue >= 0.24 && _dataValue < 0.26 )
+         {                          
+            result += " operator: exp( double ) ";
+         }                          
+         else if( _dataValue >= 0.26 && _dataValue < 0.28 )
+         {                          
+            result += " operator: log( double ) ";
+         }                          
+         else if( _dataValue >= 0.28 && _dataValue < 0.30 )
+         {                          
+            result += " operator: log10( double ) ";
+         }                          
+         else if( _dataValue >= 0.30 && _dataValue <= 0.33 )
+         {                          
+            result += " operator: + ";
+         }                          
+      }
+      // Data Line
+      else if( _dataValue >= 0.33 && _dataValue < 0.66 )
+      {
+         double leftEndpoint = 0.33;
+         int numberOfSteps = _numberOfStreams + 2;
+         double stepSize = 0.33 / (double)numberOfSteps;
+         double rightEndpoint = leftEndpoint + stepSize;
+
+         for( int i=0; i<numberOfSteps; i++ )
+         {
+            if( _dataValue >= leftEndpoint && _dataValue < rightEndpoint )
+            {
+               if( i == (numberOfSteps - 1) )
+               {
+                  result += " data: e ";
+               }
+               else if( i == (numberOfSteps - 2) )
+               {
+                  result += " data: pi ";
+               }
+               else
+               {
+                  result += " data: " + i;
+               }
+               break;
+            }
+            rightEndpoint += stepSize;
+            leftEndpoint += stepSize;
+         }
+      }
+      else if( _dataValue >= 0.66 && _dataValue <= 1 )
+      {
+         result += " unused ";
+      }
+
+      result += "\n";
+
+      if( _left != null )
+      {
+         result += padding + "left node ==> " + _left.toString( depth + 1 );
+      }
+      if( _right != null )
+      {
+         result += padding + "right node ==> " + _right.toString( depth + 1 );
+      }
+
+      return result;
+   }
+
+   /**
+    *
+    */
+   public static void main( String[] args )
+   {
+      // First, we read in the genome
+      common.FileReader reader = new FileReader( "genome.dat", " " );
+      String[] words = reader.getArrayOfWords();
+      ArrayList<Double> temp = new ArrayList<Double>();
+
+      for( int i=0; i<words.length; i++ )
+      {
+         try
+         {
+            temp.add( Double.parseDouble( words[i] ) );
+         }
+         catch( NumberFormatException e )
+         {
+            System.err.println( "Caught exception reading genome: " + e );
+         }
+      }
+
+      FunctionalCorrelation root = FunctionalCorrelation.buildBinaryTree( temp ); 
+      System.out.println( "The root tree is: " + root );
+
+      // Next, we read in the data variables
+      reader = new FileReader( "variables.dat", " " );
+      words = reader.getArrayOfWords();
+      ArrayList< ArrayList < Double > > streams = new ArrayList< ArrayList< Double > >();
+      int numberOfVariables = Integer.parseInt( words[ 0 ] );
+      int numberOfDataPoints = (numberOfVariables == 1) ? (words.length - 1) : (words.length) / numberOfVariables;
+      int count = 1;
+
+      System.out.println( "The number of variables is: " + numberOfVariables );
+      System.out.println( "The number of data points is: " + numberOfDataPoints );
+
+      for( int i=0; i<numberOfVariables; i++ )
+      {
+         temp = new ArrayList<Double>();
+         for( int j=0; j<numberOfDataPoints; j++ )
+         {
+            try
+            {
+               temp.add( Double.parseDouble( words[ count++ ] ) );
+            }
+            catch( NumberFormatException e )
+            {
+               System.err.println( "Caught exception parsing data: " + e );
+            }
+         }
+         streams.add( MathUtilities.normalize( temp, Math.PI ) );
+      }
+      
+      root.setDataStreams( streams );
+
+      System.out.println( "evaluate( i ) is: " );
+      for( int i=0; i<numberOfDataPoints; i++ )
+      {
+         System.out.println( root.evaluate( i ) );
+      }
+
+      // Test of the Inteval class
+//       ArrayList< Double > data = new ArrayList< Double >();
+//       for( int i=0; i<10; i++ )
+//       {
+//          data.add( Math.random() );
+//          System.out.println( "data item: " + data.get( i ) );
+//       }
+//       StatUtilities util = new StatUtilities();
+//       util.calculateStats( data );
+//       System.out.println( "stats are: " + util );
+// 
+//       Sequence seq = new Sequence( data );
+//       ArrayList< ArrayList < Double > > sequences = seq.getTransposedSequence( 3 );
+//       for( ArrayList< Double > list : sequences )
+//       {
+//          System.out.println( "\na list:" );
+//          for( Double item : list )
+//          {
+//             System.out.print( item + " " );
+//          }
+//       }
+   }
+}

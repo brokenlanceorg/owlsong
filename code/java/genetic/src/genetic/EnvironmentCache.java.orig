@@ -1,0 +1,124 @@
+package genetic;
+
+import java.util.*;
+import java.util.concurrent.*;
+
+/**
+ * This class will keep track of environmental objects that
+ * the population can change and interact with.
+ * This class will be implemented as a Singleton and will 
+ * be thread-safe.
+ */
+public class EnvironmentCache
+{
+
+   // The collection of data series values
+   private static ArrayList<Double> _dataSeriesList = new ArrayList<Double>();
+
+   // The collection of data series values
+   private static ArrayBlockingQueue<Double> _dataSeriesQueue = new ArrayBlockingQueue<Double>( 20 );
+
+   // The singleton instance
+   private static final EnvironmentCache _myInstance = new EnvironmentCache();
+
+   private static double _lastTrade;
+
+   /**
+    * Default private constructor.
+    */
+   private EnvironmentCache()
+   {
+      // Data from ADBE Sep, 12, 03
+      _dataSeriesList.add( new Double ( 0.993169744 ) );
+      _dataSeriesList.add( new Double ( 1.014263882 ) );
+      _dataSeriesList.add( new Double ( 1.016323456 ) );
+      _dataSeriesList.add( new Double ( 1.025945145 ) );
+      _dataSeriesList.add( new Double ( 0.996387283 ) );
+      _dataSeriesList.add( new Double ( 0.968817984 ) );
+      _dataSeriesList.add( new Double ( 1.034431138 ) );
+      _dataSeriesList.add( new Double ( 0.977086348 ) );
+      _dataSeriesList.add( new Double ( 1.01974821 ) );
+      _dataSeriesList.add( new Double ( 0.984023239 ) );
+      _dataSeriesList.add( new Double ( 0.988929889 ) );
+      _dataSeriesList.add( new Double ( 0.979850746 ) );
+      _dataSeriesList.add( new Double ( 1.010408733 ) );
+      _dataSeriesList.add( new Double ( 0.996733668 ) );
+      _dataSeriesList.add( new Double ( 1.030249559 ) );
+      _dataSeriesList.add( new Double ( 1.00415953 ) );
+      _dataSeriesList.add( new Double ( 1.006091618 ) );
+      _dataSeriesList.add( new Double ( 1.019617341 ) );
+      _dataSeriesList.add( new Double ( 0.995961995 ) );
+      _dataSeriesList.add( new Double ( 0.999523015 ) );
+      _dataSeriesList.add( new Double ( 1.020997375 ) );
+      _lastTrade = 39.53D;
+   }
+
+   /**
+    * Returns the static instance.
+    */
+   public static EnvironmentCache getInstance()
+   {
+      return _myInstance;
+   }
+
+   /**
+    * Returns the synchd version of the data instance.
+    */
+   public static List<Double> getSynchronizedDataList()
+   {
+      return Collections.synchronizedList( _dataSeriesList );
+   }
+
+   /**
+    * Returns the read only version of the data.
+    */
+   public static List<Double> getReadOnlyDataList()
+   {
+      return Collections.unmodifiableList( _dataSeriesList );
+   }
+
+   /**
+    * Returns the synchd version of the data instance.
+    */
+   public static Queue<Double> getSynchronizedDataQueue()
+   {
+      return _dataSeriesQueue;
+   }
+
+   /**
+    * 
+    */
+   public static synchronized double getLastTrade()
+   {
+      return _lastTrade;
+   }
+
+   /**
+    * 
+    */
+   public static synchronized void bought()
+   {
+      double increase = 1.002;
+      _dataSeriesList.add( increase );
+      _lastTrade *= increase;
+   }
+
+   /**
+    * 
+    */
+   public static synchronized void sold()
+   {
+      double decrease = .998;
+      _dataSeriesList.add( decrease );
+      _lastTrade *= decrease;
+   }
+
+   /**
+    * 
+    */
+   public static synchronized void setLastTrade( double trade )
+   {
+      _lastTrade = trade;
+   }
+
+}

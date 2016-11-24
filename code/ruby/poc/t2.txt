@@ -1,0 +1,943 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-US">
+<head>
+  <title>Budget deficit on pace to hit $1.3 trillion - Yahoo! Finance</title>
+  <meta name="keywords" content="Budget deficit on pace to hit $1.3 trillion">
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><meta name="description"  content="WASHINGTON (AP) -- The federal government is on track to record the second-highest deficit of all time with one month left in the budget year.The" >
+
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/d/lib/yui/2.8.0/build/fonts/fonts-min.css" />
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/d/lib/yui/2.8.0/build/reset/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/d/lib/media/m/social_buttons/social-buttons-min-3585.css" />
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/d/lib/media/phugc/mwphcom_r141.css" />
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/bm/combo?fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/reset-fonts-grids/2.0.0/mini/reset-fonts-grids.css&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/tabview/assets/skins/sam/2.0.0/mini/tabview.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yui_helper.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_base.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/layout.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/news-article-print.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/finance-base.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/finance-theme.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/article-content-col.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/article-related-col.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/debug.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/headline-lineback.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/news-subscribe_base.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/news-subscribe_section-related.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_nav_topnav_base.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_nav_topnav_theme.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_nav_quotebar.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/morefrompartner.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/related-companies.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/ysm.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_nav_footer_base.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_nav_footer_theme.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_sharetoolbar.css&fi/common/p/d/static/css/0.1.25/2.0.0/mini/yfi_symbol_suggest.css" />
+
+<script type="text/javascript">document.documentElement.className += ' js';</script>   
+</head> 
+<body class="a44">
+
+    <div id="y-page" class="y-fin-wrapper">
+				<div id="y-head">
+						<div id="y-umh">
+						<!-- SpaceID=0 robot -->
+
+						</div><!-- /#y-umh -->
+						<div id="y-nav">
+						
+						
+<div id="yfi_streaming_quotes"><div id="yfsbar"><span id="yfs_onoff"></span><span id="yfs_wthis" style="display:none;"><a href="http://help.yahoo.com/l/us/yahoo/finance/quotes/quote-63.html">What are streaming quotes?</a></span></div><input type="hidden" id=".yficrumb" name=".yficrumb" value=""></div><span id="yfs_common_params" class="yfs_common_params">{ "market" : {"NAME" : "U.S.", "ID" : "us_market", "TZ" : "EDT", "TZOFFSET" : "-14400", "open" : "", "close" : "", "flags" : {}} , "STREAMER_SERVER" : "http://streamerapi.finance.yahoo.com","arrowAsChangeSign" : false,"throttleInterval": "1000"}</span>
+
+
+ 
+      <div id="y-nav-pri">
+    <!-- skip nav -->
+    <a href="#y-nav-sec" id="skip_nav">Skip navigation</a>
+    <!-- nav -->
+    <ul id="y-main-nav">
+        <li><a href="/"><span>Home</span></a></li><li>
+<a href="/marketupdate?u"><span>Investing</span></a><ul>
+<li><a href="/marketupdate/overview?u">Market Overview</a></li>
+<li><a href="/actives?e=us">Market Stats</a></li>
+<li><a href="http://biz.yahoo.com/r">Stocks</a></li>
+<li><a href="/funds">Mutual Funds</a></li>
+<li><a href="/etf">ETFs</a></li>
+<li><a href="/bonds">Bonds</a></li>
+<li><a href="http://biz.yahoo.com/opt">Options</a></li>
+<li><a href="http://biz.yahoo.com/ic/">Industries</a></li>
+<li><a href="/currency-investing">Currencies</a></li>
+<li><a href="/education">Education</a></li>
+</ul>
+</li><li id="y-current">
+<a href="/news"><span>News &amp; Opinion</span></a><noscript><link rel="stylesheet" type="text/css" href="http://l.yimg.com/bm/lib/fi/common/p/d/static/css/0.1.25/2.0.0/yfi_nav_topnav_noscript.css"></noscript>
+<ul>
+<li><a href="/news/category-stocks">Markets</a></li>
+<li><a href="/news/category-ideas-and-strategies">Investing Ideas</a></li>
+<li><a href="/expert/index">Expert Advice</a></li>
+<li><a href="http://biz.yahoo.com/special.html">Special Editions</a></li>
+<li><a href="/news/category-earnings">Company Finances</a></li>
+<li><a href="/news/index/">Providers</a></li>
+<li><a href="/video">Video<strong>new!</strong></a></li>
+</ul>
+</li><li>
+<a href="/personal-finance"><span>Personal Finance</span></a><ul>
+<li><a href="/banking-budgeting">Banking & Budgeting</a></li>
+<li><a href="/career-work">Career &amp; Work</a></li>
+<li><a href="/college-education">College &amp; Education</a></li>
+<li><a href="/family-home">Family &amp; Home</a></li>
+<li><a href="/insurance">Insurance</a></li>
+<li><a href="/loans">Loans</a></li>
+<li><a href="/real-estate">Real Estate</a></li>
+<li><a href="/retirement">Retirement</a></li>
+<li><a href="/taxes">Taxes</a></li>
+<li><a href="/lifelonginvesting/archive/">Lifelong Investing</a></li>
+</ul>
+</li>
+
+        <li>
+<a href="/portfolios.html" id="yfmya"><span>My Portfolios</span></a><ul>
+<li><a href="http://login.yahoo.com?.src=quote&amp;.intl=us&amp;.done=http://finance.yahoo.com/portfolios.html?yfiLogin=1">Sign in to access My Portfolios</a></li>
+<li><a href="http://billing.finance.yahoo.com/ym/f/FinanceReal1?.src=quote&amp;.refer=nb" class="yfmkttrack">Free trial of Real-Time Quotes</a></li>
+</ul>
+</li>
+
+        <li><a href="http://finance.yahoo.com/tech-ticker"><span>Tech Ticker</span></a></li>
+
+    </ul>
+</div>
+
+      <script>
+        
+        /** 
+            We use this if the browser does not support the html5 document.activeElement method
+            @link http://www.w3.org/TR/html5/editing.html#document-level-focus-apis
+            @author James Broad
+            @bug 3520846
+            
+            Usage:
+            if(myElement == document.activeElement){
+                doSomething();
+            }
+        */
+        (function(el) {
+            function focusHandler(e){
+                if (e && e.target){
+                    e.target == document ? null : e.target;
+                    document.activeElement = e.target;
+                }
+            }
+            // Handle !IE browsers that do not support the .activeElement property
+            if(!document.activeElement){
+                if (document.addEventListener){ 
+                    document.addEventListener("focus", focusHandler, true);
+                }
+            }
+        })(document);
+        
+        </script><div id="y-nav-sec" class="clear"><div id="searchQuotes" class="ticker-search mod">
+<div class="hd"></div>
+<div class="bd"><form id="quote" name="quote" action="/q">
+<h2 class="yfi_signpost">Search for share prices</h2>
+<label for="txtQuotes">Search for share prices</label><input id="txtQuotes" name="s" value="" type="text" autocomplete="off"><div id="yfi_quotes_submit"><span><span><span><input type="submit" value="Get Quotes"></span></span></span></div>
+</form></div>
+<div class="ft">
+<a href="http://finance.search.yahoo.com">Finance Search</a><p><span id="yfs_market_time">Mon, Sep 13, 2010, 9:36PM EDT - U.S. Markets closed</span></p>
+</div>
+</div></div>
+
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						</div><!-- ./end of article y-nav -->
+        </div><!--./#y-head -->
+        <div id="y-main" class="clear">
+            <!-- SpaceID=0 robot -->
+<!-- SpaceID=0 robot -->
+<div id="y-content">
+                        
+                        
+                        
+                        
+                <div class="col3"><div class="mod content-wrapper">
+                        
+                        
+                    <div  id="y-article-hd">
+                        <h1 class="test1">Budget deficit on pace to hit $1.3 trillion</h1><h2>Federal budget deficit on pace to hit $1.3 trillion, second highest on record <br/> </h2>
+                        	<a href="http://us.rd.yahoo.com/finance/news/apf/SIG=10kfmofol/*http://www.ap.org/termsandconditions"><img src="http://l.yimg.com/a/i/us/fi/gr/ap_106x27.gif" alt="ap"  class="sponsorimage" /></a>	
+ 
+                        
+                    </div><!-- ./end of article hd -->
+										<div  id="y-article-bd">
+                        
+                        
+                        <!--- Insert the sidebar information -->                               
+<div id="y-article-related" class="mod-group">
+    
+    
+    
+    
+</div>
+
+                        <div class="mod provider-attribution">
+    <span class="byline">Martin Crutsinger, AP Economics Writer</span>, 	<span class="datetime">On Monday September 13, 2010, 2:56 pm EDT</span>
+	</div>
+                        <p>WASHINGTON (AP) -- The federal government is on track to record the second-highest deficit of all time with one month left in the budget year.</p><p>The deficit totaled $1.26 trillion through August, the Treasury Department said Monday. That puts it on pace to total $1.3 trillion when the budget year ends on September 30, slightly below last year's record $1.4 trillion deficit.</p><p>Soaring deficits have become a major issue with voters heading into the midterm elections. Republicans say the deficits illustrate the growth of spending under Democrats and show their poor handling of the economy.</p><p>The Obama administration contends the record deficits were necessary to combat the most serious economic crisis since the Great Depression.</p><p>About one-third of the higher deficits are a result of a drop in government tax revenues. The other two-thirds of the deficit increases reflect higher government spending to stabilize the financial system and boost the economy.</p><p>Deficits of $1 trillion in a single year had never happened until two years ago. The $1.4 trillion deficit in 2009 was more than three times the size of the previous record-holder, a $454.8 billion deficit recorded in 2008.</p><p>Last year's deficit was equal to 9.9 percent of the total economy -- the highest percentage in 65 years. The deficit equaled 21.5 percent of the economy in 1945, at the height of the U.S. involvement in World War II.</p><p>The 2010 deficit is expected to show only a slight improvement, dipping to 9.1 percent of the economy as measured by the gross domestic product. That would be the second-highest level in the past 65 years.</p><p>For August, the deficit totaled $90.5 billion. The government has run deficits in August every year over the past 57 years.</p><p>The Congressional Budget Office is forecasting that the deficit for this budget year will total $1.3 trillion, about $70 billion lower than last year. The CBO forecast is in line with expectations of many private economists although it is above the administration's last official forecast, released in July. At that time, the administration projected this year's deficit would total $1.47 billion, slightly higher than last year.</p><p>For 2011, the administration is forecasting a deficit of $1.42 trillion with the red ink totaling $8.5 trillion over the next decade. However, Obama has appointed a deficit commission to recommend ways to get the deficits under control. That panel will not release its recommendations until after November elections.</p><p>Through August, government revenues totaled $1.92 trillion, 1.6 percent higher than a year ago, reflecting small increases in government tax collections compared to 2009.</p><p>Spending has totaled $3.18 trillion, down 2.5 percent from the same period a year ago. That improvement reflected higher outlays for government programs such as defense, Social Security and Medicare, but lower government spending to stabilize the financial system.</p>
+
+
+ 
+
+                        		<div id="y_provider_promo" class="mod ad">
+	<div class="bd">
+	<i>Search for <a href="http://finance.yahoo.com/rates/query"> mortgage, home equity, savings, auto and credit card rates </a>.</i>	</div>
+	</div>
+	
+	
+		
+
+                        
+                        
+                    </div><!-- ./end of article bd -->
+                    </div><!-- ./ index-content-col -->
+                </div><!-- ./end of col1--> 
+                
+                    <div class="mod-group">
+		<!--Sorry, our service is temporarily unavailable.Please check back later.-->
+
+		<!--Sorry, our service is temporarily unavailable.Please check back later.-->
+
+		
+		
+</div>
+
+                    
+                    
+                    
+                  
+                <div class="mod-group">
+                    
+                    
+                    
+                    
+                </div>  
+								
+                <div id="ygs-comments" class="ysp-mod">
+  <a name="comments"></a>
+  
+  
+  
+  <div id="mwpphu-container" class="mwpphu-container">            <div class="mwpphu-header">
+                <div class="mwpphu-left">
+                    <h3 id="mwpphu-stream-header" class="mwpphu-comments mwpphu-count-152 mwpphu-cmt-disabled-N ">152 Comments</h3>
+                </div>
+                <div class="mwpphu-right">
+                                            <form method="get" action="/comments/mwphucmtnojssort" id="mwp-phugc-sort-form">
+                            <label id="mwp-phugc-sort-form-option-lable" for="mwp-phugc-sort-form-option">Show:</label>
+                            <select name="SortCntrl" id="mwp-phugc-sort-form-option">
+                                <option selected value="/comments/mwphucmtgetcmt/headcontent/main/1718166886//date/desc/1/0">Newest First</option><option  value="/comments/mwphucmtgetcmt/headcontent/main/1718166886//date/asc/1/0">Oldest First</option><option  value="/comments/mwphucmtgetcmt/headcontent/main/1718166886//num_rating_up/desc/1/0">Highest Rated</option><option  value="/comments/mwphucmtgetcmt/headcontent/main/1718166886//reply_count/desc/1/0">Most Replied</option>
+                            </select>
+                            <input type="hidden" name="basepage" value="http://finance.yahoo.com/news/Budget-deficit-on-pace-to-hit-apf-1718166886.html?x=0&sec=topStories&pos=6&asset=&ccode=">
+                            <input type="hidden" name="hdcntid" value="1718166886">
+                            <noscript>
+                                <button type="submit">Sort</button>
+                            </noscript>
+                        </form>
+                </div>
+            </div><div class="mwpphu-navigation">
+                        <div class="mwpphu-left">
+                        <div class="mwpphu-sprite_bg mwpphu-post-comments mwpphu-sprite_img"></div>
+                        &nbsp;<a id="mwpphu-postcommentinternal" href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D">Post a Comment</a>
+                        </div><div class="mwpphu-right imageloader_classname">
+            <ul id="mwpphu-paging" class="mwpphu-ul_links">
+            <li id="mwpphu-label-paging" class="mwpphu-first">Comments 1 - 10 of 152</li><li><a class="mwpphu-disabled" id="-date-desc-p-1-0" href="#">First</a></li><li><a class="mwpphu-disabled" id="-date-desc-p--9-0" href="#"> <span class="mwpphu-sprite_bg prev_arrow_off mwpphu-disabled"></span>Prev</a></li><li><a class="mwpphu-older" id="-date-desc-p-11-s990867" href="http://finance.yahoo.com/news/Budget-deficit-on-pace-to-hit-apf-1718166886.html?x=0&sec=topStories&pos=6&asset=&ccode=&cmtnav=/mwphucmtgetnojspage/headcontent/main/1718166886//date/desc/11/s990867">Next<span class="mwpphu-sprite_bg next_arrow_on"></span></a></li><li class="mwpphu-last"><a class="mwpphu-oldest" id="-date-asc-p-1-0" href="http://finance.yahoo.com/news/Budget-deficit-on-pace-to-hit-apf-1718166886.html?x=0&sec=topStories&pos=6&asset=&ccode=&cmtnav=/mwphucmtgetnojspage/headcontent/main/1718166886//date/asc/1/0">Last</a></li></ul></div></div><ul class="mwpphu-comments">
+            <li id="mwpphu-comment-991280" > <div id="mwpphu-replycount-991280-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_M7G4T2KDNMQPC6HLF2MUBI73BE">
+
+                <img id="com_991280_M7G4T2KDNMQPC6HLF2MUBI73BE" class="imageloader_classname"  width="48" height="48" alt="agemingle.com" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991280" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991280" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991280" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991280" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_M7G4T2KDNMQPC6HLF2MUBI73BE"><strong>agemingle.com</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:33:30-0400">3 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=M7G4T2KDNMQPC6HLF2MUBI73BE&commentid=991280" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">Ever feel that you would best enjoy someone who is not in your<br />
+a*g*é group? Free of the embarrassment and annoyance of general d?*t*ing sité.<br />
+Oldér wo*mén and youngér m*én OR youngér wo*m*én and Oldér mén can bring<br />
+an exciting new dimension to relationships, at the website set as my name.<br />
+<br />
+%^^65erwe</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-991258" > <div id="mwpphu-replycount-991258-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_QYMLCMJDMY6CSEA6OSPUQJVIYU">
+
+                <img id="com_991258_QYMLCMJDMY6CSEA6OSPUQJVIYU" class="imageloader_classname"  width="48" height="48" alt="Dragon Metohell" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991258" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991258" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991258" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991258" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_QYMLCMJDMY6CSEA6OSPUQJVIYU"><strong>Dragon Metohell</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:32:03-0400">5 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=QYMLCMJDMY6CSEA6OSPUQJVIYU&commentid=991258" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">TAX CUTS FOR EVERYONE , deficits dont matter ,krugman said so !</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-991166" > <div id="mwpphu-replycount-991166-1" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_C5AQSKA65I2FIL6SGC6UM4KUYA">
+
+                <img id="com_991166_C5AQSKA65I2FIL6SGC6UM4KUYA" class="imageloader_classname"  width="48" height="48" alt="Badger" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991166" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991166" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991166" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991166" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_C5AQSKA65I2FIL6SGC6UM4KUYA"><strong>Badger</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:27:38-0400">9 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=C5AQSKA65I2FIL6SGC6UM4KUYA&commentid=991166" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">TATY,<br />
+<br />
+Once we vote his socialist behind out of office you&#39;re welcome to have him lead your country.<br />
+<br />
+Economics 101 in your country must not include that fact that there is no such thing as a free lunch!<br />
+<br />
+Here we realize that innovation in the private sector is the &quot;fuel&quot; of our economy not having the government move money around based on a wreckless and half-baked plan.</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-991121" > <div id="mwpphu-replycount-991121-2" class="mwpphu-comment "><div class="mwpphu-avatar">
+
+            <img id="com_991121_GPO4O6CAJD2UMGQU4BC4GPI6QQ" class="imageloader_classname"  width="48" height="48" alt="A Yahoo! User" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nonny2_48.gif);">
+            </div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991121" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991121" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991121" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991121" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite><span>A Yahoo! User</span> <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:24:58-0400">12 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=GPO4O6CAJD2UMGQU4BC4GPI6QQ&commentid=991121" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">how about the government putting a stay for one month on all bills that a consumer receives,car payments,mortgage payments,utilities,EVERYTHING..then we can give the government all of our money that we ALL earn for that one month..that should do the job nicely,making america strong and debt free once again,ans there should be enough left to re-boot the social security fund to its former glory before the baby boomers start to withdraw from it....then bring massive government spending cuts, and to leave funds that are paid for by everyone(soc security) alone..to make sure that it doesnt happen again</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-991117" > <div id="mwpphu-replycount-991117-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_TC7JJJLMKXCWVKSLOATVLFPCS4">
+
+                <img id="com_991117_TC7JJJLMKXCWVKSLOATVLFPCS4" class="imageloader_classname"  width="48" height="48" alt="Interested" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991117" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991117" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991117" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991117" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_TC7JJJLMKXCWVKSLOATVLFPCS4"><strong>Interested</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:24:49-0400">12 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=TC7JJJLMKXCWVKSLOATVLFPCS4&commentid=991117" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">So long as domestic producers adhere to labor laws while foreign producers don&#39;t, and tariffs don&#39;t address this, won&#39;t US corporations naturally take their jobs offshore? And so long as US corporations pay healthy federal taxes and foreign-domiciled corporations pay much less (or are nationalized), and tariffs don&#39;t address this, won&#39;t US corporations naturally be handicapped from job creation?</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-991109" > <div id="mwpphu-replycount-991109-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_IKCTNCJEHILTFWUHSZFJCY7754">
+
+                <img id="com_991109_IKCTNCJEHILTFWUHSZFJCY7754" class="imageloader_classname"  width="48" height="48" alt="Michael" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://a323.yahoofs.com/coreid/4bbf8702i2528zws105ac4/Ul4rnUY8f7OnTDs302olqbM-/2/tn48.jpeg?ciAQ2PNB7dK1zvMI);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991109" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991109" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991109" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991109" class=" mwpphu-rating-negetive mwpphu-voted-neg">3</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_IKCTNCJEHILTFWUHSZFJCY7754"><strong>Michael</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:24:16-0400">13 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=IKCTNCJEHILTFWUHSZFJCY7754&commentid=991109" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">Big deal...   11.6 trillion / 8 years = 1.45 trillion per year under Bush.   And thats being generous, I didn&#39;t even add in the surplus we had to the total.</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-991042" > <div id="mwpphu-replycount-991042-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_M7G4T2KDNMQPC6HLF2MUBI73BE">
+
+                <img id="com_991042_M7G4T2KDNMQPC6HLF2MUBI73BE" class="imageloader_classname"  width="48" height="48" alt="agemingle.com" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-991042" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_991042" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_991042" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-991042" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_M7G4T2KDNMQPC6HLF2MUBI73BE"><strong>agemingle.com</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:21:31-0400">15 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=M7G4T2KDNMQPC6HLF2MUBI73BE&commentid=991042" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">Ever feel that you would best enjoy someone who is not in your<br />
+a*g*é group? Free of the embarrassment and annoyance of general d?*t*ing sité.<br />
+Oldér wo*mén and youngér m*én OR youngér wo*m*én and Oldér mén can bring<br />
+an exciting new dimension to relationships, at the website set as my name.<br />
+esaf235sdf</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-990912" > <div id="mwpphu-replycount-990912-0" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_PM5M76KMDTDIN2SXRHKB27OENY">
+
+                <img id="com_990912_PM5M76KMDTDIN2SXRHKB27OENY" class="imageloader_classname"  width="48" height="48" alt="Mike" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/dg/users/1_Q4P59seAAAFLAJdEC4=.medium.png);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-990912" class="  mwpphu-rating-positive mwpphu-rating-zero">0</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_990912" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_990912" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-990912" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_PM5M76KMDTDIN2SXRHKB27OENY"><strong>Mike</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:12:51-0400">24 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=PM5M76KMDTDIN2SXRHKB27OENY&commentid=990912" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">Things are looking good for the TEA PARTY now, LOL.</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-990894" > <div id="mwpphu-replycount-990894-1" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_W2KCYEE2MB3NBVGOKY53JZ22YY">
+
+                <img id="com_990894_W2KCYEE2MB3NBVGOKY53JZ22YY" class="imageloader_classname"  width="48" height="48" alt="Tank Jubblits" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-990894" class="  mwpphu-rating-positive mwpphu-voted">1</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_990894" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_990894" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-990894" class=" mwpphu-rating-negetive mwpphu-rating-zero">0</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_W2KCYEE2MB3NBVGOKY53JZ22YY"><strong>Tank Jubblits</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:12:05-0400">25 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=W2KCYEE2MB3NBVGOKY53JZ22YY&commentid=990894" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">Get to it <br />
+<br />
+Sales Tax<br />
+Hotel Tax<br />
+School Tax<br />
+Liquor Tax<br />
+Luxury Tax<br />
+Excise Taxes<br />
+Property Tax<br />
+Cigarette Tax<br />
+Medicare Tax<br />
+Inventory Tax<br />
+Car Rental Tax<br />
+Real Estate Tax<br />
+Well Permit Tax<br />
+Fuel Permit Tax<br />
+Inheritance Tax<br />
+Road Usage Tax<br />
+CDL license Tax<br />
+Dog License Tax<br />
+State Income Tax<br />
+Food License Tax<br />
+Vehicle Sales Tax<br />
+ Not one of these taxes existed 100 years ago, &amp; our nation was the most prosperous in the world. We had absolutely no national debt, had the largest middle class in the world, and Mom stayed home to raise the kids. We also were A Common Law Country!<br />
+<br />
+I have set up a place that the poor and middle class in the country can start to get some of this tax money back. It is our turn to have a piece of the action. <br />
+	<br />
+Here is my way to get your loot back.<br />
+<br />
+Just googl THE `CASH``TEACHER   and hit the very first link. Go right to the PENNY STOCK page to see what the rich don&#39;t want you to know.</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li>
+            <li id="mwpphu-comment-990867" > <div id="mwpphu-replycount-990867-1" class="mwpphu-comment   "><div class="mwpphu-avatar"><a href="http://pulse.yahoo.com/_XM65RKC5LFQA6P5QVIM3VC3OTI">
+
+                <img id="com_990867_XM65RKC5LFQA6P5QVIM3VC3OTI" class="imageloader_classname"  width="48" height="48" alt="Anonymous" src="http://l.yimg.com/a/i/us/nws/2008/news/us/assets/common/images/transparent.png" style="background:url(http://l.yimg.com/a/i/identity/nopic_48.gif);"></a></div><!-- end .avatar -->
+            <div class="mwpphu-info">
+       
+                <div class="mwpphu-rate">
+            <em id="cmt-rating-pos-990867" class="  mwpphu-rating-positive mwpphu-voted">2</em> <span>users liked this comment</span>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_up_lout mwpphu-sprite_img" id="cmt-rate-tu_990867" title="Please sign in to rate!">Please sign in to rate this comment up.</a>
+                    <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D" class="mwpphu-sprite_bg blue_thumb_down_lout mwpphu-sprite_img" id="cmt-rate-td_990867" title="Please sign in to rate!">Please sign in to rate this comment down.</a>
+                    <em id="cmt-rating-neg-990867" class=" mwpphu-rating-negetive mwpphu-voted-neg">2</em> <span>users disliked this comment</span></div><cite> <a target="_blank" href="http://pulse.yahoo.com/_XM65RKC5LFQA6P5QVIM3VC3OTI"><strong>Anonymous</strong></a>  <span class="mwpphu-timestamp"><abbr title="2010-09-14T01:10:08-0400">27 minutes ago</abbr></span> <a target="mwphcomReportAbuse" href="http://help.yahoo.com/l/us/yahoo/finance/abuse.html?eaci=XM65RKC5LFQA6P5QVIM3VC3OTI&commentid=990867" class=" abuse ">Report Abuse</a> </cite><blockquote class="mwpphu-commenttext">stop spending trillions on war and the problem will resolve!</blockquote></div><!-- end .mwpphu-info --></div><!-- end .mwpphu-bd --></li></ul><div class="mwpphu-navigation"><div class="mwpphu-right imageloader_classname">
+            <ul id="mwpphu-pagingcbottom" class="mwpphu-ul_links">
+            <li id="mwpphu-label-pagingcbottom" class="mwpphu-first">Comments 1 - 10 of 152</li><li><a class="mwpphu-disabled" id="-date-desc-p-1-0" href="#">First</a></li><li><a class="mwpphu-disabled" id="-date-desc-p--9-0" href="#"> <span class="mwpphu-sprite_bg prev_arrow_off mwpphu-disabled"></span>Prev</a></li><li><a class="mwpphu-older" id="-date-desc-p-11-s990867" href="http://finance.yahoo.com/news/Budget-deficit-on-pace-to-hit-apf-1718166886.html?x=0&sec=topStories&pos=6&asset=&ccode=&cmtnav=/mwphucmtgetnojspage/headcontent/main/1718166886//date/desc/11/s990867">Next<span class="mwpphu-sprite_bg next_arrow_on"></span></a></li><li class="mwpphu-last"><a class="mwpphu-oldest" id="-date-asc-p-1-0" href="http://finance.yahoo.com/news/Budget-deficit-on-pace-to-hit-apf-1718166886.html?x=0&sec=topStories&pos=6&asset=&ccode=&cmtnav=/mwphucmtgetnojspage/headcontent/main/1718166886//date/asc/1/0">Last</a></li></ul></div></div></div>         <div class="mwpphu-post-form imageloader_classname " id="mwpphu-post-form">
+             <h3 class="mwpphu-title mwpphu-comments">Post a Comment</h3>
+             <a href="http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D%23mwpphu-post-form"> Sign in </a> to post a comment, or <a href="http://edit.yahoo.com/config/eval_register?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D%23mwpphu-post-form"> Sign up </a> for a free account.
+         </div>
+  
+  
+</div>
+
+                    
+                 
+                 
+                 <!--  End of phUGC commenting integration -->
+								
+               
+               
+               
+                    
+                    
+<div class="mod-group">                
+	<div class="mod ysm clear">
+		<div class="hd">
+			<h2>Sponsored Links</h2>
+		</div>
+		<div class="bd">
+						<div class="col1">
+					<ul>
+			<li>
+			<h3><a href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20AAUzSxQ5k4BN2WGVtoCuMRVpCVWTTouYx4ASZkfDgd3SE-IKoj-xaOSa-BWmcMNY4CHQH51ApsXLbA0V1I_6R3PmWak8kPePxmPCpelYTpECllHa5ghacm2wjPaxAzU_BOrKCD45iVLgJgV5G36FcCUrKEslARNL2AKG2tqTj-AwWqqsllY-oBS1drZRBOk40nVVhBmV8GThu_jSQc_E2lyGbkkfGoj_WQvJr1Vfcdtu7gEvxophVHabuwAaUMBX4g.000000021714edb2">Invest Outside the Market</a></h3>
+			<div class="yfi-ysm-description">High-Return Partnership Since 1967. Pays Monthly. 100% Tax Deductable.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a class="yltasis" href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20AAUzSxQ5k4BN2WGVtoCuMRVpCVWTTouYx4ASZkfDgd3SE-IKoj-xaOSa-BWmcMNY4CHQH51ApsXLbA0V1I_6R3PmWak8kPePxmPCpelYTpECllHa5ghacm2wjPaxAzU_BOrKCD45iVLgJgV5G36FcCUrKEslARNL2AKG2tqTj-AwWqqsllY-oBS1drZRBOk40nVVhBmV8GThu_jSQc_E2lyGbkkfGoj_WQvJr1Vfcdtu7gEvxophVHabuwAaUMBX4g.000000021714edb2">www.OilGasDividend.com/Investing</a></div><!-- /.yfi-ysm-link -->
+		</li>		<li>
+			<h3><a href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20AAUzSxQ5k4BNr_uX44NCS-xKtFc3gUkqTKFmxy5DRNaIcRBLcOlue5IaXker1DN0rogUnti2fGNv5ST9pKmqRWl93WP2hblA74xEXvqVfmvaeyjZZjjumhYtn9eA9G7cO6yPPoc6RDo4gf8jfwQNUzSjRbIOJcynpTdamXwoMf07bcIGW34wsEAafyhfCY_vn6I4GX9Bq48ANHGDKzNKZtZRsBbnq7TNE4_K833s40GhKV7wzholC_AG3CzqOfcDOQ.000000021714edb2">Buy Stocks for $4</a></h3>
+			<div class="yfi-ysm-description">No Account or Investment Minimums. No Inactivity Fees. Start Today.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a class="yltasis" href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20AAUzSxQ5k4BNr_uX44NCS-xKtFc3gUkqTKFmxy5DRNaIcRBLcOlue5IaXker1DN0rogUnti2fGNv5ST9pKmqRWl93WP2hblA74xEXvqVfmvaeyjZZjjumhYtn9eA9G7cO6yPPoc6RDo4gf8jfwQNUzSjRbIOJcynpTdamXwoMf07bcIGW34wsEAafyhfCY_vn6I4GX9Bq48ANHGDKzNKZtZRsBbnq7TNE4_K833s40GhKV7wzholC_AG3CzqOfcDOQ.000000021714edb2">www.ShareBuilder.com</a></div><!-- /.yfi-ysm-link -->
+		</li>					</ul>
+				</div><!-- /.col0 -->
+								<div class="col2">
+					<ul>
+			<li>
+			<h3><a href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20ABi3z7rJxqHXYwLvpMUhtL2Ib-NECzrBubSw8Xjjq5YrRKKxgjdWaoON0PNTdd37WdLDpku81l54FF555UdP_noob8UbzOUdvDIu2U-OUgozaJsnguLA2BLG863_BZaWQ1mPVFHFa_mxYCMbQWZAJMvVv0NJ6MZrRk03fj0GHtChsgXeSUrw3Ganbwpufnv_M1jQHhj2XZCNSeiu9AZCeifeqh2xl7vMOentGc8ODjWGJVPpBhxsCpxpKCSEUkYViQ.000000021714edb2">Free Penny Stock Alerts</a></h3>
+			<div class="yfi-ysm-description">Get exclusive penny stock alerts set to move up big. Sign up today.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a class="yltasis" href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20ABi3z7rJxqHXYwLvpMUhtL2Ib-NECzrBubSw8Xjjq5YrRKKxgjdWaoON0PNTdd37WdLDpku81l54FF555UdP_noob8UbzOUdvDIu2U-OUgozaJsnguLA2BLG863_BZaWQ1mPVFHFa_mxYCMbQWZAJMvVv0NJ6MZrRk03fj0GHtChsgXeSUrw3Ganbwpufnv_M1jQHhj2XZCNSeiu9AZCeifeqh2xl7vMOentGc8ODjWGJVPpBhxsCpxpKCSEUkYViQ.000000021714edb2">PennyStockAlley.com</a></div><!-- /.yfi-ysm-link -->
+		</li>		<li>
+			<h3><a href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20ACifK0fVZYBWlIlfA6LYPcFvaeiyBNmN9BkxOHp5oMqzXcvRlP4HG-5hh3FAZQIKAL49lUz_4Iru5a-wcND9eO_vzGON8G6D-mQYHACTv4GvQd0qihTUXS0-yF2LK_Z4IKbGxoT3y06lFiw5VRkYf3vahkRNC6Gz9gM9__hy8encEukW2nlOt5jjd3EdBtIj-zLlhtq5_5HgML4WRxbZ2XaoJjZC4FDDaYMD7Pn_JPS8LBkvlc02LvaI6tusEL7QbwWCM04f3hIUX0YFVkKPGWAwl16gcCLPCg.000000021714edb2">stock market quote</a></h3>
+			<div class="yfi-ysm-description">Trade stocks, options, futures and Bonds online with optionsXpress.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a class="yltasis" href="http://rc.us-east.srv.overture.com/d/sr/?xargs=20ACifK0fVZYBWlIlfA6LYPcFvaeiyBNmN9BkxOHp5oMqzXcvRlP4HG-5hh3FAZQIKAL49lUz_4Iru5a-wcND9eO_vzGON8G6D-mQYHACTv4GvQd0qihTUXS0-yF2LK_Z4IKbGxoT3y06lFiw5VRkYf3vahkRNC6Gz9gM9__hy8encEukW2nlOt5jjd3EdBtIj-zLlhtq5_5HgML4WRxbZ2XaoJjZC4FDDaYMD7Pn_JPS8LBkvlc02LvaI6tusEL7QbwWCM04f3hIUX0YFVkKPGWAwl16gcCLPCg.000000021714edb2">optionsXpress.com</a></div><!-- /.yfi-ysm-link -->
+		</li>					</ul>
+				</div><!-- /.col0 -->
+						</div>
+	</div>
+</div>
+
+                    
+                    
+
+
+            </div><!--./ end of y-content -->
+            
+            <div id="y-related">
+                <div class="mod article-related-col">
+                    
+                    			<div class="mod newslist ">
+		
+		
+					<div class="hd">
+				<h2>Top Stories</h2>
+			</div>
+				<div class="bd">
+			<ul class="articles">
+			
+					<li class="    first " >
+					<a href="http://us.rd.yahoo.com/finance/news/topnews/*http://biz.yahoo.com/ap/100913/us_tax_cuts.html" >Senate Republicans say they'll block tax increase</a>  <cite>- AP</cite> 
+					</li>
+          
+					<li class="    " >
+					<a href="http://us.rd.yahoo.com/finance/news/topnews/*http://biz.yahoo.com/ap/100913/us_rental_car_takeovers.html" >Dollar Thrifty deal could boost rental car prices</a>  <cite>- AP</cite> 
+					</li>
+          
+					<li class="    " >
+					<a href="http://us.rd.yahoo.com/finance/news/topnews/*http://biz.yahoo.com/ap/100913/us_pipeline_leak.html" >Ill. oil pipeline leak stopped; cleanup under way</a>  <cite>- AP</cite> 
+					</li>
+          
+					<li class="    " >
+					<a href="http://us.rd.yahoo.com/finance/news/topnews/*http://biz.yahoo.com/ap/100913/us_hewlett_packard_arcsight.html" >Hewlett-Packard buying ArcSight for $1.5 billion</a>  <cite>- AP</cite> 
+					</li>
+          			</ul>
+					</div>	
+		<div class="ft"></div>
+	</div><!-- /.mod.newslist -->
+	 
+
+                    
+                    <div class="ad mod lrec">
+                        <!-- SpaceID=0 robot -->
+
+                    </div>
+                    
+                    
+                    		<div class="mod techticker newslist">
+		<div class="hd">
+			<h2>Tech Ticker Recent Posts</h2>
+		</div>
+		<div class="bd">
+			<ul class="articles">
+								<li><a href="/tech-ticker/too-big-to-jail-dont-expect-perp-walks-for-wall-street-execs-sorkin-says-yftt_535416.html">Too Big to Jail: Don't Expect 'Perp Walks' for Wall Street Execs, Sorkin Says</a> <cite> - Aaron Task</cite></li>					<li><a href="/tech-ticker/investors-are-too-negative-says-art-hogan-and-thats-good-news-for-the-market-yftt_535415.html">Investors Are Too Negative, Says Art Hogan -- And That's Good News For The Market</a> <cite> - Henry Blodget</cite></li>					<li><a href="/tech-ticker/2-years-after-lehman-is-the-system-any-safer-andrew-ross-sorkin-weighs-in-yftt_535414.html">2 Years After Lehman: Is the System Any Safer? Andrew Ross Sorkin Weighs In</a> <cite> - Tech Ticker</cite></li>			</ul>
+		</div>	
+		<div class="ft">
+			<a href="/tech-ticker" class="more">View More</a>		</div>                 
+	</div><!-- /.mod.techticker -->
+		 
+
+                    
+                    
+    <div class="mod news-topic-subscribe">
+        <div class="hd">
+            <h2>Subscribe to Topics</h2>
+    	</div><!-- /.hd -->
+    	<div class="bd">
+			<ul>
+            				<li>Top Stories 
+					<ul>
+						<li>
+	<a 
+	href="http://add.my.yahoo.com/add/module?lg=us&url=http%3A%2F%2Ffinance.yahoo.com%2Frss%2Ftopstories" 
+	title="Add to My Yahoo!"
+	mapleUltPriority="1000">
+	<img src="http://l.yimg.com/a/i/us/fi/gr/my/atomyrss_usuk.gif" alt="Add to My Yahoo!">	</a>
+	</li>
+	<li>
+	<a href="http://finance.yahoo.com/rss/topstories" 
+	title="Subscribe to RSS"
+	mapleUltPriority="1000">
+	<img src="http://l.yimg.com/us.yimg.com/i/nt/ic/ut/bsc/rss16_1.gif" alt="RSS" >	</a>
+	</li>
+	<li>
+		<a href="http://alerts.yahoo.com/main.php?view=blogs&nep=rssi&url=http%3A%2F%2Ffinance.yahoo.com%2Frss%2Ftopstories" 
+		title="Subscribe to RSS"	
+        mapleUltPriority="1000">
+		<img src="http://l.yimg.com/us.yimg.com/i/nt/ic/ut/bsc/alrt16_1.gif" alt=""> Add Alert 		</a>
+	</li>
+					</ul>
+				</li>
+                		
+		
+			</ul>
+            
+            
+    	</div><!-- /.bd -->
+    	<div class="ft">
+            		<p class="rssindex"><a href="http://finance.yahoo.com/rssindex" class="more">See all RSS links</a></p>    	</div><!-- /.ft -->
+    </div><!-- /.mod -->
+
+                    <!-- SpaceID=0 robot -->
+
+                    
+                </div>
+            </div><!-- ./end of article y-related -->
+
+                    <p class="disclaimer">Copyright &copy; 2010 The Associated Press. All rights reserved. The information contained in the AP News report may not be published, broadcast, rewritten, or redistributed without the prior written authority of The Associated Press.</p>
+                    
+                    
+        </div><!-- ./end of article y-main -->
+        
+        
+        <div id="y-footer">
+            
+             
+            <div class="y-footer"><div class="footer-wrapper-first"><div class="footer-wrapper-inner"><div class="elsewhere"><div>
+<div class="property">
+<h2>Yahoo! Finance</h2>
+<ul>
+<li><a href="/banking-budgeting" mapleUltParams="sec=footer-yfinance">Banking & Budgeting</a></li>
+<li><a href="/calculator/index" mapleUltParams="sec=footer-yfinance">Calculators</a></li>
+<li><a href="/currency" mapleUltParams="sec=footer-yfinance">Currency</a></li>
+<li><a href="/etf" mapleUltParams="sec=footer-yfinance">ETFs</a></li>
+<li><a href="/expert/index" mapleUltParams="sec=footer-yfinance">Experts</a></li>
+<li><a href="/marketupdate?u" mapleUltParams="sec=footer-yfinance">Investing</a></li>
+</ul>
+<ul>
+<li><a href="/insurance" mapleUltParams="sec=footer-yfinance">Insurance</a></li>
+<li><a href="/actives?e=us" mapleUltParams="sec=footer-yfinance">Market Stats</a></li>
+<li><a href="http://biz.yahoo.com/promo/mbbeta.html" mapleUltParams="sec=footer-yfinance">Message Boards</a></li>
+<li><a href="http://mobile.yahoo.com" mapleUltParams="sec=footer-yfinance">Mobile</a></li>
+<li><a href="/personal-finance" mapleUltParams="sec=footer-yfinance">Personal Finance</a></li>
+<li><a href="/whatsnew" mapleUltParams="sec=footer-yfinance">What's New</a></li>
+</ul>
+</div>
+<div class="also">
+<h2>Also on Yahoo!</h2>
+<ol>
+<li><a href="http://autos.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Autos</a></li>
+<li><a href="http://finance.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Finance</a></li>
+<li><a href="http://www.flickr.com" mapleUltParams="sec=footer-alsoonyahoo">Flickr</a></li>
+<li><a href="http://games.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Games</a></li>
+<li><a href="http://groups.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Groups</a></li>
+<li><a href="http://health.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Health</a></li>
+</ol>
+<ol start="7">
+<li><a href="http://hotjobs.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Hot Jobs</a></li>
+<li><a href="http://mail.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Mail</a></li>
+<li><a href="http://maps.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Maps</a></li>
+<li><a href="http://movies.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Movies</a></li>
+<li><a href="http://music.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Music</a></li>
+<li><a href="http://my.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">My Yahoo!</a></li>
+</ol>
+<ol start="13">
+<li><a href="http://news.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">News</a></li>
+<li><a href="http://shopping.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Shopping</a></li>
+<li><a href="http://sports.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Sports</a></li>
+<li><a href="http://travel.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Travel</a></li>
+<li><a href="http://tv.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">TV</a></li>
+<li><a href="http://video.yahoo.com" mapleUltParams="sec=footer-alsoonyahoo">Video</a></li>
+<li class="all">&raquo; <a href="http://everything.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">All Y! Services</a>
+</li>
+</ol>
+</div>
+<div class="functions">
+<h2>Things To Do</h2>
+<ul>
+<li><a href="http://yfinanceblog.com/" mapleUltParams="sec=footer-thingstodo">Read Our Blog</a></li>
+<li><a href="http://mobile.yahoo.com" mapleUltParams="sec=footer-thingstodo">Finance on Your Phone</a></li>
+<li><a href="http://realestate.yahoo.com/Homevalues" mapleUltParams="sec=footer-thingstodo">Check Home Values</a></li>
+<li><a href="http://autos.yahoo.com/" mapleUltParams="sec=footer-thingstodo">Find a New Car</a></li>
+<li><a href="http://hotjobs.yahoo.com/" mapleUltParams="sec=footer-thingstodo">Search Jobs Across the Web</a></li>
+</ul>
+</div>
+</div></div></div></div></div>
+
+            <div class="y-footer"><div class="footer-wrapper"><div class="footer-wrapper-inner"><div class="worldwide">
+<h2>Yahoo! Finance Worldwide</h2>
+<ul>
+<li><a href="http://ar.finance.yahoo.com/">Argentina</a></li>
+<li><a href="http://au.finance.yahoo.com/">Australia</a></li>
+<li><a href="http://br.finance.yahoo.com/">Brazil</a></li>
+<li><a href="http://ca.finance.yahoo.com/">Canada</a></li>
+<li><a href="http://finance.cn.yahoo.com/">China</a></li>
+<li><a href="http://chinese.finance.yahoo.com/">Chinese</a></li>
+<li><a href="http://fr.finance.yahoo.com/">France</a></li>
+<li><a href="http://qc.finance.yahoo.com/">French Canada</a></li>
+<li><a href="http://de.finance.yahoo.com/">Germany</a></li>
+</ul>
+<ul>
+<li><a href="http://hk.finance.yahoo.com/">Hong Kong</a></li>
+<li><a href="http://in.finance.yahoo.com/">India</a></li>
+<li><a href="http://it.finance.yahoo.com/">Italy</a></li>
+<li><a href="http://finance.yahoo.co.jp/">Japan</a></li>
+<li><a href="http://kr.finance.yahoo.com/">Korea</a></li>
+<li><a href="http://mx.finance.yahoo.com/">Mexico</a></li>
+<li><a href="http://nz.finance.yahoo.com/">New Zealand</a></li>
+<li><a href="http://sg.finance.yahoo.com/">Singapore</a></li>
+<li><a href="http://es.finance.yahoo.com/">Spain</a></li>
+<li><a href="http://espanol.finance.yahoo.com/">Spanish</a></li>
+<li><a href="http://tw.stock.yahoo.com/">Taiwan</a></li>
+<li><a href="http://uk.finance.yahoo.com/">UK & Ireland</a></li>
+<li><a href="http://finance.yahoo.com">USA</a></li>
+</ul>
+</div></div></div></div>
+
+            <div class="footer_legal">
+    <!-- SpaceID=0 robot -->
+
+</div>
+
+  <div class="footer_disclaimer">
+<p><strong>Quotes delayed</strong>, except where indicated otherwise. Delay times are 15 mins for NASDAQ, NYSE and Amex. See also delay times for <a href="http://help.yahoo.com/l/us/yahoo/finance/quotes/fitadelay.html">other exchanges</a>. Quotes and other information supplied by independent providers identified on the Yahoo! Finance <a href="http://help.yahoo.com/l/us/yahoo/finance/quotes/fitadelay.html">partner page</a>.Quotes are updated automatically, but will be turned off after 25 minutes of inactivity. Quotes are delayed at least 15 minutes. All information provided "as is" for informational purposes only, not intended for trading purposes or advice. Neither Yahoo! nor any of independent providers is liable for any informational errors, incompleteness, or delays, or for any actions taken in reliance on information contained herein. By accessing the Yahoo! site, you agree not to redistribute the information found therein.</p>
+<p>Fundamental company data provided by <a href="http://www.capitaliq.com">Capital IQ</a>. Historical chart data and daily updates provided by <a href="http://www.csidata.com">Commodity Systems, Inc. (CSI)</a>. International historical chart data, daily updates, fundAnalyst estimates data provided by <a href="http://thomsonreuters.com/">Thomson Financial Network</a>. All data povided by Thomson Financial Network is based solely upon research information provided by third party analysts. Yahoo! has not reviewed, and in no way endorses the validity of such data. Yahoo! and ThomsonFN shall not be liable for any actions taken in reliance thereon.</p>
+</div>
+
+
+
+
+                        
+            
+                              
+            
+                              
+            
+        </div><!-- ./end of article y-footer -->
+        
+    </div><!--./y-page -->
+
+<script type="text/javascript">
+if (typeof YAHOO == "undefined") { YAHOO = {}; }
+if (typeof YAHOO.Finance == "undefined") { YAHOO.Finance = {}; }
+if (typeof YAHOO.Finance.YfiSharingToolbar == "undefined") { YAHOO.Finance.YfiSharingToolbar = {}; }
+
+YAHOO.Finance.YfiSharingToolbar.PageConf = {
+    clean_url : "http://finance.yahoo.com/news/Budget-deficit-on-pace-to-hit-apf-1718166886.html?x=0",
+    facebook_iframe_url: "http://d.yimg.com/bm/social_buttons/facebook-share-iframe.php?u={url}&t={title}",
+    intl : "us",
+    mail_property : "finance"
+};
+
+
+YAHOO.Finance.YfiSharingToolbar.ContainerConf = 
+                
+                    [{
+                        selector: '.content-wrapper #y-article-hd',
+                        position: 'after', //|before
+                        classNames: ['ymsb-facebook', 'ymsb-retweet', 'ymsb-mail', 'ymsb-print', 'ymsb','clearfix']
+                    }]
+                
+            ;
+</script>
+
+<script type="text/javascript" src="http://yui.yahooapis.com/3.1.1/build/yui/yui-min.js"></script>
+
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/yahoo/yahoo-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/event/event-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/dom/dom-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/imageloader/imageloader-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/get/get-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/connection/connection-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/animation/animation-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/json/json-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/container/container_core-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/element/element-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/yui/2.8.0/build/cookie/cookie-min.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/d/lib/media/phugc/mwphcom_min_r1413.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/bm/combo?fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/yahoo-dom-event/2.0.0/mini/yahoo-dom-event.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/element/2.0.0/mini/element-min.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/get/2.0.0/mini/get.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/tabview/2.0.0/mini/tabview-min.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/cookie/2.0.0/mini/cookie.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/connection/2.0.0/mini/connection.js&fi/common/p/d/static/js/0.1.25/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/ylc_1.9.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi_nav_topnav.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi_nav_topnav_init.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi_sharetoolbar.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi_common.js&fi/common/p/d/static/js/0.1.25/2.0.0/mini/yfi_symbol_suggest.js"></script>
+
+                    <script type="text/javascript">
+                        if(typeof(YAHOO.Finance) == "undefined" || typeof(YAHOO.Finance.ConfigL10n) == "undefined") {
+                            YAHOO.namespace("YAHOO.Finance.CommonL10n");
+                        }    
+                        YAHOO.Finance.CommonL10n = {
+                            lang: "en-US",
+                            region: "US",
+                            intl: "us"
+                        };   
+                    </script>
+                
+
+        <script language="javascript">
+        
+    if(!("Media" in YAHOO)){YAHOO.Media = {};}
+    if(!("MwPhCom" in YAHOO.Media)){YAHOO.Media.MwPhCom = {};}
+    YAHOO.Media.MwPhCom.coms = new YAHOO.phugcmwpcmt.comments({
+        asset_id:"1718166886",
+        asset_cat:"headcontent",
+        login_url:"http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D",
+        section:"main",
+        sServiceUrl:"/comments",
+        sAppLang:"en-US",
+        sAbuseUrl:"http://help.yahoo.com/l/us/yahoo/finance/abuse.html",
+        sCharCountAllowed:"4000",
+        rating_type:"up_down",
+        rating_url:"mwphucmtrate",
+        sParentAssetUrl:"http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D",
+        sParentAssetTitle:"Dummy",
+        sVitalityProperty:"y.finance",
+        sVitalityRating:"0",
+        sVitalityRatingType:"0",
+        sVitalityPosting:"1",
+        sAllowReply:"1",
+        sDisclosureProp:"y.finance",
+        sDisclosureRateEvent:"genericrate",
+        sVitalityConsumption:"0",
+        sUltBeaconSec:"na",
+        sPostingDisabled:"N",        
+        sUltBeaconSpID:"2142428251",
+        sUltBeaconEnable:"1",
+        sUtlBeaconRcdPgVew:"0",        
+        sUltBeaconProp:"yahoo_finance",
+        sSortOptionDisp:"Newest First",
+        sYuiBasePath:"yui/2.8.0/build/",
+        sCmtGuideLineUrl:"http://help.yahoo.com/l/us/yahoo/finance/news/fitacomguide.html",
+        sPostCrumb:"",
+        sSortBy:"date",
+        sSortOrder:"desc",
+        sStartForm:"",
+        sFilterBy:"",
+        sAssetExcerpt:"VGhpcyBpcyBleGNlcnB0IiBvZiBhcnRpY2xlIA==",
+        sAssetImgURL:"",
+        sAssetBlogName:"",
+        sAssetImgSige:"",
+        sAssetAuthor:"",
+        sAssetTypeVita:"aGVhZGNvbnRlbnQ=",
+        sAssetSource:"",
+        sIsDegraded:"false",
+        sPostActionUrl:"/comments/mwphucmtpost",
+        vitaMeta:{
+                "vmeta_mandatory":{
+                             "asset_type": "article" ,
+                             "prop_source": "y.finance",
+                             "target_return_url":"http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D"
+                            } ,
+                  "vmeta_trg_imgt_opt":{
+                              "target_img_url": "",
+                              "target_img_height": "",
+                              "target_img_width":"",
+                              "target_img_rights":""
+                            } ,
+                  "vmeta_trg_title_opt":{
+                              "target_title": "Budget+deficit+on+pace+to+hit+%241.3+trillion",
+                              "target_url": "http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D"
+                            } ,
+                  "vmeta_testing":{
+                              "update_variant": "",
+                              "update_transform": ""
+                            },
+                      "vmeta_article_opt":{
+                                 "article_source": "Yahoo%21+Finance",
+                                 "article_author": "",
+                                 "article_description":"The+federal+government+is+on+track+to+record+the+second-highest+deficit+of+all+time+with+one+month+left+in+the+budget+year."
+                               }
+        },
+        oL10n:{
+            "CHARACTERS_LEFT":"{0} characters remaining",
+            "CHARACTER_LEFT":"{0} character remaining",
+            "SIGN_IN":"Sign in",
+            "TO_RATE":"to rate",
+            "THANK_YOU":"Thank You!",
+            "COMMENTS_POST_SUCESS_PRV_MSG":"Your comment has been received and should be available shortly. A preview is shown here.",
+            "POST_ANOTHER_COMMENT":"Post Another Comment",
+            "POST_ANOTHER_REPLY":"Post Another Reply",
+            "A_SECOND_AGO":"a second ago",
+            "THANK_YOU":"Thank You!",
+            "COMMENTS_REPLY_SUCESS_PRV_MSG":"Your reply has been received and should be available shortly. A preview is shown here.",
+            "POST_GENERIC_ERROR":"We apologize. An error has occurred. Please try again.",
+            "FETCHING_UPDATES":"Fetching updates...",
+            "SERVER_ERROR":"Server Error",
+            "POSTING":"Posting",
+            "NO_COMMENTS_ERR":"Please enter a comment",
+            "REQUEST_FAILED":"An internal error has occurred",
+            "NO_UPDATE_AVAILAVLE":"No Updates available",
+            "SIGN_IN_TO_RATE":"Please sign in to rate!",
+            "RATE_SIGN_IN_TXT":"<p>Signing in ensures ratings are counted accurately and prevents system abuse.</p><p><a href=\"http://login.yahoo.com/config/login?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D\">Sign in to rate</a> or, <a href=\"http://edit.yahoo.com/config/eval_register?.src=yahoo_finance&.intl=us&.done=http%3A%2F%2Ffinance.yahoo.com%2Fnews%2FBudget-deficit-on-pace-to-hit-apf-1718166886.html%3Fx%3D0%26sec%3DtopStories%26pos%3D6%26asset%3D%26ccode%3D\">sign up</a> for a new account.</p>",
+            "CLOSE_LINK_TXT":"Close this message",
+            "REPLY_LINK_TXT":"Reply",
+            "COLLAPSE_REPLIES":"Collapse Replies",
+            "VIEW_ALL_REPLIES":"View all {0} Replies",
+            "VIEW_ALL_REPLY":"View all  {0} Reply",
+            "COMMENT_GUIDELINES":"Comment Guidelines",
+            "CANCEL_BTN_TXT":"Clear",
+            "POST_REPLY":"Post Reply",
+            "REPLY_TO_CONVERSTION":"Reply to Above Conversation",
+            "PLZ_ENTER_COMMENT":"Please Enter a Comment",
+            "ANONYMOUS_DISP_TXT":"A Yahoo! User",
+            "POST_CMT_DISABLED":"Comments have been closed for this article",
+            "REPLIES_LINK_TXT":"Replies"
+    }
+            ,bRecordPageviews:true,
+            nSpaceId:""
+            
+    });
+    YAHOO.namespace("phugcmaplecomt.container");
+    
+    YAHOO.util.Event.addListener(window, "load",
+        function(){
+            if(YAHOO.Updates != undefined){
+                if(YAHOO.Updates.Disclosure.manager != undefined){
+                    YAHOO.Updates.Disclosure.manager.registerPostLinkCallback({"fn":
+                        function() {YAHOO.Media.MwPhCom.coms.reValidateCrumb=true;}});
+                }
+            }    
+        });
+    
+        </script>
+
+<script type="text/javascript" src="http://l.yimg.com/us.js.yimg.com/lib/media/m/social_buttons/social-buttons-min-3585.js"></script>
+<script type="text/javascript" src="http://l.yimg.com/us.js.yimg.com/lib/media/m/social_buttons/social-buttons-easy-min-3585.js"></script>
+
+
+
+    
+	<div id="spaceid" style="display:none;">2142203358</div><script type="text/javascript">
+                  var dsServerVal = 'http://d.yimg.com/aq/autoc';
+                  var dsRegionVal = 'US';
+                  var dsLangVal = 'en-US';
+                  var dsFooterVal = '<div class="moreresults"><a class="[[tickdquote]]" href="http://finance.yahoo.com/lookup?s=[[link]]">Show all results for [[tickdquote]]</a></div><div class="tip"><em>Tip:</em> Use comma (,) to separate multiple quotes. <a href="http://help.yahoo.com/l/us/yahoo/finance/quotes/quotelookup.html">Learn more...</a></div>';
+
+				    
+                    // Ensure we have loaded all YUI dependencies for us to run symbol suggest
+                    function loadRequiredLibraries(libs, config){
+                        this.log = function(msg, more){
+                            if(config.debug && window.console && window.console.log){
+                                window.console.log(msg, more);
+                            }
+                        }
+                        
+                        var YSS = YAHOO.Finance.SymbolSuggest();
+                        var conf = {
+                            dsServer:dsServerVal,
+                            dsRegion:dsRegionVal,
+                            dsLang:dsLangVal,
+                            dsFooter:dsFooterVal,
+                            acInputId:'txtQuotes',
+                            acInputFormId:'quote',
+                            acContainerId:'quoteContainer'
+                        }
+                        
+                        // Deal with focus issues of autocomplete
+                        if(document.activeElement == document.getElementById(conf.acInputId)){
+                            YSS.acInputHasFocus(true);
+                        }
+
+                        var libsLoadedEvent = new YAHOO.util.CustomEvent("libsLoadedEvent", this);
+                        var libsLoadedDone = function (){
+                            this.log('Yay, we have all our YUI dependencies!');
+                            YSS.init(conf);
+                        }
+
+                        libsLoadedEvent.subscribe(libsLoadedDone, this);
+
+                        // this.log = console.log;
+                        var lazyLoadLibs = [];
+                        // Go through provided
+                        for(i = 0, l = libs.length; i < l; i++ ){
+                            if(!YAHOO.env.getVersion(libs[i])){
+                                this.log('I need to load', libs[i]);
+                                lazyLoadLibs.push(libs[i]);
+                            }
+                        }
+
+                        if(lazyLoadLibs.length > 0){
+                            var that = this;
+                            var loaderConf = {
+                                require: lazyLoadLibs,
+                                loadOptional: false,
+                                onSuccess: function(o) {
+                                    that.log('loaded lib', o);
+                                    libsLoadedEvent.fire();
+                                },
+                                onFailure: function(o) {
+                                    that.log('failed to load lib', o);
+                                    return false;
+                                },
+                                timeout: 1000,
+                                combine: true
+                            }
+                            var loader = new YAHOO.util.YUILoader(loaderConf);
+                            loader.insert();
+                        } else {
+                            // All the libraries we need are already loaded
+                            libsLoadedEvent.fire();
+                        }
+                        return true;
+                    };
+
+
+                    YAHOO.util.Event.onAvailable('txtQuotes' ,function() {
+                        // Identify the components you want to load.  Loader will automatically identify
+                        var requiredLibs = ["datasource", "autocomplete", "json", "event", "dom"];
+                        var config = {debug : false};
+                        var loadLibraries = loadRequiredLibraries(requiredLibs, config);
+                    });
+                    				    
+				</script>
+
+    <script type="text/javascript" src="http://l.yimg.com/a/i/us/fi/yfs/js/yfs_concat_200903061452.js"></script><script type="text/javascript">
+			YAHOO.util.Event.addListener(window, 'load', function() { setTimeout(YAHOO.Finance.Streaming.init, 5000); });
+	</script>
+
+<!-- SpaceID=0 robot -->
+
+    
+</body>
+</html>
+
+<!-- finance:myservice-us:0:Success -->
+<!-- xsltm4.finance.ac4.yahoo.com uncompressed/chunked Mon Sep 13 18:37:17 PDT 2010 -->

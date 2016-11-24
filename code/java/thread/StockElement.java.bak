@@ -1,0 +1,213 @@
+import java.util.*;
+
+
+/**
+ * Class : StockElement
+ *
+ */
+public class StockElement
+{
+
+   private String    _StockName    = null;
+   private double    _SMAvalue     = 0.3;             // default
+   private int       _VARRank      = 500;             // default
+   private int       _STABRank     = 500;             // default
+   private ArrayList _Variance     = new ArrayList(); // of Double
+   private ArrayList _VarianceSMA  = new ArrayList(); // of Double
+   private ArrayList _Stability    = new ArrayList(); // of Double
+   private ArrayList _StabilitySMA = new ArrayList(); // of Double
+   private ArrayList _Open         = new ArrayList(); // of Double
+   private ArrayList _High         = new ArrayList(); // of Double
+   private ArrayList _Close        = new ArrayList(); // of Double
+
+   /**
+    * Default Constructor
+    */
+   public StockElement()
+   {
+   } // end default constructor
+
+   /**
+    * Constructor
+    */
+   public StockElement( String name, String var_sma, String stability_sma )
+   {
+      _StockName = new String( name.trim() );
+      _VarianceSMA.add( Double.valueOf( var_sma ) );
+      _StabilitySMA.add( Double.valueOf( stability_sma ) );
+   } // end constructor
+
+   /**
+    * Method : getName
+    */
+   public String getName()
+   {
+      return _StockName;
+   } // end getName
+
+   /**
+    * Method : getVarianceRank
+    */
+   public int getVarianceRank()
+   {
+      return _VARRank;
+   } // end getVarianceRank
+
+   /**
+    * Method : setVarianceRank
+    */
+   public void setVarianceRank( int rank )
+   {
+      _VARRank = rank;
+   } // end setVarianceRank
+
+   /**
+    * Method : getStabilityRank
+    */
+   public int getStabilityRank()
+   {
+      return _STABRank;
+   } // end getStabilityRank
+
+   /**
+    * Method : setStabilityRank
+    */
+   public void setStabilityRank( int rank )
+   {
+      _STABRank = rank;
+   } // end setStabilityRank
+
+   /**
+    * Method : addOpen
+    */
+   public void addOpen( String open )
+   {
+      _Open.add( Double.valueOf( open ) );
+   } // end addOpen
+
+   /**
+    * Method : getLastOpen
+    */
+   public Double getLastOpen()
+   {
+      return (Double)_Open.get( _Open.size() - 1 );
+   } // end getLastOpen
+
+   /**
+    * Method : addHigh
+    */
+   public void addHigh( String high )
+   {
+      _High.add( Double.valueOf( high ) );
+
+      // Calculate variance:
+      _Variance.add( new Double( getLastHigh().doubleValue() - getLastOpen().doubleValue() ) );
+
+      // Calculate variance_sma:
+      // A_d = A_d-1 + SMA * (M - A_d-1)
+      double previous = getLastVarianceSMA().doubleValue();
+      previous = previous + _SMAvalue * ( getLastVariance().doubleValue() - previous ); 
+      _VarianceSMA.add( new Double( previous ) );
+   } // end addHigh
+
+   /**
+    * Method : getLastHigh
+    */
+   public Double getLastHigh()
+   {
+      return (Double)_High.get( _High.size() - 1 );
+   } // end getLastHigh
+
+   /**
+    * Method : addClose
+    */
+   public void addClose( String close )
+   {
+      _Close.add( Double.valueOf( close ) );
+
+      // Calculate stability:
+      _Stability.add( new Double( getLastClose().doubleValue() - getLastOpen().doubleValue() ) );
+
+      // Calculate stability_sma:
+      // A_d = A_d-1 + SMA * (M - A_d-1)
+      double previous = getLastStabilitySMA().doubleValue();
+      previous = previous + _SMAvalue * ( getLastStability().doubleValue() - previous ); 
+      _StabilitySMA.add( new Double( previous ) );
+   } // end addClose
+
+   /**
+    * Method : getLastClose
+    */
+   public Double getLastClose()
+   {
+      return (Double)_Close.get( _Close.size() - 1 );
+   } // end getLastClose
+
+   /**
+    * Method : getLastVariance
+    */
+   public Double getLastVariance()
+   {
+      return (Double)_Variance.get( _Variance.size() - 1 );
+   } // end getLastVariance
+
+   /**
+    * Method : getLastVarianceSMA
+    */
+   public Double getLastVarianceSMA()
+   {
+      return (Double)_VarianceSMA.get( _VarianceSMA.size() - 1 );
+   } // end getLastVarianceSMA
+
+   /**
+    * Method : getLastStability
+    */
+   public Double getLastStability()
+   {
+      return (Double)_Stability.get( _Stability.size() - 1 );
+   } // end getLastVariance
+
+   /**
+    * Method : getLastStabilitySMA
+    */
+   public Double getLastStabilitySMA()
+   {
+      return (Double)_StabilitySMA.get( _StabilitySMA.size() - 1 );
+   } // end getLastStabilitySMA
+
+   /**
+    * Method : toString
+    */
+   public String toString()
+   {
+      StringBuffer str = new StringBuffer( "Stock Name:        " + _StockName ).append( "\n" );
+      str.append( "Variance rank is:  " + _VARRank ).append( "\n" );
+      str.append( "Stability rank is: " + _STABRank ).append( "\n" );
+      str.append( "SMA value is:      " + _SMAvalue ).append( "\n" );
+      str.append( "Variance is:       " ).append( _Variance ).append( "\n" );
+      str.append( "Stability is:      " ).append( _Stability ).append( "\n" );
+      str.append( "VarianceSMA is:    " ).append( _VarianceSMA ).append( "\n" );
+      str.append( "StabilitySMA is:   " ).append( _StabilitySMA ).append( "\n" );
+      str.append( "Open is:           " ).append( _Open ).append( "\n" );
+      str.append( "High is:           " ).append( _High ).append( "\n" );
+      str.append( "Close is:          " ).append( _Close ).append( "\n" );
+  
+      return str.toString();
+   } // end toString
+
+   /**
+    * Method : main
+    *        : For testing only.
+    */
+   public static void main( String[] args )
+   {
+      StockElement theElem = new StockElement( "AAPL", "1.235235", "4.12125" );
+      theElem.addOpen( "75.235" );
+      theElem.addHigh( "76.235" );
+      theElem.addClose( "74.235" );
+      theElem.addClose( "77.235" );
+      theElem.addHigh( "78.235" );
+      System.out.println( theElem );
+   } // end main
+
+} // end StockElement

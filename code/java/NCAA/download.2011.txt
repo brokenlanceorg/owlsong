@@ -1,0 +1,197 @@
+Will perform full download...
+Downloading data for team name: Northern Illinois
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/naz/schedule
+Downloading data for team name: IUPUI
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/iak/schedule
+Downloading data for team name: Navy
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/naa/schedule
+Downloading data for team name: Virginia Tech
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/vah/schedule
+Downloading data for team name: James Madison
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/jac/schedule
+Downloading data for team name: Virginia
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/vaf/schedule
+Downloading data for team name: Elon
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/eat/schedule
+Downloading data for team name: Marist
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/mae/schedule
+Downloading data for team name: Alabama A&amp;M
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/aag/schedule
+Downloading data for team name: Winthrop
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/way/schedule
+Downloading data for team name: Auburn
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/abb/schedule
+Downloading data for team name: Mount St. Mary's
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/mbs/schedule
+Downloading data for team name: Colgate
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/cbk/schedule
+Downloading data for team name: Southern
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sbh/schedule
+Downloading data for team name: Northeastern
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/nay/schedule
+Downloading data for team name: William &amp; Mary
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/wbh/schedule
+Downloading data for team name: Tulane
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/taz/schedule
+Downloading data for team name: Albany
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/aca/schedule
+Downloading data for team name: Montana St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/mbn/schedule
+Downloading data for team name: Hofstra
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/hak/schedule
+Downloading data for team name: Baylor
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/bae/schedule
+Downloading data for team name: Long Beach St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/lan/schedule
+Downloading data for team name: Tenn-Martin
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/tae/schedule
+Downloading data for team name: Alcorn St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/aaj/schedule
+Downloading data for team name: Samford
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sac/schedule
+Downloading data for team name: Texas A&amp;M C.C.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/tbq/schedule
+Downloading data for team name: Pepperdine
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/pah/schedule
+Downloading data for team name: North Texas
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/nax/schedule
+Downloading data for team name: UCF
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/cap/schedule
+Downloading data for team name: St. Peter's
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sby/schedule
+Downloading data for team name: Winston-Salem
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/wbq/schedule
+Downloading data for team name: Siena
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sas/schedule
+Downloading data for team name: Columbia
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/cbn/schedule
+Downloading data for team name: Texas
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/tal/schedule
+Downloading data for team name: Iowa St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/iao/schedule
+Downloading data for team name: AR Little Rock
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/aat/schedule
+Downloading data for team name: Santa Clara
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sai/schedule
+Downloading data for team name: Fla Gulf Coast Eagles
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/flg/schedule
+Downloading data for team name: Detroit
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/dam/schedule
+Downloading data for team name: Buffalo
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/baz/schedule
+Downloading data for team name: Dartmouth
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/dac/schedule
+Downloading data for team name: Murray St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/mbv/schedule
+Downloading data for team name: Youngstown St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/yab/schedule
+Downloading data for team name: Louisville
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/laq/schedule
+Downloading data for team name: Mississippi St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/mbg/schedule
+Downloading data for team name: SE Missouri St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sap/schedule
+Downloading data for team name: Northwestern St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/nbe/schedule
+Downloading data for team name: N.C. Wilmington
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/nag/schedule
+Downloading data for team name: Canisius
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/caj/schedule
+Downloading data for team name: Wis. Milwaukee
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/wbd/schedule
+Downloading data for team name: South Florida
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sbg/schedule
+Downloading data for team name: Longwood
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/lay/schedule
+Downloading data for team name: Army
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/aax/schedule
+Downloading data for team name: Villanova
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/vae/schedule
+Downloading data for team name: LA Lafayette
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/scf/schedule
+Downloading data for team name: Arizona St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/aar/schedule
+Downloading data for team name: Belmont
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/bab/schedule
+Downloading data for team name: Texas Pan Amer.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/tbc/schedule
+Downloading data for team name: San Francisco
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/saf/schedule
+Downloading data for team name: Prairie View A&amp;M
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/pao/schedule
+Downloading data for team name: Sacred Heart
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sdy/schedule
+Downloading data for team name: Loyola (MD)
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/lau/schedule
+Downloading data for team name: AR Pine Bluff
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/abi/schedule
+Downloading data for team name: VCU
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/vaa/schedule
+Downloading data for team name: Citadel
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/cbv/schedule
+Downloading data for team name: Eastern Illinois
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/ead/schedule
+Downloading data for team name: Massachusetts
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/mak/schedule
+Downloading data for team name: Geo. Washington
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/gac/schedule
+Downloading data for team name: Liberty
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/lai/schedule
+Downloading data for team name: Brown
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/bas/schedule
+Downloading data for team name: Miss. Valley St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/mbe/schedule
+Downloading data for team name: Seton Hall
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sao/schedule
+Downloading data for team name: Wake Forest
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/wad/schedule
+Downloading data for team name: Bucknell
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/bau/schedule
+Downloading data for team name: Marshall
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/mah/schedule
+Downloading data for team name: DePaul
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/dal/schedule
+Downloading data for team name: Northern Iowa
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/nba/schedule
+Downloading data for team name: Colorado
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/cbl/schedule
+Downloading data for team name: Penn St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/paf/schedule
+Downloading data for team name: Creighton
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/cbt/schedule
+Downloading data for team name: Iona
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/iam/schedule
+Downloading data for team name: St. Mary's
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sbt/schedule
+Downloading data for team name: N.C. A&amp;T
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/nas/schedule
+Downloading data for team name: Portland
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/pan/schedule
+Downloading data for team name: Southern Utah
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sbc/schedule
+Downloading data for team name: Nicholls St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/nar/schedule
+Downloading data for team name: Bryant
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/bry/schedule
+Downloading data for team name: Lehigh
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/laf/schedule
+Downloading data for team name: Kennesaw St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/kns/schedule
+Downloading data for team name: Rider
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/rag/schedule
+Downloading data for team name: Wichita St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/wax/schedule
+Downloading data for team name: Mississippi
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/mbf/schedule
+Downloading data for team name: Gardner-Webb
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/gal/schedule
+Downloading data for team name: South Alabama
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/sbe/schedule
+Downloading data for team name: Ohio St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/oad/schedule
+Downloading data for team name: Binghamton
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/bai/schedule
+Downloading data for team name: Tulsa
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/tba/schedule
+Downloading data for team name: Norfolk St.
+The download link is: http://rivals.yahoo.com/ncaa/basketball/teams/ncb/schedule

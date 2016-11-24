@@ -1,0 +1,64 @@
+# Project: FuzzyLib
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = RestrictHedge.o CompoundConsequent.o ConcentrateHedge.o Consequent.o DiffuseHedge.o DiluteHedge.o FuzzyBase.o FuzzyFactory.o FuzzySet.o Hedge.o IntenseHedge.o MembershipFunc.o $(RES)
+LINKOBJ  = RestrictHedge.o CompoundConsequent.o ConcentrateHedge.o Consequent.o DiffuseHedge.o DiluteHedge.o FuzzyBase.o FuzzyFactory.o FuzzySet.o Hedge.o IntenseHedge.o MembershipFunc.o $(RES)
+LIBS =  -L"lib"  
+INCS =  -I"include"  -I"F:/Home/knoppix/code/cc/Logger"  -I"F:/Home/knoppix/code/cc/Matc"  -I"F:/Home/knoppix/code/cc/Miscellaneous" 
+CXXINCS =  -I"lib/gcc/mingw32/3.4.2/include"  -I"include/c++/3.4.2/backward"  -I"include/c++/3.4.2/mingw32"  -I"include/c++/3.4.2"  -I"include"  -I"F:/Home/knoppix/code/cc/Logger"  -I"F:/Home/knoppix/code/cc/Matc"  -I"F:/Home/knoppix/code/cc/Miscellaneous" 
+BIN  = FuzzyLib.a
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before FuzzyLib.a all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(LINKOBJ)
+	ar r $(BIN) $(LINKOBJ)
+	ranlib $(BIN)
+
+RestrictHedge.o: RestrictHedge.cpp
+	$(CPP) -c RestrictHedge.cpp -o RestrictHedge.o $(CXXFLAGS)
+
+CompoundConsequent.o: CompoundConsequent.cpp
+	$(CPP) -c CompoundConsequent.cpp -o CompoundConsequent.o $(CXXFLAGS)
+
+ConcentrateHedge.o: ConcentrateHedge.cpp
+	$(CPP) -c ConcentrateHedge.cpp -o ConcentrateHedge.o $(CXXFLAGS)
+
+Consequent.o: Consequent.cpp
+	$(CPP) -c Consequent.cpp -o Consequent.o $(CXXFLAGS)
+
+DiffuseHedge.o: DiffuseHedge.cpp
+	$(CPP) -c DiffuseHedge.cpp -o DiffuseHedge.o $(CXXFLAGS)
+
+DiluteHedge.o: DiluteHedge.cpp
+	$(CPP) -c DiluteHedge.cpp -o DiluteHedge.o $(CXXFLAGS)
+
+FuzzyBase.o: FuzzyBase.cpp
+	$(CPP) -c FuzzyBase.cpp -o FuzzyBase.o $(CXXFLAGS)
+
+FuzzyFactory.o: FuzzyFactory.cpp
+	$(CPP) -c FuzzyFactory.cpp -o FuzzyFactory.o $(CXXFLAGS)
+
+FuzzySet.o: FuzzySet.cpp
+	$(CPP) -c FuzzySet.cpp -o FuzzySet.o $(CXXFLAGS)
+
+Hedge.o: Hedge.cpp
+	$(CPP) -c Hedge.cpp -o Hedge.o $(CXXFLAGS)
+
+IntenseHedge.o: IntenseHedge.cpp
+	$(CPP) -c IntenseHedge.cpp -o IntenseHedge.o $(CXXFLAGS)
+
+MembershipFunc.o: MembershipFunc.cpp
+	$(CPP) -c MembershipFunc.cpp -o MembershipFunc.o $(CXXFLAGS)

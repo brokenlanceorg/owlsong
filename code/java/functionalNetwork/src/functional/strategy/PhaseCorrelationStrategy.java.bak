@@ -1,0 +1,41 @@
+package functional.strategy;
+
+import functional.algorithm.*;
+import common.*;
+import math.*;
+
+import java.util.*;
+
+/**
+ * The phased correlation strategy class trains a functional correlation object in one pass
+ * of one or more algorithms. Currently, only two algorithms are supported: a genetic variant
+ * and a gradient descent variant. The basic idea is to take the given halting criteria and
+ * halve the elapsed time parameters and set those values on the two algorithms. Thus, once
+ * the algorithms have run their respective courses, the overall strategy will halt.
+ */
+public class PhaseCorrelationStrategy extends CorrelationStrategy
+{
+
+   /**
+    * @deprecated -- only defined for default purposes.
+    */
+   public PhaseCorrelationStrategy()
+   {
+      super();
+   }
+
+   /**
+    * In this case, we have the halting criteria with which we can instantiate the sub-algorithms.
+    */
+   public PhaseCorrelationStrategy( HaltingCriteria criteria )
+   {
+      super( criteria );
+      HaltingCriteria subCriteria = new HaltingCriteria();
+      subCriteria.setElapsedTimeTolerance( (long)(criteria.getElapsedTimeTolerance() / 2) );
+      _geneticAlgorithm = new GeneticCorrelationAlgorithm( subCriteria );
+      _gradientAlgorithm = new GradientCorrelationAlgorithm( subCriteria );
+      _gradientAlgorithm.setAlpha( 0.5 );
+      _gradientAlgorithm.setStepSize( 0.0001 );
+   }
+
+}

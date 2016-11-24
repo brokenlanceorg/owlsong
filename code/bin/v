@@ -1,0 +1,3 @@
+#!/bin/bash
+export SEARCH=`echo ${2} | sed s/\</""/g | sed s/\>/""/g`;
+vi `find ~/projects/code/java -name "*${1}*.java"` +/"${SEARCH}\|^}$";

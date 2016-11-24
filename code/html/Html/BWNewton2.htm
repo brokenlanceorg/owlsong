@@ -1,0 +1,131 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            Let's expand a few of the terms in the Taylor power series:
+         </p>
+            <center><img src="TaylorSeriesExpanded.gif"></center><br>
+         <p>
+            The Newton-Raphson method works by realizing that since (x-p) is near zero, (x-p)&#178 is significantly smaller, thus we can ignore this and
+            subsequent terms since they add nothing substantial to the quantity. 
+         </p>
+         <p>
+            This means that when the function is near zero (remember, we are trying to find what value of x gives f(x) = 0) we have:
+         </p>
+            <center><img src="Newton1.gif"></center><br>
+         <p>
+            Adding -f(p) to both sides gives:
+         </p>
+            <center><img src="Newton2.gif"></center><br>
+         <p>
+            Dividing both sides by f`(p) yields:
+         </p>
+            <center><img src="Newton3.gif"></center><br>
+         <p>
+            Adding p to both sides:
+         </p>
+            <center><img src="Newton5.gif"></center><br>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            This value of x is the value such that f(x) is near zero. But the problem is that we don't know <i>a priori</i> what the value of p is
+            for an arbitrary function. 
+         </p>
+         <p>
+            The Newton-Raphson method cleverly turns this last equation into an iterated system--where the output of the previous system is the 
+            input to the current system. We write this relationship as:
+         </p>
+            <center><img src="Newton4.gif"></center><br>
+         <p>
+            Thus an initial 'guess' is made, call it p<sub>0</sub>, and it is plugged into the iterated system to obtain the value p<sub>1</sub>; then, this value is
+            entered into the system to obtain the value p<sub>2</sub> and so on. This iterated system engenders a sequence {f(p<sub>0</sub>), f(p<sub>1</sub>), f(p<sub>2</sub>), ...} which, for
+            well-behaved functions, converges to zero. When the f(p<sub>k</sub>) value is smaller than some pre-defined 
+            <span class="symbol1"><span class="symbol2">e > 0</span></span> we take p<sub>k</sub> to be the solution or root of the equation f(x).
+         </p>
+         <p>
+            Geometrically, the value p<sub>n</sub> from the iterated formula, gives the point on the x-axis where the tangent line to f(p<sub>n-1</sub>) intersects.
+         </p>
+         <p>
+            It is well known that if our initial 'guess' p<sub>0</sub> is chosen close enough to the solution point, the Newton-Raphson method will <i>always</i>
+            converge to the solution point.
+         </p>
+      </div>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWNewton.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWFractal.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

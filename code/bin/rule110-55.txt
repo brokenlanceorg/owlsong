@@ -1,0 +1,2134 @@
+number of variables: 3
+number of data points: 8
+0, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.30273570328498745 operator: expm1( double ) 
+left node ==> 
+ DataValue is: 0.23491507634705955 operator: sinh( double ) 
+ left node ==> 
+  DataValue is: 0.41737008794032826 operator: atan2( double, double ) 
+  left node ==> 
+   DataValue is: 0.39793684860938006 operator: / 
+   left node ==> 
+    DataValue is: 0.3752673840108076 operator: * 
+    left node ==> 
+     DataValue is: 0.8693330799129815 data: pi 
+    right node ==> 
+     DataValue is: 0.6953267484352837 data: 1
+   right node ==> 
+    DataValue is: 0.18332276819098925 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.7486777796703206 data: 2
+    right node ==> 
+     DataValue is: 0.5480090157729565 data: 0
+  right node ==> 
+   DataValue is: 0.14160099356256117 operator: atan( double ) 
+   left node ==> 
+    DataValue is: 0.2613233505033432 operator: tan( double ) 
+    left node ==> 
+     DataValue is: 0.5962603640957846 data: 0
+    right node ==> 
+     DataValue is: 0.9971246459824351 data: e 
+   right node ==> 
+    DataValue is: 0.11977909294637412 operator: log10( double ) 
+    left node ==> 
+     DataValue is: 0.5479481031375302 data: 0
+    right node ==> 
+     DataValue is: 0.9382345897057788 data: e 
+ right node ==> 
+  DataValue is: 0.08092257174450879 operator: sqrt( abs( double ) ) 
+  left node ==> 
+   DataValue is: 0.4522165819791465 operator: max( double, double ) 
+   left node ==> 
+    DataValue is: 0.37884218791416624 operator: * 
+    left node ==> 
+     DataValue is: 0.6061939282134552 data: 1
+    right node ==> 
+     DataValue is: 0.8676879459643343 data: pi 
+   right node ==> 
+    DataValue is: 0.36554389771239937 operator: + 
+    left node ==> 
+     DataValue is: 0.6324195393632882 data: 1
+    right node ==> 
+     DataValue is: 0.7979289081424876 data: 2
+  right node ==> 
+   DataValue is: 0.19531323411827917 operator: cos( double ) 
+   left node ==> 
+    DataValue is: 0.17386551023867558 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.849068982030096 data: pi 
+    right node ==> 
+     DataValue is: 0.7329857793873319 data: 2
+   right node ==> 
+    DataValue is: 0.27665463597724216 operator: asin( double ) 
+    left node ==> 
+     DataValue is: 0.9949181645900118 data: e 
+    right node ==> 
+     DataValue is: 0.665565731342857 data: 1
+right node ==> 
+ DataValue is: 0.3689970481165592 operator: * 
+ left node ==> 
+  DataValue is: 0.12550368910056942 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.11769652510251327 operator: log10( double ) 
+   left node ==> 
+    DataValue is: 0.12098880866080286 operator: log10( double ) 
+    left node ==> 
+     DataValue is: 0.5201547102869615 data: 0
+    right node ==> 
+     DataValue is: 0.8122450837638144 data: pi 
+   right node ==> 
+    DataValue is: 0.49280715550491216 operator: IEEERemainder( double, double ) 
+    left node ==> 
+     DataValue is: 0.9714940899869997 data: e 
+    right node ==> 
+     DataValue is: 0.6468513509977435 data: 1
+  right node ==> 
+   DataValue is: 0.29211645958702637 operator: exp( double ) 
+   left node ==> 
+    DataValue is: 0.010038820983329422 operator: abs( double ) 
+    left node ==> 
+     DataValue is: 0.5061838807488522 data: 0
+    right node ==> 
+     DataValue is: 0.9535665625216302 data: e 
+   right node ==> 
+    DataValue is: 0.37712852135478825 operator: * 
+    left node ==> 
+     DataValue is: 0.5377130329930634 data: 0
+ right node ==> 
+  DataValue is: 0.3751051256450171 operator: * 
+  left node ==> 
+   DataValue is: 0.44168289585645726 operator: pow( double, double ) 
+   left node ==> 
+    DataValue is: 0.6886088613419685 data: 1
+   right node ==> 
+    DataValue is: 0.8905164060983817 data: pi 
+  right node ==> 
+   DataValue is: 0.27654417916673213 operator: asin( double ) 
+   left node ==> 
+    DataValue is: 0.717306931934766 data: 2
+   right node ==> 
+    DataValue is: 0.5655979554395328 data: 0
+
+Fitness: 0.060417701443868384
+predictions:
+4.564294294647271
+0.0
+0.0
+0.0
+8.98714636101983
+0.0
+0.0
+0.0
+
+0, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.12109707470435715 operator: log10( double ) 
+left node ==> 
+ DataValue is: 0.2073693318737676 operator: acos( double ) 
+ left node ==> 
+  DataValue is: 0.00473416040117336 operator: abs( double ) 
+  left node ==> 
+   DataValue is: 0.09432944213497141 operator: log( abs( double ) ) 
+   left node ==> 
+    DataValue is: 0.19462929387235084 operator: cos( double ) 
+    left node ==> 
+     DataValue is: 0.8634104476527468 data: pi 
+    right node ==> 
+     DataValue is: 0.6222649552895098 data: 1
+   right node ==> 
+    DataValue is: 0.46478329500516036 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.9278917506362352 data: e 
+    right node ==> 
+     DataValue is: 0.83615934373303 data: pi 
+  right node ==> 
+   DataValue is: 0.44374879829938674 operator: pow( double, double ) 
+   left node ==> 
+    DataValue is: 0.42438924619735086 operator: atan2( double, double ) 
+    left node ==> 
+     DataValue is: 0.7890087177055453 data: 2
+    right node ==> 
+     DataValue is: 0.8340342578384762 data: pi 
+   right node ==> 
+    DataValue is: 0.2519476015314688 operator: tan( double ) 
+    left node ==> 
+     DataValue is: 0.8549643160095224 data: pi 
+    right node ==> 
+     DataValue is: 0.8799975605479157 data: pi 
+ right node ==> 
+  DataValue is: 0.33433098875227607 operator: toDegrees( double ) 
+  left node ==> 
+   DataValue is: 0.10786447209367178 operator: log1p( double ) 
+   left node ==> 
+    DataValue is: 0.2910832185807869 operator: exp( double ) 
+    left node ==> 
+     DataValue is: 0.6286163252067601 data: 1
+    right node ==> 
+     DataValue is: 0.8304373232597833 data: pi 
+   right node ==> 
+    DataValue is: 0.22241524898723897 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.924283345650529 data: e 
+    right node ==> 
+     DataValue is: 0.8644137397645348 data: pi 
+  right node ==> 
+   DataValue is: 0.12873963133349076 operator: log10( double ) 
+   left node ==> 
+    DataValue is: 0.22744009628681738 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.7117422331755785 data: 2
+    right node ==> 
+     DataValue is: 0.5599659025400407 data: 0
+   right node ==> 
+    DataValue is: 0.4292765944105048 operator: atan2( double, double ) 
+    left node ==> 
+     DataValue is: 0.7258873272258533 data: 2
+    right node ==> 
+     DataValue is: 0.7669010117970706 data: 2
+right node ==> 
+ DataValue is: 0.294364956515867 operator: exp( double ) 
+ left node ==> 
+  DataValue is: 0.25644181675250866 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.031303916398847664 operator: floor( double ) 
+   left node ==> 
+    DataValue is: 0.44578073424631426 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.8193298156081942 data: pi 
+    right node ==> 
+     DataValue is: 0.7862860186949281 data: 2
+   right node ==> 
+    DataValue is: 0.36300845113548796 operator: + 
+    left node ==> 
+     DataValue is: 0.7565546855427405 data: 2
+    right node ==> 
+     DataValue is: 0.6293365902068999 data: 1
+  right node ==> 
+   DataValue is: 0.2118127233792244 operator: acos( double ) 
+   left node ==> 
+    DataValue is: 0.015354350850830478 operator: abs( double ) 
+    left node ==> 
+     DataValue is: 0.7468819518356332 data: 2
+    right node ==> 
+     DataValue is: 0.7226092515702067 data: 2
+   right node ==> 
+    DataValue is: 0.5750055688867569 data: 0
+    left node ==> 
+     DataValue is: 0.6923316057414534 data: 1
+ right node ==> 
+  DataValue is: 0.47711993501341743 operator: min( double, double ) 
+  left node ==> 
+   DataValue is: 0.010925500268943678 operator: abs( double ) 
+   left node ==> 
+    DataValue is: 0.8423030156520253 data: pi 
+   right node ==> 
+    DataValue is: 0.6887126320699679 data: 1
+  right node ==> 
+   DataValue is: 0.31919947846487084 operator: toRadians( double ) 
+   left node ==> 
+    DataValue is: 0.9249706171428274 data: e 
+   right node ==> 
+    DataValue is: 0.5675686183905634 data: 0
+
+Fitness: 0.2170251807005776
+predictions:
+0.19611987703015263
+0.19611987703015263
+0.19611987703015263
+0.19611987703015263
+0.19611987703015263
+0.19611987703015263
+0.19611987703015263
+0.19611987703015263
+
+0, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.1892357041141418 operator: cos( double ) 
+left node ==> 
+ DataValue is: 0.05265283388996267 operator: cbrt( double ) 
+ left node ==> 
+  DataValue is: 0.1024147473571766 operator: log1p( double ) 
+  left node ==> 
+   DataValue is: 0.1167505460790087 operator: log10( double ) 
+   left node ==> 
+    DataValue is: 0.2172620855166577 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.5144571667152311 data: 0
+    right node ==> 
+     DataValue is: 0.7951438036121564 data: 2
+   right node ==> 
+    DataValue is: 0.20720886818049078 operator: acos( double ) 
+    left node ==> 
+     DataValue is: 0.5862451443747334 data: 0
+    right node ==> 
+     DataValue is: 0.6934831541122645 data: 1
+  right node ==> 
+   DataValue is: 0.08263598816987694 operator: sqrt( abs( double ) ) 
+   left node ==> 
+    DataValue is: 0.19925203723792828 operator: cos( double ) 
+    left node ==> 
+     DataValue is: 0.8435075028329767 data: pi 
+    right node ==> 
+     DataValue is: 0.7083591031981814 data: 2
+   right node ==> 
+    DataValue is: 0.2279302089537949 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.9293732106411461 data: e 
+    right node ==> 
+     DataValue is: 0.6857722097528918 data: 1
+ right node ==> 
+  DataValue is: 0.3045389522088723 operator: expm1( double ) 
+  left node ==> 
+   DataValue is: 0.4634574390528201 operator: max( double, double ) 
+   left node ==> 
+    DataValue is: 0.28328478185056427 operator: asin( double ) 
+    left node ==> 
+     DataValue is: 0.629041272114284 data: 1
+    right node ==> 
+     DataValue is: 0.6577348619857082 data: 1
+   right node ==> 
+    DataValue is: 0.02373482350085676 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.5898828938792808 data: 0
+    right node ==> 
+     DataValue is: 0.8719919951652243 data: pi 
+  right node ==> 
+   DataValue is: 0.4329780692223222 operator: atan2( double, double ) 
+   left node ==> 
+    DataValue is: 0.0310669990827519 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.881307703675627 data: pi 
+    right node ==> 
+     DataValue is: 0.6141652918394737 data: 1
+   right node ==> 
+    DataValue is: 0.04187167586450358 operator: ceil( double ) 
+    left node ==> 
+     DataValue is: 0.9006844331070832 data: e 
+    right node ==> 
+     DataValue is: 0.9448636593942599 data: e 
+right node ==> 
+ DataValue is: 0.10010159500788707 operator: log1p( double ) 
+ left node ==> 
+  DataValue is: 0.48163137822932756 operator: min( double, double ) 
+  left node ==> 
+   DataValue is: 0.4659524181890401 operator: max( double, double ) 
+   left node ==> 
+    DataValue is: 0.31937469726581136 operator: toRadians( double ) 
+    left node ==> 
+     DataValue is: 0.5168984901698876 data: 0
+    right node ==> 
+     DataValue is: 0.9230649522053889 data: e 
+   right node ==> 
+    DataValue is: 0.4356413939437652 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.6334203814755923 data: 1
+    right node ==> 
+     DataValue is: 0.6570029419872662 data: 1
+  right node ==> 
+   DataValue is: 0.4127544298773477 operator: hypot( double, double ) 
+   left node ==> 
+    DataValue is: 0.0361279022922657 operator: ceil( double ) 
+    left node ==> 
+     DataValue is: 0.9476349945821729 data: e 
+    right node ==> 
+     DataValue is: 0.7440759779400742 data: 2
+   right node ==> 
+    DataValue is: 0.16932665257475754 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.5256753046460382 data: 0
+ right node ==> 
+  DataValue is: 0.01621839415565196 operator: abs( double ) 
+  left node ==> 
+   DataValue is: 0.39506073537882014 operator: / 
+   left node ==> 
+    DataValue is: 0.641469491652085 data: 1
+   right node ==> 
+    DataValue is: 0.510253828220151 data: 0
+  right node ==> 
+   DataValue is: 0.22271109902355601 operator: cosh( double ) 
+   left node ==> 
+    DataValue is: 0.6549496974934621 data: 1
+   right node ==> 
+    DataValue is: 0.8120534274890279 data: pi 
+
+Fitness: 0.3333333333333333
+predictions:
+0.8489643855386179
+0.8489643855386179
+0.8489643855386179
+0.8489643855386179
+1.0
+1.0
+1.0
+1.0
+
+30, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.08427133828058042 operator: log( abs( double ) ) 
+left node ==> 
+ DataValue is: 0.4020348888195254 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.08486433499647983 operator: log( abs( double ) ) 
+  left node ==> 
+   DataValue is: 0.29147594869442095 operator: exp( double ) 
+   left node ==> 
+    DataValue is: 0.2894695680368483 operator: exp( double ) 
+    left node ==> 
+     DataValue is: 0.6642076976557434 data: 1
+    right node ==> 
+     DataValue is: 0.839196467580176 data: pi 
+   right node ==> 
+    DataValue is: 0.3460859912516838 operator: toDegrees( double ) 
+    left node ==> 
+     DataValue is: 0.596048023120523 data: 0
+    right node ==> 
+     DataValue is: 0.8364195407471333 data: pi 
+  right node ==> 
+   DataValue is: 0.32417810934083713 operator: toRadians( double ) 
+   left node ==> 
+    DataValue is: 0.28043557617499404 operator: asin( double ) 
+    left node ==> 
+     DataValue is: 0.734732241634926 data: 2
+    right node ==> 
+     DataValue is: 0.5256915694941079 data: 0
+   right node ==> 
+    DataValue is: 0.2743273277470393 operator: asin( double ) 
+    left node ==> 
+     DataValue is: 0.5638642703019232 data: 0
+    right node ==> 
+     DataValue is: 0.9741284224379065 data: e 
+ right node ==> 
+  DataValue is: 0.18138132897907355 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.1820075037014448 operator: sin( double ) 
+   left node ==> 
+    DataValue is: 0.10997053457356243 operator: log1p( double ) 
+    left node ==> 
+     DataValue is: 0.7008006594672871 data: 2
+    right node ==> 
+     DataValue is: 0.5426969370423746 data: 0
+   right node ==> 
+    DataValue is: 0.4439908488240194 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.7033315711886621 data: 2
+    right node ==> 
+     DataValue is: 0.9358706256683799 data: e 
+  right node ==> 
+   DataValue is: 0.4761911437408346 operator: min( double, double ) 
+   left node ==> 
+    DataValue is: 0.1260427262307211 operator: log10( double ) 
+    left node ==> 
+     DataValue is: 0.9026619289972657 data: e 
+    right node ==> 
+     DataValue is: 0.7554994819729334 data: 2
+   right node ==> 
+    DataValue is: 0.44035303822445293 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.848400997758084 data: pi 
+    right node ==> 
+     DataValue is: 0.8315282401551986 data: pi 
+right node ==> 
+ DataValue is: 0.2913102581173146 operator: exp( double ) 
+ left node ==> 
+  DataValue is: 0.4335276292825596 operator: pow( double, double ) 
+  left node ==> 
+   DataValue is: 0.13277531204676984 operator: log10( double ) 
+   left node ==> 
+    DataValue is: 0.13699203832655016 operator: atan( double ) 
+    left node ==> 
+     DataValue is: 0.7507502072855012 data: 2
+    right node ==> 
+     DataValue is: 0.8630053617429143 data: pi 
+   right node ==> 
+    DataValue is: 0.13720451908788345 operator: atan( double ) 
+    left node ==> 
+     DataValue is: 0.6980954281169365 data: 1
+    right node ==> 
+     DataValue is: 0.9374982305569672 data: e 
+  right node ==> 
+   DataValue is: 0.29095314669767536 operator: exp( double ) 
+   left node ==> 
+    DataValue is: 0.11482337337830484 operator: log1p( double ) 
+    left node ==> 
+     DataValue is: 0.5653270951287173 data: 0
+    right node ==> 
+     DataValue is: 0.7872925979350794 data: 2
+   right node ==> 
+    DataValue is: 0.07697574698057341 operator: sqrt( abs( double ) ) 
+    left node ==> 
+     DataValue is: 0.8690603534168342 data: pi 
+ right node ==> 
+  DataValue is: 0.3214104334842487 operator: toRadians( double ) 
+  left node ==> 
+   DataValue is: 0.1722074425820468 operator: sin( double ) 
+   left node ==> 
+    DataValue is: 0.54822865825669 data: 0
+   right node ==> 
+    DataValue is: 0.6218713561237673 data: 1
+  right node ==> 
+   DataValue is: 0.32001863330692537 operator: toRadians( double ) 
+   left node ==> 
+    DataValue is: 0.5987658841034027 data: 0
+   right node ==> 
+    DataValue is: 0.8324853327259356 data: pi 
+
+Fitness: 0.36460024105181543
+predictions:
+1.0235046074797072
+1.0
+0.15213963372769546
+0.0
+1.0235046074797072
+1.0
+0.15213963372769546
+0.0
+
+87, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.3837735330481305 operator: / 
+left node ==> 
+ DataValue is: 0.18936553130725842 operator: cos( double ) 
+ left node ==> 
+  DataValue is: 0.3621489900543433 operator: + 
+  left node ==> 
+   DataValue is: 0.3314030368666613 operator: toRadians( double ) 
+   left node ==> 
+    DataValue is: 0.39249163852845137 operator: / 
+    left node ==> 
+     DataValue is: 0.6876521055328447 data: 1
+    right node ==> 
+     DataValue is: 0.5154386841826701 data: 0
+   right node ==> 
+    DataValue is: 0.03670915663517449 operator: ceil( double ) 
+    left node ==> 
+     DataValue is: 0.6058358559781982 data: 1
+    right node ==> 
+     DataValue is: 0.8592444557938799 data: pi 
+  right node ==> 
+   DataValue is: 0.4464246727739062 operator: pow( double, double ) 
+   left node ==> 
+    DataValue is: 0.07966218854691287 operator: sqrt( abs( double ) ) 
+    left node ==> 
+     DataValue is: 0.6207433399715074 data: 1
+    right node ==> 
+     DataValue is: 0.8848041663743365 data: pi 
+   right node ==> 
+    DataValue is: 0.4582715186408165 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.6657230493020645 data: 1
+    right node ==> 
+     DataValue is: 0.8180404407630206 data: pi 
+ right node ==> 
+  DataValue is: 0.49184654564505026 operator: IEEERemainder( double, double ) 
+  left node ==> 
+   DataValue is: 0.4520784636028501 operator: max( double, double ) 
+   left node ==> 
+    DataValue is: 8.524066417581189E-4 operator: abs( double ) 
+    left node ==> 
+     DataValue is: 0.94898577048643 data: e 
+    right node ==> 
+     DataValue is: 0.5750940296224669 data: 0
+   right node ==> 
+    DataValue is: 0.449562548599423 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.5594142299882168 data: 0
+    right node ==> 
+     DataValue is: 0.8645967648496111 data: pi 
+  right node ==> 
+   DataValue is: 0.05280884087206106 operator: cbrt( double ) 
+   left node ==> 
+    DataValue is: 0.16061307874021313 operator: tanh( double ) 
+    left node ==> 
+     DataValue is: 0.6608285161570415 data: 1
+    right node ==> 
+     DataValue is: 0.6704551201936446 data: 1
+   right node ==> 
+    DataValue is: 0.3283025771185948 operator: toRadians( double ) 
+    left node ==> 
+     DataValue is: 0.5343537950685959 data: 0
+    right node ==> 
+     DataValue is: 0.6374618426185286 data: 1
+right node ==> 
+ DataValue is: 0.10078198636928803 operator: log1p( double ) 
+ left node ==> 
+  DataValue is: 0.4536287712255764 operator: max( double, double ) 
+  left node ==> 
+   DataValue is: 0.034034235214978725 operator: ceil( double ) 
+   left node ==> 
+    DataValue is: 0.15669349601262308 operator: tanh( double ) 
+    left node ==> 
+     DataValue is: 0.6749590231162286 data: 1
+    right node ==> 
+     DataValue is: 0.8807698232286657 data: pi 
+   right node ==> 
+    DataValue is: 0.08903372647604657 operator: log( abs( double ) ) 
+    left node ==> 
+     DataValue is: 0.9722360635744254 data: e 
+    right node ==> 
+     DataValue is: 0.9944128747914269 data: e 
+  right node ==> 
+   DataValue is: 0.06651185581654828 operator: cbrt( double ) 
+   left node ==> 
+    DataValue is: 0.05812050210304709 operator: cbrt( double ) 
+    left node ==> 
+     DataValue is: 0.709660989768086 data: 2
+    right node ==> 
+     DataValue is: 0.8701222675083555 data: pi 
+   right node ==> 
+    DataValue is: 0.21709072089559797 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.5876935578179586 data: 0
+ right node ==> 
+  DataValue is: 0.46204974202532334 operator: max( double, double ) 
+  left node ==> 
+   DataValue is: 0.07599258132215203 operator: sqrt( abs( double ) ) 
+   left node ==> 
+    DataValue is: 0.9756905615702469 data: e 
+   right node ==> 
+    DataValue is: 0.8014721865990334 data: pi 
+  right node ==> 
+   DataValue is: 0.49856367649185207 operator: IEEERemainder( double, double ) 
+   left node ==> 
+    DataValue is: 0.6470962433972843 data: 1
+   right node ==> 
+    DataValue is: 0.5859710362486781 data: 0
+
+Fitness: 0.4298473689693596
+predictions:
+0.758185759557374
+0.758185759557374
+1.4426950408889634
+0.0
+0.7794914572568371
+0.7794914572568371
+1.4426950408889634
+0.0
+
+120, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.036900099200173786 operator: ceil( double ) 
+left node ==> 
+ DataValue is: 0.4587859870334091 operator: max( double, double ) 
+ left node ==> 
+  DataValue is: 0.032713052074833326 operator: floor( double ) 
+  left node ==> 
+   DataValue is: 0.4121546172842634 operator: hypot( double, double ) 
+   left node ==> 
+    DataValue is: 0.006152894708280288 operator: abs( double ) 
+    left node ==> 
+     DataValue is: 0.6260178567749435 data: 1
+    right node ==> 
+     DataValue is: 0.9010055919300886 data: e 
+   right node ==> 
+    DataValue is: 0.25188561603088366 operator: tan( double ) 
+    left node ==> 
+     DataValue is: 0.7467139086857392 data: 2
+    right node ==> 
+     DataValue is: 0.8324986070279883 data: pi 
+  right node ==> 
+   DataValue is: 0.19967904319837837 operator: cos( double ) 
+   left node ==> 
+    DataValue is: 0.15280839137746083 operator: tanh( double ) 
+    left node ==> 
+     DataValue is: 0.8888982631535782 data: pi 
+    right node ==> 
+     DataValue is: 0.6166767487314397 data: 1
+   right node ==> 
+    DataValue is: 0.4814381061047772 operator: min( double, double ) 
+    left node ==> 
+     DataValue is: 0.9153540105385853 data: e 
+    right node ==> 
+     DataValue is: 0.5222712617964329 data: 0
+ right node ==> 
+  DataValue is: 0.09387024906214769 operator: log( abs( double ) ) 
+  left node ==> 
+   DataValue is: 0.07702128164863087 operator: sqrt( abs( double ) ) 
+   left node ==> 
+    DataValue is: 0.07701671945911892 operator: sqrt( abs( double ) ) 
+    left node ==> 
+     DataValue is: 0.7004774545279167 data: 2
+    right node ==> 
+     DataValue is: 0.8184888747543422 data: pi 
+   right node ==> 
+    DataValue is: 0.2556086756214144 operator: tan( double ) 
+    left node ==> 
+     DataValue is: 0.984136743133273 data: e 
+    right node ==> 
+     DataValue is: 0.9332931881966351 data: e 
+  right node ==> 
+   DataValue is: 0.14720695917792587 operator: atan( double ) 
+   left node ==> 
+    DataValue is: 0.444030665825335 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.9832718014812794 data: e 
+    right node ==> 
+     DataValue is: 0.9336517808764632 data: e 
+   right node ==> 
+    DataValue is: 0.33650889564577335 operator: toDegrees( double ) 
+    left node ==> 
+     DataValue is: 0.9307674596118236 data: e 
+    right node ==> 
+     DataValue is: 0.8092914716145763 data: pi 
+right node ==> 
+ DataValue is: 0.2863450705417525 operator: exp( double ) 
+ left node ==> 
+  DataValue is: 0.47699976157206203 operator: min( double, double ) 
+  left node ==> 
+   DataValue is: 0.12699786185688355 operator: log10( double ) 
+   left node ==> 
+    DataValue is: 0.17140661420946024 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.9111546508489989 data: e 
+    right node ==> 
+     DataValue is: 0.5400307852378683 data: 0
+   right node ==> 
+    DataValue is: 0.20241291648562743 operator: acos( double ) 
+    left node ==> 
+     DataValue is: 0.7906463953787187 data: 2
+    right node ==> 
+     DataValue is: 0.5324303100850205 data: 0
+  right node ==> 
+   DataValue is: 0.19157401384508377 operator: cos( double ) 
+   left node ==> 
+    DataValue is: 0.28039692153569207 operator: asin( double ) 
+    left node ==> 
+     DataValue is: 0.8612525096700911 data: pi 
+    right node ==> 
+     DataValue is: 0.5990753939446432 data: 0
+   right node ==> 
+    DataValue is: 0.4611483398660413 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.5550837183652915 data: 0
+ right node ==> 
+  DataValue is: 0.3302341912146778 operator: toRadians( double ) 
+  left node ==> 
+   DataValue is: 0.25100516685493757 operator: tan( double ) 
+   left node ==> 
+    DataValue is: 0.6812662028031284 data: 1
+   right node ==> 
+    DataValue is: 0.5029826799179467 data: 0
+  right node ==> 
+   DataValue is: 0.003262020282634115 operator: abs( double ) 
+   left node ==> 
+    DataValue is: 0.8621389468090854 data: pi 
+   right node ==> 
+    DataValue is: 0.7552001112005846 data: 2
+
+Fitness: 1.0
+predictions:
+1.0
+1.0
+1.0
+0.0
+1.0
+1.0
+1.0
+0.0
+
+3.107: [GC [PSYoungGen: 786432K->704K(917504K)] 786432K->704K(1075200K), 0.0033160 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+6.448: [GC [PSYoungGen: 787136K->608K(917504K)] 787136K->608K(1075200K), 0.0012080 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+9.842: [GC [PSYoungGen: 787040K->592K(917504K)] 787040K->592K(1075200K), 0.0017810 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+13.144: [GC [PSYoungGen: 787024K->704K(917504K)] 787024K->704K(1075200K), 0.0012420 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+16.660: [GC [PSYoungGen: 787136K->736K(917504K)] 787136K->736K(1075200K), 0.0005420 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+20.215: [GC [PSYoungGen: 787168K->672K(1047744K)] 787168K->672K(1205440K), 0.0024130 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+25.118: [GC [PSYoungGen: 1047584K->448K(1047744K)] 1047584K->736K(1205440K), 0.0009450 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+29.794: [GC [PSYoungGen: 1047360K->416K(1047616K)] 1047648K->704K(1205312K), 0.0008640 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+34.485: [GC [PSYoungGen: 1047200K->448K(1047680K)] 1047488K->736K(1205376K), 0.0008050 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+39.466: [GC [PSYoungGen: 1047232K->384K(1047680K)] 1047520K->672K(1205376K), 0.0007640 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+44.428: [GC [PSYoungGen: 1047168K->384K(1047680K)] 1047456K->672K(1205376K), 0.0015160 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+44775, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.4423706401603129 operator: pow( double, double ) 
+left node ==> 
+ DataValue is: 0.08256223410591756 operator: sqrt( abs( double ) ) 
+ left node ==> 
+  DataValue is: 0.16930524629466437 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.35591300133162873 operator: + 
+   left node ==> 
+    DataValue is: 0.17526982063278024 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.6513312380247167 data: 1
+    right node ==> 
+     DataValue is: 0.7059316322960538 data: 2
+   right node ==> 
+    DataValue is: 0.2756194717751498 operator: asin( double ) 
+    left node ==> 
+     DataValue is: 0.7758527958760478 data: 2
+    right node ==> 
+     DataValue is: 0.8574064346248225 data: pi 
+  right node ==> 
+   DataValue is: 0.11077709590540252 operator: log1p( double ) 
+   left node ==> 
+    DataValue is: 0.012533343298961164 operator: abs( double ) 
+    left node ==> 
+     DataValue is: 0.982567301112698 data: e 
+    right node ==> 
+     DataValue is: 0.712981906268858 data: 2
+   right node ==> 
+    DataValue is: 0.07299537812325141 operator: sqrt( abs( double ) ) 
+    left node ==> 
+     DataValue is: 0.5439043110604052 data: 0
+    right node ==> 
+     DataValue is: 0.8603652439433938 data: pi 
+ right node ==> 
+  DataValue is: 0.2629205967800996 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.01664944543608482 operator: abs( double ) 
+   left node ==> 
+    DataValue is: 0.07956010386514835 operator: sqrt( abs( double ) ) 
+    left node ==> 
+     DataValue is: 0.7094178576206792 data: 2
+    right node ==> 
+     DataValue is: 0.9166261404905756 data: e 
+   right node ==> 
+    DataValue is: 0.4605142555464059 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.7834910977155649 data: 2
+    right node ==> 
+     DataValue is: 0.9627419172725202 data: e 
+  right node ==> 
+   DataValue is: 0.16739425789533496 operator: sin( double ) 
+   left node ==> 
+    DataValue is: 0.4466407609960066 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.6632527049576002 data: 1
+    right node ==> 
+     DataValue is: 0.5219955225423154 data: 0
+   right node ==> 
+    DataValue is: 0.24843491981027288 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.7228310508535843 data: 2
+    right node ==> 
+     DataValue is: 0.5773273229299161 data: 0
+right node ==> 
+ DataValue is: 0.3590490192191902 operator: + 
+ left node ==> 
+  DataValue is: 8.970618038963707E-4 operator: abs( double ) 
+  left node ==> 
+   DataValue is: 0.480663533154874 operator: min( double, double ) 
+   left node ==> 
+    DataValue is: 0.17546555869065172 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.5637066545427187 data: 0
+    right node ==> 
+     DataValue is: 0.776901347409875 data: 2
+   right node ==> 
+    DataValue is: 0.2237060513157599 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.8674913481582663 data: pi 
+    right node ==> 
+     DataValue is: 0.9133547045224746 data: e 
+  right node ==> 
+   DataValue is: 0.13584646903454267 operator: atan( double ) 
+   left node ==> 
+    DataValue is: 0.21808222737160365 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.5257273142417768 data: 0
+    right node ==> 
+     DataValue is: 0.9913106083197427 data: e 
+   right node ==> 
+    DataValue is: 0.7439576956286446 data: 2
+    left node ==> 
+     DataValue is: 0.6765445526462011 data: 1
+ right node ==> 
+  DataValue is: 0.44950441820099596 operator: pow( double, double ) 
+  left node ==> 
+   DataValue is: 0.3843650261308404 operator: / 
+   left node ==> 
+    DataValue is: 0.7424109594363031 data: 2
+   right node ==> 
+    DataValue is: 0.5490614338939063 data: 0
+  right node ==> 
+   DataValue is: 0.031206183474255217 operator: floor( double ) 
+   left node ==> 
+    DataValue is: 0.6739510597916016 data: 1
+   right node ==> 
+    DataValue is: 0.5882640285672243 data: 0
+
+Fitness: 1.243264786879818
+predictions:
+0.6881555122026358
+0.8838216240775902
+1.0
+0.0
+1.0
+1.0
+1.0
+0.0
+
+45341, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.4423706401603129 operator: pow( double, double ) 
+left node ==> 
+ DataValue is: 0.008517728410704861 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.16930524629466437 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.35591300133162873 operator: + 
+   left node ==> 
+    DataValue is: 0.3650851096718266 operator: + 
+    left node ==> 
+     DataValue is: 0.6295978979506975 data: 1
+    right node ==> 
+     DataValue is: 0.7059316322960538 data: 2
+   right node ==> 
+    DataValue is: 0.18242153182803433 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.7758527958760478 data: 2
+    right node ==> 
+     DataValue is: 0.9777254257241189 data: e 
+  right node ==> 
+   DataValue is: 0.11077709590540252 operator: log1p( double ) 
+   left node ==> 
+    DataValue is: 0.024623335030632854 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.982567301112698 data: e 
+    right node ==> 
+     DataValue is: 0.6598751014524008 data: 1
+   right node ==> 
+    DataValue is: 0.0332478469498757 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.5439043110604052 data: 0
+    right node ==> 
+     DataValue is: 0.5970141560953118 data: 0
+ right node ==> 
+  DataValue is: 0.2629205967800996 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.01664944543608482 operator: abs( double ) 
+   left node ==> 
+    DataValue is: 0.34888496156865123 operator: toDegrees( double ) 
+    left node ==> 
+     DataValue is: 0.7094178576206792 data: 2
+    right node ==> 
+     DataValue is: 0.7088801106058293 data: 2
+   right node ==> 
+    DataValue is: 0.2475977893099207 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.7834910977155649 data: 2
+    right node ==> 
+     DataValue is: 0.8872555600999257 data: pi 
+  right node ==> 
+   DataValue is: 0.23730209611464792 operator: sinh( double ) 
+   left node ==> 
+    DataValue is: 0.45330599633856683 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.8861452858687514 data: pi 
+    right node ==> 
+     DataValue is: 0.5805448737297367 data: 0
+   right node ==> 
+    DataValue is: 0.2508505398698738 operator: tan( double ) 
+    left node ==> 
+     DataValue is: 0.7228310508535843 data: 2
+    right node ==> 
+     DataValue is: 0.8394628931973406 data: pi 
+right node ==> 
+ DataValue is: 0.3590490192191902 operator: + 
+ left node ==> 
+  DataValue is: 8.970618038963707E-4 operator: abs( double ) 
+  left node ==> 
+   DataValue is: 0.480663533154874 operator: min( double, double ) 
+   left node ==> 
+    DataValue is: 0.17546555869065172 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.8570334485215858 data: pi 
+    right node ==> 
+     DataValue is: 0.5078368000054192 data: 0
+   right node ==> 
+    DataValue is: 0.2237060513157599 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.8674913481582663 data: pi 
+    right node ==> 
+     DataValue is: 0.9133547045224746 data: e 
+  right node ==> 
+   DataValue is: 0.3157966397153572 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.21808222737160365 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.5257273142417768 data: 0
+    right node ==> 
+     DataValue is: 0.6339537617032673 data: 1
+   right node ==> 
+    DataValue is: 0.6192311137022314 data: 1
+    left node ==> 
+     DataValue is: 0.857965602885185 data: pi 
+ right node ==> 
+  DataValue is: 0.49934357207163316 operator: IEEERemainder( double, double ) 
+  left node ==> 
+   DataValue is: 0.3843650261308404 operator: / 
+   left node ==> 
+    DataValue is: 0.7060518183455318 data: 2
+   right node ==> 
+    DataValue is: 0.5375120594136553 data: 0
+  right node ==> 
+   DataValue is: 0.031206183474255217 operator: floor( double ) 
+   left node ==> 
+    DataValue is: 0.9534654722522314 data: e 
+   right node ==> 
+    DataValue is: 0.5882640285672243 data: 0
+
+Fitness: 3.011633507538812
+predictions:
+0.29563643910064985
+1.0
+0.9635907245418334
+0.0
+0.9999999999999999
+1.0
+1.0
+0.0
+
+45346, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.4423706401603129 operator: pow( double, double ) 
+left node ==> 
+ DataValue is: 0.008517728410704861 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.16930524629466437 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.3075792487845552 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.3650851096718266 operator: + 
+    left node ==> 
+     DataValue is: 0.6784596936847929 data: 1
+    right node ==> 
+     DataValue is: 0.7059316322960538 data: 2
+   right node ==> 
+    DataValue is: 0.30191448035779833 operator: expm1( double ) 
+    left node ==> 
+     DataValue is: 0.7758527958760478 data: 2
+    right node ==> 
+     DataValue is: 0.9777254257241189 data: e 
+  right node ==> 
+   DataValue is: 0.24208487293882397 operator: sinh( double ) 
+   left node ==> 
+    DataValue is: 0.024623335030632854 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.9754736252770991 data: e 
+    right node ==> 
+     DataValue is: 0.6598751014524008 data: 1
+   right node ==> 
+    DataValue is: 0.4410032163771007 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.5367103742412256 data: 0
+    right node ==> 
+     DataValue is: 0.5791544654026207 data: 0
+ right node ==> 
+  DataValue is: 0.463622636171626 operator: max( double, double ) 
+  left node ==> 
+   DataValue is: 0.01664944543608482 operator: abs( double ) 
+   left node ==> 
+    DataValue is: 0.34888496156865123 operator: toDegrees( double ) 
+    left node ==> 
+     DataValue is: 0.7094178576206792 data: 2
+    right node ==> 
+     DataValue is: 0.5793411151233642 data: 0
+   right node ==> 
+    DataValue is: 0.2475977893099207 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.6544014747115375 data: 1
+    right node ==> 
+     DataValue is: 0.8872555600999257 data: pi 
+  right node ==> 
+   DataValue is: 0.3835305659534778 operator: / 
+   left node ==> 
+    DataValue is: 0.45330599633856683 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.5679841924712313 data: 0
+    right node ==> 
+     DataValue is: 0.7384231026483314 data: 2
+   right node ==> 
+    DataValue is: 0.4669532763440054 operator: min( double, double ) 
+    left node ==> 
+     DataValue is: 0.7414290701114339 data: 2
+    right node ==> 
+     DataValue is: 0.8325087656273306 data: pi 
+right node ==> 
+ DataValue is: 0.3590490192191902 operator: + 
+ left node ==> 
+  DataValue is: 8.970618038963707E-4 operator: abs( double ) 
+  left node ==> 
+   DataValue is: 0.1346918150817371 operator: atan( double ) 
+   left node ==> 
+    DataValue is: 0.17546555869065172 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.8570334485215858 data: pi 
+    right node ==> 
+     DataValue is: 0.624902352634092 data: 1
+   right node ==> 
+    DataValue is: 0.2237060513157599 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.8674913481582663 data: pi 
+    right node ==> 
+     DataValue is: 0.6747535913522993 data: 1
+  right node ==> 
+   DataValue is: 0.3157966397153572 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.21808222737160365 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.9403943927650544 data: e 
+    right node ==> 
+     DataValue is: 0.6339537617032673 data: 1
+   right node ==> 
+    DataValue is: 0.5367738501285653 data: 0
+    left node ==> 
+     DataValue is: 0.9801092997218922 data: e 
+ right node ==> 
+  DataValue is: 0.0674244457981018 operator: sqrt( abs( double ) ) 
+  left node ==> 
+   DataValue is: 0.06417636589203779 operator: cbrt( double ) 
+   left node ==> 
+    DataValue is: 0.5113858286160606 data: 0
+   right node ==> 
+    DataValue is: 0.8093947683272299 data: pi 
+  right node ==> 
+   DataValue is: 0.031206183474255217 operator: floor( double ) 
+   left node ==> 
+    DataValue is: 0.9534654722522314 data: e 
+   right node ==> 
+    DataValue is: 0.5882640285672243 data: 0
+
+Fitness: 7.8501748502379485
+predictions:
+0.10567312490307693
+0.9891437136247581
+0.9891437136247581
+0.0
+0.9999999999999998
+1.0
+1.0
+0.0
+
+45478, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.4423706401603129 operator: pow( double, double ) 
+left node ==> 
+ DataValue is: 0.008517728410704861 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.16930524629466437 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.3075792487845552 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.3650851096718266 operator: + 
+    left node ==> 
+     DataValue is: 0.6818041108478983 data: 1
+    right node ==> 
+     DataValue is: 0.7059316322960538 data: 2
+   right node ==> 
+    DataValue is: 0.02484502725130544 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.7758527958760478 data: 2
+    right node ==> 
+     DataValue is: 0.5730103830629943 data: 0
+  right node ==> 
+   DataValue is: 0.24208487293882397 operator: sinh( double ) 
+   left node ==> 
+    DataValue is: 0.024623335030632854 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.9488954067646237 data: e 
+    right node ==> 
+     DataValue is: 0.6598751014524008 data: 1
+   right node ==> 
+    DataValue is: 0.4410032163771007 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.5367103742412256 data: 0
+    right node ==> 
+     DataValue is: 0.7323413063171399 data: 2
+ right node ==> 
+  DataValue is: 0.24995877729423166 operator: sinh( double ) 
+  left node ==> 
+   DataValue is: 0.01664944543608482 operator: abs( double ) 
+   left node ==> 
+    DataValue is: 0.0016805669857744565 operator: abs( double ) 
+    left node ==> 
+     DataValue is: 0.7094178576206792 data: 2
+    right node ==> 
+     DataValue is: 0.5793411151233642 data: 0
+   right node ==> 
+    DataValue is: 0.2475977893099207 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.7636382020667787 data: 2
+    right node ==> 
+     DataValue is: 0.657483868679933 data: 1
+  right node ==> 
+   DataValue is: 0.3129147490272095 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.45330599633856683 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.5679841924712313 data: 0
+    right node ==> 
+     DataValue is: 0.7384231026483314 data: 2
+   right node ==> 
+    DataValue is: 0.3812170195493694 operator: * 
+    left node ==> 
+     DataValue is: 0.7414290701114339 data: 2
+    right node ==> 
+     DataValue is: 0.8325087656273306 data: pi 
+right node ==> 
+ DataValue is: 0.3590490192191902 operator: + 
+ left node ==> 
+  DataValue is: 0.19486944976324005 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.2064982805524197 operator: acos( double ) 
+   left node ==> 
+    DataValue is: 0.17546555869065172 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.8570334485215858 data: pi 
+    right node ==> 
+     DataValue is: 0.624902352634092 data: 1
+   right node ==> 
+    DataValue is: 0.2237060513157599 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.8726225333300064 data: pi 
+    right node ==> 
+     DataValue is: 0.6747535913522993 data: 1
+  right node ==> 
+   DataValue is: 0.379356201325755 operator: * 
+   left node ==> 
+    DataValue is: 0.21808222737160365 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.9403943927650544 data: e 
+    right node ==> 
+     DataValue is: 0.6339537617032673 data: 1
+   right node ==> 
+    DataValue is: 0.9126817350017321 data: e 
+    left node ==> 
+     DataValue is: 0.9801092997218922 data: e 
+ right node ==> 
+  DataValue is: 0.2523610222072854 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.06417636589203779 operator: cbrt( double ) 
+   left node ==> 
+    DataValue is: 0.5113858286160606 data: 0
+   right node ==> 
+    DataValue is: 0.8627194706220768 data: pi 
+  right node ==> 
+   DataValue is: 0.031206183474255217 operator: floor( double ) 
+   left node ==> 
+    DataValue is: 0.5351239936752016 data: 0
+   right node ==> 
+    DataValue is: 0.706737157401775 data: 2
+
+Fitness: 15.647873736030515
+predictions:
+0.03019359679030242
+0.9831435753288947
+0.9831435753288947
+0.0
+0.9999999999999999
+1.0
+1.0
+0.0
+
+45533, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.4454022225817035 operator: pow( double, double ) 
+left node ==> 
+ DataValue is: 0.008517728410704861 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.16930524629466437 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.3075792487845552 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.3650851096718266 operator: + 
+    left node ==> 
+     DataValue is: 0.6005195293986264 data: 1
+    right node ==> 
+     DataValue is: 0.7146799325573532 data: 2
+   right node ==> 
+    DataValue is: 0.02484502725130544 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.7758527958760478 data: 2
+    right node ==> 
+     DataValue is: 0.5730103830629943 data: 0
+  right node ==> 
+   DataValue is: 0.24208487293882397 operator: sinh( double ) 
+   left node ==> 
+    DataValue is: 0.024623335030632854 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.8774170099308702 data: pi 
+    right node ==> 
+     DataValue is: 0.6278370831835717 data: 1
+   right node ==> 
+    DataValue is: 0.4410032163771007 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.5367103742412256 data: 0
+    right node ==> 
+     DataValue is: 0.7323413063171399 data: 2
+ right node ==> 
+  DataValue is: 0.28092034639375896 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.08889639358429902 operator: log( abs( double ) ) 
+   left node ==> 
+    DataValue is: 0.40823016877188656 operator: hypot( double, double ) 
+    left node ==> 
+     DataValue is: 0.98745012694038 data: e 
+    right node ==> 
+     DataValue is: 0.8043385704770681 data: pi 
+   right node ==> 
+    DataValue is: 0.2475977893099207 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.7636382020667787 data: 2
+    right node ==> 
+     DataValue is: 0.657483868679933 data: 1
+  right node ==> 
+   DataValue is: 0.08065208678840952 operator: sqrt( abs( double ) ) 
+   left node ==> 
+    DataValue is: 0.45330599633856683 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.5679841924712313 data: 0
+    right node ==> 
+     DataValue is: 0.7384231026483314 data: 2
+   right node ==> 
+    DataValue is: 0.21865442264000567 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.7414290701114339 data: 2
+    right node ==> 
+     DataValue is: 0.7952296560254435 data: 2
+right node ==> 
+ DataValue is: 0.3590490192191902 operator: + 
+ left node ==> 
+  DataValue is: 0.19486944976324005 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.2064982805524197 operator: acos( double ) 
+   left node ==> 
+    DataValue is: 0.17546555869065172 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.524072632492801 data: 0
+    right node ==> 
+     DataValue is: 0.6363496984414249 data: 1
+   right node ==> 
+    DataValue is: 0.2237060513157599 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.7555789952822595 data: 2
+    right node ==> 
+     DataValue is: 0.6192881961593109 data: 1
+  right node ==> 
+   DataValue is: 0.36249899238304595 operator: + 
+   left node ==> 
+    DataValue is: 0.18159281575473585 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.5345424081229468 data: 0
+    right node ==> 
+     DataValue is: 0.9279681574629702 data: e 
+   right node ==> 
+    DataValue is: 0.9126817350017321 data: e 
+    left node ==> 
+     DataValue is: 0.7793951485532311 data: 2
+ right node ==> 
+  DataValue is: 0.2523610222072854 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.06417636589203779 operator: cbrt( double ) 
+   left node ==> 
+    DataValue is: 0.5113858286160606 data: 0
+   right node ==> 
+    DataValue is: 0.6903622566439566 data: 1
+  right node ==> 
+   DataValue is: 0.031206183474255217 operator: floor( double ) 
+   left node ==> 
+    DataValue is: 0.5351239936752016 data: 0
+   right node ==> 
+    DataValue is: 0.706737157401775 data: 2
+
+Fitness: 17.77867379115196
+predictions:
+0.004556268825382786
+0.9741545518624093
+0.9741545518624093
+0.0
+0.9999999999999999
+1.0
+1.0
+0.0
+
+48336, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.4454022225817035 operator: pow( double, double ) 
+left node ==> 
+ DataValue is: 0.008517728410704861 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.16930524629466437 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.3075792487845552 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.3650851096718266 operator: + 
+    left node ==> 
+     DataValue is: 0.6005195293986264 data: 1
+    right node ==> 
+     DataValue is: 0.7146799325573532 data: 2
+   right node ==> 
+    DataValue is: 0.02484502725130544 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.5384606386782292 data: 0
+    right node ==> 
+     DataValue is: 0.5730103830629943 data: 0
+  right node ==> 
+   DataValue is: 0.24208487293882397 operator: sinh( double ) 
+   left node ==> 
+    DataValue is: 0.11212263205685757 operator: log1p( double ) 
+    left node ==> 
+     DataValue is: 0.8754208846475532 data: pi 
+    right node ==> 
+     DataValue is: 0.6278370831835717 data: 1
+   right node ==> 
+    DataValue is: 0.4410032163771007 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.633474996627952 data: 1
+    right node ==> 
+     DataValue is: 0.7323413063171399 data: 2
+ right node ==> 
+  DataValue is: 0.28092034639375896 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.3347246125768527 operator: toDegrees( double ) 
+   left node ==> 
+    DataValue is: 0.49621594269210434 operator: IEEERemainder( double, double ) 
+    left node ==> 
+     DataValue is: 0.98745012694038 data: e 
+    right node ==> 
+     DataValue is: 0.8043385704770681 data: pi 
+   right node ==> 
+    DataValue is: 0.2475977893099207 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.7175687410906059 data: 2
+    right node ==> 
+     DataValue is: 0.657483868679933 data: 1
+  right node ==> 
+   DataValue is: 0.08065208678840952 operator: sqrt( abs( double ) ) 
+   left node ==> 
+    DataValue is: 0.45330599633856683 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.735042478072574 data: 2
+    right node ==> 
+     DataValue is: 0.7384231026483314 data: 2
+   right node ==> 
+    DataValue is: 0.47153967195460744 operator: min( double, double ) 
+    left node ==> 
+     DataValue is: 0.7414290701114339 data: 2
+    right node ==> 
+     DataValue is: 0.7952296560254435 data: 2
+right node ==> 
+ DataValue is: 0.3590490192191902 operator: + 
+ left node ==> 
+  DataValue is: 0.19486944976324005 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.2064982805524197 operator: acos( double ) 
+   left node ==> 
+    DataValue is: 0.3883480777572841 operator: / 
+    left node ==> 
+     DataValue is: 0.524072632492801 data: 0
+    right node ==> 
+     DataValue is: 0.606106416281705 data: 1
+   right node ==> 
+    DataValue is: 0.0363962956468753 operator: ceil( double ) 
+    left node ==> 
+     DataValue is: 0.5919353367633955 data: 0
+    right node ==> 
+     DataValue is: 0.6192881961593109 data: 1
+  right node ==> 
+   DataValue is: 0.36249899238304595 operator: + 
+   left node ==> 
+    DataValue is: 0.18159281575473585 operator: sin( double ) 
+    left node ==> 
+     DataValue is: 0.5345424081229468 data: 0
+    right node ==> 
+     DataValue is: 0.9279681574629702 data: e 
+   right node ==> 
+    DataValue is: 0.9126817350017321 data: e 
+    left node ==> 
+     DataValue is: 0.5878596967601739 data: 0
+ right node ==> 
+  DataValue is: 0.2523610222072854 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.06417636589203779 operator: cbrt( double ) 
+   left node ==> 
+    DataValue is: 0.5113858286160606 data: 0
+   right node ==> 
+    DataValue is: 0.8059993366238891 data: pi 
+  right node ==> 
+   DataValue is: 0.02303494695963837 operator: floor( double ) 
+   left node ==> 
+    DataValue is: 0.6813750511297008 data: 1
+   right node ==> 
+    DataValue is: 0.9222842307105132 data: e 
+
+Fitness: 21.0186524851231
+predictions:
+0.003190651724894772
+0.972470287127145
+0.9831435753288947
+0.0
+0.9999999999999999
+1.0
+1.0
+0.0
+
+49185, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.4454022225817035 operator: pow( double, double ) 
+left node ==> 
+ DataValue is: 0.008517728410704861 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.16930524629466437 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.3075792487845552 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.3650851096718266 operator: + 
+    left node ==> 
+     DataValue is: 0.6303792222585123 data: 1
+    right node ==> 
+     DataValue is: 0.7146799325573532 data: 2
+   right node ==> 
+    DataValue is: 0.02484502725130544 operator: floor( double ) 
+    left node ==> 
+     DataValue is: 0.5384606386782292 data: 0
+    right node ==> 
+     DataValue is: 0.734093423544912 data: 2
+  right node ==> 
+   DataValue is: 0.18234916238105636 operator: sin( double ) 
+   left node ==> 
+    DataValue is: 0.0027661696616059217 operator: abs( double ) 
+    left node ==> 
+     DataValue is: 0.675266240176152 data: 1
+    right node ==> 
+     DataValue is: 0.6278370831835717 data: 1
+   right node ==> 
+    DataValue is: 0.4410032163771007 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.633474996627952 data: 1
+    right node ==> 
+     DataValue is: 0.7323413063171399 data: 2
+ right node ==> 
+  DataValue is: 0.3630208048012007 operator: + 
+  left node ==> 
+   DataValue is: 0.08978472491841916 operator: log( abs( double ) ) 
+   left node ==> 
+    DataValue is: 0.1087277040124458 operator: log1p( double ) 
+    left node ==> 
+     DataValue is: 0.98745012694038 data: e 
+    right node ==> 
+     DataValue is: 0.9657877062518735 data: e 
+   right node ==> 
+    DataValue is: 0.2475977893099207 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.7175687410906059 data: 2
+    right node ==> 
+     DataValue is: 0.8351837791095401 data: pi 
+  right node ==> 
+   DataValue is: 0.3017521237459412 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.45330599633856683 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.735042478072574 data: 2
+    right node ==> 
+     DataValue is: 0.7384231026483314 data: 2
+   right node ==> 
+    DataValue is: 0.22871825375449129 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.5059842860729982 data: 0
+    right node ==> 
+     DataValue is: 0.7047417140584227 data: 2
+right node ==> 
+ DataValue is: 0.2571912642635408 operator: tan( double ) 
+ left node ==> 
+  DataValue is: 0.19486944976324005 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.2064982805524197 operator: acos( double ) 
+   left node ==> 
+    DataValue is: 0.3883480777572841 operator: / 
+    left node ==> 
+     DataValue is: 0.524072632492801 data: 0
+    right node ==> 
+     DataValue is: 0.606106416281705 data: 1
+   right node ==> 
+    DataValue is: 0.0363962956468753 operator: ceil( double ) 
+    left node ==> 
+     DataValue is: 0.5666486439093888 data: 0
+    right node ==> 
+     DataValue is: 0.6192881961593109 data: 1
+  right node ==> 
+   DataValue is: 0.36249899238304595 operator: + 
+   left node ==> 
+    DataValue is: 0.4767817717253914 operator: min( double, double ) 
+    left node ==> 
+     DataValue is: 0.5345424081229468 data: 0
+    right node ==> 
+     DataValue is: 0.9279681574629702 data: e 
+   right node ==> 
+    DataValue is: 0.9126817350017321 data: e 
+    left node ==> 
+     DataValue is: 0.5878596967601739 data: 0
+ right node ==> 
+  DataValue is: 0.2523610222072854 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.2600051702970648 operator: tan( double ) 
+   left node ==> 
+    DataValue is: 0.5259191722079337 data: 0
+   right node ==> 
+    DataValue is: 0.8059993366238891 data: pi 
+  right node ==> 
+   DataValue is: 0.02303494695963837 operator: floor( double ) 
+   left node ==> 
+    DataValue is: 0.8827001039791387 data: pi 
+   right node ==> 
+    DataValue is: 0.9981648835748081 data: e 
+
+Fitness: 21.25397542741267
+predictions:
+0.03019359679030242
+0.9831435753288947
+1.0
+0.0
+0.9999999999999999
+1.0
+1.0
+0.0
+
+49.341: [GC [PSYoungGen: 1047168K->384K(1047680K)] 1047456K->672K(1205376K), 0.0015240 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+50386, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.4454022225817035 operator: pow( double, double ) 
+left node ==> 
+ DataValue is: 0.008517728410704861 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.16930524629466437 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.3075792487845552 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.3650851096718266 operator: + 
+    left node ==> 
+     DataValue is: 0.6303792222585123 data: 1
+    right node ==> 
+     DataValue is: 0.7146799325573532 data: 2
+   right node ==> 
+    DataValue is: 0.4141326010444637 operator: hypot( double, double ) 
+    left node ==> 
+     DataValue is: 0.8960909900641053 data: pi 
+    right node ==> 
+     DataValue is: 0.734093423544912 data: 2
+  right node ==> 
+   DataValue is: 0.18594986916551914 operator: cos( double ) 
+   left node ==> 
+    DataValue is: 0.4043583955577901 operator: hypot( double, double ) 
+    left node ==> 
+     DataValue is: 0.675266240176152 data: 1
+    right node ==> 
+     DataValue is: 0.5701456730610855 data: 0
+   right node ==> 
+    DataValue is: 0.004816083878222299 operator: abs( double ) 
+    left node ==> 
+     DataValue is: 0.8737722890274439 data: pi 
+    right node ==> 
+     DataValue is: 0.7323413063171399 data: 2
+ right node ==> 
+  DataValue is: 0.33065783993664843 operator: toRadians( double ) 
+  left node ==> 
+   DataValue is: 0.08978472491841916 operator: log( abs( double ) ) 
+   left node ==> 
+    DataValue is: 0.4615587147281778 operator: max( double, double ) 
+    left node ==> 
+     DataValue is: 0.5704054749799208 data: 0
+    right node ==> 
+     DataValue is: 0.6690908611550543 data: 1
+   right node ==> 
+    DataValue is: 0.2475977893099207 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.9118769700162785 data: e 
+    right node ==> 
+     DataValue is: 0.8946771065966121 data: pi 
+  right node ==> 
+   DataValue is: 0.3017521237459412 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.051456610073309816 operator: cbrt( double ) 
+    left node ==> 
+     DataValue is: 0.735042478072574 data: 2
+    right node ==> 
+     DataValue is: 0.7384231026483314 data: 2
+   right node ==> 
+    DataValue is: 0.49184190564453933 operator: IEEERemainder( double, double ) 
+    left node ==> 
+     DataValue is: 0.5059842860729982 data: 0
+    right node ==> 
+     DataValue is: 0.8843389724919718 data: pi 
+right node ==> 
+ DataValue is: 0.2751519928133541 operator: asin( double ) 
+ left node ==> 
+  DataValue is: 0.19486944976324005 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.20105460228894478 operator: acos( double ) 
+   left node ==> 
+    DataValue is: 0.3883480777572841 operator: / 
+    left node ==> 
+     DataValue is: 0.524072632492801 data: 0
+    right node ==> 
+     DataValue is: 0.606106416281705 data: 1
+   right node ==> 
+    DataValue is: 0.0363962956468753 operator: ceil( double ) 
+    left node ==> 
+     DataValue is: 0.6517266691635184 data: 1
+    right node ==> 
+     DataValue is: 0.6192881961593109 data: 1
+  right node ==> 
+   DataValue is: 0.36249899238304595 operator: + 
+   left node ==> 
+    DataValue is: 0.372946163311787 operator: * 
+    left node ==> 
+     DataValue is: 0.5345424081229468 data: 0
+    right node ==> 
+     DataValue is: 0.9891655661032509 data: e 
+   right node ==> 
+    DataValue is: 0.9126817350017321 data: e 
+    left node ==> 
+     DataValue is: 0.5878596967601739 data: 0
+ right node ==> 
+  DataValue is: 0.2523610222072854 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.2600051702970648 operator: tan( double ) 
+   left node ==> 
+    DataValue is: 0.6050608196192907 data: 1
+   right node ==> 
+    DataValue is: 0.8059993366238891 data: pi 
+  right node ==> 
+   DataValue is: 0.02303494695963837 operator: floor( double ) 
+   left node ==> 
+    DataValue is: 0.8827001039791387 data: pi 
+   right node ==> 
+    DataValue is: 0.8817696124569773 data: pi 
+
+Fitness: 21.59887317839371
+predictions:
+0.029298615666364592
+0.9829999040743015
+1.0
+0.0
+0.9999999999999999
+1.0
+1.0
+0.0
+
+54.216: [GC [PSYoungGen: 1047168K->384K(1047680K)] 1047456K->680K(1205376K), 0.0005280 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+55285, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.4454022225817035 operator: pow( double, double ) 
+left node ==> 
+ DataValue is: 0.008517728410704861 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.16930524629466437 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.3075792487845552 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.4055021109527601 operator: hypot( double, double ) 
+    left node ==> 
+     DataValue is: 0.6303792222585123 data: 1
+    right node ==> 
+     DataValue is: 0.7146799325573532 data: 2
+   right node ==> 
+    DataValue is: 0.4141326010444637 operator: hypot( double, double ) 
+    left node ==> 
+     DataValue is: 0.8960909900641053 data: pi 
+    right node ==> 
+     DataValue is: 0.8066048237439032 data: pi 
+  right node ==> 
+   DataValue is: 0.18594986916551914 operator: cos( double ) 
+   left node ==> 
+    DataValue is: 0.4043583955577901 operator: hypot( double, double ) 
+    left node ==> 
+     DataValue is: 0.675266240176152 data: 1
+    right node ==> 
+     DataValue is: 0.5701456730610855 data: 0
+   right node ==> 
+    DataValue is: 0.004816083878222299 operator: abs( double ) 
+    left node ==> 
+     DataValue is: 0.8737722890274439 data: pi 
+    right node ==> 
+     DataValue is: 0.7323413063171399 data: 2
+ right node ==> 
+  DataValue is: 0.2986021640343348 operator: exp( double ) 
+  left node ==> 
+   DataValue is: 0.08978472491841916 operator: log( abs( double ) ) 
+   left node ==> 
+    DataValue is: 0.4674206513667748 operator: min( double, double ) 
+    left node ==> 
+     DataValue is: 0.5580298084868738 data: 0
+    right node ==> 
+     DataValue is: 0.6690908611550543 data: 1
+   right node ==> 
+    DataValue is: 0.2475977893099207 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.7158144774792378 data: 2
+    right node ==> 
+     DataValue is: 0.5690664810791191 data: 0
+  right node ==> 
+   DataValue is: 0.3017521237459412 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.051456610073309816 operator: cbrt( double ) 
+    left node ==> 
+     DataValue is: 0.9268609422516191 data: e 
+    right node ==> 
+     DataValue is: 0.7384231026483314 data: 2
+   right node ==> 
+    DataValue is: 0.3780836705510291 operator: * 
+    left node ==> 
+     DataValue is: 0.5059842860729982 data: 0
+    right node ==> 
+     DataValue is: 0.5552829549614992 data: 0
+right node ==> 
+ DataValue is: 0.2751519928133541 operator: asin( double ) 
+ left node ==> 
+  DataValue is: 0.19486944976324005 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.20105460228894478 operator: acos( double ) 
+   left node ==> 
+    DataValue is: 0.3883480777572841 operator: / 
+    left node ==> 
+     DataValue is: 0.524072632492801 data: 0
+    right node ==> 
+     DataValue is: 0.606106416281705 data: 1
+   right node ==> 
+    DataValue is: 0.11478093515954102 operator: log1p( double ) 
+    left node ==> 
+     DataValue is: 0.6517266691635184 data: 1
+    right node ==> 
+     DataValue is: 0.6192881961593109 data: 1
+  right node ==> 
+   DataValue is: 0.36249899238304595 operator: + 
+   left node ==> 
+    DataValue is: 0.372946163311787 operator: * 
+    left node ==> 
+     DataValue is: 0.5747386980809164 data: 0
+    right node ==> 
+     DataValue is: 0.9891655661032509 data: e 
+   right node ==> 
+    DataValue is: 0.9126817350017321 data: e 
+    left node ==> 
+     DataValue is: 0.5878596967601739 data: 0
+ right node ==> 
+  DataValue is: 0.1974049513034929 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.14050724283803706 operator: atan( double ) 
+   left node ==> 
+    DataValue is: 0.7930228191136223 data: 2
+   right node ==> 
+    DataValue is: 0.8059993366238891 data: pi 
+  right node ==> 
+   DataValue is: 0.20480714104491737 operator: acos( double ) 
+   left node ==> 
+    DataValue is: 0.763986378093373 data: 2
+   right node ==> 
+    DataValue is: 0.594412705747559 data: 0
+
+Fitness: 48.29309791943634
+predictions:
+0.003706796841218457
+0.9829999040743015
+1.0
+0.0
+0.9999999999999998
+1.0
+1.0
+0.0
+
+56543, new best: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.04515430972117207 operator: ceil( double ) 
+left node ==> 
+ DataValue is: 0.1797234799408619 operator: sin( double ) 
+ left node ==> 
+  DataValue is: 0.3947374148438537 operator: / 
+  left node ==> 
+   DataValue is: 0.3075792487845552 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.4055021109527601 operator: hypot( double, double ) 
+    left node ==> 
+     DataValue is: 0.6389950699437928 data: 1
+    right node ==> 
+     DataValue is: 0.7146799325573532 data: 2
+   right node ==> 
+    DataValue is: 0.07487144854381478 operator: sqrt( abs( double ) ) 
+    left node ==> 
+     DataValue is: 0.6698494528820511 data: 1
+    right node ==> 
+     DataValue is: 0.8355950466862114 data: pi 
+  right node ==> 
+   DataValue is: 0.18594986916551914 operator: cos( double ) 
+   left node ==> 
+    DataValue is: 0.3509772026568012 operator: + 
+    left node ==> 
+     DataValue is: 0.5082353718955082 data: 0
+    right node ==> 
+     DataValue is: 0.5701456730610855 data: 0
+   right node ==> 
+    DataValue is: 0.22330385984237466 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.7609615874219083 data: 2
+    right node ==> 
+     DataValue is: 0.7323413063171399 data: 2
+ right node ==> 
+  DataValue is: 0.2986021640343348 operator: exp( double ) 
+  left node ==> 
+   DataValue is: 0.3971023845321968 operator: / 
+   left node ==> 
+    DataValue is: 0.4258385914586743 operator: atan2( double, double ) 
+    left node ==> 
+     DataValue is: 0.5580298084868738 data: 0
+    right node ==> 
+     DataValue is: 0.9945226101001022 data: e 
+   right node ==> 
+    DataValue is: 0.2475977893099207 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.7158144774792378 data: 2
+    right node ==> 
+     DataValue is: 0.9306514267758571 data: e 
+  right node ==> 
+   DataValue is: 0.4872016371020912 operator: IEEERemainder( double, double ) 
+   left node ==> 
+    DataValue is: 0.051456610073309816 operator: cbrt( double ) 
+    left node ==> 
+     DataValue is: 0.9268609422516191 data: e 
+    right node ==> 
+     DataValue is: 0.7384231026483314 data: 2
+   right node ==> 
+    DataValue is: 0.43602474691847026 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.5059842860729982 data: 0
+    right node ==> 
+     DataValue is: 0.8934554591953878 data: pi 
+right node ==> 
+ DataValue is: 0.2751519928133541 operator: asin( double ) 
+ left node ==> 
+  DataValue is: 0.19486944976324005 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.20105460228894478 operator: acos( double ) 
+   left node ==> 
+    DataValue is: 0.055274908531812605 operator: cbrt( double ) 
+    left node ==> 
+     DataValue is: 0.524072632492801 data: 0
+    right node ==> 
+     DataValue is: 0.606106416281705 data: 1
+   right node ==> 
+    DataValue is: 0.11478093515954102 operator: log1p( double ) 
+    left node ==> 
+     DataValue is: 0.6517266691635184 data: 1
+    right node ==> 
+     DataValue is: 0.9070110118258841 data: e 
+  right node ==> 
+   DataValue is: 0.2659292388554225 operator: tan( double ) 
+   left node ==> 
+    DataValue is: 0.372946163311787 operator: * 
+    left node ==> 
+     DataValue is: 0.5747386980809164 data: 0
+    right node ==> 
+     DataValue is: 0.812822635053038 data: pi 
+   right node ==> 
+    DataValue is: 0.8958006365311382 data: pi 
+    left node ==> 
+     DataValue is: 0.8187199463756378 data: pi 
+ right node ==> 
+  DataValue is: 0.1974049513034929 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.054879100918564405 operator: cbrt( double ) 
+   left node ==> 
+    DataValue is: 0.6115614819288284 data: 1
+   right node ==> 
+    DataValue is: 0.8059993366238891 data: pi 
+  right node ==> 
+   DataValue is: 0.30533690201031827 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.763986378093373 data: 2
+   right node ==> 
+    DataValue is: 0.7021399637679506 data: 2
+
+Fitness: 1.7976931348623157E308
+predictions:
+-0.0
+1.0
+1.0
+-0.0
+1.0
+1.0
+1.0
+0.0
+
+Epochs: 11447
+The best individual was: 
+Independent Variables:
+0
+1
+2
+DataValue is: 0.04515430972117207 operator: ceil( double ) 
+left node ==> 
+ DataValue is: 0.1797234799408619 operator: sin( double ) 
+ left node ==> 
+  DataValue is: 0.3947374148438537 operator: / 
+  left node ==> 
+   DataValue is: 0.3075792487845552 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.4055021109527601 operator: hypot( double, double ) 
+    left node ==> 
+     DataValue is: 0.6389950699437928 data: 1
+    right node ==> 
+     DataValue is: 0.7146799325573532 data: 2
+   right node ==> 
+    DataValue is: 0.07487144854381478 operator: sqrt( abs( double ) ) 
+    left node ==> 
+     DataValue is: 0.6698494528820511 data: 1
+    right node ==> 
+     DataValue is: 0.8355950466862114 data: pi 
+  right node ==> 
+   DataValue is: 0.18594986916551914 operator: cos( double ) 
+   left node ==> 
+    DataValue is: 0.3509772026568012 operator: + 
+    left node ==> 
+     DataValue is: 0.5082353718955082 data: 0
+    right node ==> 
+     DataValue is: 0.5701456730610855 data: 0
+   right node ==> 
+    DataValue is: 0.22330385984237466 operator: cosh( double ) 
+    left node ==> 
+     DataValue is: 0.7609615874219083 data: 2
+    right node ==> 
+     DataValue is: 0.7323413063171399 data: 2
+ right node ==> 
+  DataValue is: 0.2986021640343348 operator: exp( double ) 
+  left node ==> 
+   DataValue is: 0.3971023845321968 operator: / 
+   left node ==> 
+    DataValue is: 0.4258385914586743 operator: atan2( double, double ) 
+    left node ==> 
+     DataValue is: 0.5580298084868738 data: 0
+    right node ==> 
+     DataValue is: 0.9945226101001022 data: e 
+   right node ==> 
+    DataValue is: 0.2475977893099207 operator: sinh( double ) 
+    left node ==> 
+     DataValue is: 0.7158144774792378 data: 2
+    right node ==> 
+     DataValue is: 0.9306514267758571 data: e 
+  right node ==> 
+   DataValue is: 0.4872016371020912 operator: IEEERemainder( double, double ) 
+   left node ==> 
+    DataValue is: 0.051456610073309816 operator: cbrt( double ) 
+    left node ==> 
+     DataValue is: 0.9268609422516191 data: e 
+    right node ==> 
+     DataValue is: 0.7384231026483314 data: 2
+   right node ==> 
+    DataValue is: 0.43602474691847026 operator: pow( double, double ) 
+    left node ==> 
+     DataValue is: 0.5059842860729982 data: 0
+    right node ==> 
+     DataValue is: 0.8934554591953878 data: pi 
+right node ==> 
+ DataValue is: 0.2751519928133541 operator: asin( double ) 
+ left node ==> 
+  DataValue is: 0.19486944976324005 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.20105460228894478 operator: acos( double ) 
+   left node ==> 
+    DataValue is: 0.055274908531812605 operator: cbrt( double ) 
+    left node ==> 
+     DataValue is: 0.524072632492801 data: 0
+    right node ==> 
+     DataValue is: 0.606106416281705 data: 1
+   right node ==> 
+    DataValue is: 0.11478093515954102 operator: log1p( double ) 
+    left node ==> 
+     DataValue is: 0.6517266691635184 data: 1
+    right node ==> 
+     DataValue is: 0.9070110118258841 data: e 
+  right node ==> 
+   DataValue is: 0.2659292388554225 operator: tan( double ) 
+   left node ==> 
+    DataValue is: 0.372946163311787 operator: * 
+    left node ==> 
+     DataValue is: 0.5747386980809164 data: 0
+    right node ==> 
+     DataValue is: 0.812822635053038 data: pi 
+   right node ==> 
+    DataValue is: 0.8958006365311382 data: pi 
+    left node ==> 
+     DataValue is: 0.8187199463756378 data: pi 
+ right node ==> 
+  DataValue is: 0.1974049513034929 operator: cos( double ) 
+  left node ==> 
+   DataValue is: 0.054879100918564405 operator: cbrt( double ) 
+   left node ==> 
+    DataValue is: 0.6115614819288284 data: 1
+   right node ==> 
+    DataValue is: 0.8059993366238891 data: pi 
+  right node ==> 
+   DataValue is: 0.30533690201031827 operator: expm1( double ) 
+   left node ==> 
+    DataValue is: 0.763986378093373 data: 2
+   right node ==> 
+    DataValue is: 0.7021399637679506 data: 2
+
+Fitness: 1.7976931348623157E308
+predictions:
+-0.0
+1.0
+1.0
+-0.0
+1.0
+1.0
+1.0
+0.0
+
+The total elapsed time was: 56598
+Heap
+ PSYoungGen      total 1047680K, used 465384K [0x00007fbfdd000000, 0x00007fc01d000000, 0x00007fc01d000000)
+  eden space 1046784K, 44% used [0x00007fbfdd000000,0x00007fbff961a0c0,0x00007fc01ce40000)
+  from space 896K, 42% used [0x00007fc01ce40000,0x00007fc01cea0000,0x00007fc01cf20000)
+  to   space 896K, 0% used [0x00007fc01cf20000,0x00007fc01cf20000,0x00007fc01d000000)
+ PSOldGen        total 157696K, used 296K [0x00007fbfd3600000, 0x00007fbfdd000000, 0x00007fbfdd000000)
+  object space 157696K, 0% used [0x00007fbfd3600000,0x00007fbfd364a090,0x00007fbfdd000000)
+ PSPermGen       total 21248K, used 3735K [0x00007fbfc8e00000, 0x00007fbfca2c0000, 0x00007fbfd3600000)
+  object space 21248K, 17% used [0x00007fbfc8e00000,0x00007fbfc91a5f98,0x00007fbfca2c0000)

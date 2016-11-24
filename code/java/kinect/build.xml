@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+
+<!-- Main project definition -->
+<project name="build" default="compile" basedir=".">
+
+  <!-- Target: name -->
+  <target name="all" depends="scrub, dist" />
+
+  <!-- Target: init -->
+  <target name="init">
+
+    <!-- Set the project home directory -->
+    <property name="parent.project.home" value="${basedir}/.."/>
+    <property name="project.home" value="${basedir}"/>
+
+    <!-- Source in the environment variables -->
+    <property environment="env"/>
+
+    <!-- Set Java option variables -->
+    <condition property="run.memargs" value="${env.MEM_ARGS}">
+      <isset property="env.MEM_ARGS"/>
+    </condition>
+    <condition property="run.javaoptions" value="${env.JAVA_OPTIONS}">
+      <isset property="env.JAVA_OPTIONS"/>
+    </condition>
+
+    <!-- include user specific env properties first, then project defaults -->
+    <property file="${user.home}/build.properties"/>
+    <property file="${parent.project.home}/build.properties"/>
+    <property file="${project.home}/etc/build.properties"/>
+
+    <!-- parent project property defaults & directory structure -->
+    <property name="project.ver" value="${user.name}"/>
+    <property name="project.lib" value="${project.home}/lib"/>
+    <property name="project.build" value="${user.home}/build"/>
+    <property name="project.dist" value="${user.home}/dist/${project.name}"/>
+    <property name="project.run" value="${user.home}/run"/>
+    <property name="project.src" value="${project.home}/src"/>
+    <property name="project.src.etc" value="${project.home}/src/etc"/>
+    <property name="project.etc" value="${project.home}/etc"/>
+    <property name="project.classes" value="${project.build}/${project.name}"/>
+
+    <!-- defaults if not set by property files -->
+    <property name="javac.debug" value="true"/>
+    <property name="javac.deprecation" value="on"/>
+    <property name="javac.optimize" value="off"/>
+
+    <!-- distribution files WILL BE DEFINED IN properties files -->
+    <property name="project.jar" value="${project.dist}/${project.name}.jar"/>
+
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <tstamp>
+      <format property="TODAY" pattern="EEE, MM-dd-yyyy hh:mm:ss z"/>
+    </tstamp>
+
+    <!-- required project libs -->
+
+    <!-- classpath -->
+    <path id="project.classpath">
+      <pathelement path="${project.src}"/>
+      <fileset dir="${project.lib}">
+        <include name="**/*.jar"/>
+        <include name="**/*.zip"/>
+      </fileset>
+    </path>
+
+    <echo>Project Common Build Properties</echo>
+    <echo>---------------------------</echo>
+    <echo>project.name=${project.name}</echo>
+    <echo>parent.project.home=${parent.project.home}</echo>
+    <echo>project.home=${project.home}</echo>
+    <echo>project.ver=${project.ver}</echo>
+    <echo>project.lib=${project.lib}</echo>
+    <echo>project.dist=${project.dist}</echo>
+    <echo>project.build=${project.build}</echo>
+    <echo>project.classes=${project.classes}</echo>
+    <echo>project.src=${project.src}</echo>
+    <echo>java.version=${ant.java.version}</echo>
+
+  </target>
+
+  <!-- Target: resources -->
+  <target name="resources" depends="init">
+    <unjar dest="${project.classes}">
+       <fileset dir="${project.lib}">
+          <include name="**/*.jar"/>
+       </fileset>
+    </unjar>
+    <copy todir="${project.classes}">
+       <fileset dir="${project.src.etc}">
+          <include name="**/*.properties"/>
+       </fileset>
+    </copy>
+  </target>
+
+  <!-- Target: compile -->
+  <target name="compile" depends="init">
+    <mkdir dir="${project.classes}"/>
+    <javac srcdir="${project.src}"
+           fork="true"
+           memoryInitialSize="${project.javac.ms}"
+           memoryMaximumSize="${project.javac.mx}"
+           classpath="${project.lib.classpath}"
+           debug="${javac.debug}"
+           deprecation="${javac.deprecation}"
+           optimize="${javac.optimize}"
+           destdir="${project.classes}"
+           includes="${project.javac.includes}"
+           excludes="${project.javac.excludes}">
+      <classpath refid="project.classpath"/>
+    </javac>
+  </target> 
+
+  <!-- Target: jar -->
+  <target name="jar" depends="compile, resources">
+    <mkdir dir="${project.dist}"/>
+    <jar jarfile="${project.jar}" basedir="${project.classes}" update="true">
+      <manifest>
+        <attribute name="Class-Path" value="${project.jar.classpath}"/>
+        <attribute name="Main-Class" value="${project.main.class}"/>
+        <attribute name="Java-Version" value="${java.version}"/>
+        <attribute name="Build-Platform" value="${os.name} ${os.arch} ${os.version}"/>
+        <attribute name="Built-By" value="${user.name}"/>
+        <section name="${project.name}">
+          <attribute name="Implementation-Title" value="${project.title}"/>
+          <attribute name="Implementation-Version" value="${project.ver} ${TODAY}"/>
+          <attribute name="Implementation-Vendor" value="Brandon Benham"/>
+        </section>
+      </manifest>
+    </jar>
+  </target>
+
+  <!-- Target: dist -->
+  <target name="dist" depends="jar">
+    <copy todir="${project.dist}">
+      <fileset dir="${project.lib}">
+        <include name="**/*.jar"/>
+        <include name="**/*.zip"/>
+        <include name="**/*.so"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <!-- Target: release -->
+  <target name="release" depends="dist">
+    <copy todir="${project.run}">
+      <fileset dir="${project.dist}">
+        <include name="**/*.jar"/>
+        <include name="**/*.zip"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <!-- Target: clean -->
+  <target name="clean" depends="init">
+    <delete dir="${project.classes}"/>
+  </target>
+
+  <!-- Target: scrub -->
+  <target name="scrub" depends="clean">
+    <delete dir="${project.dist}"/>
+  </target>
+
+  <target name="version" depends="init">
+    <exec executable="java" failonerror="true">
+      <arg line="-version"/>
+    </exec>
+  </target>
+
+</project>

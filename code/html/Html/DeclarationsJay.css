@@ -1,0 +1,149 @@
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<html>
+
+<head>
+
+	<style>
+
+		body
+		{
+			background:transparent;
+			color:black
+			/* Font styles: */
+			font-size:10pt;
+			font-family:Verdana,Arial;
+			font-weight:100;
+		} /* end body def */
+
+		.title
+		{
+			background:transparent;
+			color:#6F2077;
+			/* Font styles: */
+			font-size:15pt;
+			font-family:Verdana,Arial;
+			font-weight:100;
+		} /* end title */
+
+		.titleCaps
+		{
+			background:transparent;
+			color:#6F2077;
+			/* Font styles: */
+			font-size:20pt;
+			font-family:Verdana,Arial;
+			font-weight:100;
+		} /* end title */
+
+		.topLinks
+		{
+			background:transparent;
+			color:black;
+			/* Font styles: */
+			font-size:8pt;
+			font-family:Verdana,Arial;
+			font-weight:bold;
+		} /* end title */
+
+		.bottomText
+		{
+			background:transparent;
+			color:black;
+			/* Font styles: */
+			font-size:9pt;
+			font-family:Verdana,Arial;
+			font-weight:100;
+		} /* end body def */
+
+		.copyrightText
+		{
+			background:transparent;
+			color:black;
+			/* Font styles: */
+			font-size:6pt;
+			font-family:Verdana,Arial;
+			font-weight:100;
+		} /* end body def */
+
+		.imageTitle
+		{
+			background:transparent;
+			color:#B100BF;
+			/* Font styles: FF8CFF */
+			font-size:10pt;
+			font-family:Verdana,Arial;
+			font-weight:100;
+		} /* end body def */
+
+		.menuItem
+		{
+			background:transparent;
+			color:#6F2077;
+			/* Font styles: */
+			font-size:10pt;
+			font-family:Verdana,Arial;
+			font-weight:500;
+		} /* end body def */
+
+            A:link
+            {
+			background:transparent;
+			color:white;
+			/* Font styles: */
+			font-size:8pt;
+			font-family:Verdana,Arial;
+			font-weight:100;
+                  text-decoration:none;
+		} /* end body def */
+
+            A:active
+            {
+			background:transparent;
+			color:white;
+			/* Font styles: */
+			font-size:18pt;
+			font-family:Verdana,Arial;
+			font-weight:100;
+                  text-decoration:none;
+		} /* end body def */
+
+            A:visited
+            {
+			background:transparent;
+			color:gray;
+			/* Font styles: */
+			font-size:8pt;
+			font-family:Verdana,Arial;
+			font-weight:100;
+                  text-decoration:none;
+		} /* end body def */
+
+            .symbol1
+            {
+               font-size:10.0pt;
+               mso-bidi-font-size:12.0pt;
+               font-family:Symbol;
+               mso-ascii-font-family:Arial;
+               mso-hansi-font-family:Arial;
+               layout-grid-mode:line;
+               mso-char-type:symbol;
+               mso-symbol-font-family:Symbol;
+            } /* end body def */
+
+            .symbol2
+            {
+               mso-char-type:symbol;
+               mso-symbol-font-family:Symbol;
+            }
+
+		<style type = "text/css">
+
+		</style>
+
+
+	</style>
+
+
+</head>
+
+</html>

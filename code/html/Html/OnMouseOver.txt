@@ -1,0 +1,46 @@
+<script LANGUAGE="JavaScript">
+
+<!-- Hide from old browsers
+// LoneWolf's JavaScript Buttons
+// http://users.forthnet.gr/the/lonewolf/s/index.html
+var iName=""; 
+var nav=navigator.appName.indexOf("Netscape"); 
+var vers=parseInt(navigator.appVersion);
+
+if ( (nav != -1 && vers >= 3) || (vers == 4) ) 
+{
+
+	default1 = new Image(); default1.src = "../desbut1up.gif"
+	changed1 = new Image(); changed1.src = "../desbut1dn.gif"
+	default2 = new Image(); default2.src = "../desbut2up.gif"
+	changed2 = new Image(); changed2.src = "../desbut2dn.gif"
+
+}
+
+	function Ichange(p) 
+	{
+    		if ( (nav != -1 && vers >= 3) || (vers == 4) ) 
+		{
+    			var pSrc=eval(p+ ".src");
+    			document[iName].src = pSrc;
+		}
+	}
+// end hiding -->
+
+</script>
+
+
+<a href="mailto:designsbydonna@designsbydonna.com" TARGET="_parent" 
+	onMouseOver="iName='image2'; Ichange('changed2')" 
+	onMouseOut="Ichange('default2')">
+
+	<img SRC="../desbut2up.gif" NAME="image2" BORDER=0 height=50 width=150>
+</a>
+
+
+<a href="http://www.designsbydonna.com/prima/prima.html" TARGET="_parent" 
+	onMouseOver="iName='image1'; Ichange('changed1')" 
+	onMouseOut="Ichange('default1')">
+
+	<img SRC="../desbut1up.gif" NAME="image1" BORDER=0 height=50 width=150>
+</a>

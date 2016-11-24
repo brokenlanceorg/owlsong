@@ -1,0 +1,119 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Fuzzy Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=80%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+           Suppose x = a person who stands 67 inches as before, then the antecedent 'tall'
+           yields a value of 0.791666, next, we find where the set 'heavy' is equivalent to 0.791666 (which is the 
+           inverse of the <span class="symbol1"><span class="symbol2">m</span></span>Heavy(x) function): z = (0.791666 - (-70/130)) * 130 = 
+           172.91658 lbs. So, according to our model, if someone is 5 feet 7 inches tall, we can expect them to weigh roughly 172 pounds.
+         </p>
+         <p>
+           Needless to say, this was a trivial example, in general there will be more than one consequent set, whereas above,
+           we only had one consequent set 'heavy'. In the example above, it is evident how to 'defuzzify' the fuzzy 
+           consequent set into a single crisp value, but what about the situation when several fuzzy consequent sets
+           contribute to the final output value? Suppose the rule base consisted of rules such as:
+         </p>
+         <p>
+           if x1 is Y1 then z is Z1<br>
+           if x2 is Y2 then z is Z2<br>
+           if x3 is Y3 then z is Z3<br>
+         </p>
+         <p>
+           The question then is how do we combine Z1, Z2, and Z3 into a single value?
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+           The following is done for the general case. Each consequent fuzzy set is scaled according to it's antecedent's
+           truth value. The set of consequent sets are either intersected or unioned, or both, to produce an irregular
+           consequent set. Then, from this set of sets, a defuzzifying algorithm is applied to generate a crisp value.
+           There are many different algorithms for defuzzifying a fuzzy set, here are a few:
+         </p>
+         <ul>
+           <li>
+             Composite Moments: This method calculates the center of mass for the resulting irregular set. To accurately
+             compute this value, the integral calculus must be brought to bear--but this calculation is rather costly.
+             An efficient approximation is given by: c = sum(i=0, n){ d_i m(d_i) } / sum(i=0, n) { m(d_i) }, where d_i
+             is the ith domain point in the set, and n is the number of domain points to sample. 
+           </li>
+         </ul>
+
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWFuzzy7.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWFuzzy9.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

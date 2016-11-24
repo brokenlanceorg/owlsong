@@ -1,0 +1,345 @@
+//*********************************************************************
+// Author      : Brandon Benham
+// Purpose     : A class implementation that outputs a raster stream
+//             : into a compressed RLE Targa format.
+//*********************************************************************
+#include"Targa.hpp"
+
+
+//*********************************************************************
+// Class    : TargA
+// Purpose  : The default constructor
+//*********************************************************************
+TargA::TargA()
+{
+   for(short int i=0;i<256;i++)
+   {
+      cPal[i].b = i;
+      cPal[i].g = i;
+      cPal[i].r = i;
+   } // end for loop
+
+   for(short int j=0;j<128;j++)
+   {
+      cnBuffer[j] = 0;
+   } // end for loop
+
+   fFilespec = '\0'; 
+   cOut_byte = '\0';
+   cLine_Count = 0;
+   cBuffer_Count = 0;
+   cCount_byte = 0;
+   cCurr_char = '\0';
+   cLast_char = '\0';
+                  
+} // end TargA constructor
+
+//*********************************************************************
+// Class    : TargA
+// Purpose  : The constructor
+//*********************************************************************
+TargA::TargA(char* fFile, short int nW, short int nH)
+{
+short int iT1;
+unsigned char ucWinCrap;
+
+   for(iT1=0;iT1<768;iT1++) // These values are primarily purple/dark blue in WinNt
+   {
+      ucWinCrap = (unsigned char)(iT1);
+      if(iT1 < 256)
+      {
+         cPal[iT1].b = ucWinCrap * 50;// * 50;
+         cPal[iT1].g = ucWinCrap * 5;// * 5;
+         cPal[iT1].r = ucWinCrap * 100;// * 100;
+      } else
+      if((iT1 < 512) && (iT1 > 255))
+      {
+         cPal[iT1].b = ucWinCrap * 50;// * 50;
+         cPal[iT1].g = ucWinCrap * 5;// * 5;
+         cPal[iT1].r = ucWinCrap * 100;// * 100;
+      }
+      else
+      {
+         cPal[iT1].b = ucWinCrap * 50;// * 50;
+         cPal[iT1].g = ucWinCrap * 5;// * 5;
+         cPal[iT1].r = ucWinCrap * 100;// * 100;
+      }
+   } // end for loop for Blue/Purple WinNt colors
+
+   for(short int j=0;j<128;j++)
+   {
+      cnBuffer[j] = 0;
+   } // end for loop
+
+   fFilespec = new char[strlen(fFile) + 1];
+   fFilespec[0] = '\0';
+   strcpy(fFilespec, fFile);
+   cCount_byte = 0;
+   cBuffer_Count = 0;
+   cLine_Count = 0;
+   cOut_byte = '\0';
+   cCurr_char = '\0';
+   cLast_char = '\0';
+   cnWidth = nW;
+   cnHeight = nH;
+   fOutFile.open(fFilespec, ios::out | ios::binary | ios::trunc);
+
+} // end TargA constructor
+
+//*********************************************************************
+// Class    : TargA
+// Purpose  : The deconstructor
+//*********************************************************************
+TargA::~TargA()
+{
+int nIndex = 0;
+int i = 0;
+
+   if(cCount_byte > 1)
+   {
+      cOut_byte = REPEAT + cCount_byte;
+      fOutFile.write((const char*)(&cOut_byte),sizeof(cOut_byte));
+      fOutFile.write((const char*)(&cPal[cLast_char].b),sizeof(cPal[cLast_char].b));
+      fOutFile.write((const char*)(&cPal[cLast_char].g),sizeof(cPal[cLast_char].g));
+      fOutFile.write((const char*)(&cPal[cLast_char].r),sizeof(cPal[cLast_char].r));
+   } else 
+   if(cBuffer_Count > 1)
+   {
+      nIndex = cBuffer_Count;
+      cOut_byte = LITERAL + nIndex;
+      fOutFile.write((const char*)(&cOut_byte),sizeof(cOut_byte));
+
+      for(i=0;i<nIndex;i++)
+      {
+         fOutFile.write((const char*)(&cPal[cnBuffer[i]].b),sizeof(cPal[cnBuffer[i]].b));
+         fOutFile.write((const char*)(&cPal[cnBuffer[i]].g),sizeof(cPal[cnBuffer[i]].g));
+         fOutFile.write((const char*)(&cPal[cnBuffer[i]].r),sizeof(cPal[cnBuffer[i]].r));
+      } // end for loop
+   } // end if
+   fOutFile.close();
+   delete[] fFilespec;
+} // end deconstructor
+
+//*********************************************************************
+// Class    : TargA
+// Purpose  : This member function changes the present pallette entries
+//          : from nS to nE by multiplying the respective components of
+//          : the palette table.
+//*********************************************************************
+void TargA::Change_Pallette(int nBlue, int nGreen, int nRed, int nS, int nE)
+{
+   for(int i=nS;i<nE;i++)
+   {
+      cPal[i].b = i * nBlue;
+      cPal[i].g = i * nGreen;
+      cPal[i].r = i * nRed;
+   } // end for loop
+       
+} // end change_pallette
+
+//*********************************************************************
+// Class    : TargA
+// Purpose  : This member function returns a 32 bit doubleword which is
+//          : the true color value corresponding to a given offset into
+//          : the palette table.
+//*********************************************************************
+DWORD TargA::Get_Real_Color(int nOffset)
+{
+DWORD nTemp = 0;
+DWORD nTemp1 = 0;
+
+   nTemp1 = (DWORD)(cPal[nOffset].b);
+   nTemp = nTemp | (nTemp1 << 16);
+   nTemp1 = (DWORD)(cPal[nOffset].g);
+   nTemp = nTemp | (nTemp1 << 8);
+   nTemp1 = (DWORD)(cPal[nOffset].r);
+   nTemp = nTemp | nTemp1;
+   return nTemp;
+
+} // end Get_Real_Color member
+
+//*********************************************************************
+// Class    : TargA
+// Purpose  : Creates a header for the targa file, with the specified
+//          : number of bits per pixel.
+//*********************************************************************
+void TargA::Make_Header(int nBits_Pix)
+{
+BYTE Image_type = TRUE_COLOR_RLE; // 0x0A
+BYTE Image_desc = LEFT_TOP; // 0x20
+BYTE Image_bits;
+
+   if(nBits_Pix == 24)
+   {
+      Image_bits = 0x18;
+   } else //end if
+   if(nBits_Pix == 32)
+   {
+      Image_bits = 0x20;
+   } // end if
+
+   //**********************************************
+   // initial header data
+   //**********************************************
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 0
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 1
+   fOutFile.write((const char*)(&Image_type),sizeof(ZERO)); // offset 2
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 3
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 4
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 5
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 6
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 7
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 8
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 9
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 10
+   fOutFile.write((const char*)(&ZERO),sizeof(ZERO)); // offset 11
+   fOutFile.write((const char*)(&cnWidth), 2); // offset 12
+   fOutFile.write((const char*)(&cnHeight), 2); // offset 14
+   fOutFile.write((const char*)(&Image_bits), 1); // offset 16
+   fOutFile.write((const char*)(&Image_desc), 1); // offset 17
+   //**********************************************
+   // initial header data
+   //**********************************************
+                             
+} // end Make_Header
+
+//*********************************************************************
+// Class    : TargA
+// Purpose  : Outputs a file of the current dimensions displaying
+//          : the possible colors with the given pallette
+//*********************************************************************
+void TargA::Do_Pallette()
+{
+
+   for(int i=0;i<cnHeight;i++)
+   {
+      cCount_byte = cnWidth - 1;
+      cOut_byte = REPEAT + cCount_byte;
+      fOutFile.write((const char*)(&cOut_byte),sizeof(cOut_byte));
+      fOutFile.write((const char*)(&cPal[i].b),sizeof(cPal[i].b));
+      fOutFile.write((const char*)(&cPal[i].g),sizeof(cPal[i].g));
+      fOutFile.write((const char*)(&cPal[i].r),sizeof(cPal[i].r));
+   } // end for loop
+
+} // end Do_pallette
+
+//*********************************************************************
+// Class    : TargA
+// Purpose  : Takes the argument and outputs it to the file
+//*********************************************************************
+void TargA::Do_Targa_File(int nNum)
+{
+short int nIndex;
+short int iCounter;
+
+   if(nNum > 768)
+         nNum = 768;
+   cCurr_char = nNum;
+   cnBuffer[cBuffer_Count] = cCurr_char;
+                            
+   if(cBuffer_Count >= 127)
+   {
+      nIndex = cBuffer_Count;
+      cOut_byte = LITERAL + nIndex; // LITERAL = 0x00
+      fOutFile.write((const char*)(&cOut_byte), 1);
+      for(iCounter=0;iCounter<=nIndex;iCounter++) // 
+      {
+         fOutFile.write((const char*)(&cPal[cnBuffer[iCounter]].b), 1);
+         fOutFile.write((const char*)(&cPal[cnBuffer[iCounter]].g), 1);
+         fOutFile.write((const char*)(&cPal[cnBuffer[iCounter]].r), 1);
+      } // end for loop
+      cBuffer_Count = 0;
+   } else // end if           
+   {
+      cBuffer_Count += 1;
+   } // end else
+} // end do_targa_file member
+
+//*********************************************************************
+// Class    : TargA
+// Purpose  : Takes the argument and compresses it according to previous
+//          : arguments, which are stored in Last_char.
+//*********************************************************************
+void TargA::Compress(int nNum)
+{
+int nIndex;
+int lDid_Something = 0;
+
+   cCurr_char = nNum;
+   cnBuffer[cBuffer_Count] = cCurr_char;
+   lDid_Something = 0;
+                            
+   if(cCount_byte >= 127)
+   {
+      cOut_byte = REPEAT + cCount_byte - 1;
+      fOutFile.write((const char*)(&cOut_byte),sizeof(cOut_byte));
+      fOutFile.write((const char*)(&cPal[cLast_char].b),sizeof(cPal[cLast_char].b));
+      fOutFile.write((const char*)(&cPal[cLast_char].g),sizeof(cPal[cLast_char].g));
+      fOutFile.write((const char*)(&cPal[cLast_char].r),sizeof(cPal[cLast_char].r));
+
+      cCount_byte = 1;
+      cLast_char = cCurr_char;
+      cnBuffer[0] = cCurr_char;
+      cBuffer_Count = 1;
+      lDid_Something = 1;
+   } // end if
+   else
+   if(cBuffer_Count >= 127)
+   {
+      nIndex = cBuffer_Count;
+      cOut_byte = LITERAL + nIndex;
+      fOutFile.write((const char*)(&cOut_byte),sizeof(cOut_byte));
+      for(int i=0;i<=nIndex;i++)
+      {
+         fOutFile.write((const char*)(&cPal[cnBuffer[i]].b),sizeof(cPal[cnBuffer[i]].b));
+         fOutFile.write((const char*)(&cPal[cnBuffer[i]].g),sizeof(cPal[cnBuffer[i]].g));
+         fOutFile.write((const char*)(&cPal[cnBuffer[i]].r),sizeof(cPal[cnBuffer[i]].r));
+      } // end for loop
+
+      cLast_char = '\0';
+      cCurr_char = '\0';
+      cBuffer_Count = 0;
+      cCount_byte = 0;
+      lDid_Something = 1;
+   } // end if           
+   else
+   if((cLast_char != cCurr_char) && (lDid_Something != 1))
+   {
+      cBuffer_Count += 1;
+
+      if(cCount_byte > 1)
+      {
+         cOut_byte = REPEAT + cCount_byte - 1;
+         fOutFile.write((const char*)(&cOut_byte),sizeof(cOut_byte));
+         fOutFile.write((const char*)(&cPal[cLast_char].b),sizeof(cPal[cLast_char].b));
+         fOutFile.write((const char*)(&cPal[cLast_char].g),sizeof(cPal[cLast_char].g));
+         fOutFile.write((const char*)(&cPal[cLast_char].r),sizeof(cPal[cLast_char].r));
+      } // end if ccount_byte > 1
+
+      cLast_char = cCurr_char; // put this first for initial stuff
+      cCount_byte = 1;
+      lDid_Something = 1;
+                         
+   } // end if
+   else
+   if((cLast_char == cCurr_char) && (lDid_Something == 0))
+   {
+      if((cBuffer_Count >= 2) && (cCount_byte == 1))
+      {
+         nIndex = cBuffer_Count - 2;
+         cOut_byte = LITERAL + nIndex;
+         fOutFile.write((const char*)(&cOut_byte),sizeof(cOut_byte));
+         for(int i=0;i<=(nIndex);i++)
+         {
+            fOutFile.write((const char*)(&cPal[cnBuffer[i]].b),sizeof(cPal[cnBuffer[i]].b));
+            fOutFile.write((const char*)(&cPal[cnBuffer[i]].g),sizeof(cPal[cnBuffer[i]].g));
+            fOutFile.write((const char*)(&cPal[cnBuffer[i]].r),sizeof(cPal[cnBuffer[i]].r));
+         } // end for loop
+         cBuffer_Count = 0;
+      } // end if cCount_byte ==1
+
+      cCount_byte += 1;
+      cBuffer_Count = 0;
+                                   
+   } // end if last == current
+} // end Compress member

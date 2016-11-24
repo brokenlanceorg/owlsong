@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "select * from $1 order by date;" | ~/bin/db.sh;

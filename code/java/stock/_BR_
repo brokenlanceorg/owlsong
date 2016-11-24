@@ -1,0 +1,31 @@
+
+Buildfile: build.xml
+
+init:
+     [echo] Project Common Build Properties
+     [echo] ---------------------------
+     [echo] project.name=stock
+     [echo] parent.project.home=/home/brandon/projects/code/java/stock/..
+     [echo] project.home=/home/brandon/projects/code/java/stock
+     [echo] project.ver=brandon
+     [echo] project.lib=/home/brandon/projects/code/java/stock/lib
+     [echo] project.dist=/home/brandon/dist/stock
+     [echo] project.build=/home/brandon/build
+     [echo] project.classes=/home/brandon/build/stock
+     [echo] project.src=/home/brandon/projects/code/java/stock/src
+     [echo] java.version=1.6
+
+compile:
+    [javac] Compiling 1 source file to /home/brandon/build/stock
+    [javac] Note: /home/brandon/projects/code/java/stock/src/stock/StockManager.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+resources:
+
+jar:
+      [jar] Updating jar: /home/brandon/dist/stock/stock.jar
+
+dist:
+
+BUILD SUCCESSFUL
+Total time: 20 seconds

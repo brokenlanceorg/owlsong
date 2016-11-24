@@ -1,0 +1,841 @@
+Will create a new ManyToOneCorrelation: i303.lya.var4
+matched min: 3
+returning time value: 180000
+0, new best: 
+DataValue is: 0.4643814983396428 operator: max( double, double ) 
+left node ==> 
+ DataValue is: 0.07041730758691889 operator: sqrt( abs( double ) ) 
+ left node ==> 
+  DataValue is: 0.37705060508466126 operator: * 
+  left node ==> 
+   DataValue is: 0.5108384336477882 data: 0
+  right node ==> 
+   DataValue is: 0.8649519919938942 data: pi 
+ right node ==> 
+  DataValue is: 0.49877329452552266 operator: IEEERemainder( double, double ) 
+  left node ==> 
+   DataValue is: 0.7486852013346454 data: 2
+  right node ==> 
+   DataValue is: 0.8771475355814908 data: pi 
+right node ==> 
+ DataValue is: 0.01166629624868365 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.09078817183678478 operator: log( abs( double ) ) 
+  left node ==> 
+   DataValue is: 0.5454321783923948 data: 0
+  right node ==> 
+   DataValue is: 0.6550447196956419 data: 1
+ right node ==> 
+  DataValue is: 0.4106542313200052 operator: hypot( double, double ) 
+  left node ==> 
+   DataValue is: 0.9152801637203154 data: e 
+
+Fitness: 0.876506144779511
+
+0, new best: 
+DataValue is: 0.003193963978171954 operator: abs( double ) 
+left node ==> 
+ DataValue is: 0.15041226017369203 operator: tanh( double ) 
+ left node ==> 
+  DataValue is: 0.10800059793839745 operator: log1p( double ) 
+  left node ==> 
+   DataValue is: 0.8750771389355747 data: pi 
+  right node ==> 
+   DataValue is: 0.6231763173021846 data: 1
+ right node ==> 
+  DataValue is: 0.3466708851536028 operator: toDegrees( double ) 
+  left node ==> 
+   DataValue is: 0.6784763548379039 data: 1
+  right node ==> 
+   DataValue is: 0.7465700433504407 data: 2
+right node ==> 
+ DataValue is: 0.0033855114128998887 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.2991668569669541 operator: exp( double ) 
+  left node ==> 
+   DataValue is: 0.9075048496086104 data: e 
+  right node ==> 
+   DataValue is: 0.6546577333140976 data: 1
+ right node ==> 
+  DataValue is: 0.10183443331900577 operator: log1p( double ) 
+  left node ==> 
+   DataValue is: 0.8837343110946414 data: pi 
+
+Fitness: 2.2340371646496497
+
+0, new best: 
+DataValue is: 0.11361610994845894 operator: log1p( double ) 
+left node ==> 
+ DataValue is: 0.4823286143636253 operator: min( double, double ) 
+ left node ==> 
+  DataValue is: 0.45658347702842994 operator: max( double, double ) 
+  left node ==> 
+   DataValue is: 0.6448777768977745 data: 1
+  right node ==> 
+   DataValue is: 0.6128241887526316 data: 1
+ right node ==> 
+  DataValue is: 0.16036238935331248 operator: tanh( double ) 
+  left node ==> 
+   DataValue is: 0.8818069277040473 data: pi 
+  right node ==> 
+   DataValue is: 0.7722238117113577 data: 2
+right node ==> 
+ DataValue is: 0.4209539971449735 operator: atan2( double, double ) 
+ left node ==> 
+  DataValue is: 0.04753081430147832 operator: ceil( double ) 
+  left node ==> 
+   DataValue is: 0.5215429090374595 data: 0
+  right node ==> 
+   DataValue is: 0.6048920188159038 data: 1
+ right node ==> 
+  DataValue is: 0.2632573006233073 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.5231641199189234 data: 0
+
+Fitness: 5.286986993559386
+
+22, new best: 
+DataValue is: 0.011706998770432242 operator: abs( double ) 
+left node ==> 
+ DataValue is: 0.0027205285133617974 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.1451262201621324 operator: atan( double ) 
+  left node ==> 
+   DataValue is: 0.5784932090837853 data: 0
+  right node ==> 
+   DataValue is: 0.9352080563168782 data: e 
+ right node ==> 
+  DataValue is: 0.36195515712874016 operator: + 
+  left node ==> 
+   DataValue is: 0.6527301534324383 data: 1
+  right node ==> 
+   DataValue is: 0.9134651280315929 data: e 
+right node ==> 
+ DataValue is: 0.2457658980114954 operator: sinh( double ) 
+ left node ==> 
+  DataValue is: 0.36421235584589284 operator: + 
+  left node ==> 
+   DataValue is: 0.9265689127259575 data: e 
+  right node ==> 
+   DataValue is: 0.5186142705023107 data: 0
+ right node ==> 
+  DataValue is: 0.7677351978897913 data: 2
+  left node ==> 
+   DataValue is: 0.9771062806740363 data: e 
+
+Fitness: 5.306889526090363
+
+22, new best: 
+DataValue is: 0.1707649499669871 operator: sin( double ) 
+left node ==> 
+ DataValue is: 0.30147160789007854 operator: expm1( double ) 
+ left node ==> 
+  DataValue is: 0.15403868925760777 operator: tanh( double ) 
+  left node ==> 
+   DataValue is: 0.5514191059608724 data: 0
+  right node ==> 
+   DataValue is: 0.9183090155637694 data: e 
+ right node ==> 
+  DataValue is: 0.075745178893186 operator: sqrt( abs( double ) ) 
+  left node ==> 
+   DataValue is: 0.8809306510411876 data: pi 
+  right node ==> 
+   DataValue is: 0.9134719626636398 data: e 
+right node ==> 
+ DataValue is: 0.0704417616578481 operator: sqrt( abs( double ) ) 
+ left node ==> 
+  DataValue is: 0.38166978572567767 operator: * 
+  left node ==> 
+   DataValue is: 0.8349030577379568 data: pi 
+  right node ==> 
+   DataValue is: 0.7501930405320576 data: 2
+ right node ==> 
+  DataValue is: 0.3255677802667145 operator: toRadians( double ) 
+  left node ==> 
+   DataValue is: 0.5654812597743896 data: 0
+
+Fitness: 5.428285628068082
+
+42, new best: 
+DataValue is: 0.10203872442238016 operator: log1p( double ) 
+left node ==> 
+ DataValue is: 0.4065268110570792 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.4076290378317642 operator: hypot( double, double ) 
+  left node ==> 
+   DataValue is: 0.597612209069279 data: 0
+  right node ==> 
+   DataValue is: 0.6852690750532773 data: 1
+ right node ==> 
+  DataValue is: 0.4672919908039445 operator: min( double, double ) 
+  left node ==> 
+   DataValue is: 0.6844672513735841 data: 1
+  right node ==> 
+   DataValue is: 0.563229778483112 data: 0
+right node ==> 
+ DataValue is: 0.25541374017047114 operator: tan( double ) 
+ left node ==> 
+  DataValue is: 0.07466788590211326 operator: sqrt( abs( double ) ) 
+  left node ==> 
+   DataValue is: 0.6964200412172028 data: 1
+  right node ==> 
+   DataValue is: 0.9761579353958653 data: e 
+ right node ==> 
+  DataValue is: 0.9172412421660804 data: e 
+  left node ==> 
+   DataValue is: 0.7078636578564179 data: 2
+
+Fitness: 5.4286217628435125
+
+68, new best: 
+DataValue is: 0.4816892457135117 operator: min( double, double ) 
+left node ==> 
+ DataValue is: 0.10342542882183503 operator: log1p( double ) 
+ left node ==> 
+  DataValue is: 0.06811302298116884 operator: sqrt( abs( double ) ) 
+  left node ==> 
+   DataValue is: 0.9614388447039406 data: e 
+  right node ==> 
+   DataValue is: 0.6461471425651963 data: 1
+ right node ==> 
+  DataValue is: 0.2857155122249093 operator: exp( double ) 
+  left node ==> 
+   DataValue is: 0.7111961670784321 data: 2
+  right node ==> 
+   DataValue is: 0.5636796010770804 data: 0
+right node ==> 
+ DataValue is: 0.15894309001002416 operator: tanh( double ) 
+ left node ==> 
+  DataValue is: 0.24149081978259457 operator: sinh( double ) 
+  left node ==> 
+   DataValue is: 0.6028109627005065 data: 1
+  right node ==> 
+   DataValue is: 0.6452215173058007 data: 1
+ right node ==> 
+  DataValue is: 0.6454999000577193 data: 1
+  left node ==> 
+   DataValue is: 0.8695424298340848 data: pi 
+
+Fitness: 5.6321879603373
+
+117, new best: 
+DataValue is: 0.4970883445504314 operator: IEEERemainder( double, double ) 
+left node ==> 
+ DataValue is: 0.005445177671250745 operator: abs( double ) 
+ left node ==> 
+  DataValue is: 0.15034013982005046 operator: tanh( double ) 
+  left node ==> 
+   DataValue is: 0.6806653077839296 data: 1
+  right node ==> 
+   DataValue is: 0.8219809112788885 data: pi 
+ right node ==> 
+  DataValue is: 0.06614040089493223 operator: cbrt( double ) 
+  left node ==> 
+   DataValue is: 0.935883734496634 data: e 
+  right node ==> 
+   DataValue is: 0.7358231207496905 data: 2
+right node ==> 
+ DataValue is: 0.2929302028386929 operator: exp( double ) 
+ left node ==> 
+  DataValue is: 0.4513647164433481 operator: max( double, double ) 
+  left node ==> 
+   DataValue is: 0.8296599171356518 data: pi 
+  right node ==> 
+   DataValue is: 0.7549308531112948 data: 2
+ right node ==> 
+  DataValue is: 0.13606451686674892 operator: atan( double ) 
+  left node ==> 
+   DataValue is: 0.6545244431516788 data: 1
+
+Fitness: 5.648979076805432
+
+120, new best: 
+DataValue is: 0.1492603006429849 operator: atan( double ) 
+left node ==> 
+ DataValue is: 0.478198734511195 operator: min( double, double ) 
+ left node ==> 
+  DataValue is: 0.0769468225711274 operator: sqrt( abs( double ) ) 
+  left node ==> 
+   DataValue is: 0.7725280479702799 data: 2
+  right node ==> 
+   DataValue is: 0.9176836716094687 data: e 
+ right node ==> 
+  DataValue is: 0.42044900154203235 operator: atan2( double, double ) 
+  left node ==> 
+   DataValue is: 0.5762699952722692 data: 0
+  right node ==> 
+   DataValue is: 0.7828593307174501 data: 2
+right node ==> 
+ DataValue is: 0.35345227127253165 operator: + 
+ left node ==> 
+  DataValue is: 0.2613313796591048 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.9373324030707979 data: e 
+  right node ==> 
+   DataValue is: 0.8016529061532962 data: pi 
+ right node ==> 
+  DataValue is: 0.4896054320769542 operator: IEEERemainder( double, double ) 
+  left node ==> 
+   DataValue is: 0.9080126992881213 data: e 
+
+Fitness: 6.1698899268080565
+
+217, new best: 
+DataValue is: 0.1492603006429849 operator: atan( double ) 
+left node ==> 
+ DataValue is: 0.4036415987266314 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12188250137819678 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7366853079020866 data: 2
+  right node ==> 
+   DataValue is: 0.9176836716094687 data: e 
+ right node ==> 
+  DataValue is: 0.1680645958724436 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.5762699952722692 data: 0
+  right node ==> 
+   DataValue is: 0.7828593307174501 data: 2
+right node ==> 
+ DataValue is: 0.35345227127253165 operator: + 
+ left node ==> 
+  DataValue is: 0.2613313796591048 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.9297947692640921 data: e 
+  right node ==> 
+   DataValue is: 0.8016529061532962 data: pi 
+ right node ==> 
+  DataValue is: 0.9074879873965681 data: e 
+  left node ==> 
+   DataValue is: 0.5218950117208256 data: 0
+
+Fitness: 6.511307681532503
+
+225, new best: 
+DataValue is: 0.1492603006429849 operator: atan( double ) 
+left node ==> 
+ DataValue is: 0.4036415987266314 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12188250137819678 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7319397246521089 data: 2
+  right node ==> 
+   DataValue is: 0.8589070127858469 data: pi 
+ right node ==> 
+  DataValue is: 0.1680645958724436 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.6173578258312146 data: 1
+  right node ==> 
+   DataValue is: 0.7828593307174501 data: 2
+right node ==> 
+ DataValue is: 0.35345227127253165 operator: + 
+ left node ==> 
+  DataValue is: 0.2613313796591048 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.9297947692640921 data: e 
+  right node ==> 
+   DataValue is: 0.949650441193091 data: e 
+ right node ==> 
+  DataValue is: 0.9663486384061915 data: e 
+  left node ==> 
+   DataValue is: 0.5218950117208256 data: 0
+
+Fitness: 6.514280967949181
+
+238, new best: 
+DataValue is: 0.1492603006429849 operator: atan( double ) 
+left node ==> 
+ DataValue is: 0.4036415987266314 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12188250137819678 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7319397246521089 data: 2
+  right node ==> 
+   DataValue is: 0.6291358388771616 data: 1
+ right node ==> 
+  DataValue is: 0.015674102665119594 operator: abs( double ) 
+  left node ==> 
+   DataValue is: 0.6173578258312146 data: 1
+  right node ==> 
+   DataValue is: 0.5070875983748865 data: 0
+right node ==> 
+ DataValue is: 0.3531609515260725 operator: + 
+ left node ==> 
+  DataValue is: 0.2613313796591048 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.5519111279627654 data: 0
+  right node ==> 
+   DataValue is: 0.577326086527412 data: 0
+ right node ==> 
+  DataValue is: 0.13263850603306515 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.5218950117208256 data: 0
+
+Fitness: 6.588481465746916
+
+240, new best: 
+DataValue is: 0.1492603006429849 operator: atan( double ) 
+left node ==> 
+ DataValue is: 0.45177876991313637 operator: max( double, double ) 
+ left node ==> 
+  DataValue is: 0.12188250137819678 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.9399234838604384 data: e 
+  right node ==> 
+   DataValue is: 0.9565763745341341 data: e 
+ right node ==> 
+  DataValue is: 0.015674102665119594 operator: abs( double ) 
+  left node ==> 
+   DataValue is: 0.6173578258312146 data: 1
+  right node ==> 
+   DataValue is: 0.5070875983748865 data: 0
+right node ==> 
+ DataValue is: 0.3531609515260725 operator: + 
+ left node ==> 
+  DataValue is: 0.2613313796591048 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.5519111279627654 data: 0
+  right node ==> 
+   DataValue is: 0.9607368817360599 data: e 
+ right node ==> 
+  DataValue is: 0.5821479733999421 data: 0
+  left node ==> 
+   DataValue is: 0.9280341151698704 data: e 
+
+Fitness: 6.597849729462372
+
+273, new best: 
+DataValue is: 0.1492603006429849 operator: atan( double ) 
+left node ==> 
+ DataValue is: 0.45177876991313637 operator: max( double, double ) 
+ left node ==> 
+  DataValue is: 0.17858139801188788 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.9399234838604384 data: e 
+  right node ==> 
+   DataValue is: 0.9565763745341341 data: e 
+ right node ==> 
+  DataValue is: 0.015674102665119594 operator: abs( double ) 
+  left node ==> 
+   DataValue is: 0.6003137000944337 data: 1
+  right node ==> 
+   DataValue is: 0.5508254879504023 data: 0
+right node ==> 
+ DataValue is: 0.3531609515260725 operator: + 
+ left node ==> 
+  DataValue is: 0.14838260032375294 operator: atan( double ) 
+  left node ==> 
+   DataValue is: 0.9739846327605143 data: e 
+  right node ==> 
+   DataValue is: 0.7402499528690022 data: 2
+ right node ==> 
+  DataValue is: 0.9208692433308229 data: e 
+  left node ==> 
+   DataValue is: 0.8388953436510923 data: pi 
+
+Fitness: 6.701031223647245
+
+323, new best: 
+DataValue is: 0.10701642975642967 operator: log1p( double ) 
+left node ==> 
+ DataValue is: 0.45177876991313637 operator: max( double, double ) 
+ left node ==> 
+  DataValue is: 0.17858139801188788 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.9399234838604384 data: e 
+  right node ==> 
+   DataValue is: 0.9565763745341341 data: e 
+ right node ==> 
+  DataValue is: 0.27112067818848196 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6003137000944337 data: 1
+  right node ==> 
+   DataValue is: 0.5508254879504023 data: 0
+right node ==> 
+ DataValue is: 0.4488019925661554 operator: pow( double, double ) 
+ left node ==> 
+  DataValue is: 0.25956773974602665 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.7843657256145875 data: 2
+  right node ==> 
+   DataValue is: 0.8610600343572103 data: pi 
+ right node ==> 
+  DataValue is: 0.34327564537144584 operator: toDegrees( double ) 
+  left node ==> 
+   DataValue is: 0.8388953436510923 data: pi 
+
+Fitness: 7.0545854355852695
+
+347, new best: 
+DataValue is: 0.10701642975642967 operator: log1p( double ) 
+left node ==> 
+ DataValue is: 0.45177876991313637 operator: max( double, double ) 
+ left node ==> 
+  DataValue is: 0.12631851974429043 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.9399234838604384 data: e 
+  right node ==> 
+   DataValue is: 0.9319417262439389 data: e 
+ right node ==> 
+  DataValue is: 0.27112067818848196 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6003137000944337 data: 1
+  right node ==> 
+   DataValue is: 0.5508254879504023 data: 0
+right node ==> 
+ DataValue is: 0.4488019925661554 operator: pow( double, double ) 
+ left node ==> 
+  DataValue is: 0.25956773974602665 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.7843657256145875 data: 2
+  right node ==> 
+   DataValue is: 0.5072244681916871 data: 0
+ right node ==> 
+  DataValue is: 0.3164591017934306 operator: expm1( double ) 
+  left node ==> 
+   DataValue is: 0.8388953436510923 data: pi 
+
+Fitness: 7.158934247687709
+
+354, new best: 
+DataValue is: 0.10701642975642967 operator: log1p( double ) 
+left node ==> 
+ DataValue is: 0.45177876991313637 operator: max( double, double ) 
+ left node ==> 
+  DataValue is: 0.12631851974429043 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.837795419272158 data: pi 
+  right node ==> 
+   DataValue is: 0.9319417262439389 data: e 
+ right node ==> 
+  DataValue is: 0.27112067818848196 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6003137000944337 data: 1
+  right node ==> 
+   DataValue is: 0.8559656823439528 data: pi 
+right node ==> 
+ DataValue is: 0.4488019925661554 operator: pow( double, double ) 
+ left node ==> 
+  DataValue is: 0.25956773974602665 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.859675087525051 data: pi 
+  right node ==> 
+   DataValue is: 0.5319046224057155 data: 0
+ right node ==> 
+  DataValue is: 0.3164591017934306 operator: expm1( double ) 
+  left node ==> 
+   DataValue is: 0.9442153445292693 data: e 
+
+Fitness: 7.227683070291083
+
+875, new best: 
+DataValue is: 0.10701642975642967 operator: log1p( double ) 
+left node ==> 
+ DataValue is: 0.40044866182807626 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12631851974429043 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7053255552046815 data: 2
+  right node ==> 
+   DataValue is: 0.9319417262439389 data: e 
+ right node ==> 
+  DataValue is: 0.27112067818848196 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6003137000944337 data: 1
+  right node ==> 
+   DataValue is: 0.8559656823439528 data: pi 
+right node ==> 
+ DataValue is: 0.3911923209106374 operator: / 
+ left node ==> 
+  DataValue is: 0.25956773974602665 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.859675087525051 data: pi 
+  right node ==> 
+   DataValue is: 0.74722323373848 data: 2
+ right node ==> 
+  DataValue is: 0.3164591017934306 operator: expm1( double ) 
+  left node ==> 
+   DataValue is: 0.5102782426877748 data: 0
+
+Fitness: 8.437644745920629
+
+2406, new best: 
+DataValue is: 0.389449121781407 operator: / 
+left node ==> 
+ DataValue is: 0.40044866182807626 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12631851974429043 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7053255552046815 data: 2
+  right node ==> 
+   DataValue is: 0.5871768860508781 data: 0
+ right node ==> 
+  DataValue is: 0.26815798554324777 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6945851661496305 data: 1
+  right node ==> 
+   DataValue is: 0.8559656823439528 data: pi 
+right node ==> 
+ DataValue is: 0.20053017990538113 operator: acos( double ) 
+ left node ==> 
+  DataValue is: 0.25956773974602665 operator: tan( double ) 
+  left node ==> 
+   DataValue is: 0.859675087525051 data: pi 
+  right node ==> 
+   DataValue is: 0.74722323373848 data: 2
+ right node ==> 
+  DataValue is: 0.8952704348872237 data: pi 
+  left node ==> 
+   DataValue is: 0.5296139731668832 data: 0
+
+Fitness: 8.488453518851427
+
+5177, new best: 
+DataValue is: 0.389449121781407 operator: / 
+left node ==> 
+ DataValue is: 0.40044866182807626 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12631851974429043 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7053255552046815 data: 2
+  right node ==> 
+   DataValue is: 0.7205584641753245 data: 2
+ right node ==> 
+  DataValue is: 0.26815798554324777 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6945851661496305 data: 1
+  right node ==> 
+   DataValue is: 0.8559656823439528 data: pi 
+right node ==> 
+ DataValue is: 0.4102354961971524 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.4267129075808972 operator: atan2( double, double ) 
+  left node ==> 
+   DataValue is: 0.859675087525051 data: pi 
+  right node ==> 
+   DataValue is: 0.74722323373848 data: 2
+ right node ==> 
+  DataValue is: 0.6174906707421699 data: 1
+  left node ==> 
+   DataValue is: 0.5296139731668832 data: 0
+
+Fitness: 8.49774221033032
+
+5194, new best: 
+DataValue is: 0.389449121781407 operator: / 
+left node ==> 
+ DataValue is: 0.40044866182807626 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12631851974429043 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7053255552046815 data: 2
+  right node ==> 
+   DataValue is: 0.8297842205342925 data: pi 
+ right node ==> 
+  DataValue is: 0.26815798554324777 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6945851661496305 data: 1
+  right node ==> 
+   DataValue is: 0.8559656823439528 data: pi 
+right node ==> 
+ DataValue is: 0.4102354961971524 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.4267129075808972 operator: atan2( double, double ) 
+  left node ==> 
+   DataValue is: 0.859675087525051 data: pi 
+  right node ==> 
+   DataValue is: 0.74722323373848 data: 2
+ right node ==> 
+  DataValue is: 0.18015007957798013 operator: sin( double ) 
+  left node ==> 
+   DataValue is: 0.6226647292997641 data: 1
+
+Fitness: 8.502825740604036
+
+5194, new best: 
+DataValue is: 0.389449121781407 operator: / 
+left node ==> 
+ DataValue is: 0.40044866182807626 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12631851974429043 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7053255552046815 data: 2
+  right node ==> 
+   DataValue is: 0.7205584641753245 data: 2
+ right node ==> 
+  DataValue is: 0.26815798554324777 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6945851661496305 data: 1
+  right node ==> 
+   DataValue is: 0.8559656823439528 data: pi 
+right node ==> 
+ DataValue is: 0.4102354961971524 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.4267129075808972 operator: atan2( double, double ) 
+  left node ==> 
+   DataValue is: 0.9714244612040236 data: e 
+  right node ==> 
+   DataValue is: 0.74722323373848 data: 2
+ right node ==> 
+  DataValue is: 0.6174906707421699 data: 1
+  left node ==> 
+   DataValue is: 0.5296139731668832 data: 0
+
+Fitness: 8.584289885819622
+
+5267, new best: 
+DataValue is: 0.389449121781407 operator: / 
+left node ==> 
+ DataValue is: 0.40044866182807626 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12631851974429043 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7053255552046815 data: 2
+  right node ==> 
+   DataValue is: 0.5356897209163587 data: 0
+ right node ==> 
+  DataValue is: 0.26815798554324777 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6411568679113424 data: 1
+  right node ==> 
+   DataValue is: 0.8559656823439528 data: pi 
+right node ==> 
+ DataValue is: 0.4102354961971524 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.4267129075808972 operator: atan2( double, double ) 
+  left node ==> 
+   DataValue is: 0.9744116495642893 data: e 
+  right node ==> 
+   DataValue is: 0.74722323373848 data: 2
+ right node ==> 
+  DataValue is: 0.5144119496335764 data: 0
+  left node ==> 
+   DataValue is: 0.8014840755804964 data: pi 
+
+Fitness: 9.013963557894673
+
+7266, new best: 
+DataValue is: 0.389449121781407 operator: / 
+left node ==> 
+ DataValue is: 0.40044866182807626 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12631851974429043 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7053255552046815 data: 2
+  right node ==> 
+   DataValue is: 0.5982827705232365 data: 0
+ right node ==> 
+  DataValue is: 0.26815798554324777 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6411568679113424 data: 1
+  right node ==> 
+   DataValue is: 0.8559656823439528 data: pi 
+right node ==> 
+ DataValue is: 0.4102354961971524 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.4267129075808972 operator: atan2( double, double ) 
+  left node ==> 
+   DataValue is: 0.8354200504890872 data: pi 
+  right node ==> 
+   DataValue is: 0.6067646044984529 data: 1
+ right node ==> 
+  DataValue is: 0.5144119496335764 data: 0
+  left node ==> 
+   DataValue is: 0.8014840755804964 data: pi 
+
+Fitness: 9.054170048410702
+
+14025, new best: 
+DataValue is: 0.3881135467834984 operator: / 
+left node ==> 
+ DataValue is: 0.40044866182807626 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.12631851974429043 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7053255552046815 data: 2
+  right node ==> 
+   DataValue is: 0.5982827705232365 data: 0
+ right node ==> 
+  DataValue is: 0.26815798554324777 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6411568679113424 data: 1
+  right node ==> 
+   DataValue is: 0.8559656823439528 data: pi 
+right node ==> 
+ DataValue is: 0.4102354961971524 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.4267129075808972 operator: atan2( double, double ) 
+  left node ==> 
+   DataValue is: 0.7280357082208091 data: 2
+  right node ==> 
+   DataValue is: 0.6067646044984529 data: 1
+ right node ==> 
+  DataValue is: 0.10476292947190591 operator: log1p( double ) 
+  left node ==> 
+   DataValue is: 0.8014840755804964 data: pi 
+
+Fitness: 9.348716859435292
+
+23210, new best: 
+DataValue is: 0.4244930968991022 operator: atan2( double, double ) 
+left node ==> 
+ DataValue is: 0.40335542945804304 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.13263451759904873 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7059650038255686 data: 2
+  right node ==> 
+   DataValue is: 0.6014571132412315 data: 1
+ right node ==> 
+  DataValue is: 0.2830873966058623 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6672667183305432 data: 1
+  right node ==> 
+   DataValue is: 0.9096598712317138 data: e 
+right node ==> 
+ DataValue is: 0.413681938863497 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.4271250666409711 operator: atan2( double, double ) 
+  left node ==> 
+   DataValue is: 0.7513255287321272 data: 2
+  right node ==> 
+   DataValue is: 0.6280222700701966 data: 1
+ right node ==> 
+  DataValue is: 0.1563535857689125 operator: tanh( double ) 
+  left node ==> 
+   DataValue is: 0.8036646267387505 data: pi 
+
+Fitness: 9.590806939060792
+
+25531, new best: 
+DataValue is: 0.4244930968991022 operator: atan2( double, double ) 
+left node ==> 
+ DataValue is: 0.40335542945804304 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.13263451759904873 operator: log10( double ) 
+  left node ==> 
+   DataValue is: 0.7059650038255686 data: 2
+  right node ==> 
+   DataValue is: 0.6014571132412315 data: 1
+ right node ==> 
+  DataValue is: 0.2830873966058623 operator: asin( double ) 
+  left node ==> 
+   DataValue is: 0.6672667183305432 data: 1
+  right node ==> 
+   DataValue is: 0.9046656226362898 data: e 
+right node ==> 
+ DataValue is: 0.413681938863497 operator: hypot( double, double ) 
+ left node ==> 
+  DataValue is: 0.4271250666409711 operator: atan2( double, double ) 
+  left node ==> 
+   DataValue is: 0.7513255287321272 data: 2
+  right node ==> 
+   DataValue is: 0.6280222700701966 data: 1
+ right node ==> 
+  DataValue is: 0.4358540100556296 operator: pow( double, double ) 
+  left node ==> 
+   DataValue is: 0.953192087998774 data: e 
+
+Fitness: 9.59258477530552
+
+Epochs: 48001

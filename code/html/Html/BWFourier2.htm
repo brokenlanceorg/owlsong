@@ -1,0 +1,135 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Logic
+		</title>
+
+	<link rel=StyleSheet href="Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="Logic.jpg"></center>
+      <img src="graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=90%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            <span class=bodyGreenSmallJustify>[Fourier Series]</span>
+         </p>
+            <center><img src="NthSumSeries.gif"></center>
+         <p>
+            When a function satisfies this requirement, it can be represented as a Fourier Series; also, it may be differentiated and integrated termwise.
+            This motivates us to consider the following set of orthogonal functions: 
+            {1, cos(x), cos(2x), ..., cos(nx), ..., sin(x), sin(2x), ..., sin(nx), ...} 
+         </p>
+         <p>
+            This set is said to be orthogonal because once we define an inner product on members of this set, we can show that the inner 
+            product of any two functions equivalent to zero much in the same way linearly independent vectors in a vector space are orthogonal.
+         </p>
+         <p>
+            If we define the inner product between two functions 
+            <span class="symbol1"><span class="symbol2">&#225</span></span>f(x), g(x)<span class="symbol1"><span class="symbol2">&#241</span></span> 
+            to be the integral of the product of the two functions on the interval
+            [<span class="symbol1"><span class="symbol2">p</span></span>, <span class="symbol1"><span class="symbol2">p</span></span>], we can show
+            this orthogonality.
+         </p>
+         <p>
+            First consider the inner products 
+            <span class="symbol1"><span class="symbol2">&#225</span></span>1, cos(nx)<span class="symbol1"><span class="symbol2">&#241</span></span> and
+            <span class="symbol1"><span class="symbol2">&#225</span></span>1, sin(nx)<span class="symbol1"><span class="symbol2">&#241</span></span>:            
+         </p>
+            <center><img src="IntCosNX.gif"></center>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+            Next we consider the inner product
+            <span class="symbol1"><span class="symbol2">&#225</span></span>sin(nx), cos(mx)<span class="symbol1"><span class="symbol2">&#241</span></span>
+            To evaluate the resulting integral, we make use of the equality: sin(nx)cos(mx) = sin((n + m)x) + sin((n - m)x):
+         </p>
+            <center><img src="IntSinCos.gif"></center>
+            <center><img src="CosCos_--.gif"></center>
+         <p>
+            Next we consider the inner product
+            <span class="symbol1"><span class="symbol2">&#225</span></span>sin(nx), sin(mx)<span class="symbol1"><span class="symbol2">&#241</span></span>
+            when n <span class="symbol1"><span class="symbol2">&#185</span></span> m. To evaluate the resulting integral, we make use of the equality: 
+            sin(nx)sin(mx) = cos((n - m)x) - cos((n + m)x):
+         </p>
+            <center><img src="IntSinSin.gif"></center>
+            <center><img src="SinSin--_.gif"></center>
+         <p>
+            When n = m, we have:
+         </p>
+            <center><img src="IntSin2_NX.gif"></center>
+         <p>
+            Finally, we consider the inner product
+            <span class="symbol1"><span class="symbol2">&#225</span></span>cos(nx), cos(mx)<span class="symbol1"><span class="symbol2">&#241</span></span>
+            when n <span class="symbol1"><span class="symbol2">&#185</span></span> m. To evaluate the resulting integral, we make use of the equality: 
+            cos(nx)cos(mx) = cos((n + m)x) + cos((n - m)x):
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWFourier.htm" target="Main"><img src="previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWFourier3.htm" target="Main"><img src="next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>

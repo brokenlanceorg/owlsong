@@ -1,0 +1,127 @@
+<html>
+
+	<head>
+		<title>
+		The Abstract Shire : Dedication to Logic : Mathematics : Physics
+		</title>
+
+	<link rel=StyleSheet href="../Declarations.css" type="text/css">
+
+	</head>
+
+<body>
+
+	<body bgcolor=black>
+
+      <center><img src="../Physics.jpg"></center>
+      <img src="../graybar2.gif" width=100% height=9px>
+
+      <center>
+      <table cellpadding=20 cellspacing=10 width=90%>
+      <tr> 
+      <td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+Now we compute the output layer adjustment by differentiating E<sub>0</sub> with respect to the W<sub>jk</sub>’s:
+         </p>
+<center><img src="deljk_1.gif"><center>
+<center><img src="deljk_2.gif"><center>
+<center><img src="deljk_3.gif"> (IV.2)</center>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+         <p>
+         </p>
+      </div>
+      </td>
+
+	<td bgcolor=#222222 valign=top width=50%>
+      <div class=bodyWhiteSmallJustify>
+         <p>
+Similarly, we use the scalar 
+<span class="symbol1"><span class="symbol2">a</span></span>
+ to modify the vector’s length. Using these results, we can now define a general backward error propagation algorithm as follows:
+         </p>
+(1)	Select the training instance, (x<sub>i</sub>, T<sub>k</sub>)<br>
+(2)	Take the vector x<sub>i</sub> to be the output from the input layer of neurons<br>
+(3)	Use equation (III.1) to compute the activations for all j hidden layer neurons<br>
+(4)	For each hidden unit h<sub>j</sub>, compute the neuron’s output by equation (III.3)<br>
+(5)	Compute the output layer’s activation via equation (III.2)<br>
+(6)	For each output unit o<sub>k</sub>, compute the neuron’s output by equation (III.4)<br>
+(7)	Compute E<sub>0</sub><br>
+(8)	Determine 
+<span class="symbol1"><span class="symbol2">D</span></span>W<sub>ij</sub> and 
+<span class="symbol1"><span class="symbol2">D</span></span>W<sub>jk</sub> by equations (IV.1) and (IV.2) respectively<br>
+(9)	Update weight space by: W<sub>ij</sub>(t+1) = W<sub>ij</sub>(t) + 
+<span class="symbol1"><span class="symbol2">D</span></span>W<sub>ij</sub>, and W<sub>jk</sub>(t+1) = W<sub>jk</sub>(t) + 
+<span class="symbol1"><span class="symbol2">D</span></span>W<sub>jk</sub>.<br>
+(10)	 Repeat steps (1) through (9) for the next training instance, when step (9) is completed for the last training instance, we say that an epoch of training has been completed.<br>
+(11)	 Repeat step (10) for as many epochs as necessary to reduce E<sub>0</sub> below some tolerance level.<br>
+         <p>
+         </p>
+         <p>
+         </p>
+       </div>
+       </td>
+       </tr>
+       </table>
+       </center>
+
+
+      <center>
+	<table cellpadding=0 cellspacing=10 width=100%>
+      <tr>
+      <td>
+         <div align=left>
+         <a href="BWNeural12.htm" target="Main"><img src="../previous.gif" border=no></a>
+         </div>
+      </td>
+      <td> 
+      <center>
+         <span class=linkTextWhite>[</span>
+         <a href="../BWMain.htm" target="Main"><span class=linkTextWhite>Home</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWMathematics.htm" target="Main"><span class=linkTextWhite>Mathematics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhysics.htm" target="Main"><span class=linkTextWhite>Physics</span></a>
+         <span class=linkTextWhite>|</span>
+         <a href="../BWPhilosophy.htm" target="Main"><span class=linkTextWhite>Philosophy</span></a>
+         <span class=linkTextWhite>]</span>
+      </center>
+      </td>
+
+      <td>
+         <div align=right>
+         <a href="BWNeural14.htm" target="Main"><img src="../next.gif" border=no></a>
+         </div>
+      </td>
+
+      </tr>
+
+      <tr>
+      <td>
+      </td>
+      <td>
+      <span class=footnoteRedSmall>
+         <center>
+         Design and Content by Brandon Benham<br>
+         <a href="mailto:brandbn@attglobal.net"><img src="../mailto4.gif" border=no></a>
+         </center>
+      </span>
+      </td>
+      </tr>
+      </table>
+      </center>
+
+</body>
+
+
+</html>
+<!--             <span class="symbol1"><span class="symbol2">m</span></span> -->
